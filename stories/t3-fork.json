@@ -1,0 +1,793 @@
+{
+ "id": "t3-fork",
+ "title": "A two-word joke about a fork put T3 Code’s telemetry in front of everyone",
+ "date": "2026-11-24",
+ "summary": "A Chinese-language fork of T3 Code was mistaken for the app. Theo called it a knockoff and “Temu3 Code”. The two settled it the same day; the crowd read the code, and T3 Code changed what it collects.",
+ "topics": [
+  {
+   "id": "forks",
+   "angle": "The name, the joke, the crowd and the code."
+  }
+ ],
+ "claims": [
+  {
+   "text": "Until November 24 T3 Code’s README invited anyone unhappy with it to fork it, with no mention of branding.",
+   "who": "the README diff",
+   "status": "read",
+   "sources": [
+    "pr41898"
+   ]
+  },
+  {
+   "text": "DDdxx666 announced T3 Stardust on November 22 as an open-source version anyone may modify, with T3 in its name.",
+   "who": "DDdxx666",
+   "status": "read",
+   "sources": [
+    "x-stardust"
+   ]
+  },
+  {
+   "text": "Suyuan says the fork’s link was seen in a group chat, described as T3Code.",
+   "who": "suyuan1711",
+   "status": "said",
+   "sources": [
+    "x-group"
+   ]
+  },
+  {
+   "text": "Suyuan posted a correction at 11:04 UTC on November 23; Theo’s knockoff post is stamped 11:11.",
+   "who": "the posts’ timestamps",
+   "status": "read",
+   "sources": [
+    "x-my-fault",
+    "x-knockoff"
+   ]
+  },
+  {
+   "text": "Theo posted that a Chinese knockoff of T3 Code seemed to be going around, because the app shown was not theirs.",
+   "who": "Theo",
+   "status": "read",
+   "sources": [
+    "x-knockoff"
+   ]
+  },
+  {
+   "text": "The maker replied at 11:19 UTC that it was an unofficial, modified version; “Temu3 Code” is stamped 11:22.",
+   "who": "the posts’ timestamps",
+   "status": "read",
+   "sources": [
+    "x-unofficial",
+    "x-temu3"
+   ]
+  },
+  {
+   "text": "Theo posted “Temu3 Code” on November 23; defenders call it a pun and critics call it racist.",
+   "who": "Theo and others",
+   "status": "read",
+   "sources": [
+    "x-temu3",
+    "x-dash",
+    "x-bermudi"
+   ]
+  },
+  {
+   "text": "Theo told the maker to change the name at once or Theo would ask GitHub to take the account down, and in another reply that forks themselves were fine.",
+   "who": "Theo",
+   "status": "read",
+   "sources": [
+    "x-right-now",
+    "x-dontmind"
+   ]
+  },
+  {
+   "text": "The maker renamed the project Stardust on November 23 and wrote that Theo liked the name.",
+   "who": "DDdxx666",
+   "status": "read",
+   "sources": [
+    "x-renamed",
+    "x-cool-name",
+    "x-much-better"
+   ]
+  },
+  {
+   "text": "The maker wrote that there is no bad blood with Theo; Theo wrote that the two are good.",
+   "who": "DDdxx666 and Theo",
+   "status": "said",
+   "sources": [
+    "x-no-feud",
+    "x-good"
+   ]
+  },
+  {
+   "text": "William’s post says 48 minutes separate Theo’s two posts; they are stamped 11:11:49 and 11:22:31 UTC.",
+   "who": "the posts’ timestamps",
+   "status": "counted",
+   "sources": [
+    "x-william",
+    "x-knockoff",
+    "x-temu3"
+   ]
+  },
+  {
+   "text": "Theo wrote on November 23 that open source stays open source even when a trillion dollar company uses it.",
+   "who": "Theo",
+   "status": "read",
+   "sources": [
+    "x-trillion"
+   ]
+  },
+  {
+   "text": "Huxpro wrote that MIT licenses the code and neither the name nor the brand.",
+   "who": "Huxpro",
+   "status": "said",
+   "sources": [
+    "x-huxpro"
+   ]
+  },
+  {
+   "text": "Theo insulted Chinese tech Twitter as a whole and later wrote that it was about the community and not individuals; Chen Dahuang had insulted Theo by name.",
+   "who": "both",
+   "status": "read",
+   "sources": [
+    "x-cesspit",
+    "x-generalizing",
+    "x-scum"
+   ]
+  },
+  {
+   "text": "Chen Dahuang’s telemetry post had 1,582,257 views when counted.",
+   "who": "X’s count",
+   "status": "counted",
+   "sources": [
+    "x-dahuang"
+   ]
+  },
+  {
+   "text": "Analytics were merged in March; the May homepage said no telemetry unless you opt in; a June 18 commit removed the words.",
+   "who": "the records",
+   "status": "read",
+   "sources": [
+    "pr174",
+    "archive",
+    "c3bdaa6e"
+   ]
+  },
+  {
+   "text": "A maintainer wrote in June that opting out would not be made easier, because the project needs to know how many users it has; a later pull request for a switch was closed.",
+   "who": "juliusmarminge",
+   "status": "read",
+   "sources": [
+    "i1397",
+    "pr27077"
+   ]
+  },
+  {
+   "text": "T3 Code’s analytics read Codex and Claude sign-in files and sent hashes of the ids found there; Theo says no files, prompts or code were received.",
+   "who": "the pull request and Theo",
+   "status": "read",
+   "sources": [
+    "pr42299",
+    "x-honest"
+   ]
+  },
+  {
+   "text": "A readers’ note under Anthony Ronning’s post says T3 Connect is optional, grants full access by design, and does not relay plaintext session messages.",
+   "who": "X readers’ note",
+   "status": "said",
+   "sources": [
+    "x-ronning"
+   ]
+  },
+  {
+   "text": "Theo’s first answer to the viral claim insulted the people making it and disputed it on three points.",
+   "who": "Theo",
+   "status": "read",
+   "sources": [
+    "x-stupid"
+   ]
+  },
+  {
+   "text": "Theo posted that the source would close that night, then posted that it would not.",
+   "who": "Theo",
+   "status": "read",
+   "sources": [
+    "x-close",
+    "x-wont"
+   ]
+  },
+  {
+   "text": "Merged on November 24, and in that evening’s nightly build but no stable release when checked at 23:13 UTC: analytics no longer open provider sign-in files and still link a T3 Connect account, relay traces no longer record IP addresses, and a trademark policy. Mia posted the first of these and called the mission accomplished.",
+   "who": "the pull requests and Mia",
+   "status": "read",
+   "sources": [
+    "pr42299",
+    "pr42380",
+    "pr41898",
+    "x-mission",
+    "x-changes",
+    "c84e4264",
+    "nightly"
+   ]
+  },
+  {
+   "text": "Theo published 95,789 events, described as all of Theo’s own.",
+   "who": "Theo",
+   "status": "said",
+   "sources": [
+    "x-events",
+    "x-dump"
+   ]
+  },
+  {
+   "text": "One user says reading auth files crosses a line; another says T3 Code takes far less data than expected.",
+   "who": "lyraxana and dagecky",
+   "status": "said",
+   "sources": [
+    "x-lyra",
+    "x-dagecky"
+   ]
+  },
+  {
+   "text": "Mia lists T3CODE_TELEMETRY_ENABLED=false and T3CODE_OTEL_SDK_DISABLED=true as the off settings.",
+   "who": "MiaAI_lab",
+   "status": "said",
+   "sources": [
+    "x-mia",
+    "docs"
+   ]
+  },
+  {
+   "text": "DODOREACH published a template data request; sabotaj0707 says a complaint was filed with a German authority.",
+   "who": "both",
+   "status": "said",
+   "sources": [
+    "x-gdpr",
+    "x-germany"
+   ]
+  },
+  {
+   "text": "T3 Code’s README now says to fork it under your own branding.",
+   "who": "the README",
+   "status": "read",
+   "sources": [
+    "readme"
+   ]
+  },
+  {
+   "text": "No finding by any regulator was found on November 24.",
+   "who": "our search",
+   "status": "open",
+   "sources": [
+    "x-germany"
+   ]
+  }
+ ],
+ "sources": [
+  {
+   "id": "archive",
+   "url": "https://web.archive.org/web/20260514051916/https://t3.codes/",
+   "publisher": "Internet Archive",
+   "kind": "primary",
+   "published": "2026-05-14",
+   "read": "2026-11-24"
+  },
+  {
+   "id": "c3bdaa6e",
+   "url": "https://github.com/pingdotgg/t3code/commit/3bdaa6e10046945ccc08264d2d6f3b81775efcb3",
+   "publisher": "pingdotgg/t3code on GitHub",
+   "kind": "primary",
+   "published": "2026-06-18",
+   "read": "2026-11-24"
+  },
+  {
+   "id": "c84e4264",
+   "url": "https://github.com/pingdotgg/t3code/commit/84e4264bb347e36e97f6c3bd95d666eecfa12e07",
+   "publisher": "pingdotgg/t3code on GitHub",
+   "kind": "primary",
+   "published": "2026-11-24",
+   "read": "2026-11-24"
+  },
+  {
+   "id": "docs",
+   "url": "https://github.com/pingdotgg/t3code/blob/main/docs/user/telemetry.md",
+   "publisher": "pingdotgg/t3code on GitHub",
+   "kind": "primary",
+   "published": null,
+   "read": "2026-11-24"
+  },
+  {
+   "id": "i1397",
+   "url": "https://github.com/pingdotgg/t3code/issues/1397",
+   "publisher": "pingdotgg/t3code on GitHub",
+   "kind": "primary",
+   "published": "2026-06-23",
+   "read": "2026-11-24"
+  },
+  {
+   "id": "nightly",
+   "url": "https://github.com/pingdotgg/t3code/releases/tag/v0.1.12-nightly.20261124.5209",
+   "publisher": "pingdotgg/t3code on GitHub",
+   "kind": "primary",
+   "published": "2026-11-24",
+   "read": "2026-11-24"
+  },
+  {
+   "id": "pr174",
+   "url": "https://github.com/pingdotgg/t3code/pull/174",
+   "publisher": "pingdotgg/t3code on GitHub",
+   "kind": "primary",
+   "published": "2026-03-06",
+   "read": "2026-11-24"
+  },
+  {
+   "id": "pr27077",
+   "url": "https://github.com/pingdotgg/t3code/pull/27077",
+   "publisher": "pingdotgg/t3code on GitHub",
+   "kind": "primary",
+   "published": "2026-11-17",
+   "read": "2026-11-24"
+  },
+  {
+   "id": "pr41898",
+   "url": "https://github.com/pingdotgg/t3code/pull/41898",
+   "publisher": "pingdotgg/t3code on GitHub",
+   "kind": "primary",
+   "published": "2026-11-24",
+   "read": "2026-11-24"
+  },
+  {
+   "id": "pr42299",
+   "url": "https://github.com/pingdotgg/t3code/pull/42299",
+   "publisher": "pingdotgg/t3code on GitHub",
+   "kind": "primary",
+   "published": "2026-11-24",
+   "read": "2026-11-24"
+  },
+  {
+   "id": "pr42380",
+   "url": "https://github.com/pingdotgg/t3code/pull/42380",
+   "publisher": "pingdotgg/t3code on GitHub",
+   "kind": "primary",
+   "published": "2026-11-24",
+   "read": "2026-11-24"
+  },
+  {
+   "id": "readme",
+   "url": "https://github.com/pingdotgg/t3code/blob/main/README.md",
+   "publisher": "pingdotgg/t3code on GitHub",
+   "kind": "primary",
+   "published": "2026-11-24",
+   "read": "2026-11-24"
+  },
+  {
+   "id": "x-bermudi",
+   "url": "https://x.com/bermudi_dev/status/2125084037886755181",
+   "publisher": "bermudi.dev (@bermudi_dev) on X",
+   "kind": "primary",
+   "published": "2026-11-24",
+   "read": "2026-11-24"
+  },
+  {
+   "id": "x-cesspit",
+   "url": "https://x.com/theo/status/2125177503526588877",
+   "publisher": "Theo - t3.gg (@theo) on X",
+   "kind": "primary",
+   "published": "2026-11-24",
+   "read": "2026-11-24"
+  },
+  {
+   "id": "x-changes",
+   "url": "https://x.com/MiaAI_lab/status/2125359702079066187",
+   "publisher": "Mia (@MiaAI_lab) on X",
+   "kind": "primary",
+   "published": "2026-11-24",
+   "read": "2026-11-24"
+  },
+  {
+   "id": "x-changing",
+   "url": "https://x.com/DDdxx666/status/2124830115196715337",
+   "publisher": "开源小新 (@DDdxx666) on X",
+   "kind": "primary",
+   "published": "2026-11-23",
+   "read": "2026-11-24"
+  },
+  {
+   "id": "x-close",
+   "url": "https://x.com/theo/status/2125316769858683312",
+   "publisher": "Theo - t3.gg (@theo) on X",
+   "kind": "primary",
+   "published": "2026-11-24",
+   "read": "2026-11-24"
+  },
+  {
+   "id": "x-cool-name",
+   "url": "https://x.com/theo/status/2124831424041951307",
+   "publisher": "Theo - t3.gg (@theo) on X",
+   "kind": "primary",
+   "published": "2026-11-23",
+   "read": "2026-11-24"
+  },
+  {
+   "id": "x-dagecky",
+   "url": "https://x.com/dagecky/status/2125339564047044871",
+   "publisher": "da druben (@dagecky) on X",
+   "kind": "primary",
+   "published": "2026-11-24",
+   "read": "2026-11-24"
+  },
+  {
+   "id": "x-dahuang",
+   "url": "https://x.com/realchendahuang/status/2125153472450527440",
+   "publisher": "陈大黄 (@realchendahuang) on X",
+   "kind": "primary",
+   "published": "2026-11-24",
+   "read": "2026-11-24"
+  },
+  {
+   "id": "x-dash",
+   "url": "https://x.com/DashHuang/status/2125194329572651062",
+   "publisher": "Dash (@DashHuang) on X",
+   "kind": "primary",
+   "published": "2026-11-24",
+   "read": "2026-11-24"
+  },
+  {
+   "id": "x-dontmind",
+   "url": "https://x.com/theo/status/2124829203174740010",
+   "publisher": "Theo - t3.gg (@theo) on X",
+   "kind": "primary",
+   "published": "2026-11-23",
+   "read": "2026-11-24"
+  },
+  {
+   "id": "x-dump",
+   "url": "https://x.com/theo/status/2125332535358222808",
+   "publisher": "Theo - t3.gg (@theo) on X",
+   "kind": "primary",
+   "published": "2026-11-24",
+   "read": "2026-11-24"
+  },
+  {
+   "id": "x-events",
+   "url": "https://x.com/theo/status/2125332956281749854",
+   "publisher": "Theo - t3.gg (@theo) on X",
+   "kind": "primary",
+   "published": "2026-11-24",
+   "read": "2026-11-24"
+  },
+  {
+   "id": "x-gdpr",
+   "url": "https://x.com/DODOREACH/status/2125240571644072099",
+   "publisher": "dodo-reach 🦤 (@DODOREACH) on X",
+   "kind": "primary",
+   "published": "2026-11-24",
+   "read": "2026-11-24"
+  },
+  {
+   "id": "x-generalizing",
+   "url": "https://x.com/theo/status/2125188568268394793",
+   "publisher": "Theo - t3.gg (@theo) on X",
+   "kind": "primary",
+   "published": "2026-11-24",
+   "read": "2026-11-24"
+  },
+  {
+   "id": "x-germany",
+   "url": "https://x.com/sabotaj0707/status/2125210190005846326",
+   "publisher": "Weird Engine (@sabotaj0707) on X",
+   "kind": "primary",
+   "published": "2026-11-24",
+   "read": "2026-11-24"
+  },
+  {
+   "id": "x-good",
+   "url": "https://x.com/theo/status/2125069913052299340",
+   "publisher": "Theo - t3.gg (@theo) on X",
+   "kind": "primary",
+   "published": "2026-11-24",
+   "read": "2026-11-24"
+  },
+  {
+   "id": "x-group",
+   "url": "https://x.com/suyuan1711/status/2124837451600646480",
+   "publisher": "夙愿学长 (@suyuan1711) on X",
+   "kind": "primary",
+   "published": "2026-11-23",
+   "read": "2026-11-24"
+  },
+  {
+   "id": "x-honest",
+   "url": "https://x.com/theo/status/2125332390239494211",
+   "publisher": "Theo - t3.gg (@theo) on X",
+   "kind": "primary",
+   "published": "2026-11-24",
+   "read": "2026-11-24"
+  },
+  {
+   "id": "x-huxpro",
+   "url": "https://x.com/Huxpro/status/2125052991170572607",
+   "publisher": "Hux · Xuan Huang (@Huxpro) on X",
+   "kind": "primary",
+   "published": "2026-11-24",
+   "read": "2026-11-24"
+  },
+  {
+   "id": "x-knockoff",
+   "url": "https://x.com/theo/status/2124823227570745504",
+   "publisher": "Theo - t3.gg (@theo) on X",
+   "kind": "primary",
+   "published": "2026-11-23",
+   "read": "2026-11-24"
+  },
+  {
+   "id": "x-lyra",
+   "url": "https://x.com/lyraxana/status/2125268261382033476",
+   "publisher": "lyra (@lyraxana) on X",
+   "kind": "primary",
+   "published": "2026-11-24",
+   "read": "2026-11-24"
+  },
+  {
+   "id": "x-m3",
+   "url": "https://x.com/MiaAI_lab/status/2125276867917713823",
+   "publisher": "Mia (@MiaAI_lab) on X",
+   "kind": "primary",
+   "published": "2026-11-24",
+   "read": "2026-11-24"
+  },
+  {
+   "id": "x-mia",
+   "url": "https://x.com/MiaAI_lab/status/2125224970959605857",
+   "publisher": "Mia (@MiaAI_lab) on X",
+   "kind": "primary",
+   "published": "2026-11-24",
+   "read": "2026-11-24"
+  },
+  {
+   "id": "x-mission",
+   "url": "https://x.com/MiaAI_lab/status/2125362878853107951",
+   "publisher": "Mia (@MiaAI_lab) on X",
+   "kind": "primary",
+   "published": "2026-11-24",
+   "read": "2026-11-24"
+  },
+  {
+   "id": "x-much-better",
+   "url": "https://x.com/theo/status/2124834075806687686",
+   "publisher": "Theo - t3.gg (@theo) on X",
+   "kind": "primary",
+   "published": "2026-11-23",
+   "read": "2026-11-24"
+  },
+  {
+   "id": "x-my-fault",
+   "url": "https://x.com/suyuan1711/status/2124821345519509674",
+   "publisher": "夙愿学长 (@suyuan1711) on X",
+   "kind": "primary",
+   "published": "2026-11-23",
+   "read": "2026-11-24"
+  },
+  {
+   "id": "x-no-feud",
+   "url": "https://x.com/DDdxx666/status/2125200657816998014",
+   "publisher": "开源小新 (@DDdxx666) on X",
+   "kind": "primary",
+   "published": "2026-11-24",
+   "read": "2026-11-24"
+  },
+  {
+   "id": "x-petty",
+   "url": "https://x.com/theo/status/2125346055420322091",
+   "publisher": "Theo - t3.gg (@theo) on X",
+   "kind": "primary",
+   "published": "2026-11-24",
+   "read": "2026-11-24"
+  },
+  {
+   "id": "x-renamed",
+   "url": "https://x.com/DDdxx666/status/2124835576289632466",
+   "publisher": "开源小新 (@DDdxx666) on X",
+   "kind": "primary",
+   "published": "2026-11-23",
+   "read": "2026-11-24"
+  },
+  {
+   "id": "x-right-now",
+   "url": "https://x.com/theo/status/2124829315657576890",
+   "publisher": "Theo - t3.gg (@theo) on X",
+   "kind": "primary",
+   "published": "2026-11-23",
+   "read": "2026-11-24"
+  },
+  {
+   "id": "x-ronning",
+   "url": "https://x.com/anthonyronning/status/2125274188751548650",
+   "publisher": "Anthony Ronning (@anthonyronning) on X",
+   "kind": "primary",
+   "published": "2026-11-24",
+   "read": "2026-11-24"
+  },
+  {
+   "id": "x-scum",
+   "url": "https://x.com/realchendahuang/status/2125062675147448475",
+   "publisher": "陈大黄 (@realchendahuang) on X",
+   "kind": "primary",
+   "published": "2026-11-24",
+   "read": "2026-11-24"
+  },
+  {
+   "id": "x-sorry",
+   "url": "https://x.com/DDdxx666/status/2124826429691216133",
+   "publisher": "开源小新 (@DDdxx666) on X",
+   "kind": "primary",
+   "published": "2026-11-23",
+   "read": "2026-11-24"
+  },
+  {
+   "id": "x-stardust",
+   "url": "https://x.com/DDdxx666/status/2124414272000369103",
+   "publisher": "开源小新 (@DDdxx666) on X",
+   "kind": "primary",
+   "published": "2026-11-22",
+   "read": "2026-11-24"
+  },
+  {
+   "id": "x-stupid",
+   "url": "https://x.com/theo/status/2125315897854407115",
+   "publisher": "Theo - t3.gg (@theo) on X",
+   "kind": "primary",
+   "published": "2026-11-24",
+   "read": "2026-11-24"
+  },
+  {
+   "id": "x-suyuan",
+   "url": "https://x.com/suyuan1711/status/2124769583521529931",
+   "publisher": "夙愿学长 (@suyuan1711) on X",
+   "kind": "primary",
+   "published": "2026-11-23",
+   "read": "2026-11-24"
+  },
+  {
+   "id": "x-temu3",
+   "url": "https://x.com/theo/status/2124825920808829077",
+   "publisher": "Theo - t3.gg (@theo) on X",
+   "kind": "primary",
+   "published": "2026-11-23",
+   "read": "2026-11-24"
+  },
+  {
+   "id": "x-trillion",
+   "url": "https://x.com/theo/status/2124989435154726982",
+   "publisher": "Theo - t3.gg (@theo) on X",
+   "kind": "primary",
+   "published": "2026-11-23",
+   "read": "2026-11-24"
+  },
+  {
+   "id": "x-trust",
+   "url": "https://x.com/theo/status/2125349622692651456",
+   "publisher": "Theo - t3.gg (@theo) on X",
+   "kind": "primary",
+   "published": "2026-11-24",
+   "read": "2026-11-24"
+  },
+  {
+   "id": "x-unofficial",
+   "url": "https://x.com/DDdxx666/status/2124825113053004134",
+   "publisher": "开源小新 (@DDdxx666) on X",
+   "kind": "primary",
+   "published": "2026-11-23",
+   "read": "2026-11-24"
+  },
+  {
+   "id": "x-william",
+   "url": "https://x.com/DLKFZWilliam2/status/2124838130595643642",
+   "publisher": "独立开发者William (@DLKFZWilliam2) on X",
+   "kind": "primary",
+   "published": "2026-11-23",
+   "read": "2026-11-24"
+  },
+  {
+   "id": "x-wont",
+   "url": "https://x.com/theo/status/2125317722552889353",
+   "publisher": "Theo - t3.gg (@theo) on X",
+   "kind": "primary",
+   "published": "2026-11-24",
+   "read": "2026-11-24"
+  },
+  {
+   "id": "i42283",
+   "url": "https://github.com/pingdotgg/t3code/issues/42283",
+   "publisher": "pingdotgg/t3code on GitHub",
+   "kind": "primary",
+   "published": "2026-11-24",
+   "read": "2026-11-24"
+  }
+ ],
+ "to_find": [
+  "Whether the fork was ever described by its maker as official; Theo says it was, the maker says no",
+  "What the 95,789 published events contain; not examined",
+  "Any answer from a data protection authority",
+  "How the Mia and Theo argument about merged pull requests ends"
+ ],
+ "would_change": "A record of the fork’s own pages calling it official, or an independent read of the published events.",
+ "trend": {
+  "hn": null,
+  "lobsters": null,
+  "x": [
+   {
+    "id": "2124825920808829077",
+    "handle": "theo",
+    "likes": 1039,
+    "views": 70127,
+    "measured_at": "2026-11-24T23:13:55+00:00",
+    "url": "https://x.com/theo/status/2124825920808829077"
+   },
+   {
+    "id": "2124823227570745504",
+    "handle": "theo",
+    "likes": 1220,
+    "views": 187534,
+    "measured_at": "2026-11-24T23:13:54+00:00",
+    "url": "https://x.com/theo/status/2124823227570745504"
+   },
+   {
+    "id": "2124838130595643642",
+    "handle": "DLKFZWilliam2",
+    "likes": 1754,
+    "views": 508677,
+    "measured_at": "2026-11-24T23:13:56+00:00",
+    "url": "https://x.com/DLKFZWilliam2/status/2124838130595643642"
+   },
+   {
+    "id": "2125153472450527440",
+    "handle": "realchendahuang",
+    "likes": 13697,
+    "views": 1638222,
+    "measured_at": "2026-11-24T23:13:57+00:00",
+    "url": "https://x.com/realchendahuang/status/2125153472450527440"
+   },
+   {
+    "id": "2125177503526588877",
+    "handle": "theo",
+    "likes": 2608,
+    "views": 514343,
+    "measured_at": "2026-11-24T23:13:57+00:00",
+    "url": "https://x.com/theo/status/2125177503526588877"
+   },
+   {
+    "id": "2125224970959605857",
+    "handle": "MiaAI_lab",
+    "likes": 3174,
+    "views": 468368,
+    "measured_at": "2026-11-24T23:13:57+00:00",
+    "url": "https://x.com/MiaAI_lab/status/2125224970959605857"
+   },
+   {
+    "id": "2125274188751548650",
+    "handle": "anthonyronning",
+    "likes": 3053,
+    "views": 369531,
+    "measured_at": "2026-11-24T23:13:58+00:00",
+    "url": "https://x.com/anthonyronning/status/2125274188751548650"
+   },
+   {
+    "id": "2125316769858683312",
+    "handle": "theo",
+    "likes": 3427,
+    "views": 470104,
+    "measured_at": "2026-11-24T23:13:58+00:00",
+    "url": "https://x.com/theo/status/2125316769858683312"
+   },
+   {
+    "id": "2125332390239494211",
+    "handle": "theo",
+    "likes": 3608,
+    "views": 261322,
+    "measured_at": "2026-11-24T23:13:58+00:00",
+    "url": "https://x.com/theo/status/2125332390239494211"
+   }
+  ]
+ },
+ "omarchy": []
+}

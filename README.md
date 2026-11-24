@@ -67,6 +67,72 @@ Research: HD Moore and the Dragos research team. Canarytokens: Thinkst. The llam
 - [llama.cpp on GitHub](https://github.com/ggml-org/llama.cpp/pull/31336)
 - [llama.cpp on GitHub](https://github.com/ggml-org/llama.cpp/commit/e2e7a9b2d04e0404131e551243d4bd399ccfe606)
 
+## Fork It
+
+The second film, dated 24 November 2026. How did a two-word joke put a coding app on trial?
+
+Thank you to gabrielelpidio, who wrote the fix, inayayousfi, who built an off switch, and felipeassump22, who asked the calm questions.
+
+### Its sources
+
+**[A two-word joke about a fork put T3 Code’s telemetry in front of everyone](stories/t3-fork.json)** (2026-11-24). A Chinese-language fork of T3 Code was mistaken for the app. Theo called it a knockoff and “Temu3 Code”. The two settled it the same day; the crowd read the code, and T3 Code changed what it collects.
+
+- [Internet Archive](https://web.archive.org/web/20260514051916/https://t3.codes/)
+- [pingdotgg/t3code on GitHub](https://github.com/pingdotgg/t3code/commit/3bdaa6e10046945ccc08264d2d6f3b81775efcb3)
+- [pingdotgg/t3code on GitHub](https://github.com/pingdotgg/t3code/commit/84e4264bb347e36e97f6c3bd95d666eecfa12e07)
+- [pingdotgg/t3code on GitHub](https://github.com/pingdotgg/t3code/blob/main/docs/user/telemetry.md)
+- [pingdotgg/t3code on GitHub](https://github.com/pingdotgg/t3code/issues/1397)
+- [pingdotgg/t3code on GitHub](https://github.com/pingdotgg/t3code/releases/tag/v0.1.12-nightly.20261124.5209)
+- [pingdotgg/t3code on GitHub](https://github.com/pingdotgg/t3code/pull/174)
+- [pingdotgg/t3code on GitHub](https://github.com/pingdotgg/t3code/pull/27077)
+- [pingdotgg/t3code on GitHub](https://github.com/pingdotgg/t3code/pull/41898)
+- [pingdotgg/t3code on GitHub](https://github.com/pingdotgg/t3code/pull/42299)
+- [pingdotgg/t3code on GitHub](https://github.com/pingdotgg/t3code/pull/42380)
+- [pingdotgg/t3code on GitHub](https://github.com/pingdotgg/t3code/blob/main/README.md)
+- [bermudi.dev (@bermudi_dev) on X](https://x.com/bermudi_dev/status/2125084037886755181)
+- [Theo - t3.gg (@theo) on X](https://x.com/theo/status/2125177503526588877)
+- [Mia (@MiaAI_lab) on X](https://x.com/MiaAI_lab/status/2125359702079066187)
+- [开源小新 (@DDdxx666) on X](https://x.com/DDdxx666/status/2124830115196715337)
+- [Theo - t3.gg (@theo) on X](https://x.com/theo/status/2125316769858683312)
+- [Theo - t3.gg (@theo) on X](https://x.com/theo/status/2124831424041951307)
+- [da druben (@dagecky) on X](https://x.com/dagecky/status/2125339564047044871)
+- [陈大黄 (@realchendahuang) on X](https://x.com/realchendahuang/status/2125153472450527440)
+- [Dash (@DashHuang) on X](https://x.com/DashHuang/status/2125194329572651062)
+- [Theo - t3.gg (@theo) on X](https://x.com/theo/status/2124829203174740010)
+- [Theo - t3.gg (@theo) on X](https://x.com/theo/status/2125332535358222808)
+- [Theo - t3.gg (@theo) on X](https://x.com/theo/status/2125332956281749854)
+- [dodo-reach 🦤 (@DODOREACH) on X](https://x.com/DODOREACH/status/2125240571644072099)
+- [Theo - t3.gg (@theo) on X](https://x.com/theo/status/2125188568268394793)
+- [Weird Engine (@sabotaj0707) on X](https://x.com/sabotaj0707/status/2125210190005846326)
+- [Theo - t3.gg (@theo) on X](https://x.com/theo/status/2125069913052299340)
+- [夙愿学长 (@suyuan1711) on X](https://x.com/suyuan1711/status/2124837451600646480)
+- [Theo - t3.gg (@theo) on X](https://x.com/theo/status/2125332390239494211)
+- [Hux · Xuan Huang (@Huxpro) on X](https://x.com/Huxpro/status/2125052991170572607)
+- [Theo - t3.gg (@theo) on X](https://x.com/theo/status/2124823227570745504)
+- [lyra (@lyraxana) on X](https://x.com/lyraxana/status/2125268261382033476)
+- [Mia (@MiaAI_lab) on X](https://x.com/MiaAI_lab/status/2125276867917713823)
+- [Mia (@MiaAI_lab) on X](https://x.com/MiaAI_lab/status/2125224970959605857)
+- [Mia (@MiaAI_lab) on X](https://x.com/MiaAI_lab/status/2125362878853107951)
+- [Theo - t3.gg (@theo) on X](https://x.com/theo/status/2124834075806687686)
+- [夙愿学长 (@suyuan1711) on X](https://x.com/suyuan1711/status/2124821345519509674)
+- [开源小新 (@DDdxx666) on X](https://x.com/DDdxx666/status/2125200657816998014)
+- [Theo - t3.gg (@theo) on X](https://x.com/theo/status/2125346055420322091)
+- [开源小新 (@DDdxx666) on X](https://x.com/DDdxx666/status/2124835576289632466)
+- [Theo - t3.gg (@theo) on X](https://x.com/theo/status/2124829315657576890)
+- [Anthony Ronning (@anthonyronning) on X](https://x.com/anthonyronning/status/2125274188751548650)
+- [陈大黄 (@realchendahuang) on X](https://x.com/realchendahuang/status/2125062675147448475)
+- [开源小新 (@DDdxx666) on X](https://x.com/DDdxx666/status/2124826429691216133)
+- [开源小新 (@DDdxx666) on X](https://x.com/DDdxx666/status/2124414272000369103)
+- [Theo - t3.gg (@theo) on X](https://x.com/theo/status/2125315897854407115)
+- [夙愿学长 (@suyuan1711) on X](https://x.com/suyuan1711/status/2124769583521529931)
+- [Theo - t3.gg (@theo) on X](https://x.com/theo/status/2124825920808829077)
+- [Theo - t3.gg (@theo) on X](https://x.com/theo/status/2124989435154726982)
+- [Theo - t3.gg (@theo) on X](https://x.com/theo/status/2125349622692651456)
+- [开源小新 (@DDdxx666) on X](https://x.com/DDdxx666/status/2124825113053004134)
+- [独立开发者William (@DLKFZWilliam2) on X](https://x.com/DLKFZWilliam2/status/2124838130595643642)
+- [Theo - t3.gg (@theo) on X](https://x.com/theo/status/2125317722552889353)
+- [pingdotgg/t3code on GitHub](https://github.com/pingdotgg/t3code/issues/42283)
+
 ## The other stories
 
 ### Who Gets to Run Open AI?
