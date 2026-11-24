@@ -1,0 +1,85 @@
+{
+ "id": "microsoft-agent-framework",
+ "title": "Microsoft’s agent toolkit was poisoned on PyPI",
+ "date": "2026-11-17",
+ "summary": "Two releases carried a credential stealer for under an hour. Wiz says they went through Microsoft’s own publishing system.",
+ "topics": [
+  {
+   "id": "attackers",
+   "angle": "The people building agents were the target."
+  }
+ ],
+ "claims": [
+  {
+   "text": "Versions 1.26.1 and 1.26.2 were published on November 17 with a credential stealer and were gone by 21:30 UTC.",
+   "who": "Wiz",
+   "status": "said",
+   "sources": [
+    "wiz"
+   ]
+  },
+  {
+   "text": "The attacker appears to have used a client certificate and key for Microsoft’s release pipeline. How it was obtained is not known.",
+   "who": "Wiz",
+   "status": "said",
+   "sources": [
+    "wiz"
+   ]
+  },
+  {
+   "text": "The tooling identifies itself as Cairn, the open-source framework Amazon also names in the MONAI Label case. A shared tool does not show a shared attacker.",
+   "who": "Wiz; the caution is ours",
+   "status": "said",
+   "sources": [
+    "wiz",
+    "thn"
+   ]
+  }
+ ],
+ "sources": [
+  {
+   "id": "wiz",
+   "url": "https://www.wiz.io/blog/malicious-version-of-microsofts-agent-framework-published-to-pypi",
+   "publisher": "Wiz",
+   "kind": "primary",
+   "published": "2026-11-17",
+   "read": "2026-11-24"
+  },
+  {
+   "id": "thn",
+   "url": "https://thehackernews.com/2026/11/attackers-ai-agents-found-zero-day-in.html",
+   "publisher": "The Hacker News",
+   "kind": "report",
+   "published": "2026-11-21",
+   "read": "2026-11-24"
+  },
+  {
+   "id": "post",
+   "url": "https://x.com/IntCyberDigest/status/2123755743299965036",
+   "publisher": "International Cyber Digest on X",
+   "kind": "post",
+   "published": "2026-11-20",
+   "read": "2026-11-24"
+  }
+ ],
+ "to_find": [
+  "Microsoft’s own statement",
+  "How many machines installed either version"
+ ],
+ "would_change": "Microsoft’s root-cause report.",
+ "trend": {
+  "hn": null,
+  "lobsters": null,
+  "x": [
+   {
+    "id": "2123755743299965036",
+    "handle": "IntCyberDigest",
+    "likes": 1497,
+    "views": 111422,
+    "measured_at": "2026-11-24T07:14:09+00:00",
+    "url": "https://x.com/IntCyberDigest/status/2123755743299965036"
+   }
+  ]
+ },
+ "omarchy": []
+}

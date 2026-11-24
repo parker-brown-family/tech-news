@@ -1,0 +1,108 @@
+{
+ "id": "monai-agents",
+ "title": "AI agents found a zero-day and used it",
+ "date": "2026-11-23",
+ "summary": "Amazon says attackers’ agents found an unknown flaw in MONAI Label, a medical-imaging research server. CISA listed it on Monday, the day after a fixed release.",
+ "topics": [
+  {
+   "id": "attackers",
+   "angle": "The one case with a CVE, a government listing and a fix."
+  }
+ ],
+ "claims": [
+  {
+   "text": "CISA added the flaw to its known-exploited list on November 23, with a November 26 deadline.",
+   "who": "CISA",
+   "status": "read",
+   "sources": [
+    "kev"
+   ]
+  },
+  {
+   "text": "Agents went from mapping the server to writing files in about 11 minutes. Root came later, on one university server.",
+   "who": "Amazon, via The Hacker News",
+   "status": "said",
+   "sources": [
+    "thn"
+   ]
+  },
+  {
+   "text": "Amazon’s account is its own reconstruction and has not been independently confirmed. It does not show patient data was taken.",
+   "who": "The Hacker News",
+   "status": "read",
+   "sources": [
+    "thn"
+   ]
+  },
+  {
+   "text": "Version 0.8.6, released November 22, fixes it. Reports saying there is no fixed version are out of date.",
+   "who": "the project",
+   "status": "read",
+   "sources": [
+    "rel"
+   ]
+  },
+  {
+   "text": "Login is off by default in MONAI Label.",
+   "who": "the project",
+   "status": "read",
+   "sources": [
+    "rel"
+   ]
+  }
+ ],
+ "sources": [
+  {
+   "id": "kev",
+   "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+   "publisher": "CISA",
+   "kind": "primary",
+   "published": "2026-11-23",
+   "read": "2026-11-24"
+  },
+  {
+   "id": "thn",
+   "url": "https://thehackernews.com/2026/11/attackers-ai-agents-found-zero-day-in.html",
+   "publisher": "The Hacker News",
+   "kind": "report",
+   "published": "2026-11-21",
+   "read": "2026-11-24"
+  },
+  {
+   "id": "rel",
+   "url": "https://github.com/Project-MONAI/MONAILabel/releases/tag/0.8.6",
+   "publisher": "MONAI Label on GitHub",
+   "kind": "primary",
+   "published": "2026-11-22",
+   "read": "2026-11-24"
+  },
+  {
+   "id": "ghsa",
+   "url": "https://github.com/Project-MONAI/MONAILabel/security/advisories/GHSA-qc22-rmgc-vg94",
+   "publisher": "MONAI Label on GitHub",
+   "kind": "primary",
+   "published": "2026-11-18",
+   "read": "2026-11-24"
+  }
+ ],
+ "to_find": [
+  "Amazon’s own incident report; our searches did not return it",
+  "Which university, and its account"
+ ],
+ "would_change": "An independent reconstruction.",
+ "trend": {
+  "hn": null,
+  "lobsters": null,
+  "x": [
+   {
+    "id": "2124096705532506230",
+    "handle": "TheHackersNews",
+    "likes": 386,
+    "views": 43660,
+    "measured_at": "2026-11-24T07:14:10+00:00",
+    "url": "https://x.com/TheHackersNews/status/2124096705532506230"
+   }
+  ]
+ },
+ "omarchy": []
+}

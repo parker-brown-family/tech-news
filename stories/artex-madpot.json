@@ -1,0 +1,83 @@
+{
+ "id": "artex-madpot",
+ "title": "Amazon’s decoys recorded attackers’ agents thinking",
+ "date": "2026-11-05",
+ "summary": "Fake AI endpoints received requests from attack agents, which carried the agents’ own records. Stolen AI keys paid for the search for more.",
+ "topics": [
+  {
+   "id": "attackers",
+   "angle": "What the agents wrote down about themselves."
+  }
+ ],
+ "claims": [
+  {
+   "text": "Between October 3 and November 5, 2026 the decoys captured requests carrying the agents’ operating memory.",
+   "who": "Amazon",
+   "status": "said",
+   "sources": [
+    "aws"
+   ]
+  },
+  {
+   "text": "Stolen keys paid for the AI that hunted for more keys.",
+   "who": "Amazon",
+   "status": "said",
+   "sources": [
+    "aws"
+   ]
+  },
+  {
+   "text": "Targets included tools people host themselves, such as Open WebUI, LiteLLM and Ollama.",
+   "who": "Amazon",
+   "status": "said",
+   "sources": [
+    "aws"
+   ]
+  },
+  {
+   "text": "Amazon did not watch the attacks happen and cannot verify the outcomes the agents reported.",
+   "who": "Amazon",
+   "status": "read",
+   "sources": [
+    "aws"
+   ]
+  },
+  {
+   "text": "Dragos saw the same framework test stolen keys; there it did very little.",
+   "who": "HD Moore, Dragos",
+   "status": "said",
+   "sources": [
+    "dragos"
+   ]
+  }
+ ],
+ "sources": [
+  {
+   "id": "aws",
+   "url": "https://aws.amazon.com/blogs/security/amazon-threat-intelligence-observes-threat-actors-running-cybercrime-campaigns-with-artex-ai-agents/",
+   "publisher": "AWS Security Blog",
+   "kind": "primary",
+   "published": null,
+   "read": "2026-11-24"
+  },
+  {
+   "id": "dragos",
+   "url": "https://www.dragos.com/blog/ai-supply-chain-security-canary-tokens",
+   "publisher": "Dragos",
+   "kind": "primary",
+   "published": "2026-11-19",
+   "read": "2026-11-24"
+  }
+ ],
+ "to_find": [
+  "The post’s publication date; November 5 here is the end of its data",
+  "Outcomes confirmed by a victim"
+ ],
+ "would_change": "A victim’s account.",
+ "trend": {
+  "hn": null,
+  "lobsters": null,
+  "x": null
+ },
+ "omarchy": []
+}

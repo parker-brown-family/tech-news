@@ -1,0 +1,129 @@
+{
+ "id": "lecun-amodei",
+ "title": "LeCun says Amodei wants open models made illegal",
+ "date": "2026-11-22",
+ "summary": "Yann LeCun’s post answers a clip of Dario Amodei that is being shared as new. In July, Amodei wrote that Anthropic has never advocated a ban.",
+ "topics": [
+  {
+   "id": "open",
+   "angle": "The loudest accusation, and the answer already on record."
+  }
+ ],
+ "claims": [
+  {
+   "text": "Open models would be made illegal and Amodei would stay in control: LeCun’s account of Amodei’s motive.",
+   "who": "Yann LeCun",
+   "status": "said",
+   "sources": [
+    "lecun"
+   ]
+  },
+  {
+   "text": "LeCun was answering a post that presents the clip as congressional testimony and gives no date.",
+   "who": "our reading",
+   "status": "read",
+   "sources": [
+    "parent"
+   ]
+  },
+  {
+   "text": "The clip is from a Senate hearing on July 25, 2023.",
+   "who": "an aggregator",
+   "status": "said",
+   "sources": [
+    "winz"
+   ]
+  },
+  {
+   "text": "On July 27, 2026 Amodei wrote: “Anthropic has never advocated for a ban on open-weights models.”",
+   "who": "TechCrunch, quoting Amodei",
+   "status": "read",
+   "sources": [
+    "tc"
+   ]
+  },
+  {
+   "text": "The same post says open-weight models are harder to guard and cannot be withdrawn once released.",
+   "who": "TechCrunch, reporting the post",
+   "status": "read",
+   "sources": [
+    "tc"
+   ]
+  }
+ ],
+ "sources": [
+  {
+   "id": "lecun",
+   "url": "https://x.com/ylecun/status/2124550037912920090",
+   "publisher": "Yann LeCun on X",
+   "kind": "primary",
+   "published": "2026-11-22",
+   "read": "2026-11-24"
+  },
+  {
+   "id": "parent",
+   "url": "https://x.com/huxlab/status/2124411922959548795",
+   "publisher": "Hux on X",
+   "kind": "post",
+   "published": "2026-11-22",
+   "read": "2026-11-24"
+  },
+  {
+   "id": "winz",
+   "url": "https://www.winzheng.com/en/article/lecun-amodei-medieval-obscurantism-open-source-ai-anthropic-",
+   "publisher": "Winzheng",
+   "kind": "report",
+   "published": "2026-11-23",
+   "read": "2026-11-24"
+  },
+  {
+   "id": "tc",
+   "url": "https://techcrunch.com/2026/07/27/anthropics-dario-amodei-responds-doesnt-oppose-open-weight-models-but-fears-chinese-ai/",
+   "publisher": "TechCrunch",
+   "kind": "report",
+   "published": "2026-07-27",
+   "read": "2026-11-24"
+  }
+ ],
+ "to_find": [
+  "The 2023 hearing video, watched, to confirm the clip’s date and words",
+  "Amodei’s July post itself",
+  "Any reply from Amodei or Anthropic since November 22"
+ ],
+ "would_change": "The clip proving to be recent, or a new statement from Anthropic.",
+ "trend": {
+  "hn": {
+   "points": 1533,
+   "comments": 848,
+   "threads": [
+    "50615308"
+   ],
+   "read": "2026-11-24"
+  },
+  "lobsters": null,
+  "x": [
+   {
+    "id": "2124550037912920090",
+    "handle": "ylecun",
+    "likes": 22440,
+    "views": 1378352,
+    "measured_at": "2026-11-24T07:14:08+00:00",
+    "url": "https://x.com/ylecun/status/2124550037912920090"
+   },
+   {
+    "id": "2124411922959548795",
+    "handle": "huxlab",
+    "likes": 1426,
+    "views": 542206,
+    "measured_at": "2026-11-24T07:14:08+00:00",
+    "url": "https://x.com/huxlab/status/2124411922959548795"
+   }
+  ]
+ },
+ "omarchy": [
+  {
+   "story": "gnome-ai-policy",
+   "why": "The same question, asked by a desktop project."
+  }
+ ]
+}

@@ -1,0 +1,163 @@
+{
+ "id": "prompt-advice",
+ "title": "Who advises what about leaking prompts",
+ "date": "2026-11-24",
+ "summary": "The researcher, the router, two hosts, a government agency, a developer and a privacy writer give different advice.",
+ "topics": [
+  {
+   "id": "prompts",
+   "angle": "What to do, in the words of the people saying it."
+  }
+ ],
+ "claims": [
+  {
+   "text": "HD Moore’s advice, in order: host it yourself if you can afford it, go directly to a first-tier provider, or use routers with care and pick the hosts yourself.",
+   "who": "HD Moore",
+   "status": "read",
+   "sources": [
+    "dragos"
+   ]
+  },
+  {
+   "text": "HD Moore calls going directly to a first-tier provider the smallest exposure you can buy, and says it can still leak.",
+   "who": "HD Moore",
+   "status": "read",
+   "sources": [
+    "dragos"
+   ]
+  },
+  {
+   "text": "Alex Atallah of OpenRouter says hosts’ data claims have mostly relied on self-attestation, which isn’t going to be sufficient, and expects technical testing and encrypted hardware.",
+   "who": "Alex Atallah",
+   "status": "read",
+   "sources": [
+    "alex"
+   ]
+  },
+  {
+   "text": "Nate Berkopec, a developer, removed OpenRouter and Vercel’s gateway, saying: no specific threat, just not worth the risk.",
+   "who": "Nate Berkopec",
+   "status": "read",
+   "sources": [
+    "nate"
+   ]
+  },
+  {
+   "text": "The UK’s National Cyber Security Centre recommends not including sensitive information in queries to public AI models, nor queries that would lead to issues were they made public.",
+   "who": "NCSC",
+   "status": "read",
+   "sources": [
+    "ncsc"
+   ]
+  },
+  {
+   "text": "Atlas Cloud tells affected users to treat any secret they sent as exposed, and to revoke it.",
+   "who": "Atlas Cloud",
+   "status": "read",
+   "sources": [
+    "atlas"
+   ]
+  },
+  {
+   "text": "Together tells customers with sensitive prompts to turn on zero data retention.",
+   "who": "Together AI",
+   "status": "read",
+   "sources": [
+    "together"
+   ]
+  },
+  {
+   "text": "Micah Lee, before the report, recommended open models run by a host using sealed hardware, so the host cannot read the conversation.",
+   "who": "Micah Lee",
+   "status": "read",
+   "sources": [
+    "micah"
+   ]
+  },
+  {
+   "text": "Phala, a host that sells sealed hardware, reported a break-in that exposed requests.",
+   "who": "Phala",
+   "status": "read",
+   "sources": [
+    "phala"
+   ]
+  }
+ ],
+ "sources": [
+  {
+   "id": "dragos",
+   "url": "https://www.dragos.com/blog/ai-supply-chain-security-canary-tokens",
+   "publisher": "Dragos",
+   "kind": "primary",
+   "published": "2026-11-19",
+   "read": "2026-11-24"
+  },
+  {
+   "id": "alex",
+   "url": "https://x.com/alexatallah/status/2124318002594054196",
+   "publisher": "Alex Atallah on X",
+   "kind": "primary",
+   "published": "2026-11-22",
+   "read": "2026-11-24"
+  },
+  {
+   "id": "nate",
+   "url": "https://x.com/nateberkopec/status/2123636569198457293",
+   "publisher": "Nate Berkopec on X",
+   "kind": "post",
+   "published": null,
+   "read": "2026-11-24"
+  },
+  {
+   "id": "ncsc",
+   "url": "https://www.ncsc.gov.uk/blog-post/chatgpt-and-large-language-models-whats-the-risk",
+   "publisher": "UK National Cyber Security Centre",
+   "kind": "primary",
+   "published": null,
+   "read": "2026-11-24"
+  },
+  {
+   "id": "atlas",
+   "url": "https://www.atlascloud.ai/blog/ai-updates/security-and-privacy-commitment",
+   "publisher": "Atlas Cloud",
+   "kind": "primary",
+   "published": "2026-11-23",
+   "read": "2026-11-24"
+  },
+  {
+   "id": "together",
+   "url": "https://www.together.ai/blog/security-event-prompt-leakage-for-requests-in-june-and-july-of-2026",
+   "publisher": "Together AI",
+   "kind": "primary",
+   "published": "2026-11-21",
+   "read": "2026-11-24"
+  },
+  {
+   "id": "micah",
+   "url": "https://micahflee.com/heres-how-anyone-can-easily-use-private-open-weight-models/",
+   "publisher": "Micah Lee",
+   "kind": "primary",
+   "published": "2026-11-16",
+   "read": "2026-11-24"
+  },
+  {
+   "id": "phala",
+   "url": "https://phala.com/posts/phala-november-preliminary-incident-report",
+   "publisher": "Phala",
+   "kind": "primary",
+   "published": "2026-11-10",
+   "read": "2026-11-24"
+  }
+ ],
+ "to_find": [
+  "A consumer advocate’s advice about this report",
+  "Whether any provider has passed an outside test"
+ ],
+ "would_change": "New advice from any of them after an outside test.",
+ "trend": {
+  "hn": null,
+  "lobsters": null,
+  "x": null
+ },
+ "omarchy": []
+}

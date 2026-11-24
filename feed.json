@@ -1,0 +1,1752 @@
+{
+ "version": "https://jsonfeed.org/version/1.1",
+ "title": "Tech News",
+ "description": "Local AI, AI security and tech news with sources.",
+ "_tech_news": {
+  "topics": [
+   {
+    "id": "prompts",
+    "title": "Who Read Your Prompt?",
+    "question": "Where does a prompt go after you send it, and who can keep it?",
+    "film": "Who Read Your Prompt?, finished 2026-11-24"
+   },
+   {
+    "id": "open",
+    "title": "Who Gets to Run Open AI?",
+    "question": "Who decides which models a person may download and run?",
+    "film": "proposed second"
+   },
+   {
+    "id": "attackers",
+    "title": "The Attackers Have Agents",
+    "question": "What are attackers' AI agents doing, and what has been proven?",
+    "film": "proposed third"
+   },
+   {
+    "id": "agent-risk",
+    "title": "Your Agent, Your Problem",
+    "question": "Who pays when a personal AI agent sees or does too much?",
+    "film": "proposed, hold"
+   }
+  ],
+  "videos": []
+ },
+ "items": [
+  {
+   "id": "providers-answer",
+   "title": "The providers answer, and their accounts differ",
+   "content_text": "Five providers have published notices. MiniMax said today that its security system opened the links; two resellers tell users to treat secrets as exposed.",
+   "date_published": "2026-11-24T00:00:00Z",
+   "tags": [
+    "prompts"
+   ],
+   "_tech_news": {
+    "id": "providers-answer",
+    "title": "The providers answer, and their accounts differ",
+    "date": "2026-11-24",
+    "summary": "Five providers have published notices. MiniMax said today that its security system opened the links; two resellers tell users to treat secrets as exposed.",
+    "topics": [
+     {
+      "id": "prompts",
+      "angle": "What each company says happened to the prompt."
+     }
+    ],
+    "claims": [
+     {
+      "text": "OpenRouter removed three providers and took 125 endpoints off its zero-data-retention list, and says it was not itself breached.",
+      "who": "OpenRouter",
+      "status": "said",
+      "sources": [
+       "openrouter"
+      ]
+     },
+     {
+      "text": "MiniMax says an internal security system extracted and opened URLs, including from zero-retention requests, and kept no full conversations.",
+      "who": "MiniMax",
+      "status": "said",
+      "sources": [
+       "minimax"
+      ]
+     },
+     {
+      "text": "Novita confirmed that some MiniMax requests were forwarded to MiniMax’s own API instead of running on Novita’s machines.",
+      "who": "Novita",
+      "status": "read",
+      "sources": [
+       "novita"
+      ]
+     },
+     {
+      "text": "Atlas Cloud says access happened after requests reached MiniMax, tells users to treat secrets sent to three models as exposed, and took all its models off OpenRouter while it tests.",
+      "who": "Atlas Cloud",
+      "status": "said",
+      "sources": [
+       "atlas"
+      ]
+     },
+     {
+      "text": "Together says an AI coding agent committed a credential to a public repository, and an unauthorized party used it to download stored prompt samples.",
+      "who": "Together AI",
+      "status": "said",
+      "sources": [
+       "together"
+      ]
+     },
+     {
+      "text": "Phala tells affected users to treat DeepSeek request contents from October 21 to November 8 as exposed.",
+      "who": "Phala",
+      "status": "read",
+      "sources": [
+       "phala"
+      ]
+     },
+     {
+      "text": "OpenRouter’s notice lists announcements from five companies and says not all affected providers have posted.",
+      "who": "our count",
+      "status": "counted",
+      "sources": [
+       "openrouter"
+      ]
+     },
+     {
+      "text": "One user posted a notice saying 579 of their requests may have been read by a third party.",
+      "who": "a user on X",
+      "status": "said",
+      "sources": [
+       "user"
+      ]
+     }
+    ],
+    "sources": [
+     {
+      "id": "openrouter",
+      "url": "https://openrouter.ai/blog/announcements/data-processing-incidents-on-inference-providers/",
+      "publisher": "OpenRouter",
+      "kind": "primary",
+      "published": "2026-11-22",
+      "read": "2026-11-24"
+     },
+     {
+      "id": "minimax",
+      "url": "https://www.minimax.io/blog/update-on-url-access-in-forwarded-api-requests-20261124",
+      "publisher": "MiniMax",
+      "kind": "primary",
+      "published": "2026-11-24",
+      "read": "2026-11-24"
+     },
+     {
+      "id": "novita",
+      "url": "https://novita.ai/blog/minimax-requests-privacy-notice/",
+      "publisher": "Novita AI",
+      "kind": "primary",
+      "published": "2026-11-22",
+      "read": "2026-11-24"
+     },
+     {
+      "id": "atlas",
+      "url": "https://www.atlascloud.ai/blog/ai-updates/security-and-privacy-commitment",
+      "publisher": "Atlas Cloud",
+      "kind": "primary",
+      "published": "2026-11-23",
+      "read": "2026-11-24"
+     },
+     {
+      "id": "together",
+      "url": "https://www.together.ai/blog/security-event-prompt-leakage-for-requests-in-june-and-july-of-2026",
+      "publisher": "Together AI",
+      "kind": "primary",
+      "published": "2026-11-21",
+      "read": "2026-11-24"
+     },
+     {
+      "id": "phala",
+      "url": "https://phala.com/posts/phala-november-preliminary-incident-report",
+      "publisher": "Phala",
+      "kind": "primary",
+      "published": "2026-11-10",
+      "read": "2026-11-24"
+     },
+     {
+      "id": "user",
+      "url": "https://x.com/MiaAI_lab/status/2124054476893851731",
+      "publisher": "Mia on X",
+      "kind": "post",
+      "published": "2026-11-21",
+      "read": "2026-11-24"
+     }
+    ],
+    "to_find": [
+     "Notices from the affected providers that have not posted",
+     "HD Moore’s reply to MiniMax’s account",
+     "StreamLake’s account",
+     "Whether any of these accounts matches one of the report’s findings; we cannot match them"
+    ],
+    "would_change": "A published log or outside audit that settles whether whole prompts were kept.",
+    "trend": {
+     "hn": {
+      "points": 343,
+      "comments": null,
+      "threads": [
+       "50595554",
+       "50595816"
+      ],
+      "read": "2026-11-24"
+     },
+     "lobsters": null,
+     "x": [
+      {
+       "id": "2124315081899200715",
+       "handle": "OpenRouter",
+       "likes": 712,
+       "views": 190074,
+       "measured_at": "2026-11-24T07:14:07+00:00",
+       "url": "https://x.com/OpenRouter/status/2124315081899200715"
+      }
+     ]
+    },
+    "omarchy": []
+   }
+  },
+  {
+   "id": "prompt-advice",
+   "title": "Who advises what about leaking prompts",
+   "content_text": "The researcher, the router, two hosts, a government agency, a developer and a privacy writer give different advice.",
+   "date_published": "2026-11-24T00:00:00Z",
+   "tags": [
+    "prompts"
+   ],
+   "_tech_news": {
+    "id": "prompt-advice",
+    "title": "Who advises what about leaking prompts",
+    "date": "2026-11-24",
+    "summary": "The researcher, the router, two hosts, a government agency, a developer and a privacy writer give different advice.",
+    "topics": [
+     {
+      "id": "prompts",
+      "angle": "What to do, in the words of the people saying it."
+     }
+    ],
+    "claims": [
+     {
+      "text": "HD Moore’s advice, in order: host it yourself if you can afford it, go directly to a first-tier provider, or use routers with care and pick the hosts yourself.",
+      "who": "HD Moore",
+      "status": "read",
+      "sources": [
+       "dragos"
+      ]
+     },
+     {
+      "text": "HD Moore calls going directly to a first-tier provider the smallest exposure you can buy, and says it can still leak.",
+      "who": "HD Moore",
+      "status": "read",
+      "sources": [
+       "dragos"
+      ]
+     },
+     {
+      "text": "Alex Atallah of OpenRouter says hosts’ data claims have mostly relied on self-attestation, which isn’t going to be sufficient, and expects technical testing and encrypted hardware.",
+      "who": "Alex Atallah",
+      "status": "read",
+      "sources": [
+       "alex"
+      ]
+     },
+     {
+      "text": "Nate Berkopec, a developer, removed OpenRouter and Vercel’s gateway, saying: no specific threat, just not worth the risk.",
+      "who": "Nate Berkopec",
+      "status": "read",
+      "sources": [
+       "nate"
+      ]
+     },
+     {
+      "text": "The UK’s National Cyber Security Centre recommends not including sensitive information in queries to public AI models, nor queries that would lead to issues were they made public.",
+      "who": "NCSC",
+      "status": "read",
+      "sources": [
+       "ncsc"
+      ]
+     },
+     {
+      "text": "Atlas Cloud tells affected users to treat any secret they sent as exposed, and to revoke it.",
+      "who": "Atlas Cloud",
+      "status": "read",
+      "sources": [
+       "atlas"
+      ]
+     },
+     {
+      "text": "Together tells customers with sensitive prompts to turn on zero data retention.",
+      "who": "Together AI",
+      "status": "read",
+      "sources": [
+       "together"
+      ]
+     },
+     {
+      "text": "Micah Lee, before the report, recommended open models run by a host using sealed hardware, so the host cannot read the conversation.",
+      "who": "Micah Lee",
+      "status": "read",
+      "sources": [
+       "micah"
+      ]
+     },
+     {
+      "text": "Phala, a host that sells sealed hardware, reported a break-in that exposed requests.",
+      "who": "Phala",
+      "status": "read",
+      "sources": [
+       "phala"
+      ]
+     }
+    ],
+    "sources": [
+     {
+      "id": "dragos",
+      "url": "https://www.dragos.com/blog/ai-supply-chain-security-canary-tokens",
+      "publisher": "Dragos",
+      "kind": "primary",
+      "published": "2026-11-19",
+      "read": "2026-11-24"
+     },
+     {
+      "id": "alex",
+      "url": "https://x.com/alexatallah/status/2124318002594054196",
+      "publisher": "Alex Atallah on X",
+      "kind": "primary",
+      "published": "2026-11-22",
+      "read": "2026-11-24"
+     },
+     {
+      "id": "nate",
+      "url": "https://x.com/nateberkopec/status/2123636569198457293",
+      "publisher": "Nate Berkopec on X",
+      "kind": "post",
+      "published": null,
+      "read": "2026-11-24"
+     },
+     {
+      "id": "ncsc",
+      "url": "https://www.ncsc.gov.uk/blog-post/chatgpt-and-large-language-models-whats-the-risk",
+      "publisher": "UK National Cyber Security Centre",
+      "kind": "primary",
+      "published": null,
+      "read": "2026-11-24"
+     },
+     {
+      "id": "atlas",
+      "url": "https://www.atlascloud.ai/blog/ai-updates/security-and-privacy-commitment",
+      "publisher": "Atlas Cloud",
+      "kind": "primary",
+      "published": "2026-11-23",
+      "read": "2026-11-24"
+     },
+     {
+      "id": "together",
+      "url": "https://www.together.ai/blog/security-event-prompt-leakage-for-requests-in-june-and-july-of-2026",
+      "publisher": "Together AI",
+      "kind": "primary",
+      "published": "2026-11-21",
+      "read": "2026-11-24"
+     },
+     {
+      "id": "micah",
+      "url": "https://micahflee.com/heres-how-anyone-can-easily-use-private-open-weight-models/",
+      "publisher": "Micah Lee",
+      "kind": "primary",
+      "published": "2026-11-16",
+      "read": "2026-11-24"
+     },
+     {
+      "id": "phala",
+      "url": "https://phala.com/posts/phala-november-preliminary-incident-report",
+      "publisher": "Phala",
+      "kind": "primary",
+      "published": "2026-11-10",
+      "read": "2026-11-24"
+     }
+    ],
+    "to_find": [
+     "A consumer advocate’s advice about this report",
+     "Whether any provider has passed an outside test"
+    ],
+    "would_change": "New advice from any of them after an outside test.",
+    "trend": {
+     "hn": null,
+     "lobsters": null,
+     "x": null
+    },
+    "omarchy": []
+   }
+  },
+  {
+   "id": "monai-agents",
+   "title": "AI agents found a zero-day and used it",
+   "content_text": "Amazon says attackers’ agents found an unknown flaw in MONAI Label, a medical-imaging research server. CISA listed it on Monday, the day after a fixed release.",
+   "date_published": "2026-11-23T00:00:00Z",
+   "tags": [
+    "attackers"
+   ],
+   "_tech_news": {
+    "id": "monai-agents",
+    "title": "AI agents found a zero-day and used it",
+    "date": "2026-11-23",
+    "summary": "Amazon says attackers’ agents found an unknown flaw in MONAI Label, a medical-imaging research server. CISA listed it on Monday, the day after a fixed release.",
+    "topics": [
+     {
+      "id": "attackers",
+      "angle": "The one case with a CVE, a government listing and a fix."
+     }
+    ],
+    "claims": [
+     {
+      "text": "CISA added the flaw to its known-exploited list on November 23, with a November 26 deadline.",
+      "who": "CISA",
+      "status": "read",
+      "sources": [
+       "kev"
+      ]
+     },
+     {
+      "text": "Agents went from mapping the server to writing files in about 11 minutes. Root came later, on one university server.",
+      "who": "Amazon, via The Hacker News",
+      "status": "said",
+      "sources": [
+       "thn"
+      ]
+     },
+     {
+      "text": "Amazon’s account is its own reconstruction and has not been independently confirmed. It does not show patient data was taken.",
+      "who": "The Hacker News",
+      "status": "read",
+      "sources": [
+       "thn"
+      ]
+     },
+     {
+      "text": "Version 0.8.6, released November 22, fixes it. Reports saying there is no fixed version are out of date.",
+      "who": "the project",
+      "status": "read",
+      "sources": [
+       "rel"
+      ]
+     },
+     {
+      "text": "Login is off by default in MONAI Label.",
+      "who": "the project",
+      "status": "read",
+      "sources": [
+       "rel"
+      ]
+     }
+    ],
+    "sources": [
+     {
+      "id": "kev",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+      "publisher": "CISA",
+      "kind": "primary",
+      "published": "2026-11-23",
+      "read": "2026-11-24"
+     },
+     {
+      "id": "thn",
+      "url": "https://thehackernews.com/2026/11/attackers-ai-agents-found-zero-day-in.html",
+      "publisher": "The Hacker News",
+      "kind": "report",
+      "published": "2026-11-21",
+      "read": "2026-11-24"
+     },
+     {
+      "id": "rel",
+      "url": "https://github.com/Project-MONAI/MONAILabel/releases/tag/0.8.6",
+      "publisher": "MONAI Label on GitHub",
+      "kind": "primary",
+      "published": "2026-11-22",
+      "read": "2026-11-24"
+     },
+     {
+      "id": "ghsa",
+      "url": "https://github.com/Project-MONAI/MONAILabel/security/advisories/GHSA-qc22-rmgc-vg94",
+      "publisher": "MONAI Label on GitHub",
+      "kind": "primary",
+      "published": "2026-11-18",
+      "read": "2026-11-24"
+     }
+    ],
+    "to_find": [
+     "Amazon’s own incident report; our searches did not return it",
+     "Which university, and its account"
+    ],
+    "would_change": "An independent reconstruction.",
+    "trend": {
+     "hn": null,
+     "lobsters": null,
+     "x": [
+      {
+       "id": "2124096705532506230",
+       "handle": "TheHackersNews",
+       "likes": 386,
+       "views": 43660,
+       "measured_at": "2026-11-24T07:14:10+00:00",
+       "url": "https://x.com/TheHackersNews/status/2124096705532506230"
+      }
+     ]
+    },
+    "omarchy": []
+   }
+  },
+  {
+   "id": "lecun-amodei",
+   "title": "LeCun says Amodei wants open models made illegal",
+   "content_text": "Yann LeCun’s post answers a clip of Dario Amodei that is being shared as new. In July, Amodei wrote that Anthropic has never advocated a ban.",
+   "date_published": "2026-11-22T00:00:00Z",
+   "tags": [
+    "open"
+   ],
+   "_tech_news": {
+    "id": "lecun-amodei",
+    "title": "LeCun says Amodei wants open models made illegal",
+    "date": "2026-11-22",
+    "summary": "Yann LeCun’s post answers a clip of Dario Amodei that is being shared as new. In July, Amodei wrote that Anthropic has never advocated a ban.",
+    "topics": [
+     {
+      "id": "open",
+      "angle": "The loudest accusation, and the answer already on record."
+     }
+    ],
+    "claims": [
+     {
+      "text": "Open models would be made illegal and Amodei would stay in control: LeCun’s account of Amodei’s motive.",
+      "who": "Yann LeCun",
+      "status": "said",
+      "sources": [
+       "lecun"
+      ]
+     },
+     {
+      "text": "LeCun was answering a post that presents the clip as congressional testimony and gives no date.",
+      "who": "our reading",
+      "status": "read",
+      "sources": [
+       "parent"
+      ]
+     },
+     {
+      "text": "The clip is from a Senate hearing on July 25, 2023.",
+      "who": "an aggregator",
+      "status": "said",
+      "sources": [
+       "winz"
+      ]
+     },
+     {
+      "text": "On July 27, 2026 Amodei wrote: “Anthropic has never advocated for a ban on open-weights models.”",
+      "who": "TechCrunch, quoting Amodei",
+      "status": "read",
+      "sources": [
+       "tc"
+      ]
+     },
+     {
+      "text": "The same post says open-weight models are harder to guard and cannot be withdrawn once released.",
+      "who": "TechCrunch, reporting the post",
+      "status": "read",
+      "sources": [
+       "tc"
+      ]
+     }
+    ],
+    "sources": [
+     {
+      "id": "lecun",
+      "url": "https://x.com/ylecun/status/2124550037912920090",
+      "publisher": "Yann LeCun on X",
+      "kind": "primary",
+      "published": "2026-11-22",
+      "read": "2026-11-24"
+     },
+     {
+      "id": "parent",
+      "url": "https://x.com/huxlab/status/2124411922959548795",
+      "publisher": "Hux on X",
+      "kind": "post",
+      "published": "2026-11-22",
+      "read": "2026-11-24"
+     },
+     {
+      "id": "winz",
+      "url": "https://www.winzheng.com/en/article/lecun-amodei-medieval-obscurantism-open-source-ai-anthropic-",
+      "publisher": "Winzheng",
+      "kind": "report",
+      "published": "2026-11-23",
+      "read": "2026-11-24"
+     },
+     {
+      "id": "tc",
+      "url": "https://techcrunch.com/2026/07/27/anthropics-dario-amodei-responds-doesnt-oppose-open-weight-models-but-fears-chinese-ai/",
+      "publisher": "TechCrunch",
+      "kind": "report",
+      "published": "2026-07-27",
+      "read": "2026-11-24"
+     }
+    ],
+    "to_find": [
+     "The 2023 hearing video, watched, to confirm the clip’s date and words",
+     "Amodei’s July post itself",
+     "Any reply from Amodei or Anthropic since November 22"
+    ],
+    "would_change": "The clip proving to be recent, or a new statement from Anthropic.",
+    "trend": {
+     "hn": {
+      "points": 1533,
+      "comments": 848,
+      "threads": [
+       "50615308"
+      ],
+      "read": "2026-11-24"
+     },
+     "lobsters": null,
+     "x": [
+      {
+       "id": "2124550037912920090",
+       "handle": "ylecun",
+       "likes": 22440,
+       "views": 1378352,
+       "measured_at": "2026-11-24T07:14:08+00:00",
+       "url": "https://x.com/ylecun/status/2124550037912920090"
+      },
+      {
+       "id": "2124411922959548795",
+       "handle": "huxlab",
+       "likes": 1426,
+       "views": 542206,
+       "measured_at": "2026-11-24T07:14:08+00:00",
+       "url": "https://x.com/huxlab/status/2124411922959548795"
+      }
+     ]
+    },
+    "omarchy": [
+     {
+      "story": "gnome-ai-policy",
+      "why": "The same question, asked by a desktop project."
+     }
+    ]
+   }
+  },
+  {
+   "id": "signal-blocks-agents",
+   "title": "Signal blocks phone AI from reading its screens",
+   "content_text": "Signal prevents screenshots on iOS 27 and blocks assistants it can detect on Android. It says it cannot do the same on macOS.",
+   "date_published": "2026-11-20T00:00:00Z",
+   "tags": [
+    "agent-risk"
+   ],
+   "_tech_news": {
+    "id": "signal-blocks-agents",
+    "title": "Signal blocks phone AI from reading its screens",
+    "date": "2026-11-20",
+    "summary": "Signal prevents screenshots on iOS 27 and blocks assistants it can detect on Android. It says it cannot do the same on macOS.",
+    "topics": [
+     {
+      "id": "agent-risk",
+      "angle": "An app closing its window to the operating system’s AI."
+     }
+    ],
+    "claims": [
+     {
+      "text": "Signal is preventing screenshots in its app on iOS 27 and when AI assistants try to capture the screen on Android.",
+      "who": "Signal",
+      "status": "read",
+      "sources": [
+       "signal"
+      ]
+     },
+     {
+      "text": "Signal calls system-level AI agents an existential threat to it.",
+      "who": "Signal",
+      "status": "read",
+      "sources": [
+       "signal"
+      ]
+     },
+     {
+      "text": "Signal says its fix is incomplete, and that it is not blocking Siri AI on macOS.",
+      "who": "Signal",
+      "status": "read",
+      "sources": [
+       "signal"
+      ]
+     },
+     {
+      "text": "Signal says Google and Apple, among others, are engaging with it.",
+      "who": "Signal",
+      "status": "said",
+      "sources": [
+       "signal"
+      ]
+     }
+    ],
+    "sources": [
+     {
+      "id": "signal",
+      "url": "https://signal.org/blog/protecting-your-privacy/",
+      "publisher": "Signal",
+      "kind": "primary",
+      "published": "2026-11-20",
+      "read": "2026-11-24"
+     },
+     {
+      "id": "post",
+      "url": "https://x.com/IntCyberDigest/status/2123785939134910588",
+      "publisher": "International Cyber Digest on X",
+      "kind": "post",
+      "published": "2026-11-20",
+      "read": "2026-11-24"
+     }
+    ],
+    "to_find": [
+     "Apple’s and Google’s answers",
+     "Accessibility users’ view of the block"
+    ],
+    "would_change": "A developer opt-out from Apple or Google.",
+    "trend": {
+     "hn": {
+      "points": 592,
+      "comments": 352,
+      "threads": [
+       "50572348",
+       "50573902",
+       "50576061"
+      ],
+      "read": "2026-11-24"
+     },
+     "lobsters": {
+      "points": 105,
+      "comments": 41,
+      "read": "2026-11-24"
+     },
+     "x": [
+      {
+       "id": "2123785939134910588",
+       "handle": "IntCyberDigest",
+       "likes": 2863,
+       "views": 76477,
+       "measured_at": "2026-11-24T07:14:08+00:00",
+       "url": "https://x.com/IntCyberDigest/status/2123785939134910588"
+      }
+     ]
+    },
+    "omarchy": [
+     {
+      "story": "apple-computer-use-steps",
+      "why": "Apple adding steps before someone else’s agent drives a Mac is the same fight from the owner’s side."
+     }
+    ]
+   }
+  },
+  {
+   "id": "inkling-2-mini",
+   "title": "Inkling 2 Mini runs on a laptop",
+   "content_text": "Thinking Machines released a 26.4-billion-parameter open-weight model that it says needs about 20 GB. Others have made much smaller builds.",
+   "date_published": "2026-11-20T00:00:00Z",
+   "tags": [
+    "prompts",
+    "open"
+   ],
+   "_tech_news": {
+    "id": "inkling-2-mini",
+    "title": "Inkling 2 Mini runs on a laptop",
+    "date": "2026-11-20",
+    "summary": "Thinking Machines released a 26.4-billion-parameter open-weight model that it says needs about 20 GB. Others have made much smaller builds.",
+    "topics": [
+     {
+      "id": "prompts",
+      "angle": "The way out: a model nobody else is hosting."
+     },
+     {
+      "id": "open",
+      "angle": "An American open-weight model in the week Washington asked for one."
+     }
+    ],
+    "claims": [
+     {
+      "text": "The total memory footprint is about 20 GB.",
+      "who": "Thinking Machines",
+      "status": "said",
+      "sources": [
+       "tm"
+      ]
+     },
+     {
+      "text": "It leads every open-weight model under 100 billion parameters on DeepSWE v1.1, at 48.2%.",
+      "who": "Thinking Machines",
+      "status": "said",
+      "sources": [
+       "tm"
+      ]
+     },
+     {
+      "text": "It trails Qwen3.8-27B on multi-turn chat and on instructions with many constraints, by the maker’s own numbers.",
+      "who": "Thinking Machines",
+      "status": "read",
+      "sources": [
+       "tm"
+      ]
+     },
+     {
+      "text": "It was first on Hugging Face’s trending list when we read it.",
+      "who": "our reading",
+      "status": "counted",
+      "sources": [
+       "hf"
+      ]
+     },
+     {
+      "text": "One developer publishes builds from 3.9 GB to 12.8 GB, for Apple silicon.",
+      "who": "the project",
+      "status": "read",
+      "sources": [
+       "lamq"
+      ]
+     },
+     {
+      "text": "A 13.6 GB build for ordinary graphics cards is published.",
+      "who": "our reading",
+      "status": "counted",
+      "sources": [
+       "unsloth"
+      ]
+     }
+    ],
+    "sources": [
+     {
+      "id": "tm",
+      "url": "https://thinkingmachines.ai/news/inkling-2-mini/",
+      "publisher": "Thinking Machines",
+      "kind": "primary",
+      "published": "2026-11-20",
+      "read": "2026-11-24"
+     },
+     {
+      "id": "hf",
+      "url": "https://huggingface.co/thinkingmachines/Inkling-2-Mini",
+      "publisher": "Hugging Face",
+      "kind": "primary",
+      "published": "2026-11-17",
+      "read": "2026-11-24"
+     },
+     {
+      "id": "lamq",
+      "url": "https://github.com/ShinMegamiBoson/lookatmyquant",
+      "publisher": "LookAtMyQuant on GitHub",
+      "kind": "code",
+      "published": null,
+      "read": "2026-11-24"
+     },
+     {
+      "id": "unsloth",
+      "url": "https://huggingface.co/unsloth/Inkling-2-Mini-GGUF",
+      "publisher": "Unsloth on Hugging Face",
+      "kind": "code",
+      "published": "2026-11-20",
+      "read": "2026-11-24"
+     },
+     {
+      "id": "post",
+      "url": "https://x.com/thinkymachines/status/2123871643797995872",
+      "publisher": "Thinking Machines on X",
+      "kind": "primary",
+      "published": "2026-11-20",
+      "read": "2026-11-24"
+     },
+     {
+      "id": "hype",
+      "url": "https://x.com/TheAhmadOsman/status/2123936559447920931",
+      "publisher": "Ahmad on X",
+      "kind": "post",
+      "published": "2026-11-21",
+      "read": "2026-11-24"
+     }
+    ],
+    "to_find": [
+     "A run on our own 16 GB card, with the memory and speed measured",
+     "An independent benchmark",
+     "Whether “Opus 4.5 on a 3080”, one fan’s post, survives any test"
+    ],
+    "would_change": "An independent benchmark that disagrees with the maker’s.",
+    "trend": {
+     "hn": {
+      "points": 2826,
+      "comments": null,
+      "threads": [
+       "50581260",
+       "50603845",
+       "50591853"
+      ],
+      "read": "2026-11-24"
+     },
+     "lobsters": null,
+     "x": [
+      {
+       "id": "2123871643797995872",
+       "handle": "thinkymachines",
+       "likes": 19871,
+       "views": 3995373,
+       "measured_at": "2026-11-24T07:14:09+00:00",
+       "url": "https://x.com/thinkymachines/status/2123871643797995872"
+      },
+      {
+       "id": "2123936559447920931",
+       "handle": "TheAhmadOsman",
+       "likes": 2995,
+       "views": 105604,
+       "measured_at": "2026-11-24T07:14:10+00:00",
+       "url": "https://x.com/TheAhmadOsman/status/2123936559447920931"
+      },
+      {
+       "id": "2124319174222807129",
+       "handle": "notnullptr",
+       "likes": 2512,
+       "views": 49044,
+       "measured_at": "2026-11-24T07:14:10+00:00",
+       "url": "https://x.com/notnullptr/status/2124319174222807129"
+      }
+     ]
+    },
+    "omarchy": [
+     {
+      "story": "local-ai",
+      "why": "The panel shows whether the next model fits in memory."
+     }
+    ]
+   }
+  },
+  {
+   "id": "house-open-weights",
+   "title": "A House report wants Chinese open models out of federal systems",
+   "content_text": "Two committees published 12 recommendations. They cover federal systems, federal contracts and high-risk infrastructure, and ask for an American open-weight program.",
+   "date_published": "2026-11-20T00:00:00Z",
+   "tags": [
+    "open"
+   ],
+   "_tech_news": {
+    "id": "house-open-weights",
+    "title": "A House report wants Chinese open models out of federal systems",
+    "date": "2026-11-20",
+    "summary": "Two committees published 12 recommendations. They cover federal systems, federal contracts and high-risk infrastructure, and ask for an American open-weight program.",
+    "topics": [
+     {
+      "id": "open",
+      "angle": "What Washington is actually proposing."
+     }
+    ],
+    "claims": [
+     {
+      "text": "The chairmen call for prohibiting PRC-developed models in federal systems and federal contract work, and removing them from high-risk functions of critical infrastructure.",
+      "who": "the House committees",
+      "status": "read",
+      "sources": [
+       "house"
+      ]
+     },
+     {
+      "text": "The first recommendation is a national American open-weight AI initiative, and another says to avoid overregulation.",
+      "who": "the House committees",
+      "status": "read",
+      "sources": [
+       "house"
+      ]
+     },
+     {
+      "text": "The release proposes no ban on a person running a model at home.",
+      "who": "our reading",
+      "status": "read",
+      "sources": [
+       "house"
+      ]
+     },
+     {
+      "text": "The report’s findings say the United States lacks a competitive open-weight alternative at the price and performance the market demands.",
+      "who": "the House committees",
+      "status": "read",
+      "sources": [
+       "house"
+      ]
+     },
+     {
+      "text": "Critics say the push would stop companies running open-weight models on their own computers.",
+      "who": "Reason",
+      "status": "said",
+      "sources": [
+       "reason"
+      ]
+     }
+    ],
+    "sources": [
+     {
+      "id": "house",
+      "url": "https://homeland.house.gov/2026/11/20/chairmen-garbarino-moolenaar-release-joint-investigative-report-urging-removal-of-prc-open-weight-models-from-federal-systems-high-risk-critical-infrastructure/",
+      "publisher": "House Homeland Security Committee",
+      "kind": "primary",
+      "published": "2026-11-20",
+      "read": "2026-11-24"
+     },
+     {
+      "id": "record",
+      "url": "https://therecord.media/chinese-open-weight-AI-use-by-US-companies-house-investigation",
+      "publisher": "The Record",
+      "kind": "report",
+      "published": "2026-11-20",
+      "read": "2026-11-24"
+     },
+     {
+      "id": "reason",
+      "url": "https://reason.com/2026/11/19/china-has-become-an-excuse-to-crack-down-on-ai-freedom/",
+      "publisher": "Reason",
+      "kind": "critic",
+      "published": "2026-11-19",
+      "read": "2026-11-24"
+     },
+     {
+      "id": "cursor",
+      "url": "https://x.com/AndrewCurran_/status/2123841504242446572",
+      "publisher": "Andrew Curran on X",
+      "kind": "post",
+      "published": "2026-11-20",
+      "read": "2026-11-24"
+     },
+     {
+      "id": "jensen",
+      "url": "https://x.com/unusual_whales/status/2124958161765380348",
+      "publisher": "unusual_whales on X",
+      "kind": "post",
+      "published": "2026-11-23",
+      "read": "2026-11-24"
+     }
+    ],
+    "to_find": [
+     "The 50-page report itself; we read the release",
+     "What Cursor told the committees, in its own words",
+     "The Reuters report that Huang’s return was tied to open-weight models"
+    ],
+    "would_change": "A bill text, or a rule that reaches private use.",
+    "trend": {
+     "hn": null,
+     "lobsters": null,
+     "x": [
+      {
+       "id": "2123789729606823949",
+       "handle": "zerohedge",
+       "likes": 1259,
+       "views": 151009,
+       "measured_at": "2026-11-24T07:14:08+00:00",
+       "url": "https://x.com/zerohedge/status/2123789729606823949"
+      },
+      {
+       "id": "2123841504242446572",
+       "handle": "AndrewCurran_",
+       "likes": 1120,
+       "views": 163186,
+       "measured_at": "2026-11-24T07:14:08+00:00",
+       "url": "https://x.com/AndrewCurran_/status/2123841504242446572"
+      },
+      {
+       "id": "2124958161765380348",
+       "handle": "unusual_whales",
+       "likes": 10499,
+       "views": 690020,
+       "measured_at": "2026-11-24T07:14:08+00:00",
+       "url": "https://x.com/unusual_whales/status/2124958161765380348"
+      }
+     ]
+    },
+    "omarchy": [
+     {
+      "story": "omarchy-china",
+      "why": "Omarchy China hides the AI tools China cannot use; this is the other direction."
+     }
+    ]
+   }
+  },
+  {
+   "id": "prompt-canaries",
+   "title": "Two million baited prompts show where prompts go",
+   "content_text": "A researcher put unique secrets in about two million AI prompts, then watched who used them. The report says attackers were stealing data from three hosting providers. It names none.",
+   "date_published": "2026-11-19T00:00:00Z",
+   "tags": [
+    "prompts",
+    "attackers"
+   ],
+   "_tech_news": {
+    "id": "prompt-canaries",
+    "title": "Two million baited prompts show where prompts go",
+    "date": "2026-11-19",
+    "summary": "A researcher put unique secrets in about two million AI prompts, then watched who used them. The report says attackers were stealing data from three hosting providers. It names none.",
+    "topics": [
+     {
+      "id": "prompts",
+      "angle": "The test itself: one secret, one prompt, one provider."
+     },
+     {
+      "id": "attackers",
+      "angle": "Stolen prompts turned into stolen keys, some tested by an AI agent."
+     }
+    ],
+    "claims": [
+     {
+      "text": "About two million prompts carrying unique URLs and credentials were sent to AI services from July through November 2026.",
+      "who": "HD Moore, Dragos",
+      "status": "said",
+      "sources": [
+       "dragos"
+      ]
+     },
+     {
+      "text": "At least three AI providers showed evidence that customer data was exposed; none knew until told.",
+      "who": "HD Moore, Dragos",
+      "status": "said",
+      "sources": [
+       "dragos"
+      ]
+     },
+     {
+      "text": "Resellers on a marketplace could read and keep prompts with ordinary logging, with no exploit.",
+      "who": "HD Moore, Dragos",
+      "status": "said",
+      "sources": [
+       "dragos"
+      ]
+     },
+     {
+      "text": "One lab’s systems fetched secret URLs from roughly two-thirds of requests marked no data collection or zero data retention.",
+      "who": "HD Moore, Dragos",
+      "status": "said",
+      "sources": [
+       "dragos"
+      ]
+     },
+     {
+      "text": "The report names self-hosting as the only option where nobody else reads the prompts, and lists a 512 GB Mac Studio at $22,299 and a DGX Spark at $6,950.",
+      "who": "the report",
+      "status": "read",
+      "sources": [
+       "dragos"
+      ]
+     },
+     {
+      "text": "The report says none of this means people should stop using AI services.",
+      "who": "the report",
+      "status": "read",
+      "sources": [
+       "dragos"
+      ]
+     },
+     {
+      "text": "AI routers forward a request to a pool of hosts, and every hop can see the whole prompt and reply.",
+      "who": "HD Moore, Dragos",
+      "status": "said",
+      "sources": [
+       "dragos"
+      ]
+     },
+     {
+      "text": "Prompts frequently contain confidential source code, internal communications, strategic plans, customer information and credentials.",
+      "who": "HD Moore, Dragos",
+      "status": "said",
+      "sources": [
+       "dragos"
+      ]
+     },
+     {
+      "text": "A privacy flag only binds the first hop.",
+      "who": "HD Moore, Dragos",
+      "status": "said",
+      "sources": [
+       "dragos"
+      ]
+     },
+     {
+      "text": "Twenty-four days after one prompt was sent to one provider, its secret link was posted in a company chat, and within two minutes it was opened on three desktops and three phones.",
+      "who": "HD Moore, Dragos",
+      "status": "said",
+      "sources": [
+       "dragos"
+      ]
+     },
+     {
+      "text": "Stolen bait keys were used for tens of thousands of calls to Amazon’s cloud.",
+      "who": "HD Moore, Dragos",
+      "status": "said",
+      "sources": [
+       "dragos"
+      ]
+     },
+     {
+      "text": "Two people on home connections tried bait by hand: one guessed names at a login page, one tried passwords as root.",
+      "who": "HD Moore, Dragos",
+      "status": "said",
+      "sources": [
+       "dragos"
+      ]
+     },
+     {
+      "text": "The report also says one large U.S. provider kept crawling a secret link more than two months after a single request.",
+      "who": "HD Moore, Dragos",
+      "status": "said",
+      "sources": [
+       "dragos"
+      ]
+     },
+     {
+      "text": "OpenRouter has more than eight million developers, by its investor Menlo Ventures’ account in May 2026.",
+      "who": "Menlo Ventures",
+      "status": "said",
+      "sources": [
+       "menlo"
+      ]
+     }
+    ],
+    "sources": [
+     {
+      "id": "dragos",
+      "url": "https://www.dragos.com/blog/ai-supply-chain-security-canary-tokens",
+      "publisher": "Dragos",
+      "kind": "primary",
+      "published": "2026-11-19",
+      "read": "2026-11-24"
+     },
+     {
+      "id": "ars",
+      "url": "https://arstechnica.com/security/2026/11/a-leaky-ai-supply-chain-is-exposing-secret-user-data-at-an-alarming-rate/",
+      "publisher": "Ars Technica",
+      "kind": "report",
+      "published": "2026-11-20",
+      "read": "2026-11-24"
+     },
+     {
+      "id": "post",
+      "url": "https://x.com/hdmoore/status/2123451306685661416",
+      "publisher": "HD Moore on X",
+      "kind": "primary",
+      "published": "2026-11-19",
+      "read": "2026-11-24"
+     },
+     {
+      "id": "menlo",
+      "url": "https://menlovc.com/perspective/openrouter-now-processes-more-than-a-quadrillion-tokens-a-year/",
+      "publisher": "Menlo Ventures, an OpenRouter investor",
+      "kind": "report",
+      "published": null,
+      "read": "2026-11-24"
+     }
+    ],
+    "to_find": [
+     "Which three providers the report means; it names none",
+     "Independent repetition of the test by another researcher",
+     "Whether any ordinary customer’s secret, beyond the bait, was used"
+    ],
+    "would_change": "A provider showing that the bait was exposed another way.",
+    "trend": {
+     "hn": {
+      "points": 532,
+      "comments": 141,
+      "threads": [
+       "50595554",
+       "50596511",
+       "50582794",
+       "50595816",
+       "50582734",
+       "50587516"
+      ],
+      "read": "2026-11-24"
+     },
+     "lobsters": {
+      "points": 145,
+      "comments": 20,
+      "read": "2026-11-24"
+     },
+     "x": [
+      {
+       "id": "2123451306685661416",
+       "handle": "hdmoore",
+       "likes": 2830,
+       "views": 418256,
+       "measured_at": "2026-11-24T07:14:06+00:00",
+       "url": "https://x.com/hdmoore/status/2123451306685661416"
+      },
+      {
+       "id": "2124054476893851731",
+       "handle": "MiaAI_lab",
+       "likes": 993,
+       "views": 70651,
+       "measured_at": "2026-11-24T07:14:07+00:00",
+       "url": "https://x.com/MiaAI_lab/status/2124054476893851731"
+      }
+     ]
+    },
+    "omarchy": [
+     {
+      "story": "local-ai",
+      "why": "Omarchy’s local model panel is the same answer, on the desktop."
+     }
+    ]
+   }
+  },
+  {
+   "id": "hermes-npm",
+   "title": "An npm package installed an AI agent as the backdoor",
+   "content_text": "A fake CRM client installed an open-source agent and took orders over Telegram. It was removed after nine versions in one day.",
+   "date_published": "2026-11-19T00:00:00Z",
+   "tags": [
+    "attackers"
+   ],
+   "_tech_news": {
+    "id": "hermes-npm",
+    "title": "An npm package installed an AI agent as the backdoor",
+    "date": "2026-11-19",
+    "summary": "A fake CRM client installed an open-source agent and took orders over Telegram. It was removed after nine versions in one day.",
+    "topics": [
+     {
+      "id": "attackers",
+      "angle": "A real agent, used as the malware."
+     }
+    ],
+    "claims": [
+     {
+      "text": "The package installed Hermes Agent and connected it to the attacker’s Telegram bot; run as root, the agent ran as root.",
+      "who": "SafeDep",
+      "status": "said",
+      "sources": [
+       "safedep"
+      ]
+     },
+     {
+      "text": "Nine versions were published on November 16 in under six hours.",
+      "who": "SafeDep",
+      "status": "said",
+      "sources": [
+       "safedep"
+      ]
+     },
+     {
+      "text": "npm has removed the package.",
+      "who": "SafeDep",
+      "status": "said",
+      "sources": [
+       "safedep"
+      ]
+     }
+    ],
+    "sources": [
+     {
+      "id": "safedep",
+      "url": "https://safedep.io/blog/malicious-npm-leadstack-crm-connect-hermes-agent-backdoor",
+      "publisher": "SafeDep",
+      "kind": "primary",
+      "published": "2026-11-19",
+      "read": "2026-11-24"
+     }
+    ],
+    "to_find": [
+     "Whether anyone outside the researchers installed it"
+    ],
+    "would_change": "A count of installs.",
+    "trend": {
+     "hn": {
+      "points": 7,
+      "comments": 1,
+      "threads": [
+       "50585975"
+      ],
+      "read": "2026-11-24"
+     },
+     "lobsters": null,
+     "x": null
+    },
+    "omarchy": []
+   }
+  },
+  {
+   "id": "banks-agents",
+   "title": "Banks say an agent’s mistakes are yours",
+   "content_text": "Citi, PNC, JPMorgan and Bank of America have changed terms for outside AI agents. A viral post says banks won’t refund you, which is broader than what was reported.",
+   "date_published": "2026-11-18T00:00:00Z",
+   "tags": [
+    "agent-risk"
+   ],
+   "_tech_news": {
+    "id": "banks-agents",
+    "title": "Banks say an agent’s mistakes are yours",
+    "date": "2026-11-18",
+    "summary": "Citi, PNC, JPMorgan and Bank of America have changed terms for outside AI agents. A viral post says banks won’t refund you, which is broader than what was reported.",
+    "topics": [
+     {
+      "id": "agent-risk",
+      "angle": "Who pays when the agent is wrong or hacked."
+     }
+    ],
+    "claims": [
+     {
+      "text": "Citi’s updated terms make the customer responsible for what hackers do if an outside AI tool leaks their credentials.",
+      "who": "TechCrunch",
+      "status": "said",
+      "sources": [
+       "tc"
+      ]
+     },
+     {
+      "text": "PNC changed its terms on November 18. JPMorgan and Bank of America announced similar policies in October.",
+      "who": "TechCrunch",
+      "status": "said",
+      "sources": [
+       "tc"
+      ]
+     },
+     {
+      "text": "Citizens emailed its customers a warning; the viral post says it changed its terms.",
+      "who": "TechCrunch and our reading",
+      "status": "read",
+      "sources": [
+       "tc",
+       "post"
+      ]
+     }
+    ],
+    "sources": [
+     {
+      "id": "tc",
+      "url": "https://techcrunch.com/2026/11/18/more-banks-says-customers-using-ai-agents-are-on-their-own-even-if-they-get-hacked/",
+      "publisher": "TechCrunch",
+      "kind": "report",
+      "published": "2026-11-18",
+      "read": "2026-11-24"
+     },
+     {
+      "id": "post",
+      "url": "https://x.com/Megatron_ron/status/2124200531145187691",
+      "publisher": "Megatron on X",
+      "kind": "post",
+      "published": "2026-11-21",
+      "read": "2026-11-24"
+     }
+    ],
+    "to_find": [
+     "Each bank’s own terms, read",
+     "How federal rules on unauthorized transfers apply",
+     "Wells Fargo’s terms, reported elsewhere as taking effect today"
+    ],
+    "would_change": "A regulator’s statement.",
+    "trend": {
+     "hn": null,
+     "lobsters": null,
+     "x": [
+      {
+       "id": "2124200531145187691",
+       "handle": "Megatron_ron",
+       "likes": 4482,
+       "views": 232348,
+       "measured_at": "2026-11-24T07:14:09+00:00",
+       "url": "https://x.com/Megatron_ron/status/2124200531145187691"
+      }
+     ]
+    },
+    "omarchy": []
+   }
+  },
+  {
+   "id": "microsoft-agent-framework",
+   "title": "Microsoft’s agent toolkit was poisoned on PyPI",
+   "content_text": "Two releases carried a credential stealer for under an hour. Wiz says they went through Microsoft’s own publishing system.",
+   "date_published": "2026-11-17T00:00:00Z",
+   "tags": [
+    "attackers"
+   ],
+   "_tech_news": {
+    "id": "microsoft-agent-framework",
+    "title": "Microsoft’s agent toolkit was poisoned on PyPI",
+    "date": "2026-11-17",
+    "summary": "Two releases carried a credential stealer for under an hour. Wiz says they went through Microsoft’s own publishing system.",
+    "topics": [
+     {
+      "id": "attackers",
+      "angle": "The people building agents were the target."
+     }
+    ],
+    "claims": [
+     {
+      "text": "Versions 1.26.1 and 1.26.2 were published on November 17 with a credential stealer and were gone by 21:30 UTC.",
+      "who": "Wiz",
+      "status": "said",
+      "sources": [
+       "wiz"
+      ]
+     },
+     {
+      "text": "The attacker appears to have used a client certificate and key for Microsoft’s release pipeline. How it was obtained is not known.",
+      "who": "Wiz",
+      "status": "said",
+      "sources": [
+       "wiz"
+      ]
+     },
+     {
+      "text": "The tooling identifies itself as Cairn, the open-source framework Amazon also names in the MONAI Label case. A shared tool does not show a shared attacker.",
+      "who": "Wiz; the caution is ours",
+      "status": "said",
+      "sources": [
+       "wiz",
+       "thn"
+      ]
+     }
+    ],
+    "sources": [
+     {
+      "id": "wiz",
+      "url": "https://www.wiz.io/blog/malicious-version-of-microsofts-agent-framework-published-to-pypi",
+      "publisher": "Wiz",
+      "kind": "primary",
+      "published": "2026-11-17",
+      "read": "2026-11-24"
+     },
+     {
+      "id": "thn",
+      "url": "https://thehackernews.com/2026/11/attackers-ai-agents-found-zero-day-in.html",
+      "publisher": "The Hacker News",
+      "kind": "report",
+      "published": "2026-11-21",
+      "read": "2026-11-24"
+     },
+     {
+      "id": "post",
+      "url": "https://x.com/IntCyberDigest/status/2123755743299965036",
+      "publisher": "International Cyber Digest on X",
+      "kind": "post",
+      "published": "2026-11-20",
+      "read": "2026-11-24"
+     }
+    ],
+    "to_find": [
+     "Microsoft’s own statement",
+     "How many machines installed either version"
+    ],
+    "would_change": "Microsoft’s root-cause report.",
+    "trend": {
+     "hn": null,
+     "lobsters": null,
+     "x": [
+      {
+       "id": "2123755743299965036",
+       "handle": "IntCyberDigest",
+       "likes": 1497,
+       "views": 111422,
+       "measured_at": "2026-11-24T07:14:09+00:00",
+       "url": "https://x.com/IntCyberDigest/status/2123755743299965036"
+      }
+     ]
+    },
+    "omarchy": []
+   }
+  },
+  {
+   "id": "model-file-flaws",
+   "title": "Opening a bad model file could run code in llama.cpp",
+   "content_text": "Three flaws in how llama.cpp reads model files were published on November 13. All three were already fixed.",
+   "date_published": "2026-11-13T00:00:00Z",
+   "tags": [
+    "prompts"
+   ],
+   "_tech_news": {
+    "id": "model-file-flaws",
+    "title": "Opening a bad model file could run code in llama.cpp",
+    "date": "2026-11-13",
+    "summary": "Three flaws in how llama.cpp reads model files were published on November 13. All three were already fixed.",
+    "topics": [
+     {
+      "id": "prompts",
+      "angle": "Local has its own risk: the file you downloaded."
+     }
+    ],
+    "claims": [
+     {
+      "text": "Three published flaws let a crafted model file run code when a person opens it.",
+      "who": "Zero Day Initiative",
+      "status": "read",
+      "sources": [
+       "zdi975",
+       "zdi976",
+       "zdi954"
+      ]
+     },
+     {
+      "text": "The fix for two of them merged on October 28, before publication; the fix for the third is dated June 19.",
+      "who": "our reading",
+      "status": "read",
+      "sources": [
+       "pr",
+       "commit"
+      ]
+     },
+     {
+      "text": "One tracker describes the third as a zero-day. Its advisory says an update had been issued.",
+      "who": "our reading",
+      "status": "read",
+      "sources": [
+       "zdi954"
+      ]
+     }
+    ],
+    "sources": [
+     {
+      "id": "zdi975",
+      "url": "https://www.zerodayinitiative.com/advisories/ZDI-26-975/",
+      "publisher": "Zero Day Initiative",
+      "kind": "primary",
+      "published": "2026-11-13",
+      "read": "2026-11-24"
+     },
+     {
+      "id": "zdi976",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-126975",
+      "publisher": "CVE record for ZDI-26-976",
+      "kind": "primary",
+      "published": "2026-11-17",
+      "read": "2026-11-24"
+     },
+     {
+      "id": "zdi954",
+      "url": "https://www.zerodayinitiative.com/advisories/ZDI-26-954/",
+      "publisher": "Zero Day Initiative",
+      "kind": "primary",
+      "published": "2026-11-13",
+      "read": "2026-11-24"
+     },
+     {
+      "id": "pr",
+      "url": "https://github.com/ggml-org/llama.cpp/pull/31336",
+      "publisher": "llama.cpp on GitHub",
+      "kind": "code",
+      "published": "2026-10-28",
+      "read": "2026-11-24"
+     },
+     {
+      "id": "commit",
+      "url": "https://github.com/ggml-org/llama.cpp/commit/e2e7a9b2d04e0404131e551243d4bd399ccfe606",
+      "publisher": "llama.cpp on GitHub",
+      "kind": "code",
+      "published": "2026-06-19",
+      "read": "2026-11-24"
+     }
+    ],
+    "to_find": [
+     "Which Ollama and LM Studio releases carry the fix",
+     "Any sign of use in the wild; we found none"
+    ],
+    "would_change": "A report of real use, or a build still shipping the old parser.",
+    "trend": {
+     "hn": null,
+     "lobsters": null,
+     "x": null
+    },
+    "omarchy": [
+     {
+      "story": "local-ai",
+      "why": "A panel that starts local models starts whichever build is installed."
+     }
+    ]
+   }
+  },
+  {
+   "id": "artex-madpot",
+   "title": "Amazon’s decoys recorded attackers’ agents thinking",
+   "content_text": "Fake AI endpoints received requests from attack agents, which carried the agents’ own records. Stolen AI keys paid for the search for more.",
+   "date_published": "2026-11-05T00:00:00Z",
+   "tags": [
+    "attackers"
+   ],
+   "_tech_news": {
+    "id": "artex-madpot",
+    "title": "Amazon’s decoys recorded attackers’ agents thinking",
+    "date": "2026-11-05",
+    "summary": "Fake AI endpoints received requests from attack agents, which carried the agents’ own records. Stolen AI keys paid for the search for more.",
+    "topics": [
+     {
+      "id": "attackers",
+      "angle": "What the agents wrote down about themselves."
+     }
+    ],
+    "claims": [
+     {
+      "text": "Between October 3 and November 5, 2026 the decoys captured requests carrying the agents’ operating memory.",
+      "who": "Amazon",
+      "status": "said",
+      "sources": [
+       "aws"
+      ]
+     },
+     {
+      "text": "Stolen keys paid for the AI that hunted for more keys.",
+      "who": "Amazon",
+      "status": "said",
+      "sources": [
+       "aws"
+      ]
+     },
+     {
+      "text": "Targets included tools people host themselves, such as Open WebUI, LiteLLM and Ollama.",
+      "who": "Amazon",
+      "status": "said",
+      "sources": [
+       "aws"
+      ]
+     },
+     {
+      "text": "Amazon did not watch the attacks happen and cannot verify the outcomes the agents reported.",
+      "who": "Amazon",
+      "status": "read",
+      "sources": [
+       "aws"
+      ]
+     },
+     {
+      "text": "Dragos saw the same framework test stolen keys; there it did very little.",
+      "who": "HD Moore, Dragos",
+      "status": "said",
+      "sources": [
+       "dragos"
+      ]
+     }
+    ],
+    "sources": [
+     {
+      "id": "aws",
+      "url": "https://aws.amazon.com/blogs/security/amazon-threat-intelligence-observes-threat-actors-running-cybercrime-campaigns-with-artex-ai-agents/",
+      "publisher": "AWS Security Blog",
+      "kind": "primary",
+      "published": null,
+      "read": "2026-11-24"
+     },
+     {
+      "id": "dragos",
+      "url": "https://www.dragos.com/blog/ai-supply-chain-security-canary-tokens",
+      "publisher": "Dragos",
+      "kind": "primary",
+      "published": "2026-11-19",
+      "read": "2026-11-24"
+     }
+    ],
+    "to_find": [
+     "The post’s publication date; November 5 here is the end of its data",
+     "Outcomes confirmed by a victim"
+    ],
+    "would_change": "A victim’s account.",
+    "trend": {
+     "hn": null,
+     "lobsters": null,
+     "x": null
+    },
+    "omarchy": []
+   }
+  }
+ ]
+}

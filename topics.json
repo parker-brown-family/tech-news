@@ -1,0 +1,6 @@
+[
+ {"id": "prompts", "title": "Who Read Your Prompt?", "question": "Where does a prompt go after you send it, and who can keep it?", "film": "Who Read Your Prompt?, finished 2026-11-24"},
+ {"id": "open", "title": "Who Gets to Run Open AI?", "question": "Who decides which models a person may download and run?", "film": "proposed second"},
+ {"id": "attackers", "title": "The Attackers Have Agents", "question": "What are attackers' AI agents doing, and what has been proven?", "film": "proposed third"},
+ {"id": "agent-risk", "title": "Your Agent, Your Problem", "question": "Who pays when a personal AI agent sees or does too much?", "film": "proposed, hold"}
+]

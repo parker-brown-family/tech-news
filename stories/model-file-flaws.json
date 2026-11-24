@@ -1,0 +1,99 @@
+{
+ "id": "model-file-flaws",
+ "title": "Opening a bad model file could run code in llama.cpp",
+ "date": "2026-11-13",
+ "summary": "Three flaws in how llama.cpp reads model files were published on November 13. All three were already fixed.",
+ "topics": [
+  {
+   "id": "prompts",
+   "angle": "Local has its own risk: the file you downloaded."
+  }
+ ],
+ "claims": [
+  {
+   "text": "Three published flaws let a crafted model file run code when a person opens it.",
+   "who": "Zero Day Initiative",
+   "status": "read",
+   "sources": [
+    "zdi975",
+    "zdi976",
+    "zdi954"
+   ]
+  },
+  {
+   "text": "The fix for two of them merged on October 28, before publication; the fix for the third is dated June 19.",
+   "who": "our reading",
+   "status": "read",
+   "sources": [
+    "pr",
+    "commit"
+   ]
+  },
+  {
+   "text": "One tracker describes the third as a zero-day. Its advisory says an update had been issued.",
+   "who": "our reading",
+   "status": "read",
+   "sources": [
+    "zdi954"
+   ]
+  }
+ ],
+ "sources": [
+  {
+   "id": "zdi975",
+   "url": "https://www.zerodayinitiative.com/advisories/ZDI-26-975/",
+   "publisher": "Zero Day Initiative",
+   "kind": "primary",
+   "published": "2026-11-13",
+   "read": "2026-11-24"
+  },
+  {
+   "id": "zdi976",
+   "url": "https://www.cve.org/CVERecord?id=CVE-2026-126975",
+   "publisher": "CVE record for ZDI-26-976",
+   "kind": "primary",
+   "published": "2026-11-17",
+   "read": "2026-11-24"
+  },
+  {
+   "id": "zdi954",
+   "url": "https://www.zerodayinitiative.com/advisories/ZDI-26-954/",
+   "publisher": "Zero Day Initiative",
+   "kind": "primary",
+   "published": "2026-11-13",
+   "read": "2026-11-24"
+  },
+  {
+   "id": "pr",
+   "url": "https://github.com/ggml-org/llama.cpp/pull/31336",
+   "publisher": "llama.cpp on GitHub",
+   "kind": "code",
+   "published": "2026-10-28",
+   "read": "2026-11-24"
+  },
+  {
+   "id": "commit",
+   "url": "https://github.com/ggml-org/llama.cpp/commit/e2e7a9b2d04e0404131e551243d4bd399ccfe606",
+   "publisher": "llama.cpp on GitHub",
+   "kind": "code",
+   "published": "2026-06-19",
+   "read": "2026-11-24"
+  }
+ ],
+ "to_find": [
+  "Which Ollama and LM Studio releases carry the fix",
+  "Any sign of use in the wild; we found none"
+ ],
+ "would_change": "A report of real use, or a build still shipping the old parser.",
+ "trend": {
+  "hn": null,
+  "lobsters": null,
+  "x": null
+ },
+ "omarchy": [
+  {
+   "story": "local-ai",
+   "why": "A panel that starts local models starts whichever build is installed."
+  }
+ ]
+}

@@ -1,0 +1,214 @@
+{
+ "id": "prompt-canaries",
+ "title": "Two million baited prompts show where prompts go",
+ "date": "2026-11-19",
+ "summary": "A researcher put unique secrets in about two million AI prompts, then watched who used them. The report says attackers were stealing data from three hosting providers. It names none.",
+ "topics": [
+  {
+   "id": "prompts",
+   "angle": "The test itself: one secret, one prompt, one provider."
+  },
+  {
+   "id": "attackers",
+   "angle": "Stolen prompts turned into stolen keys, some tested by an AI agent."
+  }
+ ],
+ "claims": [
+  {
+   "text": "About two million prompts carrying unique URLs and credentials were sent to AI services from July through November 2026.",
+   "who": "HD Moore, Dragos",
+   "status": "said",
+   "sources": [
+    "dragos"
+   ]
+  },
+  {
+   "text": "At least three AI providers showed evidence that customer data was exposed; none knew until told.",
+   "who": "HD Moore, Dragos",
+   "status": "said",
+   "sources": [
+    "dragos"
+   ]
+  },
+  {
+   "text": "Resellers on a marketplace could read and keep prompts with ordinary logging, with no exploit.",
+   "who": "HD Moore, Dragos",
+   "status": "said",
+   "sources": [
+    "dragos"
+   ]
+  },
+  {
+   "text": "One lab’s systems fetched secret URLs from roughly two-thirds of requests marked no data collection or zero data retention.",
+   "who": "HD Moore, Dragos",
+   "status": "said",
+   "sources": [
+    "dragos"
+   ]
+  },
+  {
+   "text": "The report names self-hosting as the only option where nobody else reads the prompts, and lists a 512 GB Mac Studio at $22,299 and a DGX Spark at $6,950.",
+   "who": "the report",
+   "status": "read",
+   "sources": [
+    "dragos"
+   ]
+  },
+  {
+   "text": "The report says none of this means people should stop using AI services.",
+   "who": "the report",
+   "status": "read",
+   "sources": [
+    "dragos"
+   ]
+  },
+  {
+   "text": "AI routers forward a request to a pool of hosts, and every hop can see the whole prompt and reply.",
+   "who": "HD Moore, Dragos",
+   "status": "said",
+   "sources": [
+    "dragos"
+   ]
+  },
+  {
+   "text": "Prompts frequently contain confidential source code, internal communications, strategic plans, customer information and credentials.",
+   "who": "HD Moore, Dragos",
+   "status": "said",
+   "sources": [
+    "dragos"
+   ]
+  },
+  {
+   "text": "A privacy flag only binds the first hop.",
+   "who": "HD Moore, Dragos",
+   "status": "said",
+   "sources": [
+    "dragos"
+   ]
+  },
+  {
+   "text": "Twenty-four days after one prompt was sent to one provider, its secret link was posted in a company chat, and within two minutes it was opened on three desktops and three phones.",
+   "who": "HD Moore, Dragos",
+   "status": "said",
+   "sources": [
+    "dragos"
+   ]
+  },
+  {
+   "text": "Stolen bait keys were used for tens of thousands of calls to Amazon’s cloud.",
+   "who": "HD Moore, Dragos",
+   "status": "said",
+   "sources": [
+    "dragos"
+   ]
+  },
+  {
+   "text": "Two people on home connections tried bait by hand: one guessed names at a login page, one tried passwords as root.",
+   "who": "HD Moore, Dragos",
+   "status": "said",
+   "sources": [
+    "dragos"
+   ]
+  },
+  {
+   "text": "The report also says one large U.S. provider kept crawling a secret link more than two months after a single request.",
+   "who": "HD Moore, Dragos",
+   "status": "said",
+   "sources": [
+    "dragos"
+   ]
+  },
+  {
+   "text": "OpenRouter has more than eight million developers, by its investor Menlo Ventures’ account in May 2026.",
+   "who": "Menlo Ventures",
+   "status": "said",
+   "sources": [
+    "menlo"
+   ]
+  }
+ ],
+ "sources": [
+  {
+   "id": "dragos",
+   "url": "https://www.dragos.com/blog/ai-supply-chain-security-canary-tokens",
+   "publisher": "Dragos",
+   "kind": "primary",
+   "published": "2026-11-19",
+   "read": "2026-11-24"
+  },
+  {
+   "id": "ars",
+   "url": "https://arstechnica.com/security/2026/11/a-leaky-ai-supply-chain-is-exposing-secret-user-data-at-an-alarming-rate/",
+   "publisher": "Ars Technica",
+   "kind": "report",
+   "published": "2026-11-20",
+   "read": "2026-11-24"
+  },
+  {
+   "id": "post",
+   "url": "https://x.com/hdmoore/status/2123451306685661416",
+   "publisher": "HD Moore on X",
+   "kind": "primary",
+   "published": "2026-11-19",
+   "read": "2026-11-24"
+  },
+  {
+   "id": "menlo",
+   "url": "https://menlovc.com/perspective/openrouter-now-processes-more-than-a-quadrillion-tokens-a-year/",
+   "publisher": "Menlo Ventures, an OpenRouter investor",
+   "kind": "report",
+   "published": null,
+   "read": "2026-11-24"
+  }
+ ],
+ "to_find": [
+  "Which three providers the report means; it names none",
+  "Independent repetition of the test by another researcher",
+  "Whether any ordinary customer’s secret, beyond the bait, was used"
+ ],
+ "would_change": "A provider showing that the bait was exposed another way.",
+ "trend": {
+  "hn": {
+   "points": 532,
+   "comments": 141,
+   "threads": [
+    "50595554",
+    "50596511",
+    "50582794",
+    "50595816",
+    "50582734",
+    "50587516"
+   ],
+   "read": "2026-11-24"
+  },
+  "lobsters": {
+   "points": 145,
+   "comments": 20,
+   "read": "2026-11-24"
+  },
+  "x": [
+   {
+    "id": "2123451306685661416",
+    "handle": "hdmoore",
+    "likes": 2830,
+    "views": 418256,
+    "measured_at": "2026-11-24T07:14:06+00:00",
+    "url": "https://x.com/hdmoore/status/2123451306685661416"
+   },
+   {
+    "id": "2124054476893851731",
+    "handle": "MiaAI_lab",
+    "likes": 993,
+    "views": 70651,
+    "measured_at": "2026-11-24T07:14:07+00:00",
+    "url": "https://x.com/MiaAI_lab/status/2124054476893851731"
+   }
+  ]
+ },
+ "omarchy": [
+  {
+   "story": "local-ai",
+   "why": "Omarchy’s local model panel is the same answer, on the desktop."
+  }
+ ]
+}

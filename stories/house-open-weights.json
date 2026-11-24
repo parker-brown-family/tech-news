@@ -1,0 +1,138 @@
+{
+ "id": "house-open-weights",
+ "title": "A House report wants Chinese open models out of federal systems",
+ "date": "2026-11-20",
+ "summary": "Two committees published 12 recommendations. They cover federal systems, federal contracts and high-risk infrastructure, and ask for an American open-weight program.",
+ "topics": [
+  {
+   "id": "open",
+   "angle": "What Washington is actually proposing."
+  }
+ ],
+ "claims": [
+  {
+   "text": "The chairmen call for prohibiting PRC-developed models in federal systems and federal contract work, and removing them from high-risk functions of critical infrastructure.",
+   "who": "the House committees",
+   "status": "read",
+   "sources": [
+    "house"
+   ]
+  },
+  {
+   "text": "The first recommendation is a national American open-weight AI initiative, and another says to avoid overregulation.",
+   "who": "the House committees",
+   "status": "read",
+   "sources": [
+    "house"
+   ]
+  },
+  {
+   "text": "The release proposes no ban on a person running a model at home.",
+   "who": "our reading",
+   "status": "read",
+   "sources": [
+    "house"
+   ]
+  },
+  {
+   "text": "The report’s findings say the United States lacks a competitive open-weight alternative at the price and performance the market demands.",
+   "who": "the House committees",
+   "status": "read",
+   "sources": [
+    "house"
+   ]
+  },
+  {
+   "text": "Critics say the push would stop companies running open-weight models on their own computers.",
+   "who": "Reason",
+   "status": "said",
+   "sources": [
+    "reason"
+   ]
+  }
+ ],
+ "sources": [
+  {
+   "id": "house",
+   "url": "https://homeland.house.gov/2026/11/20/chairmen-garbarino-moolenaar-release-joint-investigative-report-urging-removal-of-prc-open-weight-models-from-federal-systems-high-risk-critical-infrastructure/",
+   "publisher": "House Homeland Security Committee",
+   "kind": "primary",
+   "published": "2026-11-20",
+   "read": "2026-11-24"
+  },
+  {
+   "id": "record",
+   "url": "https://therecord.media/chinese-open-weight-AI-use-by-US-companies-house-investigation",
+   "publisher": "The Record",
+   "kind": "report",
+   "published": "2026-11-20",
+   "read": "2026-11-24"
+  },
+  {
+   "id": "reason",
+   "url": "https://reason.com/2026/11/19/china-has-become-an-excuse-to-crack-down-on-ai-freedom/",
+   "publisher": "Reason",
+   "kind": "critic",
+   "published": "2026-11-19",
+   "read": "2026-11-24"
+  },
+  {
+   "id": "cursor",
+   "url": "https://x.com/AndrewCurran_/status/2123841504242446572",
+   "publisher": "Andrew Curran on X",
+   "kind": "post",
+   "published": "2026-11-20",
+   "read": "2026-11-24"
+  },
+  {
+   "id": "jensen",
+   "url": "https://x.com/unusual_whales/status/2124958161765380348",
+   "publisher": "unusual_whales on X",
+   "kind": "post",
+   "published": "2026-11-23",
+   "read": "2026-11-24"
+  }
+ ],
+ "to_find": [
+  "The 50-page report itself; we read the release",
+  "What Cursor told the committees, in its own words",
+  "The Reuters report that Huang’s return was tied to open-weight models"
+ ],
+ "would_change": "A bill text, or a rule that reaches private use.",
+ "trend": {
+  "hn": null,
+  "lobsters": null,
+  "x": [
+   {
+    "id": "2123789729606823949",
+    "handle": "zerohedge",
+    "likes": 1259,
+    "views": 151009,
+    "measured_at": "2026-11-24T07:14:08+00:00",
+    "url": "https://x.com/zerohedge/status/2123789729606823949"
+   },
+   {
+    "id": "2123841504242446572",
+    "handle": "AndrewCurran_",
+    "likes": 1120,
+    "views": 163186,
+    "measured_at": "2026-11-24T07:14:08+00:00",
+    "url": "https://x.com/AndrewCurran_/status/2123841504242446572"
+   },
+   {
+    "id": "2124958161765380348",
+    "handle": "unusual_whales",
+    "likes": 10499,
+    "views": 690020,
+    "measured_at": "2026-11-24T07:14:08+00:00",
+    "url": "https://x.com/unusual_whales/status/2124958161765380348"
+   }
+  ]
+ },
+ "omarchy": [
+  {
+   "story": "omarchy-china",
+   "why": "Omarchy China hides the AI tools China cannot use; this is the other direction."
+  }
+ ]
+}

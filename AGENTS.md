@@ -1,0 +1,14 @@
+# Tech News, for agents
+
+Local AI, AI security and other tech news, with sources. **It is not Omarchy News.** Parker, 2026-11-24: *"We want to keep ourselves organized to not get mixed up in Omarchy news. The news research pipeline should still correlate with the Omarchy news pipeline, but any productions that we make are completely separate for local AI security and other tech news. TRENDING is the thing here."*
+
+- **Stories** are `stories/<id>.json`, in omarchy-news's shape plus two fields. The claim marks and checks are imported from `~/Work/omarchy-news/tools/build.py`, so `read`, `counted`, `said` and `open` mean the same in both. Then `python3 tools/build.py`; `--check` must pass.
+- **`trend`** is what was counted, where and when (`hn`, `lobsters`, `x`). `null` means not measured. A story nobody found on a site is `null`, never 0.
+- **`omarchy`** names the Omarchy News stories this one touches. `correlations.json` is built from it. Read the other repo freely, write nothing there. An Omarchy story stays there even when it is about AI, and no story or topic id is shared.
+- **Productions** go under a `tech-news` project in cinema-delight (`campaigns/tech-news/`, `finals/tech-news/`, `reports/tech-news/`), with their own name, opening and close. Never an Omarchy mark, the Omarchy News nameplate or its release tags.
+- The show's name is not decided. `topics.json` films are proposals until Parker picks.
+- **This repository is public.** Paraphrase and link; never copy an article or a post in here. Raw captures go in `research/`, which git ignores. Name a company only for what a source on record says about it, and never join two sources to suggest who did something. No `@name` in an issue, and link GitHub there through `redirect.github.com`.
+
+**A sweep** (kept out of git): `tools/trend.py <from> <to> research/<day>` (Hacker News, Lobsters, GitHub advisories, CISA; a failed feed lands in `errors.json`), X searches for post IDs in Chrome then `tools/x.py`, `tools/page.py` for the primary sources. Reddit refuses the feed and is blocked in the browser, so it is unmeasured: do not work around it. Read the primary before citing; digests were wrong twice on 2026-11-24 (MONAI Label "no fixed release", llama.cpp "zero-day").
+
+**A film tells one story to its end, and its advice belongs to named people who differ**, collected as a story file first. The rule and Parker's words: cinema-delight `skills/cinema-delight/reference/news.md`, "One story, told to the end".

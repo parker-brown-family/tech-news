@@ -1,0 +1,40 @@
+{
+ "apple-computer-use-steps": [
+  {
+   "story": "signal-blocks-agents",
+   "title": "Signal blocks phone AI from reading its screens",
+   "why": "Apple adding steps before someone else’s agent drives a Mac is the same fight from the owner’s side."
+  }
+ ],
+ "gnome-ai-policy": [
+  {
+   "story": "lecun-amodei",
+   "title": "LeCun says Amodei wants open models made illegal",
+   "why": "The same question, asked by a desktop project."
+  }
+ ],
+ "local-ai": [
+  {
+   "story": "inkling-2-mini",
+   "title": "Inkling 2 Mini runs on a laptop",
+   "why": "The panel shows whether the next model fits in memory."
+  },
+  {
+   "story": "prompt-canaries",
+   "title": "Two million baited prompts show where prompts go",
+   "why": "Omarchy’s local model panel is the same answer, on the desktop."
+  },
+  {
+   "story": "model-file-flaws",
+   "title": "Opening a bad model file could run code in llama.cpp",
+   "why": "A panel that starts local models starts whichever build is installed."
+  }
+ ],
+ "omarchy-china": [
+  {
+   "story": "house-open-weights",
+   "title": "A House report wants Chinese open models out of federal systems",
+   "why": "Omarchy China hides the AI tools China cannot use; this is the other direction."
+  }
+ ]
+}

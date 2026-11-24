@@ -1,0 +1,102 @@
+{
+ "id": "signal-blocks-agents",
+ "title": "Signal blocks phone AI from reading its screens",
+ "date": "2026-11-20",
+ "summary": "Signal prevents screenshots on iOS 27 and blocks assistants it can detect on Android. It says it cannot do the same on macOS.",
+ "topics": [
+  {
+   "id": "agent-risk",
+   "angle": "An app closing its window to the operating system’s AI."
+  }
+ ],
+ "claims": [
+  {
+   "text": "Signal is preventing screenshots in its app on iOS 27 and when AI assistants try to capture the screen on Android.",
+   "who": "Signal",
+   "status": "read",
+   "sources": [
+    "signal"
+   ]
+  },
+  {
+   "text": "Signal calls system-level AI agents an existential threat to it.",
+   "who": "Signal",
+   "status": "read",
+   "sources": [
+    "signal"
+   ]
+  },
+  {
+   "text": "Signal says its fix is incomplete, and that it is not blocking Siri AI on macOS.",
+   "who": "Signal",
+   "status": "read",
+   "sources": [
+    "signal"
+   ]
+  },
+  {
+   "text": "Signal says Google and Apple, among others, are engaging with it.",
+   "who": "Signal",
+   "status": "said",
+   "sources": [
+    "signal"
+   ]
+  }
+ ],
+ "sources": [
+  {
+   "id": "signal",
+   "url": "https://signal.org/blog/protecting-your-privacy/",
+   "publisher": "Signal",
+   "kind": "primary",
+   "published": "2026-11-20",
+   "read": "2026-11-24"
+  },
+  {
+   "id": "post",
+   "url": "https://x.com/IntCyberDigest/status/2123785939134910588",
+   "publisher": "International Cyber Digest on X",
+   "kind": "post",
+   "published": "2026-11-20",
+   "read": "2026-11-24"
+  }
+ ],
+ "to_find": [
+  "Apple’s and Google’s answers",
+  "Accessibility users’ view of the block"
+ ],
+ "would_change": "A developer opt-out from Apple or Google.",
+ "trend": {
+  "hn": {
+   "points": 592,
+   "comments": 352,
+   "threads": [
+    "50572348",
+    "50573902",
+    "50576061"
+   ],
+   "read": "2026-11-24"
+  },
+  "lobsters": {
+   "points": 105,
+   "comments": 41,
+   "read": "2026-11-24"
+  },
+  "x": [
+   {
+    "id": "2123785939134910588",
+    "handle": "IntCyberDigest",
+    "likes": 2863,
+    "views": 76477,
+    "measured_at": "2026-11-24T07:14:08+00:00",
+    "url": "https://x.com/IntCyberDigest/status/2123785939134910588"
+   }
+  ]
+ },
+ "omarchy": [
+  {
+   "story": "apple-computer-use-steps",
+   "why": "Apple adding steps before someone else’s agent drives a Mac is the same fight from the owner’s side."
+  }
+ ]
+}

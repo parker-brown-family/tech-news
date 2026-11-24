@@ -1,0 +1,166 @@
+{
+ "id": "providers-answer",
+ "title": "The providers answer, and their accounts differ",
+ "date": "2026-11-24",
+ "summary": "Five providers have published notices. MiniMax said today that its security system opened the links; two resellers tell users to treat secrets as exposed.",
+ "topics": [
+  {
+   "id": "prompts",
+   "angle": "What each company says happened to the prompt."
+  }
+ ],
+ "claims": [
+  {
+   "text": "OpenRouter removed three providers and took 125 endpoints off its zero-data-retention list, and says it was not itself breached.",
+   "who": "OpenRouter",
+   "status": "said",
+   "sources": [
+    "openrouter"
+   ]
+  },
+  {
+   "text": "MiniMax says an internal security system extracted and opened URLs, including from zero-retention requests, and kept no full conversations.",
+   "who": "MiniMax",
+   "status": "said",
+   "sources": [
+    "minimax"
+   ]
+  },
+  {
+   "text": "Novita confirmed that some MiniMax requests were forwarded to MiniMax’s own API instead of running on Novita’s machines.",
+   "who": "Novita",
+   "status": "read",
+   "sources": [
+    "novita"
+   ]
+  },
+  {
+   "text": "Atlas Cloud says access happened after requests reached MiniMax, tells users to treat secrets sent to three models as exposed, and took all its models off OpenRouter while it tests.",
+   "who": "Atlas Cloud",
+   "status": "said",
+   "sources": [
+    "atlas"
+   ]
+  },
+  {
+   "text": "Together says an AI coding agent committed a credential to a public repository, and an unauthorized party used it to download stored prompt samples.",
+   "who": "Together AI",
+   "status": "said",
+   "sources": [
+    "together"
+   ]
+  },
+  {
+   "text": "Phala tells affected users to treat DeepSeek request contents from October 21 to November 8 as exposed.",
+   "who": "Phala",
+   "status": "read",
+   "sources": [
+    "phala"
+   ]
+  },
+  {
+   "text": "OpenRouter’s notice lists announcements from five companies and says not all affected providers have posted.",
+   "who": "our count",
+   "status": "counted",
+   "sources": [
+    "openrouter"
+   ]
+  },
+  {
+   "text": "One user posted a notice saying 579 of their requests may have been read by a third party.",
+   "who": "a user on X",
+   "status": "said",
+   "sources": [
+    "user"
+   ]
+  }
+ ],
+ "sources": [
+  {
+   "id": "openrouter",
+   "url": "https://openrouter.ai/blog/announcements/data-processing-incidents-on-inference-providers/",
+   "publisher": "OpenRouter",
+   "kind": "primary",
+   "published": "2026-11-22",
+   "read": "2026-11-24"
+  },
+  {
+   "id": "minimax",
+   "url": "https://www.minimax.io/blog/update-on-url-access-in-forwarded-api-requests-20261124",
+   "publisher": "MiniMax",
+   "kind": "primary",
+   "published": "2026-11-24",
+   "read": "2026-11-24"
+  },
+  {
+   "id": "novita",
+   "url": "https://novita.ai/blog/minimax-requests-privacy-notice/",
+   "publisher": "Novita AI",
+   "kind": "primary",
+   "published": "2026-11-22",
+   "read": "2026-11-24"
+  },
+  {
+   "id": "atlas",
+   "url": "https://www.atlascloud.ai/blog/ai-updates/security-and-privacy-commitment",
+   "publisher": "Atlas Cloud",
+   "kind": "primary",
+   "published": "2026-11-23",
+   "read": "2026-11-24"
+  },
+  {
+   "id": "together",
+   "url": "https://www.together.ai/blog/security-event-prompt-leakage-for-requests-in-june-and-july-of-2026",
+   "publisher": "Together AI",
+   "kind": "primary",
+   "published": "2026-11-21",
+   "read": "2026-11-24"
+  },
+  {
+   "id": "phala",
+   "url": "https://phala.com/posts/phala-november-preliminary-incident-report",
+   "publisher": "Phala",
+   "kind": "primary",
+   "published": "2026-11-10",
+   "read": "2026-11-24"
+  },
+  {
+   "id": "user",
+   "url": "https://x.com/MiaAI_lab/status/2124054476893851731",
+   "publisher": "Mia on X",
+   "kind": "post",
+   "published": "2026-11-21",
+   "read": "2026-11-24"
+  }
+ ],
+ "to_find": [
+  "Notices from the affected providers that have not posted",
+  "HD Moore’s reply to MiniMax’s account",
+  "StreamLake’s account",
+  "Whether any of these accounts matches one of the report’s findings; we cannot match them"
+ ],
+ "would_change": "A published log or outside audit that settles whether whole prompts were kept.",
+ "trend": {
+  "hn": {
+   "points": 343,
+   "comments": null,
+   "threads": [
+    "50595554",
+    "50595816"
+   ],
+   "read": "2026-11-24"
+  },
+  "lobsters": null,
+  "x": [
+   {
+    "id": "2124315081899200715",
+    "handle": "OpenRouter",
+    "likes": 712,
+    "views": 190074,
+    "measured_at": "2026-11-24T07:14:07+00:00",
+    "url": "https://x.com/OpenRouter/status/2124315081899200715"
+   }
+  ]
+ },
+ "omarchy": []
+}

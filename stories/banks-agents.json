@@ -1,0 +1,78 @@
+{
+ "id": "banks-agents",
+ "title": "Banks say an agent’s mistakes are yours",
+ "date": "2026-11-18",
+ "summary": "Citi, PNC, JPMorgan and Bank of America have changed terms for outside AI agents. A viral post says banks won’t refund you, which is broader than what was reported.",
+ "topics": [
+  {
+   "id": "agent-risk",
+   "angle": "Who pays when the agent is wrong or hacked."
+  }
+ ],
+ "claims": [
+  {
+   "text": "Citi’s updated terms make the customer responsible for what hackers do if an outside AI tool leaks their credentials.",
+   "who": "TechCrunch",
+   "status": "said",
+   "sources": [
+    "tc"
+   ]
+  },
+  {
+   "text": "PNC changed its terms on November 18. JPMorgan and Bank of America announced similar policies in October.",
+   "who": "TechCrunch",
+   "status": "said",
+   "sources": [
+    "tc"
+   ]
+  },
+  {
+   "text": "Citizens emailed its customers a warning; the viral post says it changed its terms.",
+   "who": "TechCrunch and our reading",
+   "status": "read",
+   "sources": [
+    "tc",
+    "post"
+   ]
+  }
+ ],
+ "sources": [
+  {
+   "id": "tc",
+   "url": "https://techcrunch.com/2026/11/18/more-banks-says-customers-using-ai-agents-are-on-their-own-even-if-they-get-hacked/",
+   "publisher": "TechCrunch",
+   "kind": "report",
+   "published": "2026-11-18",
+   "read": "2026-11-24"
+  },
+  {
+   "id": "post",
+   "url": "https://x.com/Megatron_ron/status/2124200531145187691",
+   "publisher": "Megatron on X",
+   "kind": "post",
+   "published": "2026-11-21",
+   "read": "2026-11-24"
+  }
+ ],
+ "to_find": [
+  "Each bank’s own terms, read",
+  "How federal rules on unauthorized transfers apply",
+  "Wells Fargo’s terms, reported elsewhere as taking effect today"
+ ],
+ "would_change": "A regulator’s statement.",
+ "trend": {
+  "hn": null,
+  "lobsters": null,
+  "x": [
+   {
+    "id": "2124200531145187691",
+    "handle": "Megatron_ron",
+    "likes": 4482,
+    "views": 232348,
+    "measured_at": "2026-11-24T07:14:09+00:00",
+    "url": "https://x.com/Megatron_ron/status/2124200531145187691"
+   }
+  ]
+ },
+ "omarchy": []
+}

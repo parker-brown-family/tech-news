@@ -1,0 +1,65 @@
+{
+ "id": "hermes-npm",
+ "title": "An npm package installed an AI agent as the backdoor",
+ "date": "2026-11-19",
+ "summary": "A fake CRM client installed an open-source agent and took orders over Telegram. It was removed after nine versions in one day.",
+ "topics": [
+  {
+   "id": "attackers",
+   "angle": "A real agent, used as the malware."
+  }
+ ],
+ "claims": [
+  {
+   "text": "The package installed Hermes Agent and connected it to the attacker’s Telegram bot; run as root, the agent ran as root.",
+   "who": "SafeDep",
+   "status": "said",
+   "sources": [
+    "safedep"
+   ]
+  },
+  {
+   "text": "Nine versions were published on November 16 in under six hours.",
+   "who": "SafeDep",
+   "status": "said",
+   "sources": [
+    "safedep"
+   ]
+  },
+  {
+   "text": "npm has removed the package.",
+   "who": "SafeDep",
+   "status": "said",
+   "sources": [
+    "safedep"
+   ]
+  }
+ ],
+ "sources": [
+  {
+   "id": "safedep",
+   "url": "https://safedep.io/blog/malicious-npm-leadstack-crm-connect-hermes-agent-backdoor",
+   "publisher": "SafeDep",
+   "kind": "primary",
+   "published": "2026-11-19",
+   "read": "2026-11-24"
+  }
+ ],
+ "to_find": [
+  "Whether anyone outside the researchers installed it"
+ ],
+ "would_change": "A count of installs.",
+ "trend": {
+  "hn": {
+   "points": 7,
+   "comments": 1,
+   "threads": [
+    "50585975"
+   ],
+   "read": "2026-11-24"
+  },
+  "lobsters": null,
+  "x": null
+ },
+ "omarchy": []
+}

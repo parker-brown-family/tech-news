@@ -1,0 +1,167 @@
+{
+ "id": "inkling-2-mini",
+ "title": "Inkling 2 Mini runs on a laptop",
+ "date": "2026-11-20",
+ "summary": "Thinking Machines released a 26.4-billion-parameter open-weight model that it says needs about 20 GB. Others have made much smaller builds.",
+ "topics": [
+  {
+   "id": "prompts",
+   "angle": "The way out: a model nobody else is hosting."
+  },
+  {
+   "id": "open",
+   "angle": "An American open-weight model in the week Washington asked for one."
+  }
+ ],
+ "claims": [
+  {
+   "text": "The total memory footprint is about 20 GB.",
+   "who": "Thinking Machines",
+   "status": "said",
+   "sources": [
+    "tm"
+   ]
+  },
+  {
+   "text": "It leads every open-weight model under 100 billion parameters on DeepSWE v1.1, at 48.2%.",
+   "who": "Thinking Machines",
+   "status": "said",
+   "sources": [
+    "tm"
+   ]
+  },
+  {
+   "text": "It trails Qwen3.8-27B on multi-turn chat and on instructions with many constraints, by the maker’s own numbers.",
+   "who": "Thinking Machines",
+   "status": "read",
+   "sources": [
+    "tm"
+   ]
+  },
+  {
+   "text": "It was first on Hugging Face’s trending list when we read it.",
+   "who": "our reading",
+   "status": "counted",
+   "sources": [
+    "hf"
+   ]
+  },
+  {
+   "text": "One developer publishes builds from 3.9 GB to 12.8 GB, for Apple silicon.",
+   "who": "the project",
+   "status": "read",
+   "sources": [
+    "lamq"
+   ]
+  },
+  {
+   "text": "A 13.6 GB build for ordinary graphics cards is published.",
+   "who": "our reading",
+   "status": "counted",
+   "sources": [
+    "unsloth"
+   ]
+  }
+ ],
+ "sources": [
+  {
+   "id": "tm",
+   "url": "https://thinkingmachines.ai/news/inkling-2-mini/",
+   "publisher": "Thinking Machines",
+   "kind": "primary",
+   "published": "2026-11-20",
+   "read": "2026-11-24"
+  },
+  {
+   "id": "hf",
+   "url": "https://huggingface.co/thinkingmachines/Inkling-2-Mini",
+   "publisher": "Hugging Face",
+   "kind": "primary",
+   "published": "2026-11-17",
+   "read": "2026-11-24"
+  },
+  {
+   "id": "lamq",
+   "url": "https://github.com/ShinMegamiBoson/lookatmyquant",
+   "publisher": "LookAtMyQuant on GitHub",
+   "kind": "code",
+   "published": null,
+   "read": "2026-11-24"
+  },
+  {
+   "id": "unsloth",
+   "url": "https://huggingface.co/unsloth/Inkling-2-Mini-GGUF",
+   "publisher": "Unsloth on Hugging Face",
+   "kind": "code",
+   "published": "2026-11-20",
+   "read": "2026-11-24"
+  },
+  {
+   "id": "post",
+   "url": "https://x.com/thinkymachines/status/2123871643797995872",
+   "publisher": "Thinking Machines on X",
+   "kind": "primary",
+   "published": "2026-11-20",
+   "read": "2026-11-24"
+  },
+  {
+   "id": "hype",
+   "url": "https://x.com/TheAhmadOsman/status/2123936559447920931",
+   "publisher": "Ahmad on X",
+   "kind": "post",
+   "published": "2026-11-21",
+   "read": "2026-11-24"
+  }
+ ],
+ "to_find": [
+  "A run on our own 16 GB card, with the memory and speed measured",
+  "An independent benchmark",
+  "Whether “Opus 4.5 on a 3080”, one fan’s post, survives any test"
+ ],
+ "would_change": "An independent benchmark that disagrees with the maker’s.",
+ "trend": {
+  "hn": {
+   "points": 2826,
+   "comments": null,
+   "threads": [
+    "50581260",
+    "50603845",
+    "50591853"
+   ],
+   "read": "2026-11-24"
+  },
+  "lobsters": null,
+  "x": [
+   {
+    "id": "2123871643797995872",
+    "handle": "thinkymachines",
+    "likes": 19871,
+    "views": 3995373,
+    "measured_at": "2026-11-24T07:14:09+00:00",
+    "url": "https://x.com/thinkymachines/status/2123871643797995872"
+   },
+   {
+    "id": "2123936559447920931",
+    "handle": "TheAhmadOsman",
+    "likes": 2995,
+    "views": 105604,
+    "measured_at": "2026-11-24T07:14:10+00:00",
+    "url": "https://x.com/TheAhmadOsman/status/2123936559447920931"
+   },
+   {
+    "id": "2124319174222807129",
+    "handle": "notnullptr",
+    "likes": 2512,
+    "views": 49044,
+    "measured_at": "2026-11-24T07:14:10+00:00",
+    "url": "https://x.com/notnullptr/status/2124319174222807129"
+   }
+  ]
+ },
+ "omarchy": [
+  {
+   "story": "local-ai",
+   "why": "The panel shows whether the next model fits in memory."
+  }
+ ]
+}
