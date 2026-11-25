@@ -33,11 +33,584 @@
     "title": "Fork It",
     "question": "How did a two-word joke put a coding app on trial?",
     "film": "Fork It, finished 2026-11-24"
+   },
+   {
+    "id": "daily",
+    "title": "The AI News",
+    "question": "What happened since the last edition that could change the industry?",
+    "film": "twice a day, from 2026-11-25"
    }
   ],
   "videos": []
  },
  "items": [
+  {
+   "id": "nvidia-huang-return",
+   "title": "Jensen Huang is back at Nvidia, and the chip questions stay open",
+   "content_text": "Nvidia’s board reinstated Jensen Huang on November 23. On November 24 the attorney general would not say whether Nvidia is under investigation. A customer, Megaspeed, is suspected of sending chips to China and denies wrongdoing.",
+   "date_published": "2026-11-25T00:00:00Z",
+   "tags": [
+    "daily"
+   ],
+   "_tech_news": {
+    "id": "nvidia-huang-return",
+    "title": "Jensen Huang is back at Nvidia, and the chip questions stay open",
+    "date": "2026-11-25",
+    "summary": "Nvidia’s board reinstated Jensen Huang on November 23. On November 24 the attorney general would not say whether Nvidia is under investigation. A customer, Megaspeed, is suspected of sending chips to China and denies wrongdoing.",
+    "topics": [
+     {
+      "id": "daily",
+      "angle": "Who answers for where the chips went."
+     }
+    ],
+    "claims": [
+     {
+      "text": "Nvidia’s board reinstated Jensen Huang as chief executive on November 23. Huang had resigned on November 12.",
+      "who": "Nvidia; CNBC",
+      "status": "read",
+      "sources": [
+       "nvpr",
+       "cnbc"
+      ]
+     },
+     {
+      "text": "The board said it received input from senior levels of the United States government before deciding.",
+      "who": "Nvidia",
+      "status": "read",
+      "sources": [
+       "nvpr"
+      ]
+     },
+     {
+      "text": "On November 24 Attorney General Todd Blanche called Nvidia a good corporate citizen and refused to comment on whether it was under federal investigation.",
+      "who": "BBC",
+      "status": "said",
+      "sources": [
+       "bbc"
+      ]
+     },
+     {
+      "text": "Blanche was asked whether the Justice Department or the FBI had investigated Huang and answered, “I don’t know what you’re talking about.”",
+      "who": "BBC",
+      "status": "said",
+      "sources": [
+       "bbc"
+      ]
+     },
+     {
+      "text": "Nvidia said it would stop selling licensed chips to China, and new United States rules bar large data centers that buy American chips from serving customers there.",
+      "who": "TechCrunch",
+      "status": "said",
+      "sources": [
+       "tc"
+      ]
+     },
+     {
+      "text": "Investigators are looking at whether Megaspeed, a Nvidia customer in Singapore, diverted chips to China. Megaspeed has denied any wrongdoing.",
+      "who": "TechCrunch",
+      "status": "said",
+      "sources": [
+       "tc"
+      ]
+     },
+     {
+      "text": "Three House committees will interview Huang privately next week, and the Senate Banking Committee will hold a public hearing on December 3.",
+      "who": "TechCrunch",
+      "status": "said",
+      "sources": [
+       "tc"
+      ]
+     },
+     {
+      "text": "Whether Megaspeed is already on the Commerce Department’s restricted list: TechCrunch says it was added on Monday, and the BBC says a listing was being prepared.",
+      "who": "our reading",
+      "status": "open",
+      "sources": [
+       "tc",
+       "bbc"
+      ]
+     }
+    ],
+    "sources": [
+     {
+      "id": "nvpr",
+      "url": "https://nvidianews.nvidia.com/news/nvidia-board-reinstates-jensen-huang-as-president-ceo-and-board-director",
+      "publisher": "Nvidia",
+      "kind": "primary",
+      "published": "2026-11-23",
+      "read": "2026-11-25"
+     },
+     {
+      "id": "cnbc",
+      "url": "https://www.cnbc.com/2026/11/24/jensen-huang-nvidia-employee-meeting.html",
+      "publisher": "CNBC",
+      "kind": "report",
+      "published": "2026-11-24",
+      "read": "2026-11-25"
+     },
+     {
+      "id": "bbc",
+      "url": "https://www.bbc.co.uk/news/articles/crpdw1qx7jgxo",
+      "publisher": "BBC",
+      "kind": "report",
+      "published": "2026-11-25",
+      "read": "2026-11-25"
+     },
+     {
+      "id": "tc",
+      "url": "https://techcrunch.com/2026/11/25/the-questions-jensen-huang-and-nvidia-will-still-have-to-answer-about-megaspeed/",
+      "publisher": "TechCrunch",
+      "kind": "report",
+      "published": "2026-11-25",
+      "read": "2026-11-25"
+     }
+    ],
+    "to_find": [
+     "The Commerce Department’s own list."
+    ],
+    "would_change": [
+     "A listing, a charge, or the board committee’s findings."
+    ],
+    "trend": {
+     "hn": null,
+     "lobsters": null,
+     "x": null
+    },
+    "omarchy": []
+   }
+  },
+  {
+   "id": "matmul-nine-fourths",
+   "title": "OpenAI posts a proof that matrix multiplication has a floor: nine fourths",
+   "content_text": "Nine papers from an unnamed OpenAI model were added on November 24. One says the exponent of matrix multiplication is exactly 9/4. Google posted six Cogentic papers on November 25.",
+   "date_published": "2026-11-25T00:00:00Z",
+   "tags": [
+    "daily"
+   ],
+   "_tech_news": {
+    "id": "matmul-nine-fourths",
+    "title": "OpenAI posts a proof that matrix multiplication has a floor: nine fourths",
+    "date": "2026-11-25",
+    "summary": "Nine papers from an unnamed OpenAI model were added on November 24. One says the exponent of matrix multiplication is exactly 9/4. Google posted six Cogentic papers on November 25.",
+    "topics": [
+     {
+      "id": "daily",
+      "angle": "What is proved, what is machine checked, and what it does not do."
+     }
+    ],
+    "claims": [
+     {
+      "text": "The paper states that the exponent of square matrix multiplication is 9/4 over every field, and that the upper bound was already known.",
+      "who": "OpenAI",
+      "status": "read",
+      "sources": [
+       "paper"
+      ]
+     },
+     {
+      "text": "The conjecture it answers asks whether the exponent is two.",
+      "who": "OpenAI",
+      "status": "read",
+      "sources": [
+       "paper"
+      ]
+     },
+     {
+      "text": "The new part is the matching lower bound: a smaller exponent would break another limit.",
+      "who": "OpenAI",
+      "status": "read",
+      "sources": [
+       "paper"
+      ]
+     },
+     {
+      "text": "OpenAI’s notes say Lean proves the exponent is 9/4, and that the paper’s gate count for each matrix size remains unformalized.",
+      "who": "OpenAI",
+      "status": "read",
+      "sources": [
+       "lean"
+      ]
+     },
+     {
+      "text": "The repository says its papers come from an unnamed internal model and that some unformalized results could have issues.",
+      "who": "OpenAI",
+      "status": "read",
+      "sources": [
+       "readme"
+      ]
+     },
+     {
+      "text": "The request that added the papers says the Lean builds were not run for it.",
+      "who": "OpenAI",
+      "status": "read",
+      "sources": [
+       "pr"
+      ]
+     },
+     {
+      "text": "The paper credits the bound over every field to Alimzhan Amanov, Maxim van den Berg and Jeroen Zuiddam, following Lü.",
+      "who": "OpenAI",
+      "status": "read",
+      "sources": [
+       "paper"
+      ]
+     },
+     {
+      "text": "Google Research added six Cogentic papers on November 25, including two on factoring whole numbers, and says the Lean proofs will follow separately.",
+      "who": "Google Research",
+      "status": "read",
+      "sources": [
+       "cog",
+       "cogcommit"
+      ]
+     },
+     {
+      "text": "Google’s factoring paper proves a running time that matches the exponent already expected of the method in use. It does not claim a faster attack.",
+      "who": "our reading",
+      "status": "read",
+      "sources": [
+       "fac"
+      ]
+     },
+     {
+      "text": "The paper is one of nine manuscripts added on November 24.",
+      "who": "OpenAI",
+      "status": "read",
+      "sources": [
+       "pr"
+      ]
+     },
+     {
+      "text": "AI models run on matrix multiplication. A lower bound shows a method cannot be beaten and speeds nothing up.",
+      "who": "our reading",
+      "status": "read",
+      "sources": [
+       "paper"
+      ]
+     },
+     {
+      "text": "We found no independent mathematician’s review of the 9/4 paper.",
+      "who": "our search",
+      "status": "open",
+      "sources": []
+     }
+    ],
+    "sources": [
+     {
+      "id": "paper",
+      "url": "https://github.com/openai/math/blob/main/preprints/The-matrix-multiplication-exponent-is-nine-fourths-November-24-2026/paper.pdf",
+      "publisher": "OpenAI",
+      "kind": "primary",
+      "published": "2026-11-24",
+      "read": "2026-11-25"
+     },
+     {
+      "id": "lean",
+      "url": "https://github.com/openai/math/blob/main/lean/docs/379.md",
+      "publisher": "OpenAI",
+      "kind": "primary",
+      "published": "2026-11-24",
+      "read": "2026-11-25"
+     },
+     {
+      "id": "readme",
+      "url": "https://github.com/openai/math",
+      "publisher": "OpenAI",
+      "kind": "primary",
+      "published": "2026-11-24",
+      "read": "2026-11-25"
+     },
+     {
+      "id": "pr",
+      "url": "https://github.com/openai/math/pull/6",
+      "publisher": "OpenAI",
+      "kind": "primary",
+      "published": "2026-11-25",
+      "read": "2026-11-25"
+     },
+     {
+      "id": "cog",
+      "url": "https://github.com/google-research/google-research/tree/master/cogentic_research_papers",
+      "publisher": "Google Research",
+      "kind": "primary",
+      "published": "2026-11-25",
+      "read": "2026-11-25"
+     },
+     {
+      "id": "cogcommit",
+      "url": "https://github.com/google-research/google-research/commits/master/cogentic_research_papers",
+      "publisher": "Google Research",
+      "kind": "primary",
+      "published": "2026-11-25",
+      "read": "2026-11-25"
+     },
+     {
+      "id": "fac",
+      "url": "https://github.com/google-research/google-research/blob/master/cogentic_research_papers/integer_factorization/paper.pdf",
+      "publisher": "Google Research",
+      "kind": "primary",
+      "published": "2026-11-25",
+      "read": "2026-11-25"
+     }
+    ],
+    "to_find": [
+     "A mathematician’s reading of either lower bound.",
+     "The Lean build, run by someone else."
+    ],
+    "would_change": [
+     "A gap found in the proof, or a build that fails."
+    ],
+    "trend": {
+     "hn": {
+      "points": 1109,
+      "comments": 684,
+      "threads": [
+       "50637220",
+       "50642086"
+      ],
+      "read": "2026-11-25"
+     },
+     "lobsters": null,
+     "x": null
+    },
+    "omarchy": []
+   }
+  },
+  {
+   "id": "bonsai-2-5",
+   "title": "PrismML’s coding model fits in about six gigabytes",
+   "content_text": "Ternary Bonsai 2.5 27B stores each weight as minus one, zero or one. PrismML reports 75.6 on SWE-bench Verified against 80.6 for the full model.",
+   "date_published": "2026-11-25T00:00:00Z",
+   "tags": [
+    "daily"
+   ],
+   "_tech_news": {
+    "id": "bonsai-2-5",
+    "title": "PrismML’s coding model fits in about six gigabytes",
+    "date": "2026-11-25",
+    "summary": "Ternary Bonsai 2.5 27B stores each weight as minus one, zero or one. PrismML reports 75.6 on SWE-bench Verified against 80.6 for the full model.",
+    "topics": [
+     {
+      "id": "daily",
+      "angle": "A coding agent on one graphics card, and how much the scores prove."
+     }
+    ],
+    "claims": [
+     {
+      "text": "Every weight is minus one, zero or one, and the model takes 5.93 GB against 53.8 GB at full precision.",
+      "who": "PrismML",
+      "status": "read",
+      "sources": [
+       "card"
+      ]
+     },
+     {
+      "text": "PrismML reports 75.6 on SWE-bench Verified, against 80.6 for the full model and 60.8 for its previous release.",
+      "who": "PrismML",
+      "status": "said",
+      "sources": [
+       "post",
+       "card"
+      ]
+     },
+     {
+      "text": "PrismML reports 204 tokens a second on an RTX 4090.",
+      "who": "PrismML",
+      "status": "said",
+      "sources": [
+       "post"
+      ]
+     },
+     {
+      "text": "The weights are under the Apache 2.0 license and the model is built from Qwen3.8-27B.",
+      "who": "PrismML",
+      "status": "read",
+      "sources": [
+       "card"
+      ]
+     },
+     {
+      "text": "Older builds of llama.cpp load one of its files without a warning and produce garbage, its page says.",
+      "who": "PrismML",
+      "status": "read",
+      "sources": [
+       "card"
+      ]
+     },
+     {
+      "text": "In JetBrains’ Kotlin test of other models, the top score fell from 86.2 percent on public code to 60 percent on closed code.",
+      "who": "The Register",
+      "status": "said",
+      "sources": [
+       "reg"
+      ]
+     },
+     {
+      "text": "We found no independent test of Bonsai 2.5.",
+      "who": "our search",
+      "status": "open",
+      "sources": []
+     }
+    ],
+    "sources": [
+     {
+      "id": "post",
+      "url": "https://prismml.com/news/bonsai-2-5-27b",
+      "publisher": "PrismML",
+      "kind": "primary",
+      "published": "2026-11-24",
+      "read": "2026-11-25"
+     },
+     {
+      "id": "card",
+      "url": "https://huggingface.co/prism-ml/Ternary-Bonsai-2.5-27B-GGUF",
+      "publisher": "PrismML on Hugging Face",
+      "kind": "primary",
+      "published": "2026-11-24",
+      "read": "2026-11-25"
+     },
+     {
+      "id": "reg",
+      "url": "https://www.theregister.com/devops/2026/11/25/jetbrains-finds-agents-may-cheat-with-open-source/5311999",
+      "publisher": "The Register",
+      "kind": "report",
+      "published": "2026-11-25",
+      "read": "2026-11-25"
+     }
+    ],
+    "to_find": [
+     "A run on our own card, on private code."
+    ],
+    "would_change": [
+     "Independent scores far from PrismML’s."
+    ],
+    "trend": {
+     "hn": null,
+     "lobsters": null,
+     "x": null
+    },
+    "omarchy": []
+   }
+  },
+  {
+   "id": "amazon-meta-muse",
+   "title": "Amazon and Meta are talking about letting Muse shop on Amazon",
+   "content_text": "Fortune reports several meetings about ending the block Amazon put on Meta’s AI agent in September. Ads and search results are the sticking points.",
+   "date_published": "2026-11-25T00:00:00Z",
+   "tags": [
+    "daily"
+   ],
+   "_tech_news": {
+    "id": "amazon-meta-muse",
+    "title": "Amazon and Meta are talking about letting Muse shop on Amazon",
+    "date": "2026-11-25",
+    "summary": "Fortune reports several meetings about ending the block Amazon put on Meta’s AI agent in September. Ads and search results are the sticking points.",
+    "topics": [
+     {
+      "id": "daily",
+      "angle": "Who may bring an AI agent into someone else’s store."
+     }
+    ],
+    "claims": [
+     {
+      "text": "Meta and Amazon have met several times about a deal that would let Muse shop on Amazon, according to people familiar with the matter.",
+      "who": "Fortune, through The Next Web",
+      "status": "said",
+      "sources": [
+       "tnw",
+       "tc"
+      ]
+     },
+     {
+      "text": "Amazon blocked Muse from its store in September, saying the agent’s access would break its user agreements.",
+      "who": "The Next Web",
+      "status": "said",
+      "sources": [
+       "tnw"
+      ]
+     },
+     {
+      "text": "Advertising is a $68.6 billion business for Amazon, and Muse could in theory shop there without its users seeing the ads.",
+      "who": "Fortune, through The Next Web",
+      "status": "said",
+      "sources": [
+       "tnw"
+      ]
+     },
+     {
+      "text": "Amazon chief executive Andy Jassy said in October that few customers buy through outside agents.",
+      "who": "The Next Web; TechCrunch",
+      "status": "said",
+      "sources": [
+       "tnw",
+       "tc"
+      ]
+     },
+     {
+      "text": "Muse handled 51% of agent-made orders in the week to November 22, by Forter Intelligence’s count, reported by CNBC.",
+      "who": "CNBC, through The Next Web",
+      "status": "said",
+      "sources": [
+       "tnw"
+      ]
+     },
+     {
+      "text": "Walmart, Shopify and Best Buy have already signed with Meta for Muse.",
+      "who": "Fortune, through The Next Web",
+      "status": "said",
+      "sources": [
+       "tnw"
+      ]
+     },
+     {
+      "text": "Search results and advertising are two of the main sticking points.",
+      "who": "Fortune, through The Next Web",
+      "status": "said",
+      "sources": [
+       "tnw"
+      ]
+     },
+     {
+      "text": "Nobody knows whether or when the two sides will agree, and both companies declined to comment to Fortune.",
+      "who": "Fortune, through The Next Web",
+      "status": "said",
+      "sources": [
+       "tnw"
+      ]
+     }
+    ],
+    "sources": [
+     {
+      "id": "tnw",
+      "url": "https://thenextweb.com/news/amazon-and-meta-talks-muse-blockade-ads-fortune",
+      "publisher": "The Next Web",
+      "kind": "report",
+      "published": "2026-11-25",
+      "read": "2026-11-25"
+     },
+     {
+      "id": "tc",
+      "url": "https://techcrunch.com/2026/11/25/amazon-and-meta-reportedly-in-talks-to-lift-blockade-on-ai-agent-muse/",
+      "publisher": "TechCrunch",
+      "kind": "report",
+      "published": "2026-11-25",
+      "read": "2026-11-25"
+     }
+    ],
+    "to_find": [
+     "Fortune’s own report, which we have not read."
+    ],
+    "would_change": [
+     "A deal, or a refusal on the record."
+    ],
+    "trend": {
+     "hn": null,
+     "lobsters": null,
+     "x": null
+    },
+    "omarchy": []
+   }
+  },
   {
    "id": "t3-fork",
    "title": "A two-word joke about a fork put T3 Code’s telemetry in front of everyone",

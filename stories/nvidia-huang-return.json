@@ -1,0 +1,126 @@
+{
+ "id": "nvidia-huang-return",
+ "title": "Jensen Huang is back at Nvidia, and the chip questions stay open",
+ "date": "2026-11-25",
+ "summary": "Nvidia’s board reinstated Jensen Huang on November 23. On November 24 the attorney general would not say whether Nvidia is under investigation. A customer, Megaspeed, is suspected of sending chips to China and denies wrongdoing.",
+ "topics": [
+  {
+   "id": "daily",
+   "angle": "Who answers for where the chips went."
+  }
+ ],
+ "claims": [
+  {
+   "text": "Nvidia’s board reinstated Jensen Huang as chief executive on November 23. Huang had resigned on November 12.",
+   "who": "Nvidia; CNBC",
+   "status": "read",
+   "sources": [
+    "nvpr",
+    "cnbc"
+   ]
+  },
+  {
+   "text": "The board said it received input from senior levels of the United States government before deciding.",
+   "who": "Nvidia",
+   "status": "read",
+   "sources": [
+    "nvpr"
+   ]
+  },
+  {
+   "text": "On November 24 Attorney General Todd Blanche called Nvidia a good corporate citizen and refused to comment on whether it was under federal investigation.",
+   "who": "BBC",
+   "status": "said",
+   "sources": [
+    "bbc"
+   ]
+  },
+  {
+   "text": "Blanche was asked whether the Justice Department or the FBI had investigated Huang and answered, “I don’t know what you’re talking about.”",
+   "who": "BBC",
+   "status": "said",
+   "sources": [
+    "bbc"
+   ]
+  },
+  {
+   "text": "Nvidia said it would stop selling licensed chips to China, and new United States rules bar large data centers that buy American chips from serving customers there.",
+   "who": "TechCrunch",
+   "status": "said",
+   "sources": [
+    "tc"
+   ]
+  },
+  {
+   "text": "Investigators are looking at whether Megaspeed, a Nvidia customer in Singapore, diverted chips to China. Megaspeed has denied any wrongdoing.",
+   "who": "TechCrunch",
+   "status": "said",
+   "sources": [
+    "tc"
+   ]
+  },
+  {
+   "text": "Three House committees will interview Huang privately next week, and the Senate Banking Committee will hold a public hearing on December 3.",
+   "who": "TechCrunch",
+   "status": "said",
+   "sources": [
+    "tc"
+   ]
+  },
+  {
+   "text": "Whether Megaspeed is already on the Commerce Department’s restricted list: TechCrunch says it was added on Monday, and the BBC says a listing was being prepared.",
+   "who": "our reading",
+   "status": "open",
+   "sources": [
+    "tc",
+    "bbc"
+   ]
+  }
+ ],
+ "sources": [
+  {
+   "id": "nvpr",
+   "url": "https://nvidianews.nvidia.com/news/nvidia-board-reinstates-jensen-huang-as-president-ceo-and-board-director",
+   "publisher": "Nvidia",
+   "kind": "primary",
+   "published": "2026-11-23",
+   "read": "2026-11-25"
+  },
+  {
+   "id": "cnbc",
+   "url": "https://www.cnbc.com/2026/11/24/jensen-huang-nvidia-employee-meeting.html",
+   "publisher": "CNBC",
+   "kind": "report",
+   "published": "2026-11-24",
+   "read": "2026-11-25"
+  },
+  {
+   "id": "bbc",
+   "url": "https://www.bbc.co.uk/news/articles/crpdw1qx7jgxo",
+   "publisher": "BBC",
+   "kind": "report",
+   "published": "2026-11-25",
+   "read": "2026-11-25"
+  },
+  {
+   "id": "tc",
+   "url": "https://techcrunch.com/2026/11/25/the-questions-jensen-huang-and-nvidia-will-still-have-to-answer-about-megaspeed/",
+   "publisher": "TechCrunch",
+   "kind": "report",
+   "published": "2026-11-25",
+   "read": "2026-11-25"
+  }
+ ],
+ "to_find": [
+  "The Commerce Department’s own list."
+ ],
+ "would_change": [
+  "A listing, a charge, or the board committee’s findings."
+ ],
+ "trend": {
+  "hn": null,
+  "lobsters": null,
+  "x": null
+ },
+ "omarchy": []
+}

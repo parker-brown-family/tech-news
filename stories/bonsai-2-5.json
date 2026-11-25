@@ -1,0 +1,107 @@
+{
+ "id": "bonsai-2-5",
+ "title": "PrismML’s coding model fits in about six gigabytes",
+ "date": "2026-11-25",
+ "summary": "Ternary Bonsai 2.5 27B stores each weight as minus one, zero or one. PrismML reports 75.6 on SWE-bench Verified against 80.6 for the full model.",
+ "topics": [
+  {
+   "id": "daily",
+   "angle": "A coding agent on one graphics card, and how much the scores prove."
+  }
+ ],
+ "claims": [
+  {
+   "text": "Every weight is minus one, zero or one, and the model takes 5.93 GB against 53.8 GB at full precision.",
+   "who": "PrismML",
+   "status": "read",
+   "sources": [
+    "card"
+   ]
+  },
+  {
+   "text": "PrismML reports 75.6 on SWE-bench Verified, against 80.6 for the full model and 60.8 for its previous release.",
+   "who": "PrismML",
+   "status": "said",
+   "sources": [
+    "post",
+    "card"
+   ]
+  },
+  {
+   "text": "PrismML reports 204 tokens a second on an RTX 4090.",
+   "who": "PrismML",
+   "status": "said",
+   "sources": [
+    "post"
+   ]
+  },
+  {
+   "text": "The weights are under the Apache 2.0 license and the model is built from Qwen3.8-27B.",
+   "who": "PrismML",
+   "status": "read",
+   "sources": [
+    "card"
+   ]
+  },
+  {
+   "text": "Older builds of llama.cpp load one of its files without a warning and produce garbage, its page says.",
+   "who": "PrismML",
+   "status": "read",
+   "sources": [
+    "card"
+   ]
+  },
+  {
+   "text": "In JetBrains’ Kotlin test of other models, the top score fell from 86.2 percent on public code to 60 percent on closed code.",
+   "who": "The Register",
+   "status": "said",
+   "sources": [
+    "reg"
+   ]
+  },
+  {
+   "text": "We found no independent test of Bonsai 2.5.",
+   "who": "our search",
+   "status": "open",
+   "sources": []
+  }
+ ],
+ "sources": [
+  {
+   "id": "post",
+   "url": "https://prismml.com/news/bonsai-2-5-27b",
+   "publisher": "PrismML",
+   "kind": "primary",
+   "published": "2026-11-24",
+   "read": "2026-11-25"
+  },
+  {
+   "id": "card",
+   "url": "https://huggingface.co/prism-ml/Ternary-Bonsai-2.5-27B-GGUF",
+   "publisher": "PrismML on Hugging Face",
+   "kind": "primary",
+   "published": "2026-11-24",
+   "read": "2026-11-25"
+  },
+  {
+   "id": "reg",
+   "url": "https://www.theregister.com/devops/2026/11/25/jetbrains-finds-agents-may-cheat-with-open-source/5311999",
+   "publisher": "The Register",
+   "kind": "report",
+   "published": "2026-11-25",
+   "read": "2026-11-25"
+  }
+ ],
+ "to_find": [
+  "A run on our own card, on private code."
+ ],
+ "would_change": [
+  "Independent scores far from PrismML’s."
+ ],
+ "trend": {
+  "hn": null,
+  "lobsters": null,
+  "x": null
+ },
+ "omarchy": []
+}

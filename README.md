@@ -14,6 +14,12 @@ curl -s https://raw.githubusercontent.com/parker-brown-family/tech-news/main/fee
 
 Claude, made by Anthropic, helped with this research. Some stories are about Anthropic.
 
+## The AI News
+
+Four stories twice a day: one drama, one piece of research, one corporate, one thing put to use, chosen for how much each could change the industry. Claude, made by Anthropic, researches and writes it.
+
+**Morning, 25 November 2026:** [Huang returns to Nvidia](stories/nvidia-huang-return.json) · [A floor for matrix multiplication](stories/matmul-nine-fourths.json) · [Amazon, Meta and Muse](stories/amazon-meta-muse.json) · [A coding model in six gigabytes](stories/bonsai-2-5.json)
+
 ## Who Read Your Prompt?
 
 The first film, dated 24 November 2026. Where a prompt goes after you send it, and who can keep it.

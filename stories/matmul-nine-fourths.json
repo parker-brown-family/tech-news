@@ -1,0 +1,188 @@
+{
+ "id": "matmul-nine-fourths",
+ "title": "OpenAI posts a proof that matrix multiplication has a floor: nine fourths",
+ "date": "2026-11-25",
+ "summary": "Nine papers from an unnamed OpenAI model were added on November 24. One says the exponent of matrix multiplication is exactly 9/4. Google posted six Cogentic papers on November 25.",
+ "topics": [
+  {
+   "id": "daily",
+   "angle": "What is proved, what is machine checked, and what it does not do."
+  }
+ ],
+ "claims": [
+  {
+   "text": "The paper states that the exponent of square matrix multiplication is 9/4 over every field, and that the upper bound was already known.",
+   "who": "OpenAI",
+   "status": "read",
+   "sources": [
+    "paper"
+   ]
+  },
+  {
+   "text": "The conjecture it answers asks whether the exponent is two.",
+   "who": "OpenAI",
+   "status": "read",
+   "sources": [
+    "paper"
+   ]
+  },
+  {
+   "text": "The new part is the matching lower bound: a smaller exponent would break another limit.",
+   "who": "OpenAI",
+   "status": "read",
+   "sources": [
+    "paper"
+   ]
+  },
+  {
+   "text": "OpenAI’s notes say Lean proves the exponent is 9/4, and that the paper’s gate count for each matrix size remains unformalized.",
+   "who": "OpenAI",
+   "status": "read",
+   "sources": [
+    "lean"
+   ]
+  },
+  {
+   "text": "The repository says its papers come from an unnamed internal model and that some unformalized results could have issues.",
+   "who": "OpenAI",
+   "status": "read",
+   "sources": [
+    "readme"
+   ]
+  },
+  {
+   "text": "The request that added the papers says the Lean builds were not run for it.",
+   "who": "OpenAI",
+   "status": "read",
+   "sources": [
+    "pr"
+   ]
+  },
+  {
+   "text": "The paper credits the bound over every field to Alimzhan Amanov, Maxim van den Berg and Jeroen Zuiddam, following Lü.",
+   "who": "OpenAI",
+   "status": "read",
+   "sources": [
+    "paper"
+   ]
+  },
+  {
+   "text": "Google Research added six Cogentic papers on November 25, including two on factoring whole numbers, and says the Lean proofs will follow separately.",
+   "who": "Google Research",
+   "status": "read",
+   "sources": [
+    "cog",
+    "cogcommit"
+   ]
+  },
+  {
+   "text": "Google’s factoring paper proves a running time that matches the exponent already expected of the method in use. It does not claim a faster attack.",
+   "who": "our reading",
+   "status": "read",
+   "sources": [
+    "fac"
+   ]
+  },
+  {
+   "text": "The paper is one of nine manuscripts added on November 24.",
+   "who": "OpenAI",
+   "status": "read",
+   "sources": [
+    "pr"
+   ]
+  },
+  {
+   "text": "AI models run on matrix multiplication. A lower bound shows a method cannot be beaten and speeds nothing up.",
+   "who": "our reading",
+   "status": "read",
+   "sources": [
+    "paper"
+   ]
+  },
+  {
+   "text": "We found no independent mathematician’s review of the 9/4 paper.",
+   "who": "our search",
+   "status": "open",
+   "sources": []
+  }
+ ],
+ "sources": [
+  {
+   "id": "paper",
+   "url": "https://github.com/openai/math/blob/main/preprints/The-matrix-multiplication-exponent-is-nine-fourths-November-24-2026/paper.pdf",
+   "publisher": "OpenAI",
+   "kind": "primary",
+   "published": "2026-11-24",
+   "read": "2026-11-25"
+  },
+  {
+   "id": "lean",
+   "url": "https://github.com/openai/math/blob/main/lean/docs/379.md",
+   "publisher": "OpenAI",
+   "kind": "primary",
+   "published": "2026-11-24",
+   "read": "2026-11-25"
+  },
+  {
+   "id": "readme",
+   "url": "https://github.com/openai/math",
+   "publisher": "OpenAI",
+   "kind": "primary",
+   "published": "2026-11-24",
+   "read": "2026-11-25"
+  },
+  {
+   "id": "pr",
+   "url": "https://github.com/openai/math/pull/6",
+   "publisher": "OpenAI",
+   "kind": "primary",
+   "published": "2026-11-25",
+   "read": "2026-11-25"
+  },
+  {
+   "id": "cog",
+   "url": "https://github.com/google-research/google-research/tree/master/cogentic_research_papers",
+   "publisher": "Google Research",
+   "kind": "primary",
+   "published": "2026-11-25",
+   "read": "2026-11-25"
+  },
+  {
+   "id": "cogcommit",
+   "url": "https://github.com/google-research/google-research/commits/master/cogentic_research_papers",
+   "publisher": "Google Research",
+   "kind": "primary",
+   "published": "2026-11-25",
+   "read": "2026-11-25"
+  },
+  {
+   "id": "fac",
+   "url": "https://github.com/google-research/google-research/blob/master/cogentic_research_papers/integer_factorization/paper.pdf",
+   "publisher": "Google Research",
+   "kind": "primary",
+   "published": "2026-11-25",
+   "read": "2026-11-25"
+  }
+ ],
+ "to_find": [
+  "A mathematician’s reading of either lower bound.",
+  "The Lean build, run by someone else."
+ ],
+ "would_change": [
+  "A gap found in the proof, or a build that fails."
+ ],
+ "trend": {
+  "hn": {
+   "points": 1109,
+   "comments": 684,
+   "threads": [
+    "50637220",
+    "50642086"
+   ],
+   "read": "2026-11-25"
+  },
+  "lobsters": null,
+  "x": null
+ },
+ "omarchy": []
+}

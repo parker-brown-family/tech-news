@@ -1,0 +1,110 @@
+{
+ "id": "amazon-meta-muse",
+ "title": "Amazon and Meta are talking about letting Muse shop on Amazon",
+ "date": "2026-11-25",
+ "summary": "Fortune reports several meetings about ending the block Amazon put on Meta’s AI agent in September. Ads and search results are the sticking points.",
+ "topics": [
+  {
+   "id": "daily",
+   "angle": "Who may bring an AI agent into someone else’s store."
+  }
+ ],
+ "claims": [
+  {
+   "text": "Meta and Amazon have met several times about a deal that would let Muse shop on Amazon, according to people familiar with the matter.",
+   "who": "Fortune, through The Next Web",
+   "status": "said",
+   "sources": [
+    "tnw",
+    "tc"
+   ]
+  },
+  {
+   "text": "Amazon blocked Muse from its store in September, saying the agent’s access would break its user agreements.",
+   "who": "The Next Web",
+   "status": "said",
+   "sources": [
+    "tnw"
+   ]
+  },
+  {
+   "text": "Advertising is a $68.6 billion business for Amazon, and Muse could in theory shop there without its users seeing the ads.",
+   "who": "Fortune, through The Next Web",
+   "status": "said",
+   "sources": [
+    "tnw"
+   ]
+  },
+  {
+   "text": "Amazon chief executive Andy Jassy said in October that few customers buy through outside agents.",
+   "who": "The Next Web; TechCrunch",
+   "status": "said",
+   "sources": [
+    "tnw",
+    "tc"
+   ]
+  },
+  {
+   "text": "Muse handled 51% of agent-made orders in the week to November 22, by Forter Intelligence’s count, reported by CNBC.",
+   "who": "CNBC, through The Next Web",
+   "status": "said",
+   "sources": [
+    "tnw"
+   ]
+  },
+  {
+   "text": "Walmart, Shopify and Best Buy have already signed with Meta for Muse.",
+   "who": "Fortune, through The Next Web",
+   "status": "said",
+   "sources": [
+    "tnw"
+   ]
+  },
+  {
+   "text": "Search results and advertising are two of the main sticking points.",
+   "who": "Fortune, through The Next Web",
+   "status": "said",
+   "sources": [
+    "tnw"
+   ]
+  },
+  {
+   "text": "Nobody knows whether or when the two sides will agree, and both companies declined to comment to Fortune.",
+   "who": "Fortune, through The Next Web",
+   "status": "said",
+   "sources": [
+    "tnw"
+   ]
+  }
+ ],
+ "sources": [
+  {
+   "id": "tnw",
+   "url": "https://thenextweb.com/news/amazon-and-meta-talks-muse-blockade-ads-fortune",
+   "publisher": "The Next Web",
+   "kind": "report",
+   "published": "2026-11-25",
+   "read": "2026-11-25"
+  },
+  {
+   "id": "tc",
+   "url": "https://techcrunch.com/2026/11/25/amazon-and-meta-reportedly-in-talks-to-lift-blockade-on-ai-agent-muse/",
+   "publisher": "TechCrunch",
+   "kind": "report",
+   "published": "2026-11-25",
+   "read": "2026-11-25"
+  }
+ ],
+ "to_find": [
+  "Fortune’s own report, which we have not read."
+ ],
+ "would_change": [
+  "A deal, or a refusal on the record."
+ ],
+ "trend": {
+  "hn": null,
+  "lobsters": null,
+  "x": null
+ },
+ "omarchy": []
+}
