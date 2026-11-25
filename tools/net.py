@@ -26,7 +26,12 @@ FEEDS = {   # name: (url, kind). kind is where it came from, never what it is wo
  "Interconnects": ("https://www.interconnects.ai/feed", "press"), "Zvi": ("https://thezvi.substack.com/feed", "press"), "ChinaTalk": ("https://www.chinatalk.media/feed", "press"), "The Decoder": ("https://the-decoder.com/feed/", "press"),
  "search: AI": (g("artificial intelligence"), "search"), "search: labs": (g("OpenAI OR Anthropic OR DeepMind OR xAI OR Mistral"), "search"), "search: chips": (g("AI chip OR Nvidia OR TSMC OR HBM"), "search"), "search: research": (g("AI breakthrough OR researchers AI model study"), "search"),
  "search: law": (g("AI lawsuit OR AI regulation OR AI executive order"), "search"), "search: China": (g("DeepSeek OR Qwen OR Moonshot OR Zhipu"), "search"), "search: deploy": (g("deploys AI agents OR rolls out AI"), "search"), "search: robots": (g("humanoid robot OR robotaxi AI"), "search"),
- "search: people": (g("AI CEO resigns OR AI researcher leaves OR AI feud"), "search"), "search: money": (g("AI startup raises OR AI acquisition OR AI IPO"), "search"), "search: science": (g("AI drug OR AI mathematics OR AI materials discovery"), "search"), "search: energy": (g("AI data center power OR nuclear AI"), "search"),
+ "search: people": (g("AI CEO resigns OR AI researcher leaves OR AI feud"), "search"), "search: money": (g("AI startup raises OR AI acquisition OR AI IPO"), "search"), "search: science": (g("AI drug OR AI mathematics OR AI materials discovery"), "search"), "search: local": (g("local AI model OR open weights OR llama.cpp OR Ollama OR on-device AI"), "search"),
+ "llama.cpp releases": ("https://github.com/ggml-org/llama.cpp/releases.atom", "lab"),
+ "Ollama releases": ("https://github.com/ollama/ollama/releases.atom", "lab"),
+ "vLLM releases": ("https://github.com/vllm-project/vllm/releases.atom", "lab"),
+ "MLX releases": ("https://github.com/ml-explore/mlx/releases.atom", "lab"),
+ "search: energy": (g("AI data center power OR nuclear AI"), "search"),
 }
 ERR, ROWS = {}, []
 def get(u): return urllib.request.urlopen(urllib.request.Request(u, headers=UA), timeout=30).read()
@@ -77,7 +82,7 @@ def arxiv():   # the announcement feeds carry one day's listing; the listing day
     return out
 def hn():
     seen = {}
-    for q in [""] + "AI,LLM,agent,model,Claude,OpenAI,Gemini,Anthropic,Nvidia,robot,open weights,inference,GPU,security,DeepSeek,Qwen,Mistral".split(","):
+    for q in [""] + "AI,LLM,agent,model,local,llama.cpp,ollama,GGUF,Claude,OpenAI,Gemini,Anthropic,Nvidia,robot,open weights,inference,GPU,security,DeepSeek,Qwen,Mistral".split(","):
         try:
             n = f"numericFilters=created_at_i>{int(A.timestamp())},created_at_i<{int(B.timestamp())},points>4"
             for h in json.loads(get(f"https://hn.algolia.com/api/v1/search?query={urllib.parse.quote(q)}&tags=story&hitsPerPage=200&{n}"))["hits"]:

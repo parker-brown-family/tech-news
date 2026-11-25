@@ -16,7 +16,7 @@ Claude, made by Anthropic, helped with this research. Some stories are about Ant
 
 ## The AI News
 
-Four stories twice a day: one drama, one piece of research, one corporate, one thing put to use, chosen for how much each could change the industry. Claude, made by Anthropic, researches and writes it.
+Twice a day: one drama, one piece of research, one corporate, one thing put to use, and one from local AI (its own category after the first edition), chosen for how much each could change the industry. Claude, made by Anthropic, researches and writes it.
 
 **Morning, 25 November 2026:** [Huang returns to Nvidia](stories/nvidia-huang-return.json) · [A floor for matrix multiplication](stories/matmul-nine-fourths.json) · [Amazon, Meta and Muse](stories/amazon-meta-muse.json) · [A coding model in six gigabytes](stories/bonsai-2-5.json)
 
