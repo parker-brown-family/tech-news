@@ -1,0 +1,85 @@
+{
+ "id": "ai-uk-courts",
+ "title": "At least 25 court cases in England and Wales hit by undisclosed AI this year",
+ "date": "2026-11-26",
+ "summary": "The Bureau of Investigative Journalism and the Guardian found at least 25 cases in 2026 with AI-made witness statements, invented case law or statutes, including a police officer who had Copilot write a victim statement.",
+ "topics": [
+  {
+   "id": "daily",
+   "angle": "What courts are finding when people let a chatbot write for them."
+  }
+ ],
+ "claims": [
+  {
+   "text": "Undisclosed AI use affected at least 25 court cases in England and Wales in 2026, with AI-generated witness statements, fictitious case law and nonexistent statutes, according to a trawl of published judgments by the Bureau of Investigative Journalism shared with the Guardian.",
+   "who": "The Guardian; the Bureau of Investigative Journalism",
+   "status": "read",
+   "sources": [
+    "guardian",
+    "tbij"
+   ]
+  },
+  {
+   "text": "A police officer used Microsoft Copilot to write a victim personal statement, prompting it to make a judge or reader weep. The officer was removed from frontline duty, and the court of appeal warned that no police officer should ever prepare a witness statement in this way.",
+   "who": "The Guardian",
+   "status": "read",
+   "sources": [
+    "guardian"
+   ]
+  },
+  {
+   "text": "Most UK court judgments are never published, so the problem almost certainly goes beyond the cases found, says Matthew Lee, a barrister at Doughty Street Chambers who tracks AI in the legal system.",
+   "who": "the Bureau of Investigative Journalism",
+   "status": "read",
+   "sources": [
+    "tbij"
+   ]
+  },
+  {
+   "text": "The Ministry of Justice says it is taking steps to ensure any use of AI in courts is safe, appropriate and properly controlled.",
+   "who": "Ministry of Justice, to the Guardian",
+   "status": "read",
+   "sources": [
+    "guardian"
+   ]
+  },
+  {
+   "text": "Whether witnesses in civil cases will have to declare their statements were not prepared with AI is not decided; the Civil Justice Council recommended it last month.",
+   "who": "The Guardian",
+   "status": "open",
+   "sources": [
+    "guardian"
+   ]
+  }
+ ],
+ "sources": [
+  {
+   "id": "guardian",
+   "url": "https://www.theguardian.com/technology/2026/nov/26/dozens-of-court-cases-in-england-and-wales-affected-by-undisclosed-ai-use-in-2026",
+   "publisher": "The Guardian (Robert Booth, Mark Wilding)",
+   "kind": "report",
+   "published": "2026-11-26",
+   "read": "2026-11-26"
+  },
+  {
+   "id": "tbij",
+   "url": "https://www.thebureauinvestigates.com/stories/2026-11-26/ai-is-throwing-the-court-system-into-disarray",
+   "publisher": "The Bureau of Investigative Journalism (Mark Wilding)",
+   "kind": "primary",
+   "published": "2026-11-26",
+   "read": "2026-11-26"
+  }
+ ],
+ "to_find": [
+  "The list of judgments behind the count."
+ ],
+ "would_change": [
+  "A count from the unpublished county and magistrates’ court cases."
+ ],
+ "trend": {
+  "hn": null,
+  "lobsters": null,
+  "x": null
+ },
+ "omarchy": []
+}

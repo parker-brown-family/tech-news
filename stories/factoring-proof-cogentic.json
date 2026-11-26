@@ -1,0 +1,118 @@
+{
+ "id": "factoring-proof-cogentic",
+ "title": "Google posts a factoring proof its AI system wrote unaided",
+ "date": "2026-11-26",
+ "summary": "A paper from Google Research’s Cogentic system proves, without unproven assumptions, that whole numbers can be factored in time of the number field sieve’s form. Its authors say the AI wrote it after one prompt; the guaranteed speed carries a very large constant, and the Lean check is not yet released.",
+ "topics": [
+  {
+   "id": "daily",
+   "angle": "What an AI-written proof establishes, and what is still to be checked."
+  }
+ ],
+ "claims": [
+  {
+   "text": "Google researchers posted a paper on factoring, breaking a whole number into the primes that multiply to make it, on November 25, 2026.",
+   "who": "Google Research",
+   "status": "read",
+   "sources": [
+    "readme",
+    "paper"
+   ]
+  },
+  {
+   "text": "The paper and its Lean formalization were obtained by Cogentic, an agentic framework built at Google Research and Google DeepMind on Gemini 4, with no human interaction other than the initial prompt, its authors say.",
+   "who": "Google Research (Cogentic team)",
+   "status": "read",
+   "sources": [
+    "readme",
+    "paper"
+   ]
+  },
+  {
+   "text": "The paper proves, with no unproven assumptions, that every whole number can be factored in time of the same form as the General Number Field Sieve, the fastest method in practical use, whose speed rests on unproven assumptions. The best proven bound before it was Lenstra and Pomerance’s, from 1992.",
+   "who": "the paper",
+   "status": "read",
+   "sources": [
+    "paper"
+   ]
+  },
+  {
+   "text": "The proven bound has the constant 105 where the heuristic General Number Field Sieve has about 1.92, so the guaranteed running time is far longer; a Hacker News reader points to the enormous constant factor.",
+   "who": "the paper; yorwba on Hacker News",
+   "status": "read",
+   "sources": [
+    "paper",
+    "hn"
+   ]
+  },
+  {
+   "text": "A Lean formalization of the whole proof has been completed and will be released in a companion submission, the authors say.",
+   "who": "Google Research (Cogentic team)",
+   "status": "read",
+   "sources": [
+    "readme"
+   ]
+  },
+  {
+   "text": "The Cogentic harness was built by Yang Cai, Vineet Gupta, Yanchen Jiang, Christopher Liaw, Aranyak Mehta, Grigoris Velegkas and Di Wang.",
+   "who": "Google Research",
+   "status": "read",
+   "sources": [
+    "readme"
+   ]
+  },
+  {
+   "text": "Whether the full Lean formalization, not yet released, will check the whole proof is open.",
+   "who": "our reading",
+   "status": "open",
+   "sources": []
+  }
+ ],
+ "sources": [
+  {
+   "id": "readme",
+   "url": "https://github.com/google-research/google-research/tree/4a7bc8ab0bc770e71a259b7966c500496b99010a/cogentic_research_papers/integer_factorization",
+   "publisher": "Google Research",
+   "kind": "primary",
+   "published": "2026-11-25",
+   "read": "2026-11-26"
+  },
+  {
+   "id": "paper",
+   "url": "https://github.com/google-research/google-research/raw/4a7bc8ab0bc770e71a259b7966c500496b99010a/cogentic_research_papers/integer_factorization/paper.pdf",
+   "publisher": "Google Research",
+   "kind": "primary",
+   "published": "2026-11-25",
+   "read": "2026-11-26"
+  },
+  {
+   "id": "hn",
+   "url": "https://news.ycombinator.com/item?id=50641847",
+   "publisher": "Hacker News",
+   "kind": "report",
+   "published": "2026-11-25",
+   "read": "2026-11-26"
+  }
+ ],
+ "to_find": [
+  "A number theorist’s reading.",
+  "The Lean formalization."
+ ],
+ "would_change": [
+  "A gap found in the argument or in the released Lean code."
+ ],
+ "trend": {
+  "hn": {
+   "points": 67,
+   "comments": 7,
+   "threads": [
+    "50651627",
+    "50641847"
+   ],
+   "read": "2026-11-26"
+  },
+  "lobsters": null,
+  "x": null
+ },
+ "omarchy": []
+}

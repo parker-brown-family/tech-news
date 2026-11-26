@@ -22,6 +22,8 @@ Twice a day: one drama, one piece of research, one corporate, one thing put to u
 
 **Evening, 25 November 2026:** [States move to stop Character.ai’s chat auction](stories/character-ai-chat-sale.json) · [The Riemann proof, shorter](stories/riemann-proof-shorter.json) · [A million satellites for computing](stories/spacex-starmind-fcc.json) · [Attacks run by AI agents](stories/ai-agent-attacks-swiss-italy.json). No local AI story: nothing in the window was likely to change the industry.
 
+**Morning, 26 November 2026:** [Meta declined the regulator’s test of Muse](stories/meta-muse-fca.json) · [An AI-written proof about factoring](stories/factoring-proof-cogentic.json) · [Nvidia pauses shipments to four countries](stories/nvidia-southeast-asia-halt.json) · [AI in the courts of England and Wales](stories/ai-uk-courts.json) · [A model that boots without an operating system](stories/llm-asm-bare-metal.json)
+
 ## Who Read Your Prompt?
 
 The first film, dated 24 November 2026. Where a prompt goes after you send it, and who can keep it.

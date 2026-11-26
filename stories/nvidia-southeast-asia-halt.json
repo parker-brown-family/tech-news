@@ -1,0 +1,90 @@
+{
+ "id": "nvidia-southeast-asia-halt",
+ "title": "Nvidia pauses server shipments to four Southeast Asian countries",
+ "date": "2026-11-26",
+ "summary": "The Financial Times reports Nvidia told Dell and Supermicro to halt server shipments to Malaysia, Singapore, Thailand and Indonesia, after a US rule put a licence on advanced chips to those countries and Brazil.",
+ "topics": [
+  {
+   "id": "daily",
+   "angle": "How a licence rule aimed at China reaches data centres in third countries."
+  }
+ ],
+ "claims": [
+  {
+   "text": "Nvidia told partners including Dell and Supermicro to halt server shipments to Malaysia, Singapore, Thailand and Indonesia, the Financial Times reported, citing three people familiar with the matter. The Financial Times is paywalled; The Decoder read it.",
+   "who": "Financial Times, through The Decoder",
+   "status": "read",
+   "sources": [
+    "decoder"
+   ]
+  },
+  {
+   "text": "A US Commerce Department rule in force since November 19, 2026 requires a licence to export advanced AI chips to Indonesia, Malaysia, Singapore, Thailand and Brazil; shipments to US-headquartered companies are excluded, subject to reporting.",
+   "who": "Bureau of Industry and Security, through Pillsbury",
+   "status": "read",
+   "sources": [
+    "pills"
+   ]
+  },
+  {
+   "text": "The rule aims to stop Chinese companies getting around existing sales bans by renting computing power from cloud providers in other countries.",
+   "who": "The Decoder; Pillsbury",
+   "status": "read",
+   "sources": [
+    "decoder",
+    "pills"
+   ]
+  },
+  {
+   "text": "It is not clear whether Nvidia’s pause is temporary, the Financial Times reported. Data centers already serving companies headquartered in China have 90 days to get a licence; one cloud executive told the paper there was no guidance on how to apply and called it chaos.",
+   "who": "Financial Times, through The Decoder; Pillsbury",
+   "status": "read",
+   "sources": [
+    "decoder",
+    "pills"
+   ]
+  },
+  {
+   "text": "Whether Nvidia’s pause on shipments is temporary is not known.",
+   "who": "our reading",
+   "status": "open",
+   "sources": []
+  }
+ ],
+ "sources": [
+  {
+   "id": "decoder",
+   "url": "https://the-decoder.com/nvidia-halts-server-shipments-to-malaysia-singapore-thailand-and-indonesia-after-tighter-us-export-controls/",
+   "publisher": "The Decoder (Maximilian Schreiner)",
+   "kind": "report",
+   "published": "2026-11-26",
+   "read": "2026-11-26"
+  },
+  {
+   "id": "pills",
+   "url": "https://www.pillsburylaw.com/en/news-and-insights/commerce-restricts-remote-access-advanced-chips.html",
+   "publisher": "Pillsbury Winthrop Shaw Pittman",
+   "kind": "report",
+   "published": null,
+   "read": "2026-11-26"
+  }
+ ],
+ "to_find": [
+  "Nvidia’s own statement.",
+  "The rule’s Federal Register text."
+ ],
+ "would_change": [
+  "Nvidia resuming shipments, or BIS issuing licences."
+ ],
+ "trend": {
+  "hn": {
+   "points": 21,
+   "comments": null,
+   "threads": [],
+   "read": "2026-11-26"
+  },
+  "lobsters": null,
+  "x": null
+ },
+ "omarchy": []
+}

@@ -45,6 +45,556 @@
  },
  "items": [
   {
+   "id": "nvidia-southeast-asia-halt",
+   "title": "Nvidia pauses server shipments to four Southeast Asian countries",
+   "content_text": "The Financial Times reports Nvidia told Dell and Supermicro to halt server shipments to Malaysia, Singapore, Thailand and Indonesia, after a US rule put a licence on advanced chips to those countries and Brazil.",
+   "date_published": "2026-11-26T00:00:00Z",
+   "tags": [
+    "daily"
+   ],
+   "_tech_news": {
+    "id": "nvidia-southeast-asia-halt",
+    "title": "Nvidia pauses server shipments to four Southeast Asian countries",
+    "date": "2026-11-26",
+    "summary": "The Financial Times reports Nvidia told Dell and Supermicro to halt server shipments to Malaysia, Singapore, Thailand and Indonesia, after a US rule put a licence on advanced chips to those countries and Brazil.",
+    "topics": [
+     {
+      "id": "daily",
+      "angle": "How a licence rule aimed at China reaches data centres in third countries."
+     }
+    ],
+    "claims": [
+     {
+      "text": "Nvidia told partners including Dell and Supermicro to halt server shipments to Malaysia, Singapore, Thailand and Indonesia, the Financial Times reported, citing three people familiar with the matter. The Financial Times is paywalled; The Decoder read it.",
+      "who": "Financial Times, through The Decoder",
+      "status": "read",
+      "sources": [
+       "decoder"
+      ]
+     },
+     {
+      "text": "A US Commerce Department rule in force since November 19, 2026 requires a licence to export advanced AI chips to Indonesia, Malaysia, Singapore, Thailand and Brazil; shipments to US-headquartered companies are excluded, subject to reporting.",
+      "who": "Bureau of Industry and Security, through Pillsbury",
+      "status": "read",
+      "sources": [
+       "pills"
+      ]
+     },
+     {
+      "text": "The rule aims to stop Chinese companies getting around existing sales bans by renting computing power from cloud providers in other countries.",
+      "who": "The Decoder; Pillsbury",
+      "status": "read",
+      "sources": [
+       "decoder",
+       "pills"
+      ]
+     },
+     {
+      "text": "It is not clear whether Nvidia’s pause is temporary, the Financial Times reported. Data centers already serving companies headquartered in China have 90 days to get a licence; one cloud executive told the paper there was no guidance on how to apply and called it chaos.",
+      "who": "Financial Times, through The Decoder; Pillsbury",
+      "status": "read",
+      "sources": [
+       "decoder",
+       "pills"
+      ]
+     },
+     {
+      "text": "Whether Nvidia’s pause on shipments is temporary is not known.",
+      "who": "our reading",
+      "status": "open",
+      "sources": []
+     }
+    ],
+    "sources": [
+     {
+      "id": "decoder",
+      "url": "https://the-decoder.com/nvidia-halts-server-shipments-to-malaysia-singapore-thailand-and-indonesia-after-tighter-us-export-controls/",
+      "publisher": "The Decoder (Maximilian Schreiner)",
+      "kind": "report",
+      "published": "2026-11-26",
+      "read": "2026-11-26"
+     },
+     {
+      "id": "pills",
+      "url": "https://www.pillsburylaw.com/en/news-and-insights/commerce-restricts-remote-access-advanced-chips.html",
+      "publisher": "Pillsbury Winthrop Shaw Pittman",
+      "kind": "report",
+      "published": null,
+      "read": "2026-11-26"
+     }
+    ],
+    "to_find": [
+     "Nvidia’s own statement.",
+     "The rule’s Federal Register text."
+    ],
+    "would_change": [
+     "Nvidia resuming shipments, or BIS issuing licences."
+    ],
+    "trend": {
+     "hn": {
+      "points": 21,
+      "comments": null,
+      "threads": [],
+      "read": "2026-11-26"
+     },
+     "lobsters": null,
+     "x": null
+    },
+    "omarchy": []
+   }
+  },
+  {
+   "id": "meta-muse-fca",
+   "title": "Meta turned down the UK financial regulator’s offer to test Muse together",
+   "content_text": "The FCA’s head of innovation says Meta declined joint testing of its Muse agent in the regulator’s sandbox before the UK rollout. Meta says it engaged constructively with regulators.",
+   "date_published": "2026-11-26T00:00:00Z",
+   "tags": [
+    "daily"
+   ],
+   "_tech_news": {
+    "id": "meta-muse-fca",
+    "title": "Meta turned down the UK financial regulator’s offer to test Muse together",
+    "date": "2026-11-26",
+    "summary": "The FCA’s head of innovation says Meta declined joint testing of its Muse agent in the regulator’s sandbox before the UK rollout. Meta says it engaged constructively with regulators.",
+    "topics": [
+     {
+      "id": "daily",
+      "angle": "Who gets to test a shopping agent before it reaches customers."
+     }
+    ],
+    "claims": [
+     {
+      "text": "Meta declined a suggestion from the UK’s Financial Conduct Authority to joint-test its Muse agent in the FCA’s sandbox, according to the FCA’s head of innovation, Colin Payne, ahead of Muse rolling out in the UK on Tuesday, November 24.",
+      "who": "Wired, quoting Colin Payne (FCA)",
+      "status": "read",
+      "sources": [
+       "wired"
+      ]
+     },
+     {
+      "text": "Muse is Meta’s personal AI agent, which can carry out tasks such as shopping and booking for its user; it launched in September and more than 10 million users have set it up in North America.",
+      "who": "Meta; Wired",
+      "status": "read",
+      "sources": [
+       "muse",
+       "wired"
+      ]
+     },
+     {
+      "text": "Meta says that when it comes time to pay, Muse can check out with Link, built by Stripe.",
+      "who": "Meta",
+      "status": "read",
+      "sources": [
+       "muse"
+      ]
+     },
+     {
+      "text": "Payne told Wired the FCA wants to understand how agents will make payments for customers. Sainsbury’s, Marks & Spencer, Ocado, Debenhams Group and Currys said they had worked with Meta to smooth Muse’s access to their sites.",
+      "who": "Wired",
+      "status": "read",
+      "sources": [
+       "wired"
+      ]
+     },
+     {
+      "text": "Meta says it has engaged constructively with the appropriate regulatory authorities and will continue to do so.",
+      "who": "Meta spokesperson Matthew Pollard, to Wired",
+      "status": "read",
+      "sources": [
+       "wired"
+      ]
+     },
+     {
+      "text": "Payne said such testing normally takes weeks or months to plan, and Meta made the FCA aware of its plans only last month.",
+      "who": "Wired, quoting Colin Payne (FCA)",
+      "status": "read",
+      "sources": [
+       "wired"
+      ]
+     },
+     {
+      "text": "The Competition and Markets Authority has already made Meta change its UK terms for Muse, and says it will not hesitate to act if it has concerns.",
+      "who": "Wired; CMA statement",
+      "status": "read",
+      "sources": [
+       "wired"
+      ]
+     },
+     {
+      "text": "Whether British regulators will act on Muse is not decided.",
+      "who": "our reading",
+      "status": "open",
+      "sources": []
+     }
+    ],
+    "sources": [
+     {
+      "id": "wired",
+      "url": "https://www.wired.com/story/meta-refused-to-share-muse-for-testing-uk-financial-watchdog-complains/",
+      "publisher": "Wired (Isabella Ward)",
+      "kind": "report",
+      "published": "2026-11-26",
+      "read": "2026-11-26"
+     },
+     {
+      "id": "muse",
+      "url": "https://about.fb.com/news/2026/09/introducing-muse-personal-ai-agent/",
+      "publisher": "Meta",
+      "kind": "primary",
+      "published": "2026-09-08",
+      "read": "2026-11-26"
+     }
+    ],
+    "to_find": [
+     "The FCA’s own statement.",
+     "Whether any UK regulator opens a formal inquiry."
+    ],
+    "would_change": [
+     "Meta agreeing to joint testing after all."
+    ],
+    "trend": {
+     "hn": null,
+     "lobsters": null,
+     "x": null
+    },
+    "omarchy": []
+   }
+  },
+  {
+   "id": "llm-asm-bare-metal",
+   "title": "A 24 KB assembly operating system boots straight into Qwen3",
+   "content_text": "Alexey Fateev’s llm.asm runs Qwen3-0.6B from a 24,252-byte operating system written in x86-64 assembly. On his own tests it decodes 18 to 54 percent faster than llama.cpp on one AMD EPYC.",
+   "date_published": "2026-11-26T00:00:00Z",
+   "tags": [
+    "daily"
+   ],
+   "_tech_news": {
+    "id": "llm-asm-bare-metal",
+    "title": "A 24 KB assembly operating system boots straight into Qwen3",
+    "date": "2026-11-26",
+    "summary": "Alexey Fateev’s llm.asm runs Qwen3-0.6B from a 24,252-byte operating system written in x86-64 assembly. On his own tests it decodes 18 to 54 percent faster than llama.cpp on one AMD EPYC.",
+    "topics": [
+     {
+      "id": "daily",
+      "angle": "What a hand-built engine for one small model shows, and what it does not."
+     }
+    ],
+    "claims": [
+     {
+      "text": "Alexey Fateev published llm.asm, including a bootable operating system of 24,252 bytes written in x86-64 assembly with no Linux, Windows or C, which boots straight into a chat with the Qwen3-0.6B model.",
+      "who": "Alexey Fateev",
+      "status": "read",
+      "sources": [
+       "repo",
+       "x"
+      ]
+     },
+     {
+      "text": "On his own tests on an AMD EPYC 7642, the bare-metal system decoded up to 54 percent faster than llama.cpp, and his Linux version 18 to 36 percent faster; its output matched a PyTorch reference token for token.",
+      "who": "Alexey Fateev",
+      "status": "read",
+      "sources": [
+       "repo",
+       "x"
+      ]
+     },
+     {
+      "text": "Qwen3-0.6B has 0.6 billion parameters. The comparison is for generating tokens, the writing of answers; llama.cpp processes the prompt in batches, while llm.asm reads it token by token.",
+      "who": "Alexey Fateev",
+      "status": "read",
+      "sources": [
+       "repo"
+      ]
+     },
+     {
+      "text": "llama.cpp is a general purpose engine built for acceptable performance on any hardware, which is why engines written for one model often beat it, a Hacker News commenter says.",
+      "who": "Farmadupe on Hacker News",
+      "status": "read",
+      "sources": [
+       "hn"
+      ]
+     },
+     {
+      "text": "Whether the speed gain holds on other processors and larger models has not been tested by anyone else.",
+      "who": "our reading",
+      "status": "open",
+      "sources": []
+     }
+    ],
+    "sources": [
+     {
+      "id": "repo",
+      "url": "https://github.com/alesha-pro/llm.asm",
+      "publisher": "Alexey Fateev",
+      "kind": "code",
+      "published": "2026-11-25",
+      "read": "2026-11-26"
+     },
+     {
+      "id": "x",
+      "url": "https://x.com/superalesha/status/2125682626056839259",
+      "publisher": "Alexey Fateev",
+      "kind": "primary",
+      "published": "2026-11-25",
+      "read": "2026-11-26"
+     },
+     {
+      "id": "hn",
+      "url": "https://news.ycombinator.com/item?id=50648365",
+      "publisher": "Hacker News",
+      "kind": "report",
+      "published": "2026-11-25",
+      "read": "2026-11-26"
+     }
+    ],
+    "to_find": [
+     "A benchmark by someone else, on another machine."
+    ],
+    "would_change": [
+     "An outside run that does not reproduce the speed."
+    ],
+    "trend": {
+     "hn": {
+      "points": 177,
+      "comments": 16,
+      "threads": [
+       "50648365"
+      ],
+      "read": "2026-11-26"
+     },
+     "lobsters": null,
+     "x": {
+      "likes": 10238,
+      "reposts": 1111,
+      "views": 620321,
+      "read": "2026-11-26"
+     }
+    },
+    "omarchy": []
+   }
+  },
+  {
+   "id": "factoring-proof-cogentic",
+   "title": "Google posts a factoring proof its AI system wrote unaided",
+   "content_text": "A paper from Google Research’s Cogentic system proves, without unproven assumptions, that whole numbers can be factored in time of the number field sieve’s form. Its authors say the AI wrote it after one prompt; the guaranteed speed carries a very large constant, and the Lean check is not yet released.",
+   "date_published": "2026-11-26T00:00:00Z",
+   "tags": [
+    "daily"
+   ],
+   "_tech_news": {
+    "id": "factoring-proof-cogentic",
+    "title": "Google posts a factoring proof its AI system wrote unaided",
+    "date": "2026-11-26",
+    "summary": "A paper from Google Research’s Cogentic system proves, without unproven assumptions, that whole numbers can be factored in time of the number field sieve’s form. Its authors say the AI wrote it after one prompt; the guaranteed speed carries a very large constant, and the Lean check is not yet released.",
+    "topics": [
+     {
+      "id": "daily",
+      "angle": "What an AI-written proof establishes, and what is still to be checked."
+     }
+    ],
+    "claims": [
+     {
+      "text": "Google researchers posted a paper on factoring, breaking a whole number into the primes that multiply to make it, on November 25, 2026.",
+      "who": "Google Research",
+      "status": "read",
+      "sources": [
+       "readme",
+       "paper"
+      ]
+     },
+     {
+      "text": "The paper and its Lean formalization were obtained by Cogentic, an agentic framework built at Google Research and Google DeepMind on Gemini 4, with no human interaction other than the initial prompt, its authors say.",
+      "who": "Google Research (Cogentic team)",
+      "status": "read",
+      "sources": [
+       "readme",
+       "paper"
+      ]
+     },
+     {
+      "text": "The paper proves, with no unproven assumptions, that every whole number can be factored in time of the same form as the General Number Field Sieve, the fastest method in practical use, whose speed rests on unproven assumptions. The best proven bound before it was Lenstra and Pomerance’s, from 1992.",
+      "who": "the paper",
+      "status": "read",
+      "sources": [
+       "paper"
+      ]
+     },
+     {
+      "text": "The proven bound has the constant 105 where the heuristic General Number Field Sieve has about 1.92, so the guaranteed running time is far longer; a Hacker News reader points to the enormous constant factor.",
+      "who": "the paper; yorwba on Hacker News",
+      "status": "read",
+      "sources": [
+       "paper",
+       "hn"
+      ]
+     },
+     {
+      "text": "A Lean formalization of the whole proof has been completed and will be released in a companion submission, the authors say.",
+      "who": "Google Research (Cogentic team)",
+      "status": "read",
+      "sources": [
+       "readme"
+      ]
+     },
+     {
+      "text": "The Cogentic harness was built by Yang Cai, Vineet Gupta, Yanchen Jiang, Christopher Liaw, Aranyak Mehta, Grigoris Velegkas and Di Wang.",
+      "who": "Google Research",
+      "status": "read",
+      "sources": [
+       "readme"
+      ]
+     },
+     {
+      "text": "Whether the full Lean formalization, not yet released, will check the whole proof is open.",
+      "who": "our reading",
+      "status": "open",
+      "sources": []
+     }
+    ],
+    "sources": [
+     {
+      "id": "readme",
+      "url": "https://github.com/google-research/google-research/tree/4a7bc8ab0bc770e71a259b7966c500496b99010a/cogentic_research_papers/integer_factorization",
+      "publisher": "Google Research",
+      "kind": "primary",
+      "published": "2026-11-25",
+      "read": "2026-11-26"
+     },
+     {
+      "id": "paper",
+      "url": "https://github.com/google-research/google-research/raw/4a7bc8ab0bc770e71a259b7966c500496b99010a/cogentic_research_papers/integer_factorization/paper.pdf",
+      "publisher": "Google Research",
+      "kind": "primary",
+      "published": "2026-11-25",
+      "read": "2026-11-26"
+     },
+     {
+      "id": "hn",
+      "url": "https://news.ycombinator.com/item?id=50641847",
+      "publisher": "Hacker News",
+      "kind": "report",
+      "published": "2026-11-25",
+      "read": "2026-11-26"
+     }
+    ],
+    "to_find": [
+     "A number theorist’s reading.",
+     "The Lean formalization."
+    ],
+    "would_change": [
+     "A gap found in the argument or in the released Lean code."
+    ],
+    "trend": {
+     "hn": {
+      "points": 67,
+      "comments": 7,
+      "threads": [
+       "50651627",
+       "50641847"
+      ],
+      "read": "2026-11-26"
+     },
+     "lobsters": null,
+     "x": null
+    },
+    "omarchy": []
+   }
+  },
+  {
+   "id": "ai-uk-courts",
+   "title": "At least 25 court cases in England and Wales hit by undisclosed AI this year",
+   "content_text": "The Bureau of Investigative Journalism and the Guardian found at least 25 cases in 2026 with AI-made witness statements, invented case law or statutes, including a police officer who had Copilot write a victim statement.",
+   "date_published": "2026-11-26T00:00:00Z",
+   "tags": [
+    "daily"
+   ],
+   "_tech_news": {
+    "id": "ai-uk-courts",
+    "title": "At least 25 court cases in England and Wales hit by undisclosed AI this year",
+    "date": "2026-11-26",
+    "summary": "The Bureau of Investigative Journalism and the Guardian found at least 25 cases in 2026 with AI-made witness statements, invented case law or statutes, including a police officer who had Copilot write a victim statement.",
+    "topics": [
+     {
+      "id": "daily",
+      "angle": "What courts are finding when people let a chatbot write for them."
+     }
+    ],
+    "claims": [
+     {
+      "text": "Undisclosed AI use affected at least 25 court cases in England and Wales in 2026, with AI-generated witness statements, fictitious case law and nonexistent statutes, according to a trawl of published judgments by the Bureau of Investigative Journalism shared with the Guardian.",
+      "who": "The Guardian; the Bureau of Investigative Journalism",
+      "status": "read",
+      "sources": [
+       "guardian",
+       "tbij"
+      ]
+     },
+     {
+      "text": "A police officer used Microsoft Copilot to write a victim personal statement, prompting it to make a judge or reader weep. The officer was removed from frontline duty, and the court of appeal warned that no police officer should ever prepare a witness statement in this way.",
+      "who": "The Guardian",
+      "status": "read",
+      "sources": [
+       "guardian"
+      ]
+     },
+     {
+      "text": "Most UK court judgments are never published, so the problem almost certainly goes beyond the cases found, says Matthew Lee, a barrister at Doughty Street Chambers who tracks AI in the legal system.",
+      "who": "the Bureau of Investigative Journalism",
+      "status": "read",
+      "sources": [
+       "tbij"
+      ]
+     },
+     {
+      "text": "The Ministry of Justice says it is taking steps to ensure any use of AI in courts is safe, appropriate and properly controlled.",
+      "who": "Ministry of Justice, to the Guardian",
+      "status": "read",
+      "sources": [
+       "guardian"
+      ]
+     },
+     {
+      "text": "Whether witnesses in civil cases will have to declare their statements were not prepared with AI is not decided; the Civil Justice Council recommended it last month.",
+      "who": "The Guardian",
+      "status": "open",
+      "sources": [
+       "guardian"
+      ]
+     }
+    ],
+    "sources": [
+     {
+      "id": "guardian",
+      "url": "https://www.theguardian.com/technology/2026/nov/26/dozens-of-court-cases-in-england-and-wales-affected-by-undisclosed-ai-use-in-2026",
+      "publisher": "The Guardian (Robert Booth, Mark Wilding)",
+      "kind": "report",
+      "published": "2026-11-26",
+      "read": "2026-11-26"
+     },
+     {
+      "id": "tbij",
+      "url": "https://www.thebureauinvestigates.com/stories/2026-11-26/ai-is-throwing-the-court-system-into-disarray",
+      "publisher": "The Bureau of Investigative Journalism (Mark Wilding)",
+      "kind": "primary",
+      "published": "2026-11-26",
+      "read": "2026-11-26"
+     }
+    ],
+    "to_find": [
+     "The list of judgments behind the count."
+    ],
+    "would_change": [
+     "A count from the unpublished county and magistrates’ court cases."
+    ],
+    "trend": {
+     "hn": null,
+     "lobsters": null,
+     "x": null
+    },
+    "omarchy": []
+   }
+  },
+  {
    "id": "spacex-starmind-fcc",
    "title": "The FCC approves up to a million SpaceX data center satellites",
    "content_text": "The FCC authorized SpaceX’s Starmind constellation of up to 1,000,000 orbital compute modules, the first approval of its kind. Astronomers had asked for a denial; the FCC called their heat concern outside its review.",

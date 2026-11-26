@@ -1,0 +1,104 @@
+{
+ "id": "llm-asm-bare-metal",
+ "title": "A 24 KB assembly operating system boots straight into Qwen3",
+ "date": "2026-11-26",
+ "summary": "Alexey Fateev’s llm.asm runs Qwen3-0.6B from a 24,252-byte operating system written in x86-64 assembly. On his own tests it decodes 18 to 54 percent faster than llama.cpp on one AMD EPYC.",
+ "topics": [
+  {
+   "id": "daily",
+   "angle": "What a hand-built engine for one small model shows, and what it does not."
+  }
+ ],
+ "claims": [
+  {
+   "text": "Alexey Fateev published llm.asm, including a bootable operating system of 24,252 bytes written in x86-64 assembly with no Linux, Windows or C, which boots straight into a chat with the Qwen3-0.6B model.",
+   "who": "Alexey Fateev",
+   "status": "read",
+   "sources": [
+    "repo",
+    "x"
+   ]
+  },
+  {
+   "text": "On his own tests on an AMD EPYC 7642, the bare-metal system decoded up to 54 percent faster than llama.cpp, and his Linux version 18 to 36 percent faster; its output matched a PyTorch reference token for token.",
+   "who": "Alexey Fateev",
+   "status": "read",
+   "sources": [
+    "repo",
+    "x"
+   ]
+  },
+  {
+   "text": "Qwen3-0.6B has 0.6 billion parameters. The comparison is for generating tokens, the writing of answers; llama.cpp processes the prompt in batches, while llm.asm reads it token by token.",
+   "who": "Alexey Fateev",
+   "status": "read",
+   "sources": [
+    "repo"
+   ]
+  },
+  {
+   "text": "llama.cpp is a general purpose engine built for acceptable performance on any hardware, which is why engines written for one model often beat it, a Hacker News commenter says.",
+   "who": "Farmadupe on Hacker News",
+   "status": "read",
+   "sources": [
+    "hn"
+   ]
+  },
+  {
+   "text": "Whether the speed gain holds on other processors and larger models has not been tested by anyone else.",
+   "who": "our reading",
+   "status": "open",
+   "sources": []
+  }
+ ],
+ "sources": [
+  {
+   "id": "repo",
+   "url": "https://github.com/alesha-pro/llm.asm",
+   "publisher": "Alexey Fateev",
+   "kind": "code",
+   "published": "2026-11-25",
+   "read": "2026-11-26"
+  },
+  {
+   "id": "x",
+   "url": "https://x.com/superalesha/status/2125682626056839259",
+   "publisher": "Alexey Fateev",
+   "kind": "primary",
+   "published": "2026-11-25",
+   "read": "2026-11-26"
+  },
+  {
+   "id": "hn",
+   "url": "https://news.ycombinator.com/item?id=50648365",
+   "publisher": "Hacker News",
+   "kind": "report",
+   "published": "2026-11-25",
+   "read": "2026-11-26"
+  }
+ ],
+ "to_find": [
+  "A benchmark by someone else, on another machine."
+ ],
+ "would_change": [
+  "An outside run that does not reproduce the speed."
+ ],
+ "trend": {
+  "hn": {
+   "points": 177,
+   "comments": 16,
+   "threads": [
+    "50648365"
+   ],
+   "read": "2026-11-26"
+  },
+  "lobsters": null,
+  "x": {
+   "likes": 10238,
+   "reposts": 1111,
+   "views": 620321,
+   "read": "2026-11-26"
+  }
+ },
+ "omarchy": []
+}
