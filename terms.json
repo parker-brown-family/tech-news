@@ -1,0 +1,115 @@
+{
+ "_about": "Terms of the Art: the named ideas our news uses, each defined in plain words with where the name comes from. Every news report and film carries a Terms of the Art section drawn from here, listing the terms its story uses (used_in names story ids). Add a term the first time a story needs it; never define one only inside a single film.",
+ "terms": [
+  {
+   "id": "emergent-coordination",
+   "term": "Emergent coordination",
+   "aka": ["coordination without a coordinator", "confluence"],
+   "says": "Many people acting on their own, reacting to the same events, incentives and to each other, move in the same direction, and the result looks planned although nobody planned it. The more attention and money sit over a subject, the stronger the pull in one direction, and the more it looks like a campaign.",
+   "use_when": "A wave of similar stories, posts or moves is offered as proof that someone organised it.",
+   "not": "It does not say nobody coordinated. It says coordination needs its own evidence, because the pattern alone is expected without it.",
+   "source": {"title": "Spontaneous order (Wikipedia)", "url": "https://en.wikipedia.org/wiki/Spontaneous_order"},
+   "see": ["stigmergy", "pack-journalism", "structural-bias", "agent-detection"],
+   "used_in": ["receipt-trail"]
+  },
+  {
+   "id": "stigmergy",
+   "term": "Stigmergy",
+   "aka": [],
+   "says": "Coordination through traces left in a shared space instead of through messages: each actor responds to what the last one left behind. A published story is such a trace; the next reporter, editor or poster reacts to it, so the stories line up without anyone talking.",
+   "use_when": "Explaining how an attention economy produces coordinated-looking output with no channel between the people involved.",
+   "not": "Not a metaphor for secret contact. The defining feature is that there is no direct contact.",
+   "source": {"title": "Stigmergy (Wikipedia)", "url": "https://en.wikipedia.org/wiki/Stigmergy"},
+   "see": ["emergent-coordination"],
+   "used_in": ["receipt-trail"]
+  },
+  {
+   "id": "pack-journalism",
+   "term": "Pack journalism",
+   "aka": [],
+   "says": "Reporters at different outlets converge on the same story and the same angle, because they watch each other, share sources and fear missing what everyone else has. The name comes from Timothy Crouse's account of the 1972 US campaign press, The Boys on the Bus.",
+   "use_when": "Many outlets run near-identical framing within days of each other.",
+   "not": "Not proof the outlets agreed anything; the convergence is the ordinary behaviour of a press corps.",
+   "source": {"title": "Pack journalism (Wikipedia)", "url": "https://en.wikipedia.org/wiki/Pack_journalism"},
+   "see": ["media-feeding-frenzy", "emergent-coordination"],
+   "used_in": ["receipt-trail"]
+  },
+  {
+   "id": "media-feeding-frenzy",
+   "term": "Media feeding frenzy",
+   "aka": ["pile-on"],
+   "says": "Once a public figure is caught in a scandal, coverage piles up fast and turns harsher, each story feeding the next. Larry Sabato named the pattern in his 1991 book Feeding Frenzy.",
+   "use_when": "Coverage of one person spikes after a single revelation, as the Huang coverage did after his admission on 8 November 2026.",
+   "not": "It describes the dynamics of coverage, not whether the underlying story is true.",
+   "source": {"title": "Media feeding frenzy (Wikipedia)", "url": "https://en.wikipedia.org/wiki/Media_feeding_frenzy"},
+   "see": ["pack-journalism"],
+   "used_in": ["receipt-trail"]
+  },
+  {
+   "id": "structural-bias",
+   "term": "Structural bias",
+   "aka": ["the propaganda model's filters"],
+   "says": "Who pays for coverage, and who gets hired to do it, can tilt what gets covered and how, with no instruction given. Edward Herman and Noam Chomsky's propaganda model makes this argument and says outright that it needs no conspiracy.",
+   "use_when": "Funding ties are real and the question is whether they shape coverage, rather than whether someone directed it.",
+   "not": "Not a finding that any given story was bent. It names a pressure to be measured, for example by comparing the tone of funded and unfunded coverage of the same events.",
+   "source": {"title": "Propaganda model (Wikipedia)", "url": "https://en.wikipedia.org/wiki/Propaganda_model"},
+   "see": ["emergent-coordination"],
+   "used_in": ["receipt-trail"]
+  },
+  {
+   "id": "agent-detection",
+   "term": "Agent detection",
+   "aka": ["hyperactive agency detection"],
+   "says": "People are quick to see a deliberate actor behind a pattern, because missing a real one used to cost more than imagining a false one. A wave of stories feels like someone's plan for the same reason.",
+   "use_when": "Asking why a coordinated reading is so persuasive before any evidence of coordination appears.",
+   "not": "Not an insult to whoever proposed the plot; it is how everyone's perception leans.",
+   "source": {"title": "Agent detection (Wikipedia)", "url": "https://en.wikipedia.org/wiki/Agent_detection"},
+   "see": ["emergent-coordination", "occams-razor"],
+   "used_in": ["receipt-trail"]
+  },
+  {
+   "id": "occams-razor",
+   "term": "Occam's razor",
+   "aka": [],
+   "says": "Among explanations that fit the facts equally well, prefer the one that needs the fewest added assumptions. A campaign needs a coordinator, a channel and a plan that nobody has found; a confluence needs none of them.",
+   "use_when": "Two accounts both fit the record and one of them needs extra hidden parts.",
+   "not": "A tiebreak, not a proof. New evidence of the hidden parts would overturn it.",
+   "source": {"title": "Occam's razor (Wikipedia)", "url": "https://en.wikipedia.org/wiki/Occam%27s_razor"},
+   "see": ["competing-hypotheses"],
+   "used_in": ["receipt-trail"]
+  },
+  {
+   "id": "base-rate",
+   "term": "Base rate",
+   "aka": [],
+   "says": "How often something happens anyway, before any special explanation. A timing only means something if chance would rarely produce it: Tarbell announced something in the four weeks before 79 percent of days from July to late November 2026, so 'weeks before the story' was expected.",
+   "use_when": "A coincidence of timing or membership is offered as evidence.",
+   "not": "A high base rate does not show nothing happened; it shows the coincidence cannot be the proof.",
+   "source": {"title": "Base rate fallacy (Wikipedia)", "url": "https://en.wikipedia.org/wiki/Base_rate_fallacy"},
+   "see": ["competing-hypotheses"],
+   "used_in": ["receipt-trail"]
+  },
+  {
+   "id": "competing-hypotheses",
+   "term": "Competing hypotheses",
+   "aka": ["analysis of competing hypotheses", "ACH"],
+   "says": "Write several rival explanations before weighing anything, then judge evidence only by whether it tells them apart. Evidence that fits every rival equally decides nothing, however striking it looks. The method comes from Richards Heuer's work for intelligence analysts.",
+   "use_when": "Any contested claim, before reaching for the explanation that feels right.",
+   "not": "Not a vote counting rows in favour; the winner is the account that needs the fewest strained assumptions.",
+   "source": {"title": "Analysis of competing hypotheses (Wikipedia)", "url": "https://en.wikipedia.org/wiki/Analysis_of_competing_hypotheses"},
+   "see": ["base-rate", "post-hoc"],
+   "used_in": ["receipt-trail"]
+  },
+  {
+   "id": "post-hoc",
+   "term": "Post hoc",
+   "aka": [],
+   "says": "A test whose pass-or-fail line was written after the data was already in hand. It shows how a claim fares, but not that it survived a test it could have failed fairly, because the line could have been placed to suit the answer.",
+   "use_when": "Reporting a verdict on lines set after counting.",
+   "not": "Not worthless; just weaker than a line agreed in advance, and it should say so.",
+   "source": {"title": "Post hoc analysis (Wikipedia)", "url": "https://en.wikipedia.org/wiki/Post_hoc_analysis"},
+   "see": ["competing-hypotheses"],
+   "used_in": ["receipt-trail"]
+  }
+ ]
+}

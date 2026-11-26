@@ -45,6 +45,352 @@
  },
  "items": [
   {
+   "id": "receipt-trail",
+   "title": "A receipt trail for the Jensen Huang coverage, checked claim by claim",
+   "content_text": "A widely shared post says EA-funded journalism explains the wave of stories against Jensen Huang. The funding ties it names are real and on Tarbell’s own pages. The coordination it alleges is not shown: most fellows’ stories were plain news, the Times broke the story, and the timing fits any account.",
+   "date_published": "2026-11-26T00:00:00Z",
+   "tags": [
+    "daily"
+   ],
+   "_tech_news": {
+    "id": "receipt-trail",
+    "title": "A receipt trail for the Jensen Huang coverage, checked claim by claim",
+    "date": "2026-11-26",
+    "summary": "A widely shared post says EA-funded journalism explains the wave of stories against Jensen Huang. The funding ties it names are real and on Tarbell’s own pages. The coordination it alleges is not shown: most fellows’ stories were plain news, the Times broke the story, and the timing fits any account.",
+    "topics": [
+     {
+      "id": "daily",
+      "angle": "Who pays for AI journalism, and what a funding tie can and cannot show about a news wave."
+     }
+    ],
+    "claims": [
+     {
+      "text": "On 24 November 2026 the account Daebak 앤디 (@MyDaebakCafe), read aloud as Daebak Andy, posted “the full journalism receipt trail”, saying that EA-backed Tarbell funding “explains everything” about a “coordinated wave of anti-Huang pieces”, citing a ChatGPT screenshot, linking journalists who covered Huang to the effective altruism movement, that Trent Kelly posted the day before; by 26 November the post had about 274,000 views.",
+      "who": "Daebak 앤디; Trent Kelly",
+      "status": "read",
+      "sources": [
+       "post",
+       "shot"
+      ]
+     },
+     {
+      "text": "The New York Times reported on 29 October 2026 that US officials saw Jensen Huang as the target of a Chinese spy plot; Huang admitted infidelity on 8 November, resigned on 12 November and was reinstated by Nvidia’s board on 23 November.",
+      "who": "The New York Times; Nvidia",
+      "status": "read",
+      "sources": [
+       "wiki",
+       "nvidia"
+      ]
+     },
+     {
+      "text": "We stated the post’s claims as hypotheses, wrote three rival accounts before weighing anything, and opened each source the screenshot cites.",
+      "who": "The AI News",
+      "status": "counted",
+      "sources": [
+       "work"
+      ]
+     },
+     {
+      "text": "Tarbell lists Coefficient Giving, Longview Philanthropy and the Survival and Flourishing Fund among donors of $1M or more over their lifetime, and the EA Infrastructure Fund at $100k to $1M, in 2023.",
+      "who": "Tarbell",
+      "status": "read",
+      "sources": [
+       "about"
+      ]
+     },
+     {
+      "text": "Tarbell launched a $10 million Institutional Grants program on 5 October 2026, 24 days before the Times’s spy report; its first two grants were $480,000 to Machine Gods, the show of Casey Newton and Kevin Roose, and $250,000 to NPR’s Power and Influence team.",
+      "who": "Tarbell",
+      "status": "read",
+      "sources": [
+       "grants",
+       "semafor",
+       "newsletter"
+      ]
+     },
+     {
+      "text": "Tarbell’s site lists Robert Hart, Greta Reich and Jack Kubinec as current fellows and Aisha Down and Jared Perlo as past fellows; Casey Newton sits on its reporting grants judging panel; Tarbell publishes Transformer, whose editor Shakeel Hashim was head of communications at the Centre for Effective Altruism.",
+      "who": "Tarbell",
+      "status": "read",
+      "sources": [
+       "fellows",
+       "panel",
+       "hashim",
+       "about"
+      ]
+     },
+     {
+      "text": "Tarbell’s portfolio lists 23 stories on the scandal by six of its fellows from 10 to 24 November; by our reading of the headlines, 9 report news, 11 explain, and 3 argue a side; they include “Who is Colette Kress, Nvidia’s interim CEO?” and live updates of the resignation.",
+      "who": "The AI News, from Tarbell’s list",
+      "status": "counted",
+      "sources": [
+       "portfolio",
+       "work"
+      ]
+     },
+     {
+      "text": "Tarbell’s current cohort places 24 fellows at outlets including CNBC, NPR, The Information, the Los Angeles Times, CBS News and Platformer.",
+      "who": "Tarbell",
+      "status": "counted",
+      "sources": [
+       "fellows"
+      ]
+     },
+     {
+      "text": "The Times’s Megaspeed reporting began on a tip in August 2025, Tripp Mickle said on The Daily; the screenshot itself found no EA tie for the Times reporters it listed.",
+      "who": "Tripp Mickle; the screenshot",
+      "status": "said",
+      "sources": [
+       "wiki",
+       "shot"
+      ]
+     },
+     {
+      "text": "One analysis, by Varun Mathur of HyperspaceAI, found about 75 percent of 1,641 stories on Huang negative and named the New York Times, with 88 stories, the tone-setter.",
+      "who": "Varun Mathur",
+      "status": "said",
+      "sources": [
+       "wcc"
+      ]
+     },
+     {
+      "text": "Tarbell’s blog shows seven announcements from 7 July to 29 October 2026; on 79 percent of days from 1 July to 26 November, one had come in the 28 days before, so a random date in that window looks as well timed 79 percent of the time.",
+      "who": "The AI News, from Tarbell’s blog",
+      "status": "counted",
+      "sources": [
+       "newsletter",
+       "work"
+      ]
+     },
+     {
+      "text": "The Wall Street Journal reported that people familiar with US intelligence saw no smoking-gun evidence that Alice Huang was tasked to spy on Jensen Huang; that concerns the spy question, while Huang admitted infidelity himself on 8 November.",
+      "who": "The Wall Street Journal, as reported",
+      "status": "said",
+      "sources": [
+       "factum",
+       "moth"
+      ]
+     },
+     {
+      "text": "The screenshot’s own answer said Tarbell states its donors cannot exercise editorial control, and found no EA affiliation for the Washington Post reporter it named.",
+      "who": "The screenshot",
+      "status": "read",
+      "sources": [
+       "shot"
+      ]
+     },
+     {
+      "text": "We weighed four accounts: news drove it; news drove it and writers from the AI-safety world framed it harder; years of funding tilted who covers AI; or a coordinated campaign. Most fellows’ stories were plain news, the Times broke the story, and no message coordinating the writers has been published. Nothing in the record contradicts any account outright; every strained fit falls on the coordinated campaign, and the timing and the Journal’s report fit all four equally.",
+      "who": "The AI News",
+      "status": "counted",
+      "sources": [
+       "work"
+      ]
+     },
+     {
+      "text": "Whether years of safety-movement funding tilt how the AI beat covers chip exports is open; headlines cannot settle it.",
+      "who": "Nobody has measured it; an open question",
+      "status": "open",
+      "sources": []
+     },
+     {
+      "text": "The Midas Project found at least 400 fake accounts defending Huang, as reported from the Washington Post, and separately more than 80 influencers likely paid to promote Nvidia chip sales to China.",
+      "who": "The Midas Project, as reported",
+      "status": "said",
+      "sources": [
+       "webpro",
+       "cybernews"
+      ]
+     },
+     {
+      "text": "Tarbell says it does not see grant-funded stories before publication; SemiAnalysis wrote that the US intelligence community was a large part of the push to remove Huang; Gizmodo called the theory that AI labs plotted the ouster a conspiracy theory with little evidence.",
+      "who": "Tarbell; SemiAnalysis; Gizmodo",
+      "status": "said",
+      "sources": [
+       "independence",
+       "wiki"
+      ]
+     }
+    ],
+    "sources": [
+     {
+      "id": "post",
+      "url": "https://x.com/MyDaebakCafe/status/2125163565329899645",
+      "publisher": "Daebak 앤디 on X",
+      "kind": "post",
+      "published": "2026-11-24",
+      "read": "2026-11-26"
+     },
+     {
+      "id": "shot",
+      "url": "https://x.com/TrentKelly2472/status/2124943055518101878/photo/1",
+      "publisher": "Trent Kelly on X (the ChatGPT screenshot)",
+      "kind": "post",
+      "published": "2026-11-23",
+      "read": "2026-11-26"
+     },
+     {
+      "id": "wiki",
+      "url": "https://en.wikipedia.org/wiki/Jensen_Huang_scandal",
+      "publisher": "Wikipedia",
+      "kind": "report",
+      "published": null,
+      "read": "2026-11-26"
+     },
+     {
+      "id": "nvidia",
+      "url": "https://nvidianews.nvidia.com/news/nvidia-board-reinstates-jensen-huang-as-president-ceo-and-board-director",
+      "publisher": "Nvidia",
+      "kind": "primary",
+      "published": "2026-11-23",
+      "read": "2026-11-26"
+     },
+     {
+      "id": "about",
+      "url": "https://www.tarbellcenter.org/about",
+      "publisher": "Tarbell Center for AI Journalism",
+      "kind": "primary",
+      "published": null,
+      "read": "2026-11-26"
+     },
+     {
+      "id": "grants",
+      "url": "https://www.tarbellcenter.org/institutional-grants",
+      "publisher": "Tarbell Center for AI Journalism",
+      "kind": "primary",
+      "published": "2026-10-05",
+      "read": "2026-11-26"
+     },
+     {
+      "id": "panel",
+      "url": "https://www.tarbellcenter.org/grants",
+      "publisher": "Tarbell Center for AI Journalism",
+      "kind": "primary",
+      "published": null,
+      "read": "2026-11-26"
+     },
+     {
+      "id": "fellows",
+      "url": "https://www.tarbellcenter.org/fellows",
+      "publisher": "Tarbell Center for AI Journalism",
+      "kind": "primary",
+      "published": null,
+      "read": "2026-11-26"
+     },
+     {
+      "id": "hashim",
+      "url": "https://www.tarbellcenter.org/team/shakeel-hashim",
+      "publisher": "Tarbell Center for AI Journalism",
+      "kind": "primary",
+      "published": null,
+      "read": "2026-11-26"
+     },
+     {
+      "id": "independence",
+      "url": "https://www.tarbellcenter.org/editorial-independence",
+      "publisher": "Tarbell Center for AI Journalism",
+      "kind": "primary",
+      "published": null,
+      "read": "2026-11-26"
+     },
+     {
+      "id": "newsletter",
+      "url": "https://www.tarbellcenter.org/blog/tarbell-newsletter-october-2026",
+      "publisher": "Tarbell Center for AI Journalism",
+      "kind": "primary",
+      "published": "2026-10-29",
+      "read": "2026-11-26"
+     },
+     {
+      "id": "portfolio",
+      "url": "https://www.tarbellcenter.org/stories",
+      "publisher": "Tarbell Center for AI Journalism (the stories page’s data)",
+      "kind": "primary",
+      "published": null,
+      "read": "2026-11-26"
+     },
+     {
+      "id": "semafor",
+      "url": "https://x.com/semafor/status/2107102269762043958",
+      "publisher": "Semafor on X",
+      "kind": "report",
+      "published": "2026-10-05",
+      "read": "2026-11-26"
+     },
+     {
+      "id": "wcc",
+      "url": "https://wccftech.com/jensen-huang-was-absolutely-crucified-by-the-media-with-75-percent-of-the-recent-1641-stories-found-bearing-a-negative-tilt/",
+      "publisher": "Wccftech, reporting Varun Mathur’s analysis",
+      "kind": "report",
+      "published": null,
+      "read": "2026-11-26"
+     },
+     {
+      "id": "factum",
+      "url": "https://thefactum.ai/articles/32114f9e-42f9-402e-8909-15ef82c55248",
+      "publisher": "The Factum, reading the Wall Street Journal",
+      "kind": "report",
+      "published": null,
+      "read": "2026-11-26"
+     },
+     {
+      "id": "moth",
+      "url": "https://mothership.sg/2026/11/no-definite-proof-alice-huang-chinese-spy-us-officials/",
+      "publisher": "Mothership, reading the Wall Street Journal",
+      "kind": "report",
+      "published": "2026-11-24",
+      "read": "2026-11-26"
+     },
+     {
+      "id": "webpro",
+      "url": "https://www.webpronews.com/fake-accounts-rushed-to-jensen-huangs-defense-a-trend-that-should-worry-every-business/",
+      "publisher": "WebProNews, reading the Washington Post",
+      "kind": "report",
+      "published": null,
+      "read": "2026-11-26"
+     },
+     {
+      "id": "cybernews",
+      "url": "https://cybernews.com/news/influencer-campaign-nvidia-chip-sales-china/",
+      "publisher": "Cybernews, reading the Midas Project",
+      "kind": "report",
+      "published": null,
+      "read": "2026-11-26"
+     },
+     {
+      "id": "work",
+      "url": "https://github.com/BROWN-FAMILY-SPORTS-INC/cinema-delight/tree/main/campaigns/tech-news/receipt-trail",
+      "publisher": "This film’s own ledger, hypotheses and counts",
+      "kind": "primary",
+      "published": "2026-11-26",
+      "read": "2026-11-26"
+     }
+    ],
+    "to_find": [
+     "Aisha Down’s two Guardian pieces, Jared Perlo’s NBC News piece and the Washington Post piece were not opened",
+     "The Wall Street Journal article itself; read only through The Factum and Mothership",
+     "Whether the tone of Tarbell-linked coverage differs from the rest of the press; headlines only were read",
+     "The Argument’s disclosure of Coefficient Giving; found only through a grant database"
+    ],
+    "would_change": "A published message or memo coordinating the writers; or a measured difference in tone between Tarbell-linked stories and the rest, on the same events.",
+    "trend": {
+     "hn": null,
+     "lobsters": null,
+     "x": [
+      {
+       "id": "2125163565329899645",
+       "handle": "MyDaebakCafe",
+       "likes": 4487,
+       "views": 274006,
+       "measured_at": "2026-11-26T17:30:00+00:00",
+       "url": "https://x.com/MyDaebakCafe/status/2125163565329899645"
+      }
+     ]
+    },
+    "omarchy": []
+   }
+  },
+  {
    "id": "nvidia-southeast-asia-halt",
    "title": "Nvidia pauses server shipments to four Southeast Asian countries",
    "content_text": "The Financial Times reports Nvidia told Dell and Supermicro to halt server shipments to Malaysia, Singapore, Thailand and Indonesia, after a US rule put a licence on advanced chips to those countries and Brazil.",
