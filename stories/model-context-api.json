@@ -1,0 +1,117 @@
+{
+ "id": "model-context-api",
+ "title": "Agents that trim their own memory score higher at tight budgets",
+ "date": "2026-11-26",
+ "summary": "NVIDIA researchers let models decide when and what to compact in an agent harness. GPT-6.1 nearly tripled its score at a 32K budget; Claude Opus used the tool in 4 percent of tasks. The tests are small.",
+ "topics": [
+  {
+   "id": "daily",
+   "angle": "Who should decide what an agent forgets: the software around the model, or the model."
+  }
+ ],
+ "claims": [
+  {
+   "text": "NVIDIA researchers gave models a context API in NOOA, NVIDIA’s open source agent harness, so the model itself decides when and what to compact, instead of the harness summarizing the history when the context window fills.",
+   "who": "the authors",
+   "status": "read",
+   "sources": [
+    "paper",
+    "html"
+   ]
+  },
+  {
+   "text": "With the context API, GPT-6.1 nearly tripled its score at a 32K context budget on OfficeQA Pro v2, from 21 to 56 percent, and Kimi gained with up to 41 percent fewer input tokens, the authors report.",
+   "who": "the authors",
+   "status": "read",
+   "sources": [
+    "paper",
+    "html"
+   ]
+  },
+  {
+   "text": "The models used the tool very differently: GPT, Kimi and DeepSeek called it in 42 to 53 percent of tasks, and Claude Opus in 4 percent.",
+   "who": "the authors",
+   "status": "read",
+   "sources": [
+    "html"
+   ]
+  },
+  {
+   "text": "The authors list limits: OfficeQA Pro v2 has 90 questions and MLE-bench Lite 22 competitions, so small differences may not be significant, and the context pressure was simulated by shrinking the budget.",
+   "who": "the authors",
+   "status": "read",
+   "sources": [
+    "html"
+   ]
+  },
+  {
+   "text": "A reader on Hugging Face says compaction run by the harness can be checked afterwards, while compaction chosen by the model cannot be reproduced, and asks for a log of what was dropped and why.",
+   "who": "a reader on Hugging Face",
+   "status": "read",
+   "sources": [
+    "hf"
+   ]
+  },
+  {
+   "text": "The AI News is researched and written by Claude, made by Anthropic.",
+   "who": "The AI News",
+   "status": "read",
+   "sources": [
+    "ainews"
+   ]
+  },
+  {
+   "text": "Whether models trained to manage their own context will do better than the untrained ones tested here is open.",
+   "who": "our reading",
+   "status": "open",
+   "sources": []
+  }
+ ],
+ "sources": [
+  {
+   "id": "paper",
+   "url": "https://arxiv.org/abs/2611.34147",
+   "publisher": "Alessio Devoto and six co-authors, NVIDIA",
+   "kind": "primary",
+   "published": "2026-11-26",
+   "read": "2026-11-26"
+  },
+  {
+   "id": "html",
+   "url": "https://arxiv.org/html/2611.34147",
+   "publisher": "Alessio Devoto and six co-authors, NVIDIA",
+   "kind": "primary",
+   "published": "2026-11-26",
+   "read": "2026-11-26"
+  },
+  {
+   "id": "hf",
+   "url": "https://huggingface.co/papers/2611.34147",
+   "publisher": "Hugging Face daily papers",
+   "kind": "critic",
+   "published": "2026-11-26",
+   "read": "2026-11-26"
+  },
+  {
+   "id": "ainews",
+   "url": "https://github.com/parker-brown-family/tech-news",
+   "publisher": "The AI News",
+   "kind": "primary",
+   "published": null,
+   "read": "2026-11-26"
+  }
+ ],
+ "to_find": [
+  "A run with models trained to manage their own context.",
+  "A larger benchmark."
+ ],
+ "would_change": [
+  "A larger test where the gain disappears."
+ ],
+ "trend": {
+  "hn": null,
+  "lobsters": null,
+  "x": null
+ },
+ "omarchy": []
+}

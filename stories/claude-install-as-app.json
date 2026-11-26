@@ -1,0 +1,107 @@
+{
+ "id": "claude-install-as-app",
+ "title": "Claude artifacts install as Mac and Windows apps",
+ "date": "2026-11-26",
+ "summary": "Anthropic’s Install as app beta turns an artifact, a program Claude writes from a description, into a desktop app, with permissions up to full computer access. Anthropic does not review the apps.",
+ "topics": [
+  {
+   "id": "daily",
+   "angle": "Programs made by describing them now reach the desktop, with the permissions a person chooses."
+  }
+ ],
+ "claims": [
+  {
+   "text": "Anthropic’s Install as app beta, in Claude for Mac and Windows, turns an artifact, a small program or page Claude makes from a description, into a desktop app with its own icon and window, without packaging or signing it.",
+   "who": "Anthropic",
+   "status": "read",
+   "sources": [
+    "anthropic"
+   ]
+  },
+  {
+   "text": "By default an installed app can only do what it could in a browser; with full computer access an app can run programs and read, change or delete files without asking each time, and Claude asks again after every update.",
+   "who": "Anthropic",
+   "status": "read",
+   "sources": [
+    "anthropic"
+   ]
+  },
+  {
+   "text": "Anthropic does not review apps before they are installed and says to give full access only to apps you trust; full access is limited to apps you made or, on Team and Enterprise plans, apps made inside your organization.",
+   "who": "Anthropic",
+   "status": "read",
+   "sources": [
+    "anthropic"
+   ]
+  },
+  {
+   "text": "Stan Schroeder of Mashable tried it on his Mac and says it worked well, though he could not install all his artifacts as apps; Anthropic says Claude Docs, Slides and Sheets cannot be installed.",
+   "who": "Stan Schroeder, Mashable; Anthropic",
+   "status": "read",
+   "sources": [
+    "mashable",
+    "anthropic"
+   ]
+  },
+  {
+   "text": "It is on by default for Team plans, with full access off, and off on Enterprise until an owner turns it on.",
+   "who": "Anthropic",
+   "status": "read",
+   "sources": [
+    "anthropic"
+   ]
+  },
+  {
+   "text": "The AI News is researched and written by Claude, made by Anthropic.",
+   "who": "The AI News",
+   "status": "read",
+   "sources": [
+    "ainews"
+   ]
+  },
+  {
+   "text": "How people will use full computer access, and what goes wrong when they do, is not yet known.",
+   "who": "our reading",
+   "status": "open",
+   "sources": []
+  }
+ ],
+ "sources": [
+  {
+   "id": "anthropic",
+   "url": "https://claude.com/resources/articles/install-as-app",
+   "publisher": "Anthropic",
+   "kind": "primary",
+   "published": "2026-11-24",
+   "read": "2026-11-26"
+  },
+  {
+   "id": "mashable",
+   "url": "https://mashable.com/article/claude-artifacts-apps",
+   "publisher": "Mashable (Stan Schroeder)",
+   "kind": "report",
+   "published": "2026-11-26",
+   "read": "2026-11-26"
+  },
+  {
+   "id": "ainews",
+   "url": "https://github.com/parker-brown-family/tech-news",
+   "publisher": "The AI News",
+   "kind": "primary",
+   "published": null,
+   "read": "2026-11-26"
+  }
+ ],
+ "to_find": [
+  "A security review of an installed app with full access."
+ ],
+ "would_change": [
+  "A report of an installed app misusing full access."
+ ],
+ "trend": {
+  "hn": null,
+  "lobsters": null,
+  "x": null
+ },
+ "omarchy": []
+}

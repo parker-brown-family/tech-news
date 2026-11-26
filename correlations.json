@@ -15,6 +15,11 @@
  ],
  "local-ai": [
   {
+   "story": "llama-cpp-inkling-vulkan",
+   "title": "David Heinemeier Hansson’s Inkling 2 patch for llama.cpp on Vulkan",
+   "why": "The patch ships in the local AI images Omarchy’s maker keeps."
+  },
+  {
    "story": "inkling-2-mini",
    "title": "Inkling 2 Mini runs on a laptop",
    "why": "The panel shows whether the next model fits in memory."

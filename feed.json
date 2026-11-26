@@ -144,6 +144,223 @@
    }
   },
   {
+   "id": "neocloud-china-renters",
+   "title": "Chip sellers tell cloud firms no Nvidia chips if any capacity goes to Chinese renters",
+   "content_text": "Two people told CNBC that sellers of Nvidia chips now refuse cloud companies that would rent any computing to Chinese companies, after a US rule took effect on November 19. Nvidia’s earlier line was more than half.",
+   "date_published": "2026-11-26T00:00:00Z",
+   "tags": [
+    "daily"
+   ],
+   "_tech_news": {
+    "id": "neocloud-china-renters",
+    "title": "Chip sellers tell cloud firms no Nvidia chips if any capacity goes to Chinese renters",
+    "date": "2026-11-26",
+    "summary": "Two people told CNBC that sellers of Nvidia chips now refuse cloud companies that would rent any computing to Chinese companies, after a US rule took effect on November 19. Nvidia’s earlier line was more than half.",
+    "topics": [
+     {
+      "id": "daily",
+      "angle": "How the November 19 rule moves down the supply chain, from Nvidia’s sellers to the companies that rent computing."
+     }
+    ],
+    "claims": [
+     {
+      "text": "Chip sellers have told neoclouds, companies that rent out computing power, that they won’t supply Nvidia chips if any of the computing capacity will be rented to Chinese companies, two people familiar with the situation told CNBC.",
+      "who": "CNBC (Kai Nicol-Schwarz)",
+      "status": "read",
+      "sources": [
+       "cnbc"
+      ]
+     },
+     {
+      "text": "Before the new rule was announced, Nvidia had said it would not sell its chips to customers renting more than 50 percent of their graphics processors to Chinese companies, CNBC reported.",
+      "who": "CNBC",
+      "status": "read",
+      "sources": [
+       "cnbc"
+      ]
+     },
+     {
+      "text": "US Trade Representative Jamieson Greer told CNBC the Commerce Department rule, in force since November 19, was meant to close off indirect access, through smuggling via places like Southeast Asia or remote access from data centers in third countries.",
+      "who": "Jamieson Greer, to CNBC",
+      "status": "read",
+      "sources": [
+       "cnbc"
+      ]
+     },
+     {
+      "text": "Chip sellers are looking for new buyers for graphics processors that were meant for data centers renting to Chinese companies, CNBC reported, citing people familiar with the matter.",
+      "who": "CNBC",
+      "status": "read",
+      "sources": [
+       "cnbc"
+      ]
+     },
+     {
+      "text": "CNBC’s sources asked not to be named, and Nvidia and the Commerce Department’s Bureau of Industry and Security did not immediately respond to a request for comment.",
+      "who": "CNBC",
+      "status": "read",
+      "sources": [
+       "cnbc"
+      ]
+     },
+     {
+      "text": "Whether Nvidia itself has set the rule that no capacity at all may go to Chinese renters is not known.",
+      "who": "our reading",
+      "status": "open",
+      "sources": []
+     }
+    ],
+    "sources": [
+     {
+      "id": "cnbc",
+      "url": "https://www.cnbc.com/2026/11/26/neoclouds-nvidia-china-ai.html",
+      "publisher": "CNBC (Kai Nicol-Schwarz)",
+      "kind": "report",
+      "published": "2026-11-26",
+      "read": "2026-11-26"
+     }
+    ],
+    "to_find": [
+     "A statement from Nvidia or a named chip seller."
+    ],
+    "would_change": [
+     "Nvidia or a seller saying the zero-renting condition is not theirs."
+    ],
+    "trend": {
+     "hn": null,
+     "lobsters": null,
+     "x": null
+    },
+    "omarchy": []
+   }
+  },
+  {
+   "id": "model-context-api",
+   "title": "Agents that trim their own memory score higher at tight budgets",
+   "content_text": "NVIDIA researchers let models decide when and what to compact in an agent harness. GPT-6.1 nearly tripled its score at a 32K budget; Claude Opus used the tool in 4 percent of tasks. The tests are small.",
+   "date_published": "2026-11-26T00:00:00Z",
+   "tags": [
+    "daily"
+   ],
+   "_tech_news": {
+    "id": "model-context-api",
+    "title": "Agents that trim their own memory score higher at tight budgets",
+    "date": "2026-11-26",
+    "summary": "NVIDIA researchers let models decide when and what to compact in an agent harness. GPT-6.1 nearly tripled its score at a 32K budget; Claude Opus used the tool in 4 percent of tasks. The tests are small.",
+    "topics": [
+     {
+      "id": "daily",
+      "angle": "Who should decide what an agent forgets: the software around the model, or the model."
+     }
+    ],
+    "claims": [
+     {
+      "text": "NVIDIA researchers gave models a context API in NOOA, NVIDIA’s open source agent harness, so the model itself decides when and what to compact, instead of the harness summarizing the history when the context window fills.",
+      "who": "the authors",
+      "status": "read",
+      "sources": [
+       "paper",
+       "html"
+      ]
+     },
+     {
+      "text": "With the context API, GPT-6.1 nearly tripled its score at a 32K context budget on OfficeQA Pro v2, from 21 to 56 percent, and Kimi gained with up to 41 percent fewer input tokens, the authors report.",
+      "who": "the authors",
+      "status": "read",
+      "sources": [
+       "paper",
+       "html"
+      ]
+     },
+     {
+      "text": "The models used the tool very differently: GPT, Kimi and DeepSeek called it in 42 to 53 percent of tasks, and Claude Opus in 4 percent.",
+      "who": "the authors",
+      "status": "read",
+      "sources": [
+       "html"
+      ]
+     },
+     {
+      "text": "The authors list limits: OfficeQA Pro v2 has 90 questions and MLE-bench Lite 22 competitions, so small differences may not be significant, and the context pressure was simulated by shrinking the budget.",
+      "who": "the authors",
+      "status": "read",
+      "sources": [
+       "html"
+      ]
+     },
+     {
+      "text": "A reader on Hugging Face says compaction run by the harness can be checked afterwards, while compaction chosen by the model cannot be reproduced, and asks for a log of what was dropped and why.",
+      "who": "a reader on Hugging Face",
+      "status": "read",
+      "sources": [
+       "hf"
+      ]
+     },
+     {
+      "text": "The AI News is researched and written by Claude, made by Anthropic.",
+      "who": "The AI News",
+      "status": "read",
+      "sources": [
+       "ainews"
+      ]
+     },
+     {
+      "text": "Whether models trained to manage their own context will do better than the untrained ones tested here is open.",
+      "who": "our reading",
+      "status": "open",
+      "sources": []
+     }
+    ],
+    "sources": [
+     {
+      "id": "paper",
+      "url": "https://arxiv.org/abs/2611.34147",
+      "publisher": "Alessio Devoto and six co-authors, NVIDIA",
+      "kind": "primary",
+      "published": "2026-11-26",
+      "read": "2026-11-26"
+     },
+     {
+      "id": "html",
+      "url": "https://arxiv.org/html/2611.34147",
+      "publisher": "Alessio Devoto and six co-authors, NVIDIA",
+      "kind": "primary",
+      "published": "2026-11-26",
+      "read": "2026-11-26"
+     },
+     {
+      "id": "hf",
+      "url": "https://huggingface.co/papers/2611.34147",
+      "publisher": "Hugging Face daily papers",
+      "kind": "critic",
+      "published": "2026-11-26",
+      "read": "2026-11-26"
+     },
+     {
+      "id": "ainews",
+      "url": "https://github.com/parker-brown-family/tech-news",
+      "publisher": "The AI News",
+      "kind": "primary",
+      "published": null,
+      "read": "2026-11-26"
+     }
+    ],
+    "to_find": [
+     "A run with models trained to manage their own context.",
+     "A larger benchmark."
+    ],
+    "would_change": [
+     "A larger test where the gain disappears."
+    ],
+    "trend": {
+     "hn": null,
+     "lobsters": null,
+     "x": null
+    },
+    "omarchy": []
+   }
+  },
+  {
    "id": "meta-muse-fca",
    "title": "Meta turned down the UK financial regulator’s offer to test Muse together",
    "content_text": "The FCA’s head of innovation says Meta declined joint testing of its Muse agent in the regulator’s sandbox before the UK rollout. Meta says it engaged constructively with regulators.",
@@ -374,6 +591,143 @@
    }
   },
   {
+   "id": "llama-cpp-inkling-vulkan",
+   "title": "David Heinemeier Hansson’s Inkling 2 patch for llama.cpp on Vulkan",
+   "content_text": "David Heinemeier Hansson ported five Inkling 2 Mini fusions from CUDA to llama.cpp’s Vulkan backend. He closed the pull request the same day after a bot flagged its size, and ships the patch in his own local AI images. His Intel Arc numbers are his own.",
+   "date_published": "2026-11-26T00:00:00Z",
+   "tags": [
+    "daily"
+   ],
+   "_tech_news": {
+    "id": "llama-cpp-inkling-vulkan",
+    "title": "David Heinemeier Hansson’s Inkling 2 patch for llama.cpp on Vulkan",
+    "date": "2026-11-26",
+    "summary": "David Heinemeier Hansson ported five Inkling 2 Mini fusions from CUDA to llama.cpp’s Vulkan backend. He closed the pull request the same day after a bot flagged its size, and ships the patch in his own local AI images. His Intel Arc numbers are his own.",
+    "topics": [
+     {
+      "id": "daily",
+      "angle": "How a speed-up for one open model on Intel and AMD graphics reaches people while upstream review takes small steps."
+     }
+    ],
+    "claims": [
+     {
+      "text": "David Heinemeier Hansson opened a pull request to llama.cpp porting five Inkling 2 graph fusions from Aman Gupta’s CUDA pull request to the Vulkan backend, used for Intel and AMD graphics, cutting about 3,300 Vulkan dispatches per decode token on Inkling 2 Mini.",
+      "who": "David Heinemeier Hansson",
+      "status": "read",
+      "sources": [
+       "pr",
+       "pr60",
+       "ola"
+      ]
+     },
+     {
+      "text": "On his own tests on an Intel Arc B390, unpatched llama.cpp ran Inkling 2 Mini at about 11.5 tokens a second sustained; with his patch and two other pending Vulkan patches, 17.2 sustained and 24.25 in bursts.",
+      "who": "David Heinemeier Hansson",
+      "status": "read",
+      "sources": [
+       "ola",
+       "pr"
+      ]
+     },
+     {
+      "text": "A bot flagged the pull request as large and not following the template, and he closed it the same day; ServeurpersoCom, a contributor, said maintainers prefer one fusion per pull request with its tests, and offered to help test or split it.",
+      "who": "llama.cpp’s bot; ServeurpersoCom",
+      "status": "read",
+      "sources": [
+       "pr"
+      ]
+     },
+     {
+      "text": "Aman Gupta’s CUDA pull request, which the Vulkan port depends on, was merged into llama.cpp on November 26.",
+      "who": "llama.cpp on GitHub",
+      "status": "read",
+      "sources": [
+       "pr60"
+      ]
+     },
+     {
+      "text": "He merged the three patches into a container image in the omarchy-local-ai repository, built on llama.cpp b12774, and plans to recommend Inkling 2 Mini on 64 GB Intel Arc B390 machines.",
+      "who": "David Heinemeier Hansson",
+      "status": "read",
+      "sources": [
+       "ola"
+      ]
+     },
+     {
+      "text": "Julien Chaumond welcomed him on X.",
+      "who": "Julien Chaumond",
+      "status": "read",
+      "sources": [
+       "x"
+      ]
+     },
+     {
+      "text": "Whether the Vulkan fusions will be split up and merged into llama.cpp is open.",
+      "who": "our reading",
+      "status": "open",
+      "sources": []
+     }
+    ],
+    "sources": [
+     {
+      "id": "pr",
+      "url": "https://github.com/ggml-org/llama.cpp/pull/33116",
+      "publisher": "David Heinemeier Hansson on GitHub",
+      "kind": "code",
+      "published": "2026-11-26",
+      "read": "2026-11-26"
+     },
+     {
+      "id": "pr60",
+      "url": "https://github.com/ggml-org/llama.cpp/pull/33060",
+      "publisher": "Aman Gupta on GitHub",
+      "kind": "code",
+      "published": "2026-11-25",
+      "read": "2026-11-26"
+     },
+     {
+      "id": "ola",
+      "url": "https://github.com/omacom/omarchy-local-ai/pull/125",
+      "publisher": "David Heinemeier Hansson on GitHub",
+      "kind": "code",
+      "published": "2026-11-26",
+      "read": "2026-11-26"
+     },
+     {
+      "id": "x",
+      "url": "https://x.com/julien_c/status/2125943116213702722",
+      "publisher": "Julien Chaumond",
+      "kind": "post",
+      "published": "2026-11-26",
+      "read": "2026-11-26"
+     }
+    ],
+    "to_find": [
+     "A Vulkan speed measurement by someone else, on AMD graphics.",
+     "Smaller pull requests for the five fusions."
+    ],
+    "would_change": [
+     "Maintainers declining the fusions for Vulkan."
+    ],
+    "trend": {
+     "hn": null,
+     "lobsters": null,
+     "x": {
+      "likes": 183,
+      "reposts": 1,
+      "views": 8553,
+      "read": "2026-11-26"
+     }
+    },
+    "omarchy": [
+     {
+      "story": "local-ai",
+      "why": "The patch ships in the local AI images Omarchy’s maker keeps."
+     }
+    ]
+   }
+  },
+  {
    "id": "factoring-proof-cogentic",
    "title": "Google posts a factoring proof its AI system wrote unaided",
    "content_text": "A paper from Google Research’s Cogentic system proves, without unproven assumptions, that whole numbers can be factored in time of the number field sieve’s form. Its authors say the AI wrote it after one prompt; the guaranteed speed carries a very large constant, and the Lean check is not yet released.",
@@ -501,6 +855,122 @@
    }
   },
   {
+   "id": "claude-install-as-app",
+   "title": "Claude artifacts install as Mac and Windows apps",
+   "content_text": "Anthropic’s Install as app beta turns an artifact, a program Claude writes from a description, into a desktop app, with permissions up to full computer access. Anthropic does not review the apps.",
+   "date_published": "2026-11-26T00:00:00Z",
+   "tags": [
+    "daily"
+   ],
+   "_tech_news": {
+    "id": "claude-install-as-app",
+    "title": "Claude artifacts install as Mac and Windows apps",
+    "date": "2026-11-26",
+    "summary": "Anthropic’s Install as app beta turns an artifact, a program Claude writes from a description, into a desktop app, with permissions up to full computer access. Anthropic does not review the apps.",
+    "topics": [
+     {
+      "id": "daily",
+      "angle": "Programs made by describing them now reach the desktop, with the permissions a person chooses."
+     }
+    ],
+    "claims": [
+     {
+      "text": "Anthropic’s Install as app beta, in Claude for Mac and Windows, turns an artifact, a small program or page Claude makes from a description, into a desktop app with its own icon and window, without packaging or signing it.",
+      "who": "Anthropic",
+      "status": "read",
+      "sources": [
+       "anthropic"
+      ]
+     },
+     {
+      "text": "By default an installed app can only do what it could in a browser; with full computer access an app can run programs and read, change or delete files without asking each time, and Claude asks again after every update.",
+      "who": "Anthropic",
+      "status": "read",
+      "sources": [
+       "anthropic"
+      ]
+     },
+     {
+      "text": "Anthropic does not review apps before they are installed and says to give full access only to apps you trust; full access is limited to apps you made or, on Team and Enterprise plans, apps made inside your organization.",
+      "who": "Anthropic",
+      "status": "read",
+      "sources": [
+       "anthropic"
+      ]
+     },
+     {
+      "text": "Stan Schroeder of Mashable tried it on his Mac and says it worked well, though he could not install all his artifacts as apps; Anthropic says Claude Docs, Slides and Sheets cannot be installed.",
+      "who": "Stan Schroeder, Mashable; Anthropic",
+      "status": "read",
+      "sources": [
+       "mashable",
+       "anthropic"
+      ]
+     },
+     {
+      "text": "It is on by default for Team plans, with full access off, and off on Enterprise until an owner turns it on.",
+      "who": "Anthropic",
+      "status": "read",
+      "sources": [
+       "anthropic"
+      ]
+     },
+     {
+      "text": "The AI News is researched and written by Claude, made by Anthropic.",
+      "who": "The AI News",
+      "status": "read",
+      "sources": [
+       "ainews"
+      ]
+     },
+     {
+      "text": "How people will use full computer access, and what goes wrong when they do, is not yet known.",
+      "who": "our reading",
+      "status": "open",
+      "sources": []
+     }
+    ],
+    "sources": [
+     {
+      "id": "anthropic",
+      "url": "https://claude.com/resources/articles/install-as-app",
+      "publisher": "Anthropic",
+      "kind": "primary",
+      "published": "2026-11-24",
+      "read": "2026-11-26"
+     },
+     {
+      "id": "mashable",
+      "url": "https://mashable.com/article/claude-artifacts-apps",
+      "publisher": "Mashable (Stan Schroeder)",
+      "kind": "report",
+      "published": "2026-11-26",
+      "read": "2026-11-26"
+     },
+     {
+      "id": "ainews",
+      "url": "https://github.com/parker-brown-family/tech-news",
+      "publisher": "The AI News",
+      "kind": "primary",
+      "published": null,
+      "read": "2026-11-26"
+     }
+    ],
+    "to_find": [
+     "A security review of an installed app with full access."
+    ],
+    "would_change": [
+     "A report of an installed app misusing full access."
+    ],
+    "trend": {
+     "hn": null,
+     "lobsters": null,
+     "x": null
+    },
+    "omarchy": []
+   }
+  },
+  {
    "id": "ai-uk-courts",
    "title": "At least 25 court cases in England and Wales hit by undisclosed AI this year",
    "content_text": "The Bureau of Investigative Journalism and the Guardian found at least 25 cases in 2026 with AI-made witness statements, invented case law or statutes, including a police officer who had Copilot write a victim statement.",
@@ -588,6 +1058,127 @@
     ],
     "trend": {
      "hn": null,
+     "lobsters": null,
+     "x": null
+    },
+    "omarchy": []
+   }
+  },
+  {
+   "id": "ai-safety-insider",
+   "title": "An unnamed AI leader says big tech has stopped taking safety seriously",
+   "content_text": "A senior AI leader at one of the biggest tech companies, writing anonymously in the Bureau of Investigative Journalism’s Secret Source column, says products are rushed and safety teams cut. The column names no company.",
+   "date_published": "2026-11-26T00:00:00Z",
+   "tags": [
+    "daily"
+   ],
+   "_tech_news": {
+    "id": "ai-safety-insider",
+    "title": "An unnamed AI leader says big tech has stopped taking safety seriously",
+    "date": "2026-11-26",
+    "summary": "A senior AI leader at one of the biggest tech companies, writing anonymously in the Bureau of Investigative Journalism’s Secret Source column, says products are rushed and safety teams cut. The column names no company.",
+    "topics": [
+     {
+      "id": "daily",
+      "angle": "One insider’s account of safety teams losing ground, and what an anonymous column can and cannot show."
+     }
+    ],
+    "claims": [
+     {
+      "text": "A senior AI leader at one of the world’s biggest tech companies, writing anonymously, says its products are increasingly being rushed out without proper consideration, and that the industry has stopped taking safety and privacy seriously.",
+      "who": "the anonymous writer, in the Bureau of Investigative Journalism and the Guardian",
+      "status": "said",
+      "sources": [
+       "tbij",
+       "guardian"
+      ]
+     },
+     {
+      "text": "The writer says trust and safety teams are being slimmed down or sidelined at the biggest companies, that the concerns they raise often do not change the product, and that legal problems are left until after launch.",
+      "who": "the anonymous writer",
+      "status": "said",
+      "sources": [
+       "tbij",
+       "guardian"
+      ]
+     },
+     {
+      "text": "The writer says teams inside one company are now encouraged to race each other, and that the AI teams are the most siloed and secretive.",
+      "who": "the anonymous writer",
+      "status": "said",
+      "sources": [
+       "tbij",
+       "guardian"
+      ]
+     },
+     {
+      "text": "The Bureau of Investigative Journalism ran the column on November 25 in Secret Source, its series by industry whistleblowers, and says it knows and checks each columnist’s identity but keeps it secret; the Guardian printed it on November 26.",
+      "who": "The Bureau of Investigative Journalism; the Guardian",
+      "status": "read",
+      "sources": [
+       "ss",
+       "tbij",
+       "guardian"
+      ]
+     },
+     {
+      "text": "The column names no company and no product, so no company has answered it.",
+      "who": "our reading of the column",
+      "status": "read",
+      "sources": [
+       "tbij",
+       "guardian"
+      ]
+     },
+     {
+      "text": "Which companies the writer means, and whether the cuts can be shown at any named company, is open.",
+      "who": "our reading",
+      "status": "open",
+      "sources": []
+     }
+    ],
+    "sources": [
+     {
+      "id": "tbij",
+      "url": "https://www.thebureauinvestigates.com/stories/2026-11-25/im-an-ai-leader-at-a-tech-giant-our-industry-has-stopped-taking-safety-seriously",
+      "publisher": "The Bureau of Investigative Journalism",
+      "kind": "primary",
+      "published": "2026-11-25",
+      "read": "2026-11-26"
+     },
+     {
+      "id": "guardian",
+      "url": "https://www.theguardian.com/commentisfree/2026/nov/26/ai-leader-tech-giant-trust-safeguarding-privacy-profit",
+      "publisher": "The Guardian",
+      "kind": "report",
+      "published": "2026-11-26",
+      "read": "2026-11-26"
+     },
+     {
+      "id": "ss",
+      "url": "https://www.thebureauinvestigates.com/stories/2026-10-14/secret-source-industry-insiders-reveal-the-truth-about-bad-business",
+      "publisher": "The Bureau of Investigative Journalism (Franz Wild)",
+      "kind": "primary",
+      "published": "2026-10-14",
+      "read": "2026-11-26"
+     }
+    ],
+    "to_find": [
+     "A named company’s staffing figures for trust and safety teams over time.",
+     "A company’s answer to the column."
+    ],
+    "would_change": [
+     "Evidence that safety staffing at the largest companies has held steady or grown."
+    ],
+    "trend": {
+     "hn": {
+      "points": 6,
+      "comments": 0,
+      "threads": [
+       "50655766"
+      ],
+      "read": "2026-11-26"
+     },
      "lobsters": null,
      "x": null
     },

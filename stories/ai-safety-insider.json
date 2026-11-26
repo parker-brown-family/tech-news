@@ -1,0 +1,112 @@
+{
+ "id": "ai-safety-insider",
+ "title": "An unnamed AI leader says big tech has stopped taking safety seriously",
+ "date": "2026-11-26",
+ "summary": "A senior AI leader at one of the biggest tech companies, writing anonymously in the Bureau of Investigative Journalism’s Secret Source column, says products are rushed and safety teams cut. The column names no company.",
+ "topics": [
+  {
+   "id": "daily",
+   "angle": "One insider’s account of safety teams losing ground, and what an anonymous column can and cannot show."
+  }
+ ],
+ "claims": [
+  {
+   "text": "A senior AI leader at one of the world’s biggest tech companies, writing anonymously, says its products are increasingly being rushed out without proper consideration, and that the industry has stopped taking safety and privacy seriously.",
+   "who": "the anonymous writer, in the Bureau of Investigative Journalism and the Guardian",
+   "status": "said",
+   "sources": [
+    "tbij",
+    "guardian"
+   ]
+  },
+  {
+   "text": "The writer says trust and safety teams are being slimmed down or sidelined at the biggest companies, that the concerns they raise often do not change the product, and that legal problems are left until after launch.",
+   "who": "the anonymous writer",
+   "status": "said",
+   "sources": [
+    "tbij",
+    "guardian"
+   ]
+  },
+  {
+   "text": "The writer says teams inside one company are now encouraged to race each other, and that the AI teams are the most siloed and secretive.",
+   "who": "the anonymous writer",
+   "status": "said",
+   "sources": [
+    "tbij",
+    "guardian"
+   ]
+  },
+  {
+   "text": "The Bureau of Investigative Journalism ran the column on November 25 in Secret Source, its series by industry whistleblowers, and says it knows and checks each columnist’s identity but keeps it secret; the Guardian printed it on November 26.",
+   "who": "The Bureau of Investigative Journalism; the Guardian",
+   "status": "read",
+   "sources": [
+    "ss",
+    "tbij",
+    "guardian"
+   ]
+  },
+  {
+   "text": "The column names no company and no product, so no company has answered it.",
+   "who": "our reading of the column",
+   "status": "read",
+   "sources": [
+    "tbij",
+    "guardian"
+   ]
+  },
+  {
+   "text": "Which companies the writer means, and whether the cuts can be shown at any named company, is open.",
+   "who": "our reading",
+   "status": "open",
+   "sources": []
+  }
+ ],
+ "sources": [
+  {
+   "id": "tbij",
+   "url": "https://www.thebureauinvestigates.com/stories/2026-11-25/im-an-ai-leader-at-a-tech-giant-our-industry-has-stopped-taking-safety-seriously",
+   "publisher": "The Bureau of Investigative Journalism",
+   "kind": "primary",
+   "published": "2026-11-25",
+   "read": "2026-11-26"
+  },
+  {
+   "id": "guardian",
+   "url": "https://www.theguardian.com/commentisfree/2026/nov/26/ai-leader-tech-giant-trust-safeguarding-privacy-profit",
+   "publisher": "The Guardian",
+   "kind": "report",
+   "published": "2026-11-26",
+   "read": "2026-11-26"
+  },
+  {
+   "id": "ss",
+   "url": "https://www.thebureauinvestigates.com/stories/2026-10-14/secret-source-industry-insiders-reveal-the-truth-about-bad-business",
+   "publisher": "The Bureau of Investigative Journalism (Franz Wild)",
+   "kind": "primary",
+   "published": "2026-10-14",
+   "read": "2026-11-26"
+  }
+ ],
+ "to_find": [
+  "A named company’s staffing figures for trust and safety teams over time.",
+  "A company’s answer to the column."
+ ],
+ "would_change": [
+  "Evidence that safety staffing at the largest companies has held steady or grown."
+ ],
+ "trend": {
+  "hn": {
+   "points": 6,
+   "comments": 0,
+   "threads": [
+    "50655766"
+   ],
+   "read": "2026-11-26"
+  },
+  "lobsters": null,
+  "x": null
+ },
+ "omarchy": []
+}

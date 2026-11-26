@@ -24,6 +24,8 @@ Twice a day: one drama, one piece of research, one corporate, one thing put to u
 
 **Morning, 26 November 2026:** [Meta declined the regulator’s test of Muse](stories/meta-muse-fca.json) · [An AI-written proof about factoring](stories/factoring-proof-cogentic.json) · [Nvidia pauses shipments to four countries](stories/nvidia-southeast-asia-halt.json) · [AI in the courts of England and Wales](stories/ai-uk-courts.json) · [A model that boots without an operating system](stories/llm-asm-bare-metal.json)
 
+**Afternoon, 26 November 2026:** [An unnamed AI leader says big tech has stopped taking safety seriously](stories/ai-safety-insider.json) · [Agents that trim their own memory](stories/model-context-api.json) · [No Nvidia chips for Chinese renters](stories/neocloud-china-renters.json) · [Claude artifacts install as desktop apps](stories/claude-install-as-app.json) · [David Heinemeier Hansson’s Inkling 2 patch for llama.cpp](stories/llama-cpp-inkling-vulkan.json)
+
 ## Who Read Your Prompt?
 
 The first film, dated 24 November 2026. Where a prompt goes after you send it, and who can keep it.

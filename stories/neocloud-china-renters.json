@@ -1,0 +1,82 @@
+{
+ "id": "neocloud-china-renters",
+ "title": "Chip sellers tell cloud firms no Nvidia chips if any capacity goes to Chinese renters",
+ "date": "2026-11-26",
+ "summary": "Two people told CNBC that sellers of Nvidia chips now refuse cloud companies that would rent any computing to Chinese companies, after a US rule took effect on November 19. Nvidia’s earlier line was more than half.",
+ "topics": [
+  {
+   "id": "daily",
+   "angle": "How the November 19 rule moves down the supply chain, from Nvidia’s sellers to the companies that rent computing."
+  }
+ ],
+ "claims": [
+  {
+   "text": "Chip sellers have told neoclouds, companies that rent out computing power, that they won’t supply Nvidia chips if any of the computing capacity will be rented to Chinese companies, two people familiar with the situation told CNBC.",
+   "who": "CNBC (Kai Nicol-Schwarz)",
+   "status": "read",
+   "sources": [
+    "cnbc"
+   ]
+  },
+  {
+   "text": "Before the new rule was announced, Nvidia had said it would not sell its chips to customers renting more than 50 percent of their graphics processors to Chinese companies, CNBC reported.",
+   "who": "CNBC",
+   "status": "read",
+   "sources": [
+    "cnbc"
+   ]
+  },
+  {
+   "text": "US Trade Representative Jamieson Greer told CNBC the Commerce Department rule, in force since November 19, was meant to close off indirect access, through smuggling via places like Southeast Asia or remote access from data centers in third countries.",
+   "who": "Jamieson Greer, to CNBC",
+   "status": "read",
+   "sources": [
+    "cnbc"
+   ]
+  },
+  {
+   "text": "Chip sellers are looking for new buyers for graphics processors that were meant for data centers renting to Chinese companies, CNBC reported, citing people familiar with the matter.",
+   "who": "CNBC",
+   "status": "read",
+   "sources": [
+    "cnbc"
+   ]
+  },
+  {
+   "text": "CNBC’s sources asked not to be named, and Nvidia and the Commerce Department’s Bureau of Industry and Security did not immediately respond to a request for comment.",
+   "who": "CNBC",
+   "status": "read",
+   "sources": [
+    "cnbc"
+   ]
+  },
+  {
+   "text": "Whether Nvidia itself has set the rule that no capacity at all may go to Chinese renters is not known.",
+   "who": "our reading",
+   "status": "open",
+   "sources": []
+  }
+ ],
+ "sources": [
+  {
+   "id": "cnbc",
+   "url": "https://www.cnbc.com/2026/11/26/neoclouds-nvidia-china-ai.html",
+   "publisher": "CNBC (Kai Nicol-Schwarz)",
+   "kind": "report",
+   "published": "2026-11-26",
+   "read": "2026-11-26"
+  }
+ ],
+ "to_find": [
+  "A statement from Nvidia or a named chip seller."
+ ],
+ "would_change": [
+  "Nvidia or a seller saying the zero-renting condition is not theirs."
+ ],
+ "trend": {
+  "hn": null,
+  "lobsters": null,
+  "x": null
+ },
+ "omarchy": []
+}

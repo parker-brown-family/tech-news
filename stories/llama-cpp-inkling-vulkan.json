@@ -1,0 +1,128 @@
+{
+ "id": "llama-cpp-inkling-vulkan",
+ "title": "David Heinemeier Hansson’s Inkling 2 patch for llama.cpp on Vulkan",
+ "date": "2026-11-26",
+ "summary": "David Heinemeier Hansson ported five Inkling 2 Mini fusions from CUDA to llama.cpp’s Vulkan backend. He closed the pull request the same day after a bot flagged its size, and ships the patch in his own local AI images. His Intel Arc numbers are his own.",
+ "topics": [
+  {
+   "id": "daily",
+   "angle": "How a speed-up for one open model on Intel and AMD graphics reaches people while upstream review takes small steps."
+  }
+ ],
+ "claims": [
+  {
+   "text": "David Heinemeier Hansson opened a pull request to llama.cpp porting five Inkling 2 graph fusions from Aman Gupta’s CUDA pull request to the Vulkan backend, used for Intel and AMD graphics, cutting about 3,300 Vulkan dispatches per decode token on Inkling 2 Mini.",
+   "who": "David Heinemeier Hansson",
+   "status": "read",
+   "sources": [
+    "pr",
+    "pr60",
+    "ola"
+   ]
+  },
+  {
+   "text": "On his own tests on an Intel Arc B390, unpatched llama.cpp ran Inkling 2 Mini at about 11.5 tokens a second sustained; with his patch and two other pending Vulkan patches, 17.2 sustained and 24.25 in bursts.",
+   "who": "David Heinemeier Hansson",
+   "status": "read",
+   "sources": [
+    "ola",
+    "pr"
+   ]
+  },
+  {
+   "text": "A bot flagged the pull request as large and not following the template, and he closed it the same day; ServeurpersoCom, a contributor, said maintainers prefer one fusion per pull request with its tests, and offered to help test or split it.",
+   "who": "llama.cpp’s bot; ServeurpersoCom",
+   "status": "read",
+   "sources": [
+    "pr"
+   ]
+  },
+  {
+   "text": "Aman Gupta’s CUDA pull request, which the Vulkan port depends on, was merged into llama.cpp on November 26.",
+   "who": "llama.cpp on GitHub",
+   "status": "read",
+   "sources": [
+    "pr60"
+   ]
+  },
+  {
+   "text": "He merged the three patches into a container image in the omarchy-local-ai repository, built on llama.cpp b12774, and plans to recommend Inkling 2 Mini on 64 GB Intel Arc B390 machines.",
+   "who": "David Heinemeier Hansson",
+   "status": "read",
+   "sources": [
+    "ola"
+   ]
+  },
+  {
+   "text": "Julien Chaumond welcomed him on X.",
+   "who": "Julien Chaumond",
+   "status": "read",
+   "sources": [
+    "x"
+   ]
+  },
+  {
+   "text": "Whether the Vulkan fusions will be split up and merged into llama.cpp is open.",
+   "who": "our reading",
+   "status": "open",
+   "sources": []
+  }
+ ],
+ "sources": [
+  {
+   "id": "pr",
+   "url": "https://github.com/ggml-org/llama.cpp/pull/33116",
+   "publisher": "David Heinemeier Hansson on GitHub",
+   "kind": "code",
+   "published": "2026-11-26",
+   "read": "2026-11-26"
+  },
+  {
+   "id": "pr60",
+   "url": "https://github.com/ggml-org/llama.cpp/pull/33060",
+   "publisher": "Aman Gupta on GitHub",
+   "kind": "code",
+   "published": "2026-11-25",
+   "read": "2026-11-26"
+  },
+  {
+   "id": "ola",
+   "url": "https://github.com/omacom/omarchy-local-ai/pull/125",
+   "publisher": "David Heinemeier Hansson on GitHub",
+   "kind": "code",
+   "published": "2026-11-26",
+   "read": "2026-11-26"
+  },
+  {
+   "id": "x",
+   "url": "https://x.com/julien_c/status/2125943116213702722",
+   "publisher": "Julien Chaumond",
+   "kind": "post",
+   "published": "2026-11-26",
+   "read": "2026-11-26"
+  }
+ ],
+ "to_find": [
+  "A Vulkan speed measurement by someone else, on AMD graphics.",
+  "Smaller pull requests for the five fusions."
+ ],
+ "would_change": [
+  "Maintainers declining the fusions for Vulkan."
+ ],
+ "trend": {
+  "hn": null,
+  "lobsters": null,
+  "x": {
+   "likes": 183,
+   "reposts": 1,
+   "views": 8553,
+   "read": "2026-11-26"
+  }
+ },
+ "omarchy": [
+  {
+   "story": "local-ai",
+   "why": "The patch ships in the local AI images Omarchy’s maker keeps."
+  }
+ ]
+}
