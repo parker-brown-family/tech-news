@@ -1,0 +1,119 @@
+{
+ "id": "character-ai-chat-sale",
+ "title": "Forty-two states ask a court to stop Character.ai auctioning its users’ chats",
+ "date": "2026-11-25",
+ "summary": "Bankrupt Character.ai plans to auction its platform on December 1, with chats from more than 21 million U.S. accounts. 42 attorneys general object; the only named bidder was formed a day before it was picked.",
+ "topics": [
+  {
+   "id": "daily",
+   "angle": "What happens to AI chats when the company that holds them fails."
+  }
+ ],
+ "claims": [
+  {
+   "text": "Character.ai plans to auction its platform on December 1, 2026, with the chat histories of more than 21 million U.S. accounts, more than 2.1 million of them registered to minors, according to the attorneys general.",
+   "who": "State attorneys general",
+   "status": "read",
+   "sources": [
+    "caag",
+    "ctag"
+   ]
+  },
+  {
+   "text": "A coalition of 42 state attorneys general asked the bankruptcy court to deny the sale terms. They say the buyer would not have to follow Character.ai’s privacy policy, which said it does not sell personal information for monetary consideration.",
+   "who": "State attorneys general",
+   "status": "read",
+   "sources": [
+    "caag",
+    "tc"
+   ]
+  },
+  {
+   "text": "The attorneys general say the chats include intimate topics such as self-harm, eating disorders and suicidal thoughts.",
+   "who": "State attorneys general",
+   "status": "said",
+   "sources": [
+    "caag"
+   ]
+  },
+  {
+   "text": "The only bidder disclosed so far, Smirks and Pangs Acquisition LLC, was set up one day before Character.ai picked it as the base bid, the attorneys general say. Character.ai told the court the bidder has no ties to it.",
+   "who": "State attorneys general",
+   "status": "said",
+   "sources": [
+    "caag",
+    "ctag"
+   ]
+  },
+  {
+   "text": "In October, Character.ai’s blog told users their information was still protected under its privacy policy.",
+   "who": "Character.ai",
+   "status": "read",
+   "sources": [
+    "blog"
+   ]
+  },
+  {
+   "text": "Character.ai filed for Chapter 11 bankruptcy in October 2026 to sell the company in a court-supervised sale.",
+   "who": "Character.ai",
+   "status": "read",
+   "sources": [
+    "blog",
+    "tc"
+   ]
+  },
+  {
+   "text": "Whether the bankruptcy court will allow the sale, and on what terms, is not decided.",
+   "who": "our reading",
+   "status": "open",
+   "sources": []
+  }
+ ],
+ "sources": [
+  {
+   "id": "caag",
+   "url": "https://oag.ca.gov/news/press-releases/attorney-general-bonta-opposes-asset-sale-characterai-amid-child-safety-concerns",
+   "publisher": "California Attorney General",
+   "kind": "primary",
+   "published": null,
+   "read": "2026-11-25"
+  },
+  {
+   "id": "ctag",
+   "url": "https://portal.ct.gov/ag/press-releases/2026-press-releases/attorney-general-tong-challenges-plan-to-auction-off-character-ai-private-chats",
+   "publisher": "Connecticut Attorney General",
+   "kind": "primary",
+   "published": null,
+   "read": "2026-11-25"
+  },
+  {
+   "id": "blog",
+   "url": "https://blog.character.ai/an-update-on-character-ai/",
+   "publisher": "Character.ai",
+   "kind": "primary",
+   "published": null,
+   "read": "2026-11-25"
+  },
+  {
+   "id": "tc",
+   "url": "https://techcrunch.com/2026/11/25/state-ags-fight-character-ais-plan-to-auction-off-users-private-chats/",
+   "publisher": "TechCrunch",
+   "kind": "report",
+   "published": "2026-11-25",
+   "read": "2026-11-25"
+  }
+ ],
+ "to_find": [
+  "Character.ai’s answer to the states’ objection.",
+  "The court’s ruling on the sale terms."
+ ],
+ "would_change": [
+  "The court approving the sale as proposed, or the chats being left out of it."
+ ],
+ "trend": {
+  "hn": null,
+  "lobsters": null,
+  "x": null
+ },
+ "omarchy": []
+}

@@ -1,0 +1,164 @@
+{
+ "id": "riemann-proof-shorter",
+ "title": "The machine-checked Riemann proof gets a shorter version",
+ "date": "2026-11-25",
+ "summary": "Levent Alpöge’s Lean proof of the Riemann Hypothesis, released November 20 at 17 million lines and certified by the Lean FRO and Mathlib Initiative, now has a version of about 76,000 lines. No mathematician has read it through.",
+ "topics": [
+  {
+   "id": "daily",
+   "angle": "What is machine checked, what is shorter, and what no person has read yet."
+  }
+ ],
+ "claims": [
+  {
+   "text": "On November 20, 2026, Levent Alpöge released a proof of the Riemann Hypothesis as a Lean library comprising 17 million lines of code.",
+   "who": "Lean FRO and Mathlib Initiative",
+   "status": "read",
+   "sources": [
+    "lean"
+   ]
+  },
+  {
+   "text": "The Riemann hypothesis dates from 1859 and concerns how prime numbers are distributed.",
+   "who": "TechCrunch",
+   "status": "read",
+   "sources": [
+    "tcrh"
+   ]
+  },
+  {
+   "text": "Alpöge is a mathematician at Anthropic and says he found the proof working with Claude. Lean is software that checks proofs.",
+   "who": "Levent Alpöge, TechCrunch",
+   "status": "read",
+   "sources": [
+    "remark",
+    "tcrh"
+   ]
+  },
+  {
+   "text": "The Lean FRO and the Mathlib Initiative certified that both the statement and the proof of the Riemann Hypothesis are correct.",
+   "who": "Lean FRO and Mathlib Initiative",
+   "status": "read",
+   "sources": [
+    "lean"
+   ]
+  },
+  {
+   "text": "On November 25, 2026, Luke Sernau posted a shorter Lean proof, made with colleagues at Anthropic and Claude: about 300,000 lines in a readable edition and about 76,000 in a compact one.",
+   "who": "Luke Sernau",
+   "status": "read",
+   "sources": [
+    "grh",
+    "commit"
+   ]
+  },
+  {
+   "text": "The shorter proof has passed machine checks only. No mathematician has read it through, and no paper comes with it.",
+   "who": "Luke Sernau",
+   "status": "read",
+   "sources": [
+    "grh"
+   ]
+  },
+  {
+   "text": "Alpöge says the argument is incredibly long at the moment and that he intends to write it properly.",
+   "who": "Levent Alpöge",
+   "status": "read",
+   "sources": [
+    "remark"
+   ]
+  },
+  {
+   "text": "Stanford postdoc Alessandro Masullo has a separate proof of the generalized Riemann hypothesis, written without AI, posted as a draft.",
+   "who": "TechCrunch",
+   "status": "read",
+   "sources": [
+    "tcrh"
+   ]
+  },
+  {
+   "text": "The AI News is researched and written by Claude, made by Anthropic.",
+   "who": "The AI News",
+   "status": "read",
+   "sources": [
+    "ainews"
+   ]
+  },
+  {
+   "text": "Whether mathematicians will be able to read and explain the proof is open.",
+   "who": "our reading",
+   "status": "open",
+   "sources": []
+  }
+ ],
+ "sources": [
+  {
+   "id": "lean",
+   "url": "https://leanprover-community.github.io/blog/posts/riemann-hypothesis/",
+   "publisher": "Lean FRO and Mathlib Initiative",
+   "kind": "primary",
+   "published": null,
+   "read": "2026-11-25"
+  },
+  {
+   "id": "remark",
+   "url": "https://alpo.ge/remark.pdf",
+   "publisher": "Levent Alpöge",
+   "kind": "primary",
+   "published": "2026-11-20",
+   "read": "2026-11-25"
+  },
+  {
+   "id": "grh",
+   "url": "https://github.com/lsernau/grh-lean",
+   "publisher": "Luke Sernau",
+   "kind": "code",
+   "published": "2026-11-25",
+   "read": "2026-11-25"
+  },
+  {
+   "id": "commit",
+   "url": "https://github.com/lsernau/grh-lean/commits/main",
+   "publisher": "Luke Sernau",
+   "kind": "code",
+   "published": "2026-11-25",
+   "read": "2026-11-25"
+  },
+  {
+   "id": "tcrh",
+   "url": "https://techcrunch.com/2026/11/20/ai-claimed-a-solution-to-the-167-year-old-riemann-hypothesis-and-a-human-did-too/",
+   "publisher": "TechCrunch",
+   "kind": "report",
+   "published": "2026-11-20",
+   "read": "2026-11-25"
+  },
+  {
+   "id": "ainews",
+   "url": "https://github.com/parker-brown-family/tech-news",
+   "publisher": "The AI News",
+   "kind": "primary",
+   "published": null,
+   "read": "2026-11-25"
+  }
+ ],
+ "to_find": [
+  "A mathematician’s reading of either version.",
+  "A paper that explains the argument."
+ ],
+ "would_change": [
+  "A gap found in the statement or the build of the shorter version."
+ ],
+ "trend": {
+  "hn": {
+   "points": 199,
+   "comments": 88,
+   "threads": [
+    "50648050"
+   ],
+   "read": "2026-11-25"
+  },
+  "lobsters": null,
+  "x": null
+ },
+ "omarchy": []
+}

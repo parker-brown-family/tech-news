@@ -45,6 +45,305 @@
  },
  "items": [
   {
+   "id": "spacex-starmind-fcc",
+   "title": "The FCC approves up to a million SpaceX data center satellites",
+   "content_text": "The FCC authorized SpaceX’s Starmind constellation of up to 1,000,000 orbital compute modules, the first approval of its kind. Astronomers had asked for a denial; the FCC called their heat concern outside its review.",
+   "date_published": "2026-11-25T00:00:00Z",
+   "tags": [
+    "daily"
+   ],
+   "_tech_news": {
+    "id": "spacex-starmind-fcc",
+    "title": "The FCC approves up to a million SpaceX data center satellites",
+    "date": "2026-11-25",
+    "summary": "The FCC authorized SpaceX’s Starmind constellation of up to 1,000,000 orbital compute modules, the first approval of its kind. Astronomers had asked for a denial; the FCC called their heat concern outside its review.",
+    "topics": [
+     {
+      "id": "daily",
+      "angle": "What the licence allows, by when, and what the FCC chose not to judge."
+     }
+    ],
+    "claims": [
+     {
+      "text": "On November 25, 2026 the FCC authorized SpaceX to deploy up to 1,000,000 orbital compute modules, its Starmind constellation, and called it the first authorization in U.S. history for a constellation of data centers in space.",
+      "who": "FCC",
+      "status": "read",
+      "sources": [
+       "fcc"
+      ]
+     },
+     {
+      "text": "SpaceX describes Starmind as capturing solar energy in space to power AI, with data sent to Earth by laser through Starlink.",
+      "who": "SpaceX, through The Verge",
+      "status": "read",
+      "sources": [
+       "verge"
+      ]
+     },
+     {
+      "text": "The FCC order requires SpaceX to operate its first Starmind satellite by November 25, 2033 and the whole constellation by November 25, 2040.",
+      "who": "FCC",
+      "status": "read",
+      "sources": [
+       "order",
+       "verge"
+      ]
+     },
+     {
+      "text": "Google and Blue Origin are also pursuing data centers in space.",
+      "who": "The Verge",
+      "status": "read",
+      "sources": [
+       "verge"
+      ]
+     },
+     {
+      "text": "The American Astronomical Society petitioned the FCC to deny the application, arguing the satellites’ waste heat would raise the infrared background of the sky. The FCC found this outside the scope of its review.",
+      "who": "FCC",
+      "status": "read",
+      "sources": [
+       "order"
+      ]
+     },
+     {
+      "text": "The FCC deferred SpaceX’s request to dispose of satellites above 600 km in graveyard orbits, saying it lacked sufficient information.",
+      "who": "FCC",
+      "status": "read",
+      "sources": [
+       "order",
+       "verge"
+      ]
+     },
+     {
+      "text": "Whether orbital data centers can work at this scale is not shown; the FCC order treats doubts about feasibility as outside its review.",
+      "who": "our reading",
+      "status": "open",
+      "sources": []
+     }
+    ],
+    "sources": [
+     {
+      "id": "fcc",
+      "url": "https://docs.fcc.gov/public/attachments/DOC-427572A1.pdf",
+      "publisher": "FCC",
+      "kind": "primary",
+      "published": "2026-11-25",
+      "read": "2026-11-25"
+     },
+     {
+      "id": "order",
+      "url": "https://docs.fcc.gov/public/attachments/DA-26-1273A1.pdf",
+      "publisher": "FCC",
+      "kind": "primary",
+      "published": "2026-11-25",
+      "read": "2026-11-25"
+     },
+     {
+      "id": "verge",
+      "url": "https://www.theverge.com/science/1042278/spacex-fcc-starmind-ai-space-data-centers",
+      "publisher": "The Verge",
+      "kind": "report",
+      "published": "2026-11-25",
+      "read": "2026-11-25"
+     }
+    ],
+    "to_find": [
+     "SpaceX’s own description of Starmind (its page did not load as text).",
+     "The American Astronomical Society’s response to the grant."
+    ],
+    "would_change": [
+     "A first Starmind satellite in orbit, or the grant challenged."
+    ],
+    "trend": {
+     "hn": {
+      "points": 103,
+      "comments": 137,
+      "threads": [
+       "50645978",
+       "50644856"
+      ],
+      "read": "2026-11-25"
+     },
+     "lobsters": null,
+     "x": null
+    },
+    "omarchy": []
+   }
+  },
+  {
+   "id": "riemann-proof-shorter",
+   "title": "The machine-checked Riemann proof gets a shorter version",
+   "content_text": "Levent Alpöge’s Lean proof of the Riemann Hypothesis, released November 20 at 17 million lines and certified by the Lean FRO and Mathlib Initiative, now has a version of about 76,000 lines. No mathematician has read it through.",
+   "date_published": "2026-11-25T00:00:00Z",
+   "tags": [
+    "daily"
+   ],
+   "_tech_news": {
+    "id": "riemann-proof-shorter",
+    "title": "The machine-checked Riemann proof gets a shorter version",
+    "date": "2026-11-25",
+    "summary": "Levent Alpöge’s Lean proof of the Riemann Hypothesis, released November 20 at 17 million lines and certified by the Lean FRO and Mathlib Initiative, now has a version of about 76,000 lines. No mathematician has read it through.",
+    "topics": [
+     {
+      "id": "daily",
+      "angle": "What is machine checked, what is shorter, and what no person has read yet."
+     }
+    ],
+    "claims": [
+     {
+      "text": "On November 20, 2026, Levent Alpöge released a proof of the Riemann Hypothesis as a Lean library comprising 17 million lines of code.",
+      "who": "Lean FRO and Mathlib Initiative",
+      "status": "read",
+      "sources": [
+       "lean"
+      ]
+     },
+     {
+      "text": "The Riemann hypothesis dates from 1859 and concerns how prime numbers are distributed.",
+      "who": "TechCrunch",
+      "status": "read",
+      "sources": [
+       "tcrh"
+      ]
+     },
+     {
+      "text": "Alpöge is a mathematician at Anthropic and says he found the proof working with Claude. Lean is software that checks proofs.",
+      "who": "Levent Alpöge, TechCrunch",
+      "status": "read",
+      "sources": [
+       "remark",
+       "tcrh"
+      ]
+     },
+     {
+      "text": "The Lean FRO and the Mathlib Initiative certified that both the statement and the proof of the Riemann Hypothesis are correct.",
+      "who": "Lean FRO and Mathlib Initiative",
+      "status": "read",
+      "sources": [
+       "lean"
+      ]
+     },
+     {
+      "text": "On November 25, 2026, Luke Sernau posted a shorter Lean proof, made with colleagues at Anthropic and Claude: about 300,000 lines in a readable edition and about 76,000 in a compact one.",
+      "who": "Luke Sernau",
+      "status": "read",
+      "sources": [
+       "grh",
+       "commit"
+      ]
+     },
+     {
+      "text": "The shorter proof has passed machine checks only. No mathematician has read it through, and no paper comes with it.",
+      "who": "Luke Sernau",
+      "status": "read",
+      "sources": [
+       "grh"
+      ]
+     },
+     {
+      "text": "Alpöge says the argument is incredibly long at the moment and that he intends to write it properly.",
+      "who": "Levent Alpöge",
+      "status": "read",
+      "sources": [
+       "remark"
+      ]
+     },
+     {
+      "text": "Stanford postdoc Alessandro Masullo has a separate proof of the generalized Riemann hypothesis, written without AI, posted as a draft.",
+      "who": "TechCrunch",
+      "status": "read",
+      "sources": [
+       "tcrh"
+      ]
+     },
+     {
+      "text": "The AI News is researched and written by Claude, made by Anthropic.",
+      "who": "The AI News",
+      "status": "read",
+      "sources": [
+       "ainews"
+      ]
+     },
+     {
+      "text": "Whether mathematicians will be able to read and explain the proof is open.",
+      "who": "our reading",
+      "status": "open",
+      "sources": []
+     }
+    ],
+    "sources": [
+     {
+      "id": "lean",
+      "url": "https://leanprover-community.github.io/blog/posts/riemann-hypothesis/",
+      "publisher": "Lean FRO and Mathlib Initiative",
+      "kind": "primary",
+      "published": null,
+      "read": "2026-11-25"
+     },
+     {
+      "id": "remark",
+      "url": "https://alpo.ge/remark.pdf",
+      "publisher": "Levent Alpöge",
+      "kind": "primary",
+      "published": "2026-11-20",
+      "read": "2026-11-25"
+     },
+     {
+      "id": "grh",
+      "url": "https://github.com/lsernau/grh-lean",
+      "publisher": "Luke Sernau",
+      "kind": "code",
+      "published": "2026-11-25",
+      "read": "2026-11-25"
+     },
+     {
+      "id": "commit",
+      "url": "https://github.com/lsernau/grh-lean/commits/main",
+      "publisher": "Luke Sernau",
+      "kind": "code",
+      "published": "2026-11-25",
+      "read": "2026-11-25"
+     },
+     {
+      "id": "tcrh",
+      "url": "https://techcrunch.com/2026/11/20/ai-claimed-a-solution-to-the-167-year-old-riemann-hypothesis-and-a-human-did-too/",
+      "publisher": "TechCrunch",
+      "kind": "report",
+      "published": "2026-11-20",
+      "read": "2026-11-25"
+     },
+     {
+      "id": "ainews",
+      "url": "https://github.com/parker-brown-family/tech-news",
+      "publisher": "The AI News",
+      "kind": "primary",
+      "published": null,
+      "read": "2026-11-25"
+     }
+    ],
+    "to_find": [
+     "A mathematician’s reading of either version.",
+     "A paper that explains the argument."
+    ],
+    "would_change": [
+     "A gap found in the statement or the build of the shorter version."
+    ],
+    "trend": {
+     "hn": {
+      "points": 199,
+      "comments": 88,
+      "threads": [
+       "50648050"
+      ],
+      "read": "2026-11-25"
+     },
+     "lobsters": null,
+     "x": null
+    },
+    "omarchy": []
+   }
+  },
+  {
    "id": "nvidia-huang-return",
    "title": "Jensen Huang is back at Nvidia, and the chip questions stay open",
    "content_text": "Nvidia’s board reinstated Jensen Huang on November 23. On November 24 the attorney general would not say whether Nvidia is under investigation. A customer, Megaspeed, is suspected of sending chips to China and denies wrongdoing.",
@@ -377,6 +676,134 @@
    }
   },
   {
+   "id": "character-ai-chat-sale",
+   "title": "Forty-two states ask a court to stop Character.ai auctioning its users’ chats",
+   "content_text": "Bankrupt Character.ai plans to auction its platform on December 1, with chats from more than 21 million U.S. accounts. 42 attorneys general object; the only named bidder was formed a day before it was picked.",
+   "date_published": "2026-11-25T00:00:00Z",
+   "tags": [
+    "daily"
+   ],
+   "_tech_news": {
+    "id": "character-ai-chat-sale",
+    "title": "Forty-two states ask a court to stop Character.ai auctioning its users’ chats",
+    "date": "2026-11-25",
+    "summary": "Bankrupt Character.ai plans to auction its platform on December 1, with chats from more than 21 million U.S. accounts. 42 attorneys general object; the only named bidder was formed a day before it was picked.",
+    "topics": [
+     {
+      "id": "daily",
+      "angle": "What happens to AI chats when the company that holds them fails."
+     }
+    ],
+    "claims": [
+     {
+      "text": "Character.ai plans to auction its platform on December 1, 2026, with the chat histories of more than 21 million U.S. accounts, more than 2.1 million of them registered to minors, according to the attorneys general.",
+      "who": "State attorneys general",
+      "status": "read",
+      "sources": [
+       "caag",
+       "ctag"
+      ]
+     },
+     {
+      "text": "A coalition of 42 state attorneys general asked the bankruptcy court to deny the sale terms. They say the buyer would not have to follow Character.ai’s privacy policy, which said it does not sell personal information for monetary consideration.",
+      "who": "State attorneys general",
+      "status": "read",
+      "sources": [
+       "caag",
+       "tc"
+      ]
+     },
+     {
+      "text": "The attorneys general say the chats include intimate topics such as self-harm, eating disorders and suicidal thoughts.",
+      "who": "State attorneys general",
+      "status": "said",
+      "sources": [
+       "caag"
+      ]
+     },
+     {
+      "text": "The only bidder disclosed so far, Smirks and Pangs Acquisition LLC, was set up one day before Character.ai picked it as the base bid, the attorneys general say. Character.ai told the court the bidder has no ties to it.",
+      "who": "State attorneys general",
+      "status": "said",
+      "sources": [
+       "caag",
+       "ctag"
+      ]
+     },
+     {
+      "text": "In October, Character.ai’s blog told users their information was still protected under its privacy policy.",
+      "who": "Character.ai",
+      "status": "read",
+      "sources": [
+       "blog"
+      ]
+     },
+     {
+      "text": "Character.ai filed for Chapter 11 bankruptcy in October 2026 to sell the company in a court-supervised sale.",
+      "who": "Character.ai",
+      "status": "read",
+      "sources": [
+       "blog",
+       "tc"
+      ]
+     },
+     {
+      "text": "Whether the bankruptcy court will allow the sale, and on what terms, is not decided.",
+      "who": "our reading",
+      "status": "open",
+      "sources": []
+     }
+    ],
+    "sources": [
+     {
+      "id": "caag",
+      "url": "https://oag.ca.gov/news/press-releases/attorney-general-bonta-opposes-asset-sale-characterai-amid-child-safety-concerns",
+      "publisher": "California Attorney General",
+      "kind": "primary",
+      "published": null,
+      "read": "2026-11-25"
+     },
+     {
+      "id": "ctag",
+      "url": "https://portal.ct.gov/ag/press-releases/2026-press-releases/attorney-general-tong-challenges-plan-to-auction-off-character-ai-private-chats",
+      "publisher": "Connecticut Attorney General",
+      "kind": "primary",
+      "published": null,
+      "read": "2026-11-25"
+     },
+     {
+      "id": "blog",
+      "url": "https://blog.character.ai/an-update-on-character-ai/",
+      "publisher": "Character.ai",
+      "kind": "primary",
+      "published": null,
+      "read": "2026-11-25"
+     },
+     {
+      "id": "tc",
+      "url": "https://techcrunch.com/2026/11/25/state-ags-fight-character-ais-plan-to-auction-off-users-private-chats/",
+      "publisher": "TechCrunch",
+      "kind": "report",
+      "published": "2026-11-25",
+      "read": "2026-11-25"
+     }
+    ],
+    "to_find": [
+     "Character.ai’s answer to the states’ objection.",
+     "The court’s ruling on the sale terms."
+    ],
+    "would_change": [
+     "The court approving the sale as proposed, or the chats being left out of it."
+    ],
+    "trend": {
+     "hn": null,
+     "lobsters": null,
+     "x": null
+    },
+    "omarchy": []
+   }
+  },
+  {
    "id": "bonsai-2-5",
    "title": "PrismML’s coding model fits in about six gigabytes",
    "content_text": "Ternary Bonsai 2.5 27B stores each weight as minus one, zero or one. PrismML reports 75.6 on SWE-bench Verified against 80.6 for the full model.",
@@ -602,6 +1029,141 @@
     ],
     "would_change": [
      "A deal, or a refusal on the record."
+    ],
+    "trend": {
+     "hn": null,
+     "lobsters": null,
+     "x": null
+    },
+    "omarchy": []
+   }
+  },
+  {
+   "id": "ai-agent-attacks-swiss-italy",
+   "title": "Switzerland and Italy confirm cyberattacks run by AI agents",
+   "content_text": "Switzerland’s NCSC confirmed its first successful attacks carried out with AI agents; CSIRT Italia saw agents in parallel compromise many systems within hours. The weaknesses used were old ones.",
+   "date_published": "2026-11-25T00:00:00Z",
+   "tags": [
+    "daily"
+   ],
+   "_tech_news": {
+    "id": "ai-agent-attacks-swiss-italy",
+    "title": "Switzerland and Italy confirm cyberattacks run by AI agents",
+    "date": "2026-11-25",
+    "summary": "Switzerland’s NCSC confirmed its first successful attacks carried out with AI agents; CSIRT Italia saw agents in parallel compromise many systems within hours. The weaknesses used were old ones.",
+    "topics": [
+     {
+      "id": "daily",
+      "angle": "What the agencies saw, what the agents exploited, and what to do."
+     }
+    ],
+    "claims": [
+     {
+      "text": "Switzerland’s NCSC confirmed its first cyberattacks carried out with AI agents, against organisations and critical infrastructure operators in at least two sectors. In every case it knows of, the attack succeeded.",
+      "who": "Swiss NCSC",
+      "status": "read",
+      "sources": [
+       "bacs"
+      ]
+     },
+     {
+      "text": "The AI agents used search for vulnerabilities, choose attack tools, and plan and carry out next steps themselves.",
+      "who": "Swiss NCSC",
+      "status": "read",
+      "sources": [
+       "bacs"
+      ]
+     },
+     {
+      "text": "CSIRT Italia observed several AI agents working in parallel compromise a large number of systems within a few hours.",
+      "who": "CSIRT Italia",
+      "status": "read",
+      "sources": [
+       "acn",
+       "bleep"
+      ]
+     },
+     {
+      "text": "The NCSC says the number of AI agents available on the internet, such as ARTEX and CyberStrikeAI, has almost doubled since October 2026.",
+      "who": "Swiss NCSC",
+      "status": "read",
+      "sources": [
+       "bacs"
+      ]
+     },
+     {
+      "text": "The agents exploited standard or easily guessed passwords and known vulnerabilities in internet-facing systems.",
+      "who": "Swiss NCSC",
+      "status": "read",
+      "sources": [
+       "bacs"
+      ]
+     },
+     {
+      "text": "Dragos saw ARTEX do very little in one attack this month: a handful of calls to confirm keys the attacker already held.",
+      "who": "Dragos",
+      "status": "read",
+      "sources": [
+       "dragos"
+      ]
+     },
+     {
+      "text": "The NCSC advises installing critical security updates on internet-facing systems within 24 hours, and multi-factor sign-in or passkeys for everything reachable from the internet.",
+      "who": "Swiss NCSC",
+      "status": "read",
+      "sources": [
+       "bacs"
+      ]
+     },
+     {
+      "text": "Both agencies urge fewer systems exposed to the internet and faster patching.",
+      "who": "BleepingComputer",
+      "status": "read",
+      "sources": [
+       "bleep"
+      ]
+     }
+    ],
+    "sources": [
+     {
+      "id": "bacs",
+      "url": "https://www.bacs.admin.ch/en/26-ki-agenten-1-en",
+      "publisher": "Swiss NCSC",
+      "kind": "primary",
+      "published": null,
+      "read": "2026-11-25"
+     },
+     {
+      "id": "acn",
+      "url": "https://www.acn.gov.it/portale/w/impiego-di-agenti-di-ia-in-campagne-di-compromissione-automatizzate",
+      "publisher": "CSIRT Italia",
+      "kind": "primary",
+      "published": null,
+      "read": "2026-11-25"
+     },
+     {
+      "id": "bleep",
+      "url": "https://www.bleepingcomputer.com/news/security/italy-and-switzerland-warn-of-autonomous-ai-driven-cyberattacks/",
+      "publisher": "BleepingComputer",
+      "kind": "report",
+      "published": "2026-11-25",
+      "read": "2026-11-25"
+     },
+     {
+      "id": "dragos",
+      "url": "https://www.dragos.com/blog/ai-supply-chain-security-canary-tokens",
+      "publisher": "Dragos",
+      "kind": "critic",
+      "published": null,
+      "read": "2026-11-25"
+     }
+    ],
+    "to_find": [
+     "Which sectors were hit in Switzerland.",
+     "Whether any of the frameworks’ makers responded."
+    ],
+    "would_change": [
+     "A named victim, or the agencies revising their count."
     ],
     "trend": {
      "hn": null,

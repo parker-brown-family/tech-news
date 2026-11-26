@@ -20,6 +20,8 @@ Twice a day: one drama, one piece of research, one corporate, one thing put to u
 
 **Morning, 25 November 2026:** [Huang returns to Nvidia](stories/nvidia-huang-return.json) · [A floor for matrix multiplication](stories/matmul-nine-fourths.json) · [Amazon, Meta and Muse](stories/amazon-meta-muse.json) · [A coding model in six gigabytes](stories/bonsai-2-5.json)
 
+**Evening, 25 November 2026:** [States move to stop Character.ai’s chat auction](stories/character-ai-chat-sale.json) · [The Riemann proof, shorter](stories/riemann-proof-shorter.json) · [A million satellites for computing](stories/spacex-starmind-fcc.json) · [Attacks run by AI agents](stories/ai-agent-attacks-swiss-italy.json). No local AI story: nothing in the window was likely to change the industry.
+
 ## Who Read Your Prompt?
 
 The first film, dated 24 November 2026. Where a prompt goes after you send it, and who can keep it.

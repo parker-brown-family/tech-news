@@ -1,0 +1,117 @@
+{
+ "id": "spacex-starmind-fcc",
+ "title": "The FCC approves up to a million SpaceX data center satellites",
+ "date": "2026-11-25",
+ "summary": "The FCC authorized SpaceX’s Starmind constellation of up to 1,000,000 orbital compute modules, the first approval of its kind. Astronomers had asked for a denial; the FCC called their heat concern outside its review.",
+ "topics": [
+  {
+   "id": "daily",
+   "angle": "What the licence allows, by when, and what the FCC chose not to judge."
+  }
+ ],
+ "claims": [
+  {
+   "text": "On November 25, 2026 the FCC authorized SpaceX to deploy up to 1,000,000 orbital compute modules, its Starmind constellation, and called it the first authorization in U.S. history for a constellation of data centers in space.",
+   "who": "FCC",
+   "status": "read",
+   "sources": [
+    "fcc"
+   ]
+  },
+  {
+   "text": "SpaceX describes Starmind as capturing solar energy in space to power AI, with data sent to Earth by laser through Starlink.",
+   "who": "SpaceX, through The Verge",
+   "status": "read",
+   "sources": [
+    "verge"
+   ]
+  },
+  {
+   "text": "The FCC order requires SpaceX to operate its first Starmind satellite by November 25, 2033 and the whole constellation by November 25, 2040.",
+   "who": "FCC",
+   "status": "read",
+   "sources": [
+    "order",
+    "verge"
+   ]
+  },
+  {
+   "text": "Google and Blue Origin are also pursuing data centers in space.",
+   "who": "The Verge",
+   "status": "read",
+   "sources": [
+    "verge"
+   ]
+  },
+  {
+   "text": "The American Astronomical Society petitioned the FCC to deny the application, arguing the satellites’ waste heat would raise the infrared background of the sky. The FCC found this outside the scope of its review.",
+   "who": "FCC",
+   "status": "read",
+   "sources": [
+    "order"
+   ]
+  },
+  {
+   "text": "The FCC deferred SpaceX’s request to dispose of satellites above 600 km in graveyard orbits, saying it lacked sufficient information.",
+   "who": "FCC",
+   "status": "read",
+   "sources": [
+    "order",
+    "verge"
+   ]
+  },
+  {
+   "text": "Whether orbital data centers can work at this scale is not shown; the FCC order treats doubts about feasibility as outside its review.",
+   "who": "our reading",
+   "status": "open",
+   "sources": []
+  }
+ ],
+ "sources": [
+  {
+   "id": "fcc",
+   "url": "https://docs.fcc.gov/public/attachments/DOC-427572A1.pdf",
+   "publisher": "FCC",
+   "kind": "primary",
+   "published": "2026-11-25",
+   "read": "2026-11-25"
+  },
+  {
+   "id": "order",
+   "url": "https://docs.fcc.gov/public/attachments/DA-26-1273A1.pdf",
+   "publisher": "FCC",
+   "kind": "primary",
+   "published": "2026-11-25",
+   "read": "2026-11-25"
+  },
+  {
+   "id": "verge",
+   "url": "https://www.theverge.com/science/1042278/spacex-fcc-starmind-ai-space-data-centers",
+   "publisher": "The Verge",
+   "kind": "report",
+   "published": "2026-11-25",
+   "read": "2026-11-25"
+  }
+ ],
+ "to_find": [
+  "SpaceX’s own description of Starmind (its page did not load as text).",
+  "The American Astronomical Society’s response to the grant."
+ ],
+ "would_change": [
+  "A first Starmind satellite in orbit, or the grant challenged."
+ ],
+ "trend": {
+  "hn": {
+   "points": 103,
+   "comments": 137,
+   "threads": [
+    "50645978",
+    "50644856"
+   ],
+   "read": "2026-11-25"
+  },
+  "lobsters": null,
+  "x": null
+ },
+ "omarchy": []
+}

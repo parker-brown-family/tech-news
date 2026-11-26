@@ -1,0 +1,126 @@
+{
+ "id": "ai-agent-attacks-swiss-italy",
+ "title": "Switzerland and Italy confirm cyberattacks run by AI agents",
+ "date": "2026-11-25",
+ "summary": "Switzerland’s NCSC confirmed its first successful attacks carried out with AI agents; CSIRT Italia saw agents in parallel compromise many systems within hours. The weaknesses used were old ones.",
+ "topics": [
+  {
+   "id": "daily",
+   "angle": "What the agencies saw, what the agents exploited, and what to do."
+  }
+ ],
+ "claims": [
+  {
+   "text": "Switzerland’s NCSC confirmed its first cyberattacks carried out with AI agents, against organisations and critical infrastructure operators in at least two sectors. In every case it knows of, the attack succeeded.",
+   "who": "Swiss NCSC",
+   "status": "read",
+   "sources": [
+    "bacs"
+   ]
+  },
+  {
+   "text": "The AI agents used search for vulnerabilities, choose attack tools, and plan and carry out next steps themselves.",
+   "who": "Swiss NCSC",
+   "status": "read",
+   "sources": [
+    "bacs"
+   ]
+  },
+  {
+   "text": "CSIRT Italia observed several AI agents working in parallel compromise a large number of systems within a few hours.",
+   "who": "CSIRT Italia",
+   "status": "read",
+   "sources": [
+    "acn",
+    "bleep"
+   ]
+  },
+  {
+   "text": "The NCSC says the number of AI agents available on the internet, such as ARTEX and CyberStrikeAI, has almost doubled since October 2026.",
+   "who": "Swiss NCSC",
+   "status": "read",
+   "sources": [
+    "bacs"
+   ]
+  },
+  {
+   "text": "The agents exploited standard or easily guessed passwords and known vulnerabilities in internet-facing systems.",
+   "who": "Swiss NCSC",
+   "status": "read",
+   "sources": [
+    "bacs"
+   ]
+  },
+  {
+   "text": "Dragos saw ARTEX do very little in one attack this month: a handful of calls to confirm keys the attacker already held.",
+   "who": "Dragos",
+   "status": "read",
+   "sources": [
+    "dragos"
+   ]
+  },
+  {
+   "text": "The NCSC advises installing critical security updates on internet-facing systems within 24 hours, and multi-factor sign-in or passkeys for everything reachable from the internet.",
+   "who": "Swiss NCSC",
+   "status": "read",
+   "sources": [
+    "bacs"
+   ]
+  },
+  {
+   "text": "Both agencies urge fewer systems exposed to the internet and faster patching.",
+   "who": "BleepingComputer",
+   "status": "read",
+   "sources": [
+    "bleep"
+   ]
+  }
+ ],
+ "sources": [
+  {
+   "id": "bacs",
+   "url": "https://www.bacs.admin.ch/en/26-ki-agenten-1-en",
+   "publisher": "Swiss NCSC",
+   "kind": "primary",
+   "published": null,
+   "read": "2026-11-25"
+  },
+  {
+   "id": "acn",
+   "url": "https://www.acn.gov.it/portale/w/impiego-di-agenti-di-ia-in-campagne-di-compromissione-automatizzate",
+   "publisher": "CSIRT Italia",
+   "kind": "primary",
+   "published": null,
+   "read": "2026-11-25"
+  },
+  {
+   "id": "bleep",
+   "url": "https://www.bleepingcomputer.com/news/security/italy-and-switzerland-warn-of-autonomous-ai-driven-cyberattacks/",
+   "publisher": "BleepingComputer",
+   "kind": "report",
+   "published": "2026-11-25",
+   "read": "2026-11-25"
+  },
+  {
+   "id": "dragos",
+   "url": "https://www.dragos.com/blog/ai-supply-chain-security-canary-tokens",
+   "publisher": "Dragos",
+   "kind": "critic",
+   "published": null,
+   "read": "2026-11-25"
+  }
+ ],
+ "to_find": [
+  "Which sectors were hit in Switzerland.",
+  "Whether any of the frameworks’ makers responded."
+ ],
+ "would_change": [
+  "A named victim, or the agencies revising their count."
+ ],
+ "trend": {
+  "hn": null,
+  "lobsters": null,
+  "x": null
+ },
+ "omarchy": []
+}
