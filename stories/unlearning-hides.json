@@ -1,0 +1,106 @@
+{
+ "id": "unlearning-hides",
+ "title": "Anthropic researchers find most unlearned models still rank the hidden cyber answers first",
+ "date": "2026-11-26",
+ "summary": "Jasmine Shone and Lisa Dunlap tested 23 public models put through unlearning for cyber-attack knowledge. Fourteen still put the right answer first for most questions; the authors say removal after training may not be possible.",
+ "topics": [
+  {
+   "id": "daily",
+   "angle": "Whether the standard way of making a model forget dangerous knowledge removes it, or hides it."
+  }
+ ],
+ "claims": [
+  {
+   "text": "Machine unlearning is a branch of machine learning that tries to remove specific data, knowledge or abilities from a trained model without rebuilding it from the ground up.",
+   "who": "Wikipedia",
+   "status": "read",
+   "sources": [
+    "wiki"
+   ]
+  },
+  {
+   "text": "Of 23 public WMDP-cyber unlearning checkpoints, 14 still rank the correct answer first under cloze scoring for most questions the base model got right, even when multiple-choice accuracy is near chance, the authors report.",
+   "who": "Jasmine Shone and Lisa Dunlap, Anthropic",
+   "status": "said",
+   "sources": [
+    "anthropic"
+   ]
+  },
+  {
+   "text": "In the methods that do well on the standard test, restoring a few dozen of about 460,000 neurons brings back much of the lost answers, and these neurons fire 20 to 100 times more strongly on cyber text after unlearning, the authors report.",
+   "who": "Jasmine Shone and Lisa Dunlap, Anthropic",
+   "status": "said",
+   "sources": [
+    "anthropic"
+   ]
+  },
+  {
+   "text": "The authors write that it may be impossible for a method applied after training to make a model forget cyber knowledge in a way that generalizes, and that isolating knowledge during training may be necessary.",
+   "who": "Jasmine Shone and Lisa Dunlap, Anthropic",
+   "status": "said",
+   "sources": [
+    "anthropic"
+   ]
+  },
+  {
+   "text": "The 23 unlearned models are built on Zephyr-7B-beta, Llama-3-8B-Instruct and Llama-3 base models; 20 were released by others and 3 were trained by the authors.",
+   "who": "Jasmine Shone and Lisa Dunlap, Anthropic",
+   "status": "read",
+   "sources": [
+    "anthropic"
+   ]
+  },
+  {
+   "text": "Crypto Briefing reported the study on November 26 as a curtain rather than a shredder: the models looked scrubbed on paper.",
+   "who": "Crypto Briefing (Diego Almada Lopez)",
+   "status": "read",
+   "sources": [
+    "cryptobriefing"
+   ]
+  },
+  {
+   "text": "Whether unlearning in today’s largest models hides knowledge in the same way is not tested here.",
+   "who": "our reading",
+   "status": "open",
+   "sources": []
+  }
+ ],
+ "sources": [
+  {
+   "id": "anthropic",
+   "url": "https://alignment.anthropic.com/2026/neuron-basis-applications/",
+   "publisher": "Anthropic Alignment Science Blog (Jasmine Shone, Lisa Dunlap)",
+   "kind": "primary",
+   "published": "2026-11-23",
+   "read": "2026-11-26"
+  },
+  {
+   "id": "wiki",
+   "url": "https://en.wikipedia.org/wiki/Machine_unlearning",
+   "publisher": "Wikipedia",
+   "kind": "report",
+   "published": null,
+   "read": "2026-11-26"
+  },
+  {
+   "id": "cryptobriefing",
+   "url": "https://cryptobriefing.com/anthropic-ai-unlearning-cyberattack-knowledge/",
+   "publisher": "Crypto Briefing (Diego Almada Lopez)",
+   "kind": "critic",
+   "published": "2026-11-26",
+   "read": "2026-11-26"
+  }
+ ],
+ "to_find": [
+  "The same test on an unlearned frontier-scale model."
+ ],
+ "would_change": [
+  "An unlearning method whose checkpoints fail cloze scoring and neuron restoration as well as the multiple-choice test."
+ ],
+ "trend": {
+  "hn": null,
+  "lobsters": null,
+  "x": null
+ },
+ "omarchy": []
+}

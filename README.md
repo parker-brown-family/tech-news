@@ -26,6 +26,8 @@ Twice a day: one drama, one piece of research, one corporate, one thing put to u
 
 **Afternoon, 26 November 2026:** [An unnamed AI leader says big tech has stopped taking safety seriously](stories/ai-safety-insider.json) · [Agents that trim their own memory](stories/model-context-api.json) · [No Nvidia chips for Chinese renters](stories/neocloud-china-renters.json) · [Claude artifacts install as desktop apps](stories/claude-install-as-app.json) · [David Heinemeier Hansson’s Inkling 2 patch for llama.cpp](stories/llama-cpp-inkling-vulkan.json)
 
+**Evening, 26 November 2026:** [Cheap AI requests passed to ByteDance, a researcher says](stories/ark-wrappers.json) · [Models taught to forget still rank the answers first](stories/unlearning-hides.json) · [SAP weighs 10,000 job cuts for AI](stories/sap-ai-cuts.json) · [State hackers use the ARTEX attack agents](stories/artex-state-groups.json). No local AI story: the one candidate, a GLM-5.5 release date, rested on a third party's post with no word from Z.ai.
+
 ## Who Read Your Prompt?
 
 The first film, dated 24 November 2026. Where a prompt goes after you send it, and who can keep it.

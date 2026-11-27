@@ -1,0 +1,131 @@
+{
+ "id": "ark-wrappers",
+ "title": "A researcher says three OpenRouter hosts passed DeepSeek requests on to ByteDance",
+ "date": "2026-11-26",
+ "summary": "A researcher who publishes as Kendell says Novita, StreamLake and Ant Digital passed some DeepSeek requests on to ByteDance’s Ark model service, two of them while listed as keeping no data. Novita has answered only an earlier report about MiniMax.",
+ "topics": [
+  {
+   "id": "daily",
+   "angle": "Who actually answers a request sold through an AI marketplace, after the MiniMax forwarding notices of 22 to 24 November."
+  }
+ ],
+ "claims": [
+  {
+   "text": "A researcher who publishes as Kendell says some DeepSeek requests sent to Novita, StreamLake and Ant Digital, three hosts on OpenRouter, were passed on to Ark, ByteDance’s model service, judging by who downloaded images, the format of request and tool-call IDs, refusals and prices.",
+   "who": "Kendell",
+   "status": "said",
+   "sources": [
+    "kendell"
+   ]
+  },
+  {
+   "text": "Novita advertised zero data retention as its default for all endpoints, and Ant Digital was listed with zero data retention on OpenRouter until it was removed on November 22, Kendell writes.",
+   "who": "Kendell",
+   "status": "said",
+   "sources": [
+    "kendell"
+   ]
+  },
+  {
+   "text": "OpenRouter defines Zero Data Retention as no routine storage of prompts or responses after processing.",
+   "who": "OpenRouter",
+   "status": "read",
+   "sources": [
+    "openrouter-zdr"
+   ]
+  },
+  {
+   "text": "Kendell says the reason is price: ByteDance’s BytePlus advertises discounts of 30 to 50 percent for high volume, and Ant Digital’s launch price matched a BytePlus rate.",
+   "who": "Kendell",
+   "status": "said",
+   "sources": [
+    "kendell"
+   ]
+  },
+  {
+   "text": "Kendell writes that a grant from OpenRouter helped with the research.",
+   "who": "Kendell",
+   "status": "read",
+   "sources": [
+    "kendell"
+   ]
+  },
+  {
+   "text": "Novita said on November 22 that a routing configuration issue had sent some MiniMax requests to MiniMax’s own service, and that Novita itself does not retain customer prompts or outputs.",
+   "who": "Novita",
+   "status": "read",
+   "sources": [
+    "novita"
+   ]
+  },
+  {
+   "text": "A Hacker News reader replied that unless the hosts are lying about keeping no data, they did not see how the forwarding is a big deal.",
+   "who": "a Hacker News reader",
+   "status": "said",
+   "sources": [
+    "hn"
+   ]
+  },
+  {
+   "text": "No answer from Novita, StreamLake, Ant Digital or ByteDance to the ByteDance claim was found in what we read.",
+   "who": "our reading",
+   "status": "read",
+   "sources": [
+    "novita",
+    "kendell"
+   ]
+  },
+  {
+   "text": "Whether ByteDance kept any of the forwarded requests is not known.",
+   "who": "our reading",
+   "status": "open",
+   "sources": []
+  }
+ ],
+ "sources": [
+  {
+   "id": "kendell",
+   "url": "https://kendell.dev/blog/arkwrapper/",
+   "publisher": "Kendell",
+   "kind": "primary",
+   "published": "2026-11-25",
+   "read": "2026-11-26"
+  },
+  {
+   "id": "openrouter-zdr",
+   "url": "https://openrouter.ai/docs/guides/features/zdr",
+   "publisher": "OpenRouter",
+   "kind": "primary",
+   "published": null,
+   "read": "2026-11-26"
+  },
+  {
+   "id": "novita",
+   "url": "https://novita.ai/blog/minimax-requests-privacy-notice/",
+   "publisher": "Novita",
+   "kind": "primary",
+   "published": "2026-11-22",
+   "read": "2026-11-26"
+  },
+  {
+   "id": "hn",
+   "url": "https://news.ycombinator.com/item?id=50660273",
+   "publisher": "Hacker News",
+   "kind": "critic",
+   "published": "2026-11-26",
+   "read": "2026-11-26"
+  }
+ ],
+ "to_find": [
+  "An answer from Novita, StreamLake, Ant Digital or ByteDance on the Ark routing."
+ ],
+ "would_change": [
+  "A host showing that the fingerprints come from its own deployment of the same models."
+ ],
+ "trend": {
+  "hn": null,
+  "lobsters": null,
+  "x": null
+ },
+ "omarchy": []
+}

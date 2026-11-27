@@ -1,0 +1,106 @@
+{
+ "id": "sap-ai-cuts",
+ "title": "SAP weighs cutting at least 10,000 jobs in an AI overhaul, Bloomberg reports",
+ "date": "2026-11-26",
+ "summary": "People familiar told Bloomberg that SAP is preparing to cut at least 10,000 positions, at least 9 percent of staff, to remake the company for AI. SAP would not say whether cuts are planned; after its 2024 cuts its headcount rose.",
+ "topics": [
+  {
+   "id": "daily",
+   "angle": "What an AI-first restructuring at Europe’s most valuable software company means for its staff, set against the last one."
+  }
+ ],
+ "claims": [
+  {
+   "text": "SAP is preparing a plan to eliminate at least 10,000 positions to transform its software business for the AI era, at least 9% of its global workforce, people familiar with the matter told Bloomberg.",
+   "who": "Bloomberg (Christina Kyriasoglou)",
+   "status": "read",
+   "sources": [
+    "bloomberg"
+   ]
+  },
+  {
+   "text": "All departments are being asked to identify areas for potential cuts, with product and engineering and sales in particular focus, and the total might change after labor negotiations, Bloomberg reported.",
+   "who": "Bloomberg",
+   "status": "read",
+   "sources": [
+    "bloomberg"
+   ]
+  },
+  {
+   "text": "SAP said it continuously reviews its organization to ensure it remains aligned with its strategy and customer needs, and declined to comment on whether any job cuts are planned.",
+   "who": "SAP, to Bloomberg",
+   "status": "read",
+   "sources": [
+    "bloomberg"
+   ]
+  },
+  {
+   "text": "SAP’s 2024 restructuring eliminated about 10,000 positions, mostly through voluntary departures and retraining, yet its headcount rose to 111,397 at the end of 2025 from 109,973 a year earlier, Calcalist reports.",
+   "who": "Calcalist",
+   "status": "read",
+   "sources": [
+    "calcalist"
+   ]
+  },
+  {
+   "text": "In Germany, SAP’s labor council negotiated an employment guarantee through 2028, Bloomberg reported.",
+   "who": "Bloomberg",
+   "status": "read",
+   "sources": [
+    "bloomberg"
+   ]
+  },
+  {
+   "text": "Bloomberg describes SAP as Europe’s most valuable software company, and says the people familiar asked not to be identified because discussions are ongoing.",
+   "who": "Bloomberg",
+   "status": "read",
+   "sources": [
+    "bloomberg"
+   ]
+  },
+  {
+   "text": "SAP’s 2024 restructuring eliminated around 10,000 positions, mainly through voluntary departures and retraining, with the total number of employees remaining relatively flat as SAP hired for new positions, Bloomberg reported.",
+   "who": "Bloomberg",
+   "status": "read",
+   "sources": [
+    "bloomberg"
+   ]
+  },
+  {
+   "text": "How many positions SAP will cut, and when, is not decided.",
+   "who": "our reading",
+   "status": "open",
+   "sources": []
+  }
+ ],
+ "sources": [
+  {
+   "id": "bloomberg",
+   "url": "https://finance.yahoo.com/technology/ai/articles/sap-weighs-cutting-least-10-161548594.html",
+   "publisher": "Bloomberg (Christina Kyriasoglou), on Yahoo Finance",
+   "kind": "report",
+   "published": "2026-11-26",
+   "read": "2026-11-26"
+  },
+  {
+   "id": "calcalist",
+   "url": "https://www.calcalistech.com/ctechnews/article/al8iwkfjx",
+   "publisher": "Calcalist (CTech)",
+   "kind": "report",
+   "published": "2026-11-26",
+   "read": "2026-11-26"
+  }
+ ],
+ "to_find": [
+  "SAP’s own announcement, usually made in late January with full-year results."
+ ],
+ "would_change": [
+  "SAP saying no restructuring of that size is planned."
+ ],
+ "trend": {
+  "hn": null,
+  "lobsters": null,
+  "x": null
+ },
+ "omarchy": []
+}

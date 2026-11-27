@@ -110,6 +110,28 @@
    "source": {"title": "Post hoc analysis (Wikipedia)", "url": "https://en.wikipedia.org/wiki/Post_hoc_analysis"},
    "see": ["competing-hypotheses"],
    "used_in": ["receipt-trail"]
+  },
+  {
+   "id": "zero-data-retention",
+   "term": "Zero data retention",
+   "aka": ["ZDR"],
+   "says": "A promise by a company that answers AI requests that it keeps no copy of what you send or what it sends back, once the answer is made. It is a label on a host, and it covers that host's own storage.",
+   "use_when": "A story turns on whether a host that sells AI answers keeps, reads or passes on people's requests.",
+   "not": "Not a promise about where the request goes. A host can keep nothing and still pass the request to another company, whose own rules then apply.",
+   "source": {"title": "Zero Data Retention (OpenRouter documentation)", "url": "https://openrouter.ai/docs/guides/features/zdr"},
+   "see": [],
+   "used_in": ["ark-wrappers"]
+  },
+  {
+   "id": "machine-unlearning",
+   "term": "Machine unlearning",
+   "aka": ["unlearning"],
+   "says": "Training a finished AI model again so that it forgets something particular, such as private data or dangerous knowledge, without building it again from the start. Success is usually measured by a test: if the model can no longer answer questions on the topic, it is counted as forgotten.",
+   "use_when": "A story asks whether a model has really lost a piece of knowledge or an ability that someone tried to remove.",
+   "not": "Not the same as refusal training, which teaches a model to decline a topic it still knows. A test score at chance does not by itself show the knowledge is gone.",
+   "source": {"title": "Machine unlearning (Wikipedia)", "url": "https://en.wikipedia.org/wiki/Machine_unlearning"},
+   "see": [],
+   "used_in": ["unlearning-hides"]
   }
  ]
 }

@@ -1,0 +1,114 @@
+{
+ "id": "artex-state-groups",
+ "title": "Microsoft says state hacking groups from China and North Korea use the ARTEX attack agents",
+ "date": "2026-11-26",
+ "summary": "Microsoft names six groups using ARTEX, an open-source framework of AI agents that attacks systems with known tools at machine speed, among them China’s Salt Typhoon and North Korea’s Onyx Sleet and Pearl Sleet. Britain’s NCSC says such tools are noisy.",
+ "topics": [
+  {
+   "id": "daily",
+   "angle": "Who uses AI attack agents, after the Swiss and Italian confirmations of 25 November."
+  }
+ ],
+ "claims": [
+  {
+   "text": "Microsoft Threat Intelligence has observed state-sponsored and financially motivated groups, Storm-0940, Storm-3358, Onyx Sleet, Pearl Sleet, Crystal Typhoon and Salt Typhoon, integrating ARTEX into their tooling as of November 2026.",
+   "who": "Microsoft Threat Intelligence",
+   "status": "read",
+   "sources": [
+    "microsoft"
+   ]
+  },
+  {
+   "text": "Salt Typhoon is the group responsible for attacks on the telecoms companies AT&T and Verizon, The Register reports.",
+   "who": "The Register (Connor Jones)",
+   "status": "read",
+   "sources": [
+    "register"
+   ]
+  },
+  {
+   "text": "ARTEX does not introduce new attack techniques; it runs common penetration testing tools and tries one approach after another at machine speed, and can advance from reconnaissance to privileged access within minutes depending on configuration and defenses, Microsoft says.",
+   "who": "Microsoft Threat Intelligence",
+   "status": "read",
+   "sources": [
+    "microsoft"
+   ]
+  },
+  {
+   "text": "Because the attacker can power ARTEX with virtually any model, including open-weight or modified ones, its activity is not constrained by any single provider’s safety controls, Microsoft says.",
+   "who": "Microsoft Threat Intelligence",
+   "status": "read",
+   "sources": [
+    "microsoft"
+   ]
+  },
+  {
+   "text": "The UK NCSC said agentic offensive frameworks are noisy, making them easier to detect in network logs and by defensive tools, The Register reports.",
+   "who": "The Register",
+   "status": "read",
+   "sources": [
+    "register"
+   ]
+  },
+  {
+   "text": "Microsoft recommends honeypots, tarpits and fake wins, which can cause an attacking agent to stop on a false success, and says its own Defender products disrupt ARTEX-enabled attacks.",
+   "who": "Microsoft Threat Intelligence",
+   "status": "read",
+   "sources": [
+    "microsoft"
+   ]
+  },
+  {
+   "text": "Chinese and North Korean state-sponsored hacking crews are among the groups using ARTEX, an open source, AI-powered penetration testing framework that anyone can fork, The Register reports, citing Microsoft.",
+   "who": "The Register",
+   "status": "read",
+   "sources": [
+    "register"
+   ]
+  },
+  {
+   "text": "ARTEX coordinates multiple AI agents that can take an attack from reconnaissance through exploitation, verification and reporting with little or no human involvement, Microsoft says.",
+   "who": "Microsoft Threat Intelligence",
+   "status": "read",
+   "sources": [
+    "microsoft"
+   ]
+  },
+  {
+   "text": "How many ARTEX attacks have succeeded, and against whom, beyond the cases named, is not known.",
+   "who": "our reading",
+   "status": "open",
+   "sources": []
+  }
+ ],
+ "sources": [
+  {
+   "id": "microsoft",
+   "url": "https://www.microsoft.com/en-us/security/blog/2026/11/25/what-defenders-need-to-know-artex-agentic-ai-framework-threat-actors-abuse/",
+   "publisher": "Microsoft Threat Intelligence",
+   "kind": "primary",
+   "published": "2026-11-25",
+   "read": "2026-11-26"
+  },
+  {
+   "id": "register",
+   "url": "https://www.theregister.com/security/2026/11/26/microsoft-hackers-in-china-n-korea-using-artex-ai-tool-to-break-into-global-tech-systems/5312433",
+   "publisher": "The Register (Connor Jones)",
+   "kind": "report",
+   "published": "2026-11-26",
+   "read": "2026-11-26"
+  }
+ ],
+ "to_find": [
+  "A count of ARTEX intrusions that succeeded."
+ ],
+ "would_change": [
+  "Microsoft withdrawing an attribution to a named group."
+ ],
+ "trend": {
+  "hn": null,
+  "lobsters": null,
+  "x": null
+ },
+ "omarchy": []
+}

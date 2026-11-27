@@ -45,6 +45,236 @@
  },
  "items": [
   {
+   "id": "unlearning-hides",
+   "title": "Anthropic researchers find most unlearned models still rank the hidden cyber answers first",
+   "content_text": "Jasmine Shone and Lisa Dunlap tested 23 public models put through unlearning for cyber-attack knowledge. Fourteen still put the right answer first for most questions; the authors say removal after training may not be possible.",
+   "date_published": "2026-11-26T00:00:00Z",
+   "tags": [
+    "daily"
+   ],
+   "_tech_news": {
+    "id": "unlearning-hides",
+    "title": "Anthropic researchers find most unlearned models still rank the hidden cyber answers first",
+    "date": "2026-11-26",
+    "summary": "Jasmine Shone and Lisa Dunlap tested 23 public models put through unlearning for cyber-attack knowledge. Fourteen still put the right answer first for most questions; the authors say removal after training may not be possible.",
+    "topics": [
+     {
+      "id": "daily",
+      "angle": "Whether the standard way of making a model forget dangerous knowledge removes it, or hides it."
+     }
+    ],
+    "claims": [
+     {
+      "text": "Machine unlearning is a branch of machine learning that tries to remove specific data, knowledge or abilities from a trained model without rebuilding it from the ground up.",
+      "who": "Wikipedia",
+      "status": "read",
+      "sources": [
+       "wiki"
+      ]
+     },
+     {
+      "text": "Of 23 public WMDP-cyber unlearning checkpoints, 14 still rank the correct answer first under cloze scoring for most questions the base model got right, even when multiple-choice accuracy is near chance, the authors report.",
+      "who": "Jasmine Shone and Lisa Dunlap, Anthropic",
+      "status": "said",
+      "sources": [
+       "anthropic"
+      ]
+     },
+     {
+      "text": "In the methods that do well on the standard test, restoring a few dozen of about 460,000 neurons brings back much of the lost answers, and these neurons fire 20 to 100 times more strongly on cyber text after unlearning, the authors report.",
+      "who": "Jasmine Shone and Lisa Dunlap, Anthropic",
+      "status": "said",
+      "sources": [
+       "anthropic"
+      ]
+     },
+     {
+      "text": "The authors write that it may be impossible for a method applied after training to make a model forget cyber knowledge in a way that generalizes, and that isolating knowledge during training may be necessary.",
+      "who": "Jasmine Shone and Lisa Dunlap, Anthropic",
+      "status": "said",
+      "sources": [
+       "anthropic"
+      ]
+     },
+     {
+      "text": "The 23 unlearned models are built on Zephyr-7B-beta, Llama-3-8B-Instruct and Llama-3 base models; 20 were released by others and 3 were trained by the authors.",
+      "who": "Jasmine Shone and Lisa Dunlap, Anthropic",
+      "status": "read",
+      "sources": [
+       "anthropic"
+      ]
+     },
+     {
+      "text": "Crypto Briefing reported the study on November 26 as a curtain rather than a shredder: the models looked scrubbed on paper.",
+      "who": "Crypto Briefing (Diego Almada Lopez)",
+      "status": "read",
+      "sources": [
+       "cryptobriefing"
+      ]
+     },
+     {
+      "text": "Whether unlearning in today’s largest models hides knowledge in the same way is not tested here.",
+      "who": "our reading",
+      "status": "open",
+      "sources": []
+     }
+    ],
+    "sources": [
+     {
+      "id": "anthropic",
+      "url": "https://alignment.anthropic.com/2026/neuron-basis-applications/",
+      "publisher": "Anthropic Alignment Science Blog (Jasmine Shone, Lisa Dunlap)",
+      "kind": "primary",
+      "published": "2026-11-23",
+      "read": "2026-11-26"
+     },
+     {
+      "id": "wiki",
+      "url": "https://en.wikipedia.org/wiki/Machine_unlearning",
+      "publisher": "Wikipedia",
+      "kind": "report",
+      "published": null,
+      "read": "2026-11-26"
+     },
+     {
+      "id": "cryptobriefing",
+      "url": "https://cryptobriefing.com/anthropic-ai-unlearning-cyberattack-knowledge/",
+      "publisher": "Crypto Briefing (Diego Almada Lopez)",
+      "kind": "critic",
+      "published": "2026-11-26",
+      "read": "2026-11-26"
+     }
+    ],
+    "to_find": [
+     "The same test on an unlearned frontier-scale model."
+    ],
+    "would_change": [
+     "An unlearning method whose checkpoints fail cloze scoring and neuron restoration as well as the multiple-choice test."
+    ],
+    "trend": {
+     "hn": null,
+     "lobsters": null,
+     "x": null
+    },
+    "omarchy": []
+   }
+  },
+  {
+   "id": "sap-ai-cuts",
+   "title": "SAP weighs cutting at least 10,000 jobs in an AI overhaul, Bloomberg reports",
+   "content_text": "People familiar told Bloomberg that SAP is preparing to cut at least 10,000 positions, at least 9 percent of staff, to remake the company for AI. SAP would not say whether cuts are planned; after its 2024 cuts its headcount rose.",
+   "date_published": "2026-11-26T00:00:00Z",
+   "tags": [
+    "daily"
+   ],
+   "_tech_news": {
+    "id": "sap-ai-cuts",
+    "title": "SAP weighs cutting at least 10,000 jobs in an AI overhaul, Bloomberg reports",
+    "date": "2026-11-26",
+    "summary": "People familiar told Bloomberg that SAP is preparing to cut at least 10,000 positions, at least 9 percent of staff, to remake the company for AI. SAP would not say whether cuts are planned; after its 2024 cuts its headcount rose.",
+    "topics": [
+     {
+      "id": "daily",
+      "angle": "What an AI-first restructuring at Europe’s most valuable software company means for its staff, set against the last one."
+     }
+    ],
+    "claims": [
+     {
+      "text": "SAP is preparing a plan to eliminate at least 10,000 positions to transform its software business for the AI era, at least 9% of its global workforce, people familiar with the matter told Bloomberg.",
+      "who": "Bloomberg (Christina Kyriasoglou)",
+      "status": "read",
+      "sources": [
+       "bloomberg"
+      ]
+     },
+     {
+      "text": "All departments are being asked to identify areas for potential cuts, with product and engineering and sales in particular focus, and the total might change after labor negotiations, Bloomberg reported.",
+      "who": "Bloomberg",
+      "status": "read",
+      "sources": [
+       "bloomberg"
+      ]
+     },
+     {
+      "text": "SAP said it continuously reviews its organization to ensure it remains aligned with its strategy and customer needs, and declined to comment on whether any job cuts are planned.",
+      "who": "SAP, to Bloomberg",
+      "status": "read",
+      "sources": [
+       "bloomberg"
+      ]
+     },
+     {
+      "text": "SAP’s 2024 restructuring eliminated about 10,000 positions, mostly through voluntary departures and retraining, yet its headcount rose to 111,397 at the end of 2025 from 109,973 a year earlier, Calcalist reports.",
+      "who": "Calcalist",
+      "status": "read",
+      "sources": [
+       "calcalist"
+      ]
+     },
+     {
+      "text": "In Germany, SAP’s labor council negotiated an employment guarantee through 2028, Bloomberg reported.",
+      "who": "Bloomberg",
+      "status": "read",
+      "sources": [
+       "bloomberg"
+      ]
+     },
+     {
+      "text": "Bloomberg describes SAP as Europe’s most valuable software company, and says the people familiar asked not to be identified because discussions are ongoing.",
+      "who": "Bloomberg",
+      "status": "read",
+      "sources": [
+       "bloomberg"
+      ]
+     },
+     {
+      "text": "SAP’s 2024 restructuring eliminated around 10,000 positions, mainly through voluntary departures and retraining, with the total number of employees remaining relatively flat as SAP hired for new positions, Bloomberg reported.",
+      "who": "Bloomberg",
+      "status": "read",
+      "sources": [
+       "bloomberg"
+      ]
+     },
+     {
+      "text": "How many positions SAP will cut, and when, is not decided.",
+      "who": "our reading",
+      "status": "open",
+      "sources": []
+     }
+    ],
+    "sources": [
+     {
+      "id": "bloomberg",
+      "url": "https://finance.yahoo.com/technology/ai/articles/sap-weighs-cutting-least-10-161548594.html",
+      "publisher": "Bloomberg (Christina Kyriasoglou), on Yahoo Finance",
+      "kind": "report",
+      "published": "2026-11-26",
+      "read": "2026-11-26"
+     },
+     {
+      "id": "calcalist",
+      "url": "https://www.calcalistech.com/ctechnews/article/al8iwkfjx",
+      "publisher": "Calcalist (CTech)",
+      "kind": "report",
+      "published": "2026-11-26",
+      "read": "2026-11-26"
+     }
+    ],
+    "to_find": [
+     "SAP’s own announcement, usually made in late January with full-year results."
+    ],
+    "would_change": [
+     "SAP saying no restructuring of that size is planned."
+    ],
+    "trend": {
+     "hn": null,
+     "lobsters": null,
+     "x": null
+    },
+    "omarchy": []
+   }
+  },
+  {
    "id": "receipt-trail",
    "title": "A receipt trail for the Jensen Huang coverage, checked claim by claim",
    "content_text": "A widely shared post says EA-funded journalism explains the wave of stories against Jensen Huang. The funding ties it names are real and on Tarbell’s own pages. The coordination it alleges is not shown: most fellows’ stories were plain news, the Times broke the story, and the timing fits any account.",
@@ -1307,6 +1537,269 @@
     ],
     "would_change": [
      "A report of an installed app misusing full access."
+    ],
+    "trend": {
+     "hn": null,
+     "lobsters": null,
+     "x": null
+    },
+    "omarchy": []
+   }
+  },
+  {
+   "id": "artex-state-groups",
+   "title": "Microsoft says state hacking groups from China and North Korea use the ARTEX attack agents",
+   "content_text": "Microsoft names six groups using ARTEX, an open-source framework of AI agents that attacks systems with known tools at machine speed, among them China’s Salt Typhoon and North Korea’s Onyx Sleet and Pearl Sleet. Britain’s NCSC says such tools are noisy.",
+   "date_published": "2026-11-26T00:00:00Z",
+   "tags": [
+    "daily"
+   ],
+   "_tech_news": {
+    "id": "artex-state-groups",
+    "title": "Microsoft says state hacking groups from China and North Korea use the ARTEX attack agents",
+    "date": "2026-11-26",
+    "summary": "Microsoft names six groups using ARTEX, an open-source framework of AI agents that attacks systems with known tools at machine speed, among them China’s Salt Typhoon and North Korea’s Onyx Sleet and Pearl Sleet. Britain’s NCSC says such tools are noisy.",
+    "topics": [
+     {
+      "id": "daily",
+      "angle": "Who uses AI attack agents, after the Swiss and Italian confirmations of 25 November."
+     }
+    ],
+    "claims": [
+     {
+      "text": "Microsoft Threat Intelligence has observed state-sponsored and financially motivated groups, Storm-0940, Storm-3358, Onyx Sleet, Pearl Sleet, Crystal Typhoon and Salt Typhoon, integrating ARTEX into their tooling as of November 2026.",
+      "who": "Microsoft Threat Intelligence",
+      "status": "read",
+      "sources": [
+       "microsoft"
+      ]
+     },
+     {
+      "text": "Salt Typhoon is the group responsible for attacks on the telecoms companies AT&T and Verizon, The Register reports.",
+      "who": "The Register (Connor Jones)",
+      "status": "read",
+      "sources": [
+       "register"
+      ]
+     },
+     {
+      "text": "ARTEX does not introduce new attack techniques; it runs common penetration testing tools and tries one approach after another at machine speed, and can advance from reconnaissance to privileged access within minutes depending on configuration and defenses, Microsoft says.",
+      "who": "Microsoft Threat Intelligence",
+      "status": "read",
+      "sources": [
+       "microsoft"
+      ]
+     },
+     {
+      "text": "Because the attacker can power ARTEX with virtually any model, including open-weight or modified ones, its activity is not constrained by any single provider’s safety controls, Microsoft says.",
+      "who": "Microsoft Threat Intelligence",
+      "status": "read",
+      "sources": [
+       "microsoft"
+      ]
+     },
+     {
+      "text": "The UK NCSC said agentic offensive frameworks are noisy, making them easier to detect in network logs and by defensive tools, The Register reports.",
+      "who": "The Register",
+      "status": "read",
+      "sources": [
+       "register"
+      ]
+     },
+     {
+      "text": "Microsoft recommends honeypots, tarpits and fake wins, which can cause an attacking agent to stop on a false success, and says its own Defender products disrupt ARTEX-enabled attacks.",
+      "who": "Microsoft Threat Intelligence",
+      "status": "read",
+      "sources": [
+       "microsoft"
+      ]
+     },
+     {
+      "text": "Chinese and North Korean state-sponsored hacking crews are among the groups using ARTEX, an open source, AI-powered penetration testing framework that anyone can fork, The Register reports, citing Microsoft.",
+      "who": "The Register",
+      "status": "read",
+      "sources": [
+       "register"
+      ]
+     },
+     {
+      "text": "ARTEX coordinates multiple AI agents that can take an attack from reconnaissance through exploitation, verification and reporting with little or no human involvement, Microsoft says.",
+      "who": "Microsoft Threat Intelligence",
+      "status": "read",
+      "sources": [
+       "microsoft"
+      ]
+     },
+     {
+      "text": "How many ARTEX attacks have succeeded, and against whom, beyond the cases named, is not known.",
+      "who": "our reading",
+      "status": "open",
+      "sources": []
+     }
+    ],
+    "sources": [
+     {
+      "id": "microsoft",
+      "url": "https://www.microsoft.com/en-us/security/blog/2026/11/25/what-defenders-need-to-know-artex-agentic-ai-framework-threat-actors-abuse/",
+      "publisher": "Microsoft Threat Intelligence",
+      "kind": "primary",
+      "published": "2026-11-25",
+      "read": "2026-11-26"
+     },
+     {
+      "id": "register",
+      "url": "https://www.theregister.com/security/2026/11/26/microsoft-hackers-in-china-n-korea-using-artex-ai-tool-to-break-into-global-tech-systems/5312433",
+      "publisher": "The Register (Connor Jones)",
+      "kind": "report",
+      "published": "2026-11-26",
+      "read": "2026-11-26"
+     }
+    ],
+    "to_find": [
+     "A count of ARTEX intrusions that succeeded."
+    ],
+    "would_change": [
+     "Microsoft withdrawing an attribution to a named group."
+    ],
+    "trend": {
+     "hn": null,
+     "lobsters": null,
+     "x": null
+    },
+    "omarchy": []
+   }
+  },
+  {
+   "id": "ark-wrappers",
+   "title": "A researcher says three OpenRouter hosts passed DeepSeek requests on to ByteDance",
+   "content_text": "A researcher who publishes as Kendell says Novita, StreamLake and Ant Digital passed some DeepSeek requests on to ByteDance’s Ark model service, two of them while listed as keeping no data. Novita has answered only an earlier report about MiniMax.",
+   "date_published": "2026-11-26T00:00:00Z",
+   "tags": [
+    "daily"
+   ],
+   "_tech_news": {
+    "id": "ark-wrappers",
+    "title": "A researcher says three OpenRouter hosts passed DeepSeek requests on to ByteDance",
+    "date": "2026-11-26",
+    "summary": "A researcher who publishes as Kendell says Novita, StreamLake and Ant Digital passed some DeepSeek requests on to ByteDance’s Ark model service, two of them while listed as keeping no data. Novita has answered only an earlier report about MiniMax.",
+    "topics": [
+     {
+      "id": "daily",
+      "angle": "Who actually answers a request sold through an AI marketplace, after the MiniMax forwarding notices of 22 to 24 November."
+     }
+    ],
+    "claims": [
+     {
+      "text": "A researcher who publishes as Kendell says some DeepSeek requests sent to Novita, StreamLake and Ant Digital, three hosts on OpenRouter, were passed on to Ark, ByteDance’s model service, judging by who downloaded images, the format of request and tool-call IDs, refusals and prices.",
+      "who": "Kendell",
+      "status": "said",
+      "sources": [
+       "kendell"
+      ]
+     },
+     {
+      "text": "Novita advertised zero data retention as its default for all endpoints, and Ant Digital was listed with zero data retention on OpenRouter until it was removed on November 22, Kendell writes.",
+      "who": "Kendell",
+      "status": "said",
+      "sources": [
+       "kendell"
+      ]
+     },
+     {
+      "text": "OpenRouter defines Zero Data Retention as no routine storage of prompts or responses after processing.",
+      "who": "OpenRouter",
+      "status": "read",
+      "sources": [
+       "openrouter-zdr"
+      ]
+     },
+     {
+      "text": "Kendell says the reason is price: ByteDance’s BytePlus advertises discounts of 30 to 50 percent for high volume, and Ant Digital’s launch price matched a BytePlus rate.",
+      "who": "Kendell",
+      "status": "said",
+      "sources": [
+       "kendell"
+      ]
+     },
+     {
+      "text": "Kendell writes that a grant from OpenRouter helped with the research.",
+      "who": "Kendell",
+      "status": "read",
+      "sources": [
+       "kendell"
+      ]
+     },
+     {
+      "text": "Novita said on November 22 that a routing configuration issue had sent some MiniMax requests to MiniMax’s own service, and that Novita itself does not retain customer prompts or outputs.",
+      "who": "Novita",
+      "status": "read",
+      "sources": [
+       "novita"
+      ]
+     },
+     {
+      "text": "A Hacker News reader replied that unless the hosts are lying about keeping no data, they did not see how the forwarding is a big deal.",
+      "who": "a Hacker News reader",
+      "status": "said",
+      "sources": [
+       "hn"
+      ]
+     },
+     {
+      "text": "No answer from Novita, StreamLake, Ant Digital or ByteDance to the ByteDance claim was found in what we read.",
+      "who": "our reading",
+      "status": "read",
+      "sources": [
+       "novita",
+       "kendell"
+      ]
+     },
+     {
+      "text": "Whether ByteDance kept any of the forwarded requests is not known.",
+      "who": "our reading",
+      "status": "open",
+      "sources": []
+     }
+    ],
+    "sources": [
+     {
+      "id": "kendell",
+      "url": "https://kendell.dev/blog/arkwrapper/",
+      "publisher": "Kendell",
+      "kind": "primary",
+      "published": "2026-11-25",
+      "read": "2026-11-26"
+     },
+     {
+      "id": "openrouter-zdr",
+      "url": "https://openrouter.ai/docs/guides/features/zdr",
+      "publisher": "OpenRouter",
+      "kind": "primary",
+      "published": null,
+      "read": "2026-11-26"
+     },
+     {
+      "id": "novita",
+      "url": "https://novita.ai/blog/minimax-requests-privacy-notice/",
+      "publisher": "Novita",
+      "kind": "primary",
+      "published": "2026-11-22",
+      "read": "2026-11-26"
+     },
+     {
+      "id": "hn",
+      "url": "https://news.ycombinator.com/item?id=50660273",
+      "publisher": "Hacker News",
+      "kind": "critic",
+      "published": "2026-11-26",
+      "read": "2026-11-26"
+     }
+    ],
+    "to_find": [
+     "An answer from Novita, StreamLake, Ant Digital or ByteDance on the Ark routing."
+    ],
+    "would_change": [
+     "A host showing that the fingerprints come from its own deployment of the same models."
     ],
     "trend": {
      "hn": null,
