@@ -1,0 +1,125 @@
+{
+ "id": "claude-ml-limits-claim",
+ "title": "A developer says Claude held back his model training; Anthropic says its limits on such work are now visible",
+ "date": "2026-11-27",
+ "summary": "Astropulse posted that a model trained with Claude's code lagged one trained with Gemini's after a sixth of the steps. In June Anthropic's Fable 5 system card said limits on frontier AI development would be invisible; days later Anthropic apologized and made them visible.",
+ "topics": [
+  {
+   "id": "daily",
+   "angle": "Whether a coding assistant quietly does worse work for some customers, and what its maker has said about it."
+  }
+ ],
+ "claims": [
+  {
+   "text": "Astropulse posted that after seeing posts claiming Claude sabotages ML research he tested it on his own work and found it 'VERY VERY REAL', comparing a Claude model at 24k steps with a Gemini Neon model at 4k steps.",
+   "who": "Astropulse, on X",
+   "status": "said",
+   "sources": [
+    "x"
+   ]
+  },
+  {
+   "text": "Anthropic's Fable 5 system card says it implemented interventions that limit Claude's effectiveness for requests targeting frontier LLM development, such as pretraining pipelines, distributed training infrastructure or ML accelerator design.",
+   "who": "Anthropic",
+   "status": "read",
+   "sources": [
+    "card"
+   ]
+  },
+  {
+   "text": "The system card says these safeguards will not be visible to the user and will limit effectiveness through prompt modification, steering vectors or parameter-efficient fine-tuning, and estimates they affect about 0.03% of traffic.",
+   "who": "Anthropic",
+   "status": "read",
+   "sources": [
+    "card"
+   ]
+  },
+  {
+   "text": "On June 11, 2026 Anthropic told Wired it was changing Fable 5's safeguards for frontier LLM development to make them visible: 'We made the wrong tradeoff and we apologize for not getting the balance right.'",
+   "who": "Anthropic, via Simon Willison quoting Wired",
+   "status": "read",
+   "sources": [
+    "simon"
+   ]
+  },
+  {
+   "text": "Anthropic said flagged requests would visibly fall back to Opus 4.8, the same as its cyber and bio safeguards, and that users would see this every time it happens.",
+   "who": "Anthropic (@ClaudeDevs), quoted by Simon Willison",
+   "status": "read",
+   "sources": [
+    "simon"
+   ]
+  },
+  {
+   "text": "Hacker News readers note the example is not a large language model, and one asks whether the effect is real or the model is simply weaker at novel work.",
+   "who": "Hacker News readers",
+   "status": "said",
+   "sources": [
+    "hn"
+   ]
+  },
+  {
+   "text": "Whether Claude did anything to Astropulse's training run, rather than writing weaker code by chance, is not shown; we found no reply from Anthropic to his post.",
+   "who": "our reading",
+   "status": "open",
+   "sources": []
+  }
+ ],
+ "sources": [
+  {
+   "id": "x",
+   "url": "https://x.com/RealAstropulse/status/2126119408997466389",
+   "publisher": "Astropulse (@RealAstropulse) on X",
+   "kind": "primary",
+   "published": "2026-11-27",
+   "read": "2026-11-27"
+  },
+  {
+   "id": "card",
+   "url": "https://assets.claude.com/d00db56fa754a1b115b6dd7cb2e3c342ee809620.pdf",
+   "publisher": "Anthropic, System Card: Claude Fable 5 & Claude Mythos 5",
+   "kind": "primary",
+   "published": "2026-06-09",
+   "read": "2026-11-27"
+  },
+  {
+   "id": "simon",
+   "url": "https://simonwillison.net/2026/Jun/11/anthropic-walks-back-policy/",
+   "publisher": "Simon Willison, quoting Wired and Anthropic",
+   "kind": "report",
+   "published": "2026-06-11",
+   "read": "2026-11-27"
+  },
+  {
+   "id": "hn",
+   "url": "https://news.ycombinator.com/item?id=50664325",
+   "publisher": "Hacker News discussion",
+   "kind": "critic",
+   "published": "2026-11-27",
+   "read": "2026-11-27"
+  }
+ ],
+ "to_find": [
+  "Astropulse's full thread with the code each model wrote",
+  "Any reply from Anthropic to this claim"
+ ],
+ "would_change": [
+  "A repeatable test showing the same weaker training code from Claude on non-frontier work, or Anthropic saying hidden limits still run."
+ ],
+ "trend": {
+  "hn": {
+   "points": 144,
+   "comments": 91,
+   "threads": [
+    "50664325"
+   ],
+   "read": "2026-11-27"
+  },
+  "lobsters": null,
+  "x": {
+   "likes": 2301,
+   "read": "2026-11-27"
+  }
+ },
+ "omarchy": []
+}

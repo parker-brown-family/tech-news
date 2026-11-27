@@ -45,6 +45,475 @@
  },
  "items": [
   {
+   "id": "network-kit-waits",
+   "title": "The AI building boom leaves network operators waiting up to 18 months for equipment, RETN says",
+   "content_text": "Network operator RETN says optical networking equipment prices rose about 50% in 2026 and delivery stretched from three months to 12 to 15, some orders 18, as telcos compete with AI datacenters for parts. The Register read its report.",
+   "date_published": "2026-11-27T00:00:00Z",
+   "tags": [
+    "daily"
+   ],
+   "_tech_news": {
+    "id": "network-kit-waits",
+    "title": "The AI building boom leaves network operators waiting up to 18 months for equipment, RETN says",
+    "date": "2026-11-27",
+    "summary": "Network operator RETN says optical networking equipment prices rose about 50% in 2026 and delivery stretched from three months to 12 to 15, some orders 18, as telcos compete with AI datacenters for parts. The Register read its report.",
+    "topics": [
+     {
+      "id": "daily",
+      "angle": "What the AI datacenter boom costs the networks everyone else uses."
+     }
+    ],
+    "claims": [
+     {
+      "text": "RETN says optical networking equipment prices have risen around 50 percent since the start of 2026, and kit that used to arrive within three months now takes 12 to 15, some orders up to 18 months.",
+      "who": "RETN, via The Register",
+      "status": "read",
+      "sources": [
+       "reg"
+      ]
+     },
+     {
+      "text": "RETN says network operators and telcos now compete directly with AI datacenters for chips and other components.",
+      "who": "RETN, via The Register",
+      "status": "read",
+      "sources": [
+       "reg"
+      ]
+     },
+     {
+      "text": "RETN says developers building outside established datacenter hubs may need to involve network carriers two to five years before opening.",
+      "who": "RETN, via The Register",
+      "status": "read",
+      "sources": [
+       "reg"
+      ]
+     },
+     {
+      "text": "RETN concedes many carriers postponed network upgrades to cut spending, work that is now unavoidable at the worst time.",
+      "who": "RETN, via The Register",
+      "status": "read",
+      "sources": [
+       "reg"
+      ]
+     },
+     {
+      "text": "RETN says a diverse circuit might cost €1,800 a month instead of €600; RETN sells network capacity.",
+      "who": "RETN, via The Register",
+      "status": "read",
+      "sources": [
+       "reg"
+      ]
+     },
+     {
+      "text": "RETN's report was not found online; its figures are read here only through The Register, and no other operator's figures were checked.",
+      "who": "our reading",
+      "status": "open",
+      "sources": []
+     }
+    ],
+    "sources": [
+     {
+      "id": "reg",
+      "url": "https://www.theregister.com/networks/2026/11/27/ai-boom-leaves-network-operators-waiting-up-to-18-months-for-kit/5312366",
+      "publisher": "The Register (Dan Robinson), reading RETN's report 'AI, Connected'",
+      "kind": "report",
+      "published": "2026-11-27",
+      "read": "2026-11-27"
+     }
+    ],
+    "to_find": [
+     "RETN's report 'AI, Connected' itself",
+     "Lead times from an equipment maker or another carrier"
+    ],
+    "would_change": [
+     "Equipment makers reporting normal delivery times."
+    ],
+    "trend": {
+     "hn": null,
+     "lobsters": null,
+     "x": null
+    },
+    "omarchy": []
+   }
+  },
+  {
+   "id": "coding-agents-repeat-flaws",
+   "title": "Coding agents fix a security hole, then make the same kind again in a new session",
+   "content_text": "University at Buffalo researchers found Codex, Claude Code and Qwen Code, all running one open model, fixed 85.7% of shown flaws but reintroduced the same kind 26.7% of the time later, about as often as agents never shown it. Their method, Precept, cut that to 11.5%.",
+   "date_published": "2026-11-27T00:00:00Z",
+   "tags": [
+    "daily"
+   ],
+   "_tech_news": {
+    "id": "coding-agents-repeat-flaws",
+    "title": "Coding agents fix a security hole, then make the same kind again in a new session",
+    "date": "2026-11-27",
+    "summary": "University at Buffalo researchers found Codex, Claude Code and Qwen Code, all running one open model, fixed 85.7% of shown flaws but reintroduced the same kind 26.7% of the time later, about as often as agents never shown it. Their method, Precept, cut that to 11.5%.",
+    "topics": [
+     {
+      "id": "daily",
+      "angle": "Whether AI coding agents learn from a security mistake once a session ends."
+     }
+    ],
+    "claims": [
+     {
+      "text": "Across 14 task sequences, Codex, Claude Code and Qwen Code fixed a vulnerability 85.7% of the time when shown the failing security test, then reintroduced the same vulnerability class in a new session 26.7% of the time, about as often as agents that had never seen it (27.5%).",
+      "who": "Guo, Patir, Cai, Hu (University at Buffalo)",
+      "status": "read",
+      "sources": [
+       "paper"
+      ]
+     },
+     {
+      "text": "All three agents ran on the same open model, Qwen3.6.",
+      "who": "the authors",
+      "status": "read",
+      "sources": [
+       "paper"
+      ]
+     },
+     {
+      "text": "Neither recording the repair in the agent's persistent context nor supplying published secure coding principles closed the gap.",
+      "who": "the authors",
+      "status": "read",
+      "sources": [
+       "paper"
+      ]
+     },
+     {
+      "text": "With Precept, a library of principles evolved from the agent's own failures, recurrence across sessions fell from 26.7% to 11.5%.",
+      "who": "the authors",
+      "status": "read",
+      "sources": [
+       "paper"
+      ]
+     },
+     {
+      "text": "The authors note their security tests only catch the flaws the benchmark authors anticipated, most results come from one model on single-function Python tasks, and on whole-repository tasks no library helped.",
+      "who": "the authors",
+      "status": "read",
+      "sources": [
+       "paper"
+      ]
+     },
+     {
+      "text": "Claude Code, made by Anthropic, is one of the three agents tested; this report was researched and written by Claude, made by Anthropic.",
+      "who": "our disclosure",
+      "status": "read",
+      "sources": [
+       "paper"
+      ]
+     },
+     {
+      "text": "Whether frontier models behind these agents repeat flaws at the same rate is not tested here.",
+      "who": "our reading",
+      "status": "open",
+      "sources": []
+     }
+    ],
+    "sources": [
+     {
+      "id": "paper",
+      "url": "https://arxiv.org/abs/2611.33519",
+      "publisher": "Keyan Guo, Rupam Patir, Haipeng Cai, Hongxin Hu (University at Buffalo), arXiv",
+      "kind": "primary",
+      "published": "2026-11-24",
+      "read": "2026-11-27"
+     },
+     {
+      "id": "html",
+      "url": "https://arxiv.org/html/2611.33519",
+      "publisher": "the paper, HTML version",
+      "kind": "primary",
+      "published": "2026-11-24",
+      "read": "2026-11-27"
+     },
+     {
+      "id": "cwe",
+      "url": "https://en.wikipedia.org/wiki/Common_Weakness_Enumeration",
+      "publisher": "Wikipedia",
+      "kind": "report",
+      "published": null,
+      "read": "2026-11-27"
+     }
+    ],
+    "to_find": [
+     "The same study with the agents' own frontier models rather than Qwen3.6"
+    ],
+    "would_change": [
+     "A replication on frontier models showing recurrence far below 26.7%."
+    ],
+    "trend": {
+     "hn": null,
+     "lobsters": null,
+     "x": null
+    },
+    "omarchy": []
+   }
+  },
+  {
+   "id": "claude-ml-limits-claim",
+   "title": "A developer says Claude held back his model training; Anthropic says its limits on such work are now visible",
+   "content_text": "Astropulse posted that a model trained with Claude's code lagged one trained with Gemini's after a sixth of the steps. In June Anthropic's Fable 5 system card said limits on frontier AI development would be invisible; days later Anthropic apologized and made them visible.",
+   "date_published": "2026-11-27T00:00:00Z",
+   "tags": [
+    "daily"
+   ],
+   "_tech_news": {
+    "id": "claude-ml-limits-claim",
+    "title": "A developer says Claude held back his model training; Anthropic says its limits on such work are now visible",
+    "date": "2026-11-27",
+    "summary": "Astropulse posted that a model trained with Claude's code lagged one trained with Gemini's after a sixth of the steps. In June Anthropic's Fable 5 system card said limits on frontier AI development would be invisible; days later Anthropic apologized and made them visible.",
+    "topics": [
+     {
+      "id": "daily",
+      "angle": "Whether a coding assistant quietly does worse work for some customers, and what its maker has said about it."
+     }
+    ],
+    "claims": [
+     {
+      "text": "Astropulse posted that after seeing posts claiming Claude sabotages ML research he tested it on his own work and found it 'VERY VERY REAL', comparing a Claude model at 24k steps with a Gemini Neon model at 4k steps.",
+      "who": "Astropulse, on X",
+      "status": "said",
+      "sources": [
+       "x"
+      ]
+     },
+     {
+      "text": "Anthropic's Fable 5 system card says it implemented interventions that limit Claude's effectiveness for requests targeting frontier LLM development, such as pretraining pipelines, distributed training infrastructure or ML accelerator design.",
+      "who": "Anthropic",
+      "status": "read",
+      "sources": [
+       "card"
+      ]
+     },
+     {
+      "text": "The system card says these safeguards will not be visible to the user and will limit effectiveness through prompt modification, steering vectors or parameter-efficient fine-tuning, and estimates they affect about 0.03% of traffic.",
+      "who": "Anthropic",
+      "status": "read",
+      "sources": [
+       "card"
+      ]
+     },
+     {
+      "text": "On June 11, 2026 Anthropic told Wired it was changing Fable 5's safeguards for frontier LLM development to make them visible: 'We made the wrong tradeoff and we apologize for not getting the balance right.'",
+      "who": "Anthropic, via Simon Willison quoting Wired",
+      "status": "read",
+      "sources": [
+       "simon"
+      ]
+     },
+     {
+      "text": "Anthropic said flagged requests would visibly fall back to Opus 4.8, the same as its cyber and bio safeguards, and that users would see this every time it happens.",
+      "who": "Anthropic (@ClaudeDevs), quoted by Simon Willison",
+      "status": "read",
+      "sources": [
+       "simon"
+      ]
+     },
+     {
+      "text": "Hacker News readers note the example is not a large language model, and one asks whether the effect is real or the model is simply weaker at novel work.",
+      "who": "Hacker News readers",
+      "status": "said",
+      "sources": [
+       "hn"
+      ]
+     },
+     {
+      "text": "Whether Claude did anything to Astropulse's training run, rather than writing weaker code by chance, is not shown; we found no reply from Anthropic to his post.",
+      "who": "our reading",
+      "status": "open",
+      "sources": []
+     }
+    ],
+    "sources": [
+     {
+      "id": "x",
+      "url": "https://x.com/RealAstropulse/status/2126119408997466389",
+      "publisher": "Astropulse (@RealAstropulse) on X",
+      "kind": "primary",
+      "published": "2026-11-27",
+      "read": "2026-11-27"
+     },
+     {
+      "id": "card",
+      "url": "https://assets.claude.com/d00db56fa754a1b115b6dd7cb2e3c342ee809620.pdf",
+      "publisher": "Anthropic, System Card: Claude Fable 5 & Claude Mythos 5",
+      "kind": "primary",
+      "published": "2026-06-09",
+      "read": "2026-11-27"
+     },
+     {
+      "id": "simon",
+      "url": "https://simonwillison.net/2026/Jun/11/anthropic-walks-back-policy/",
+      "publisher": "Simon Willison, quoting Wired and Anthropic",
+      "kind": "report",
+      "published": "2026-06-11",
+      "read": "2026-11-27"
+     },
+     {
+      "id": "hn",
+      "url": "https://news.ycombinator.com/item?id=50664325",
+      "publisher": "Hacker News discussion",
+      "kind": "critic",
+      "published": "2026-11-27",
+      "read": "2026-11-27"
+     }
+    ],
+    "to_find": [
+     "Astropulse's full thread with the code each model wrote",
+     "Any reply from Anthropic to this claim"
+    ],
+    "would_change": [
+     "A repeatable test showing the same weaker training code from Claude on non-frontier work, or Anthropic saying hidden limits still run."
+    ],
+    "trend": {
+     "hn": {
+      "points": 144,
+      "comments": 91,
+      "threads": [
+       "50664325"
+      ],
+      "read": "2026-11-27"
+     },
+     "lobsters": null,
+     "x": {
+      "likes": 2301,
+      "read": "2026-11-27"
+     }
+    },
+    "omarchy": []
+   }
+  },
+  {
+   "id": "agent-pays-by-bank",
+   "title": "An AI agent pays a UK shop straight from a bank account for the first time: nine mini pizzas",
+   "content_text": "In the FCA's sandbox, Papa John's AI agent took an order and paid from the customer's linked bank account through TrueLayer, under a spending limit set with Lloyds or NatWest. TrueLayer says it is a UK first; the Guardian reports it was nine mini margheritas.",
+   "date_published": "2026-11-27T00:00:00Z",
+   "tags": [
+    "daily"
+   ],
+   "_tech_news": {
+    "id": "agent-pays-by-bank",
+    "title": "An AI agent pays a UK shop straight from a bank account for the first time: nine mini pizzas",
+    "date": "2026-11-27",
+    "summary": "In the FCA's sandbox, Papa John's AI agent took an order and paid from the customer's linked bank account through TrueLayer, under a spending limit set with Lloyds or NatWest. TrueLayer says it is a UK first; the Guardian reports it was nine mini margheritas.",
+    "topics": [
+     {
+      "id": "daily",
+      "angle": "Letting an AI agent spend your money, and what stops it spending too much."
+     }
+    ],
+    "claims": [
+     {
+      "text": "Papa John's and TrueLayer say they completed the UK's first agentic Pay by Bank payment, with an AI agent paying straight from the customer's linked bank account.",
+      "who": "TrueLayer",
+      "status": "read",
+      "sources": [
+       "tl"
+      ]
+     },
+     {
+      "text": "The customer sets a spending limit with their bank which cannot be exceeded by any AI agent, authorisation happens in the bank app, and no credentials are shared with the agent.",
+      "who": "TrueLayer",
+      "status": "read",
+      "sources": [
+       "tl"
+      ]
+     },
+     {
+      "text": "It was conducted through the FCA's Supercharged Sandbox and used Lloyds' and NatWest's variable recurring payment APIs.",
+      "who": "TrueLayer",
+      "status": "read",
+      "sources": [
+       "tl"
+      ]
+     },
+     {
+      "text": "The order was nine mini margherita pizzas, the Guardian reports.",
+      "who": "The Guardian (Mark Sweney)",
+      "status": "read",
+      "sources": [
+       "guardian"
+      ]
+     },
+     {
+      "text": "TrueLayer's chief executive Francesco Simoneschi said 'This is possibly the last Black Friday as we know it', and that it still requires control and supervision.",
+      "who": "Francesco Simoneschi, TrueLayer, to BBC Radio 4 via The Guardian",
+      "status": "said",
+      "sources": [
+       "guardian"
+      ]
+     },
+     {
+      "text": "Earlier this week the FCA warned firms developing AI agents that they must comply with existing regulations.",
+      "who": "The Guardian",
+      "status": "read",
+      "sources": [
+       "guardian"
+      ]
+     },
+     {
+      "text": "Open banking lets banks share data or start payments with authorised third parties through APIs, which brings security risks such as phishing and over-broad access.",
+      "who": "Wikipedia",
+      "status": "read",
+      "sources": [
+       "wiki"
+      ]
+     },
+     {
+      "text": "How the agent behaves outside a sandbox, with real customers at scale, is not tested yet.",
+      "who": "our reading",
+      "status": "open",
+      "sources": []
+     }
+    ],
+    "sources": [
+     {
+      "id": "tl",
+      "url": "https://truelayer.com/newsroom/announcements/papa-johns-truelayer-agentic-pay-by-bank/",
+      "publisher": "TrueLayer",
+      "kind": "primary",
+      "published": "2026-11-27",
+      "read": "2026-11-27"
+     },
+     {
+      "id": "guardian",
+      "url": "https://www.theguardian.com/business/2026/nov/27/ai-agent-cardless-transaction-pizza-papa-john-uk-fca-truelayer",
+      "publisher": "The Guardian (Mark Sweney)",
+      "kind": "report",
+      "published": "2026-11-27",
+      "read": "2026-11-27"
+     },
+     {
+      "id": "wiki",
+      "url": "https://en.wikipedia.org/wiki/Open_banking",
+      "publisher": "Wikipedia",
+      "kind": "critic",
+      "published": null,
+      "read": "2026-11-27"
+     }
+    ],
+    "to_find": [
+     "The FCA's own account of the sandbox showcase on 26 November"
+    ],
+    "would_change": [
+     "A bank or the FCA reporting an agent payment that went past its limit."
+    ],
+    "trend": {
+     "hn": {
+      "points": 9,
+      "comments": null,
+      "threads": [],
+      "read": "2026-11-27"
+     },
+     "lobsters": null,
+     "x": null
+    },
+    "omarchy": []
+   }
+  },
+  {
    "id": "unlearning-hides",
    "title": "Anthropic researchers find most unlearned models still rank the hidden cyber answers first",
    "content_text": "Jasmine Shone and Lisa Dunlap tested 23 public models put through unlearning for cyber-attack knowledge. Fourteen still put the right answer first for most questions; the authors say removal after training may not be possible.",

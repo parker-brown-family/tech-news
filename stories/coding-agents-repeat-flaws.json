@@ -1,0 +1,106 @@
+{
+ "id": "coding-agents-repeat-flaws",
+ "title": "Coding agents fix a security hole, then make the same kind again in a new session",
+ "date": "2026-11-27",
+ "summary": "University at Buffalo researchers found Codex, Claude Code and Qwen Code, all running one open model, fixed 85.7% of shown flaws but reintroduced the same kind 26.7% of the time later, about as often as agents never shown it. Their method, Precept, cut that to 11.5%.",
+ "topics": [
+  {
+   "id": "daily",
+   "angle": "Whether AI coding agents learn from a security mistake once a session ends."
+  }
+ ],
+ "claims": [
+  {
+   "text": "Across 14 task sequences, Codex, Claude Code and Qwen Code fixed a vulnerability 85.7% of the time when shown the failing security test, then reintroduced the same vulnerability class in a new session 26.7% of the time, about as often as agents that had never seen it (27.5%).",
+   "who": "Guo, Patir, Cai, Hu (University at Buffalo)",
+   "status": "read",
+   "sources": [
+    "paper"
+   ]
+  },
+  {
+   "text": "All three agents ran on the same open model, Qwen3.6.",
+   "who": "the authors",
+   "status": "read",
+   "sources": [
+    "paper"
+   ]
+  },
+  {
+   "text": "Neither recording the repair in the agent's persistent context nor supplying published secure coding principles closed the gap.",
+   "who": "the authors",
+   "status": "read",
+   "sources": [
+    "paper"
+   ]
+  },
+  {
+   "text": "With Precept, a library of principles evolved from the agent's own failures, recurrence across sessions fell from 26.7% to 11.5%.",
+   "who": "the authors",
+   "status": "read",
+   "sources": [
+    "paper"
+   ]
+  },
+  {
+   "text": "The authors note their security tests only catch the flaws the benchmark authors anticipated, most results come from one model on single-function Python tasks, and on whole-repository tasks no library helped.",
+   "who": "the authors",
+   "status": "read",
+   "sources": [
+    "paper"
+   ]
+  },
+  {
+   "text": "Claude Code, made by Anthropic, is one of the three agents tested; this report was researched and written by Claude, made by Anthropic.",
+   "who": "our disclosure",
+   "status": "read",
+   "sources": [
+    "paper"
+   ]
+  },
+  {
+   "text": "Whether frontier models behind these agents repeat flaws at the same rate is not tested here.",
+   "who": "our reading",
+   "status": "open",
+   "sources": []
+  }
+ ],
+ "sources": [
+  {
+   "id": "paper",
+   "url": "https://arxiv.org/abs/2611.33519",
+   "publisher": "Keyan Guo, Rupam Patir, Haipeng Cai, Hongxin Hu (University at Buffalo), arXiv",
+   "kind": "primary",
+   "published": "2026-11-24",
+   "read": "2026-11-27"
+  },
+  {
+   "id": "html",
+   "url": "https://arxiv.org/html/2611.33519",
+   "publisher": "the paper, HTML version",
+   "kind": "primary",
+   "published": "2026-11-24",
+   "read": "2026-11-27"
+  },
+  {
+   "id": "cwe",
+   "url": "https://en.wikipedia.org/wiki/Common_Weakness_Enumeration",
+   "publisher": "Wikipedia",
+   "kind": "report",
+   "published": null,
+   "read": "2026-11-27"
+  }
+ ],
+ "to_find": [
+  "The same study with the agents' own frontier models rather than Qwen3.6"
+ ],
+ "would_change": [
+  "A replication on frontier models showing recurrence far below 26.7%."
+ ],
+ "trend": {
+  "hn": null,
+  "lobsters": null,
+  "x": null
+ },
+ "omarchy": []
+}

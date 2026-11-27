@@ -28,6 +28,8 @@ Twice a day: one drama, one piece of research, one corporate, one thing put to u
 
 **Evening, 26 November 2026:** [Cheap AI requests passed to ByteDance, a researcher says](stories/ark-wrappers.json) · [Models taught to forget still rank the answers first](stories/unlearning-hides.json) · [SAP weighs 10,000 job cuts for AI](stories/sap-ai-cuts.json) · [State hackers use the ARTEX attack agents](stories/artex-state-groups.json). No local AI story: the one candidate, a GLM-5.5 release date, rested on a third party's post with no word from Z.ai.
 
+**Morning, 27 November 2026:** [A developer says Claude held back his training run](stories/claude-ml-limits-claim.json) · [Coding agents repeat the security holes they fixed](stories/coding-agents-repeat-flaws.json) · [Network operators wait up to 18 months for equipment](stories/network-kit-waits.json) · [An AI agent pays from a bank account, for pizza](stories/agent-pays-by-bank.json). No local AI story: the window held only routine llama.cpp builds.
+
 ## Who Read Your Prompt?
 
 The first film, dated 24 November 2026. Where a prompt goes after you send it, and who can keep it.

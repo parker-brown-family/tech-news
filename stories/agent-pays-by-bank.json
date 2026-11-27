@@ -1,0 +1,119 @@
+{
+ "id": "agent-pays-by-bank",
+ "title": "An AI agent pays a UK shop straight from a bank account for the first time: nine mini pizzas",
+ "date": "2026-11-27",
+ "summary": "In the FCA's sandbox, Papa John's AI agent took an order and paid from the customer's linked bank account through TrueLayer, under a spending limit set with Lloyds or NatWest. TrueLayer says it is a UK first; the Guardian reports it was nine mini margheritas.",
+ "topics": [
+  {
+   "id": "daily",
+   "angle": "Letting an AI agent spend your money, and what stops it spending too much."
+  }
+ ],
+ "claims": [
+  {
+   "text": "Papa John's and TrueLayer say they completed the UK's first agentic Pay by Bank payment, with an AI agent paying straight from the customer's linked bank account.",
+   "who": "TrueLayer",
+   "status": "read",
+   "sources": [
+    "tl"
+   ]
+  },
+  {
+   "text": "The customer sets a spending limit with their bank which cannot be exceeded by any AI agent, authorisation happens in the bank app, and no credentials are shared with the agent.",
+   "who": "TrueLayer",
+   "status": "read",
+   "sources": [
+    "tl"
+   ]
+  },
+  {
+   "text": "It was conducted through the FCA's Supercharged Sandbox and used Lloyds' and NatWest's variable recurring payment APIs.",
+   "who": "TrueLayer",
+   "status": "read",
+   "sources": [
+    "tl"
+   ]
+  },
+  {
+   "text": "The order was nine mini margherita pizzas, the Guardian reports.",
+   "who": "The Guardian (Mark Sweney)",
+   "status": "read",
+   "sources": [
+    "guardian"
+   ]
+  },
+  {
+   "text": "TrueLayer's chief executive Francesco Simoneschi said 'This is possibly the last Black Friday as we know it', and that it still requires control and supervision.",
+   "who": "Francesco Simoneschi, TrueLayer, to BBC Radio 4 via The Guardian",
+   "status": "said",
+   "sources": [
+    "guardian"
+   ]
+  },
+  {
+   "text": "Earlier this week the FCA warned firms developing AI agents that they must comply with existing regulations.",
+   "who": "The Guardian",
+   "status": "read",
+   "sources": [
+    "guardian"
+   ]
+  },
+  {
+   "text": "Open banking lets banks share data or start payments with authorised third parties through APIs, which brings security risks such as phishing and over-broad access.",
+   "who": "Wikipedia",
+   "status": "read",
+   "sources": [
+    "wiki"
+   ]
+  },
+  {
+   "text": "How the agent behaves outside a sandbox, with real customers at scale, is not tested yet.",
+   "who": "our reading",
+   "status": "open",
+   "sources": []
+  }
+ ],
+ "sources": [
+  {
+   "id": "tl",
+   "url": "https://truelayer.com/newsroom/announcements/papa-johns-truelayer-agentic-pay-by-bank/",
+   "publisher": "TrueLayer",
+   "kind": "primary",
+   "published": "2026-11-27",
+   "read": "2026-11-27"
+  },
+  {
+   "id": "guardian",
+   "url": "https://www.theguardian.com/business/2026/nov/27/ai-agent-cardless-transaction-pizza-papa-john-uk-fca-truelayer",
+   "publisher": "The Guardian (Mark Sweney)",
+   "kind": "report",
+   "published": "2026-11-27",
+   "read": "2026-11-27"
+  },
+  {
+   "id": "wiki",
+   "url": "https://en.wikipedia.org/wiki/Open_banking",
+   "publisher": "Wikipedia",
+   "kind": "critic",
+   "published": null,
+   "read": "2026-11-27"
+  }
+ ],
+ "to_find": [
+  "The FCA's own account of the sandbox showcase on 26 November"
+ ],
+ "would_change": [
+  "A bank or the FCA reporting an agent payment that went past its limit."
+ ],
+ "trend": {
+  "hn": {
+   "points": 9,
+   "comments": null,
+   "threads": [],
+   "read": "2026-11-27"
+  },
+  "lobsters": null,
+  "x": null
+ },
+ "omarchy": []
+}

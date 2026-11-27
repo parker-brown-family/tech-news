@@ -132,6 +132,39 @@
    "source": {"title": "Machine unlearning (Wikipedia)", "url": "https://en.wikipedia.org/wiki/Machine_unlearning"},
    "see": [],
    "used_in": ["unlearning-hides"]
+  },
+  {
+   "id": "system-card",
+   "term": "System card",
+   "aka": ["model card"],
+   "says": "A document an AI maker publishes with a new model, describing how it was tested, what risks were found and what safeguards it carries. It is the maker's own account, written before most outsiders have used the model.",
+   "use_when": "A story rests on what a maker said its model would or would not do.",
+   "not": "Not an independent audit. It says what the maker tested and intends, not what happens in every use.",
+   "source": {"title": "System Card: Claude Fable 5 & Claude Mythos 5 (Anthropic)", "url": "https://assets.claude.com/d00db56fa754a1b115b6dd7cb2e3c342ee809620.pdf"},
+   "see": [],
+   "used_in": ["claude-ml-limits-claim"]
+  },
+  {
+   "id": "cwe",
+   "term": "Common Weakness Enumeration",
+   "aka": ["CWE", "vulnerability class"],
+   "says": "A public catalogue of the kinds of mistakes that make software unsafe, such as letting a user's input run as a command. Each kind has a number, so two different bugs can be counted as the same type of flaw.",
+   "use_when": "A story counts security flaws by type, or asks whether the same kind of mistake came back.",
+   "not": "Not a list of particular bugs in particular programs; those are CVEs. Two flaws of the same CWE can look quite different in code.",
+   "source": {"title": "Common Weakness Enumeration (Wikipedia)", "url": "https://en.wikipedia.org/wiki/Common_Weakness_Enumeration"},
+   "see": [],
+   "used_in": ["coding-agents-repeat-flaws"]
+  },
+  {
+   "id": "open-banking",
+   "term": "Open banking",
+   "aka": ["pay by bank"],
+   "says": "Rules and technology that let a bank, with the customer's permission, share account data or start a payment for another company through a standard connection. A payment goes straight from bank account to bank account, with no card number.",
+   "use_when": "A story has a company other than your bank reading your account or moving your money with your consent.",
+   "not": "Not the bank giving up control: the customer consents, and the bank still checks each payment. It also opens new routes for scams.",
+   "source": {"title": "Open banking (Wikipedia)", "url": "https://en.wikipedia.org/wiki/Open_banking"},
+   "see": [],
+   "used_in": ["agent-pays-by-bank"]
   }
  ]
 }

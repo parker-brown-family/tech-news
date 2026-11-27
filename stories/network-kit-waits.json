@@ -1,0 +1,83 @@
+{
+ "id": "network-kit-waits",
+ "title": "The AI building boom leaves network operators waiting up to 18 months for equipment, RETN says",
+ "date": "2026-11-27",
+ "summary": "Network operator RETN says optical networking equipment prices rose about 50% in 2026 and delivery stretched from three months to 12 to 15, some orders 18, as telcos compete with AI datacenters for parts. The Register read its report.",
+ "topics": [
+  {
+   "id": "daily",
+   "angle": "What the AI datacenter boom costs the networks everyone else uses."
+  }
+ ],
+ "claims": [
+  {
+   "text": "RETN says optical networking equipment prices have risen around 50 percent since the start of 2026, and kit that used to arrive within three months now takes 12 to 15, some orders up to 18 months.",
+   "who": "RETN, via The Register",
+   "status": "read",
+   "sources": [
+    "reg"
+   ]
+  },
+  {
+   "text": "RETN says network operators and telcos now compete directly with AI datacenters for chips and other components.",
+   "who": "RETN, via The Register",
+   "status": "read",
+   "sources": [
+    "reg"
+   ]
+  },
+  {
+   "text": "RETN says developers building outside established datacenter hubs may need to involve network carriers two to five years before opening.",
+   "who": "RETN, via The Register",
+   "status": "read",
+   "sources": [
+    "reg"
+   ]
+  },
+  {
+   "text": "RETN concedes many carriers postponed network upgrades to cut spending, work that is now unavoidable at the worst time.",
+   "who": "RETN, via The Register",
+   "status": "read",
+   "sources": [
+    "reg"
+   ]
+  },
+  {
+   "text": "RETN says a diverse circuit might cost €1,800 a month instead of €600; RETN sells network capacity.",
+   "who": "RETN, via The Register",
+   "status": "read",
+   "sources": [
+    "reg"
+   ]
+  },
+  {
+   "text": "RETN's report was not found online; its figures are read here only through The Register, and no other operator's figures were checked.",
+   "who": "our reading",
+   "status": "open",
+   "sources": []
+  }
+ ],
+ "sources": [
+  {
+   "id": "reg",
+   "url": "https://www.theregister.com/networks/2026/11/27/ai-boom-leaves-network-operators-waiting-up-to-18-months-for-kit/5312366",
+   "publisher": "The Register (Dan Robinson), reading RETN's report 'AI, Connected'",
+   "kind": "report",
+   "published": "2026-11-27",
+   "read": "2026-11-27"
+  }
+ ],
+ "to_find": [
+  "RETN's report 'AI, Connected' itself",
+  "Lead times from an equipment maker or another carrier"
+ ],
+ "would_change": [
+  "Equipment makers reporting normal delivery times."
+ ],
+ "trend": {
+  "hn": null,
+  "lobsters": null,
+  "x": null
+ },
+ "omarchy": []
+}
