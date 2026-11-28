@@ -198,6 +198,39 @@
    "source": {"title": "Quantization concept guide (Hugging Face Optimum)", "url": "https://huggingface.co/docs/optimum/en/concept_guides/quantization"},
    "see": [],
    "used_in": ["llama-cpp-fp8-scales"]
+  },
+  {
+   "id": "abliteration",
+   "term": "Abliteration",
+   "aka": ["directional ablation", "uncensored model", "abliterated model"],
+   "says": "Editing the numbers inside a downloaded AI model, without retraining it, so that it stops refusing requests it was built to refuse.",
+   "use_when": "A story is about open models with their refusals removed, or the tools that remove them.",
+   "not": "Not a jailbreak: a jailbreak tricks a model with words each time, while abliteration changes the model file itself.",
+   "source": {"title": "Heretic README: directional ablation, aka abliteration", "url": "https://github.com/p-e-w/heretic"},
+   "see": [],
+   "used_in": ["heretic-archived", "gguf-hidden-malware"]
+  },
+  {
+   "id": "public-key-cryptography",
+   "term": "Public-key cryptography",
+   "aka": ["RSA", "public-key encryption"],
+   "says": "The kind of code that protects banking apps, web browsers and private messages, resting on maths problems that computers are thought unable to solve in any reasonable time.",
+   "use_when": "A story is about whether the codes guarding everyday communication could be broken.",
+   "not": "Not all encryption: newer methods built to resist quantum computers rest on different problems, and may not fall with the old ones.",
+   "source": {"title": "Has AI just cracked Internet encryption? (Nature)", "url": "https://www.nature.com/articles/d41586-026-03875-6"},
+   "see": [],
+   "used_in": ["crypto-break-rumours"]
+  },
+  {
+   "id": "chat-template",
+   "term": "Chat template",
+   "aka": ["tokenizer.chat_template", "prompt template"],
+   "says": "A small program stored inside a model file that turns each conversation into the exact text the model reads, applied before every reply.",
+   "use_when": "A story is about what a downloaded model file can carry or do besides its weights.",
+   "not": "Not the model's training: changing the template changes what the model is told, not what it learned.",
+   "source": {"title": "GGUF LLM Models with Hidden Malware on Hugging Face (Malspark)", "url": "https://malspark.com/blog/malicious-gguf-models-hugging-face/"},
+   "see": [],
+   "used_in": ["gguf-hidden-malware"]
   }
  ]
 }

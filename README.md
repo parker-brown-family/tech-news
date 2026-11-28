@@ -32,6 +32,8 @@ Twice a day: one drama, one piece of research, one corporate, one thing put to u
 
 **Evening, 27 November 2026:** [A Convex add-on sends app ideas home and steers around safety checks, a user reports](stories/convex-skill-sends-ideas.json) · [When an AI agent breaks a database, backups decide the damage](stories/agent-database-damage.json) · [OpenAI countersues Apple](stories/openai-apple-countersuit.json) · [Shopping agents meet closed doors](stories/shopping-agents-shut-out.json) · [llama.cpp reads FP8 and NVFP4 models](stories/llama-cpp-fp8-scales.json)
 
+**Morning, 28 November 2026:** [Heretic’s author archives it](stories/heretic-archived.json) · [What is known and rumoured about AI and encryption](stories/crypto-break-rumours.json) · [UK restaurants go back to the phone](stories/restaurant-booking-bots.json) · [Malware hidden in five models on Hugging Face](stories/gguf-hidden-malware.json). No corporate story: the window held share-price moves, two stories already told and a funding round whose maker's page did not load.
+
 ## Who Read Your Prompt?
 
 The first film, dated 24 November 2026. Where a prompt goes after you send it, and who can keep it.

@@ -1,0 +1,101 @@
+{
+ "id": "restaurant-booking-bots",
+ "title": "UK restaurants turn back to the phone as AI booking assistants arrive, the Guardian reports",
+ "date": "2026-11-28",
+ "summary": "The Guardian reports UK restaurant owners returning to phone bookings as assistants like Meta's Muse launch there, and Resy banning bots. Meta says Muse makes lives easier; a mid-November report said Muse's calling worked only for US businesses, so the bot that called Bouchon Racine is unnamed.",
+ "topics": [
+  {
+   "id": "daily",
+   "angle": "What AI agents do to the businesses on the other end."
+  }
+ ],
+ "claims": [
+  {
+   "text": "Restaurant owners in the UK are returning to the telephone instead of online booking as AI assistants such as Meta's Muse launch there, the Guardian reports.",
+   "who": "The Guardian (Helena Horton)",
+   "status": "read",
+   "sources": [
+    "guardian"
+   ]
+  },
+  {
+   "text": "Resy has banned bots after restaurants on its platform were swarmed by agents that refresh pages thousands of times and take all the reservations, the Guardian reports.",
+   "who": "The Guardian",
+   "status": "read",
+   "sources": [
+    "guardian"
+   ]
+  },
+  {
+   "text": "Dave Strauss, co-owner of Bouchon Racine, told the Guardian an AI bot phoned to book, said it was an AI booking process when asked, and that he told it never to call again.",
+   "who": "Dave Strauss, via the Guardian",
+   "status": "read",
+   "sources": [
+    "guardian"
+   ]
+  },
+  {
+   "text": "Jeremy King, who owns Simpson's in the Strand, said he is going more analogue, and diners will find it easier to get a prime table by phone.",
+   "who": "Jeremy King, via the Guardian",
+   "status": "read",
+   "sources": [
+    "guardian"
+   ]
+  },
+  {
+   "text": "Meta says Muse can make people's lives easier, and it has deals with British businesses including Marks & Spencer, Currys, Sainsbury's and easyJet; Meta had not commented to the Guardian.",
+   "who": "The Guardian",
+   "status": "read",
+   "sources": [
+    "guardian"
+   ]
+  },
+  {
+   "text": "As of 13 November, Muse's calling feature worked only for paying users calling US businesses, and not for anyone in the UK, Gadget reported.",
+   "who": "Gadget (Anton Kratiuk)",
+   "status": "read",
+   "sources": [
+    "gadget"
+   ]
+  },
+  {
+   "text": "Which assistant made the call to Bouchon Racine is not named in the report.",
+   "who": "our reading",
+   "status": "open",
+   "sources": [
+    "guardian"
+   ]
+  }
+ ],
+ "sources": [
+  {
+   "id": "guardian",
+   "url": "https://www.theguardian.com/business/2026/nov/28/ai-bots-wreak-havoc-uk-restaurant-bookings-meta-muse",
+   "publisher": "The Guardian (Helena Horton)",
+   "kind": "report",
+   "published": "2026-11-28",
+   "read": "2026-11-28"
+  },
+  {
+   "id": "gadget",
+   "url": "https://gagadget.com/en/733985-metas-muse-ai-can-now-phone-businesses-for-you-in-the-us-only/",
+   "publisher": "Gadget (Anton Kratiuk)",
+   "kind": "report",
+   "published": "2026-11-13",
+   "read": "2026-11-28"
+  }
+ ],
+ "to_find": [
+  "Meta's reply to the Guardian",
+  "Resy's own statement on banning bots"
+ ],
+ "would_change": [
+  "Meta naming the bot, or Muse calling coming to the UK."
+ ],
+ "trend": {
+  "hn": null,
+  "lobsters": null,
+  "x": null
+ },
+ "omarchy": []
+}

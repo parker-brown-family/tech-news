@@ -1,0 +1,108 @@
+{
+ "id": "heretic-archived",
+ "title": "Heretic, the most used tool for removing refusals from open models, is archived by its author",
+ "date": "2026-11-28",
+ "summary": "Philipp Emanuel Weidmann (p-e-w) archived Heretic on 28 November and named no successor. He says it is the most widely used software for removing censorship or safety alignment from language models. A Hacker News reader compares such tools to guns.",
+ "topics": [
+  {
+   "id": "daily",
+   "angle": "Who keeps the tools that change what downloaded models will do."
+  }
+ ],
+ "claims": [
+  {
+   "text": "Philipp Emanuel Weidmann archived the Heretic repository on 28 November 2026 and wrote that his work on it has ended; he is deliberately not naming a successor and leaves its future to the community.",
+   "who": "Philipp Emanuel Weidmann (p-e-w), GitHub issue 601",
+   "status": "read",
+   "sources": [
+    "issue"
+   ]
+  },
+  {
+   "text": "Weidmann describes Heretic as by far the most widely used software for removing censorship or safety alignment from language models, and says more than two thirds of all abliterated models published on Hugging Face were made with it.",
+   "who": "Philipp Emanuel Weidmann, GitHub profile",
+   "status": "said",
+   "sources": [
+    "profile"
+   ]
+  },
+  {
+   "text": "Heretic's documentation calls directional ablation, or abliteration, the classic method for refusal suppression, and says Heretic changes a model's behaviour without expensive training.",
+   "who": "Heretic README",
+   "status": "read",
+   "sources": [
+    "readme"
+   ]
+  },
+  {
+   "text": "Weidmann wrote that controlling the models you use is turning from an issue of free speech into an issue of free thought.",
+   "who": "Philipp Emanuel Weidmann, GitHub issue 601",
+   "status": "read",
+   "sources": [
+    "issue"
+   ]
+  },
+  {
+   "text": "On Hacker News, one reader said such a tool can be used for good and bad, like guns, and another asked whether people should be given that kind of power.",
+   "who": "Hacker News readers",
+   "status": "read",
+   "sources": [
+    "hn"
+   ]
+  },
+  {
+   "text": "Whether the community will continue Heretic, and who would lead it, is not settled; Weidmann asked contributors to organize elsewhere.",
+   "who": "our reading",
+   "status": "open",
+   "sources": [
+    "issue"
+   ]
+  }
+ ],
+ "sources": [
+  {
+   "id": "issue",
+   "url": "https://github.com/p-e-w/heretic/issues/601",
+   "publisher": "Philipp Emanuel Weidmann, Heretic issue 601",
+   "kind": "primary",
+   "published": "2026-11-28",
+   "read": "2026-11-28"
+  },
+  {
+   "id": "profile",
+   "url": "https://github.com/p-e-w",
+   "publisher": "Philipp Emanuel Weidmann, GitHub profile",
+   "kind": "primary",
+   "published": null,
+   "read": "2026-11-28"
+  },
+  {
+   "id": "readme",
+   "url": "https://github.com/p-e-w/heretic",
+   "publisher": "Heretic README",
+   "kind": "code",
+   "published": null,
+   "read": "2026-11-28"
+  },
+  {
+   "id": "hn",
+   "url": "https://news.ycombinator.com/item?id=50676672",
+   "publisher": "Hacker News discussion",
+   "kind": "critic",
+   "published": "2026-11-28",
+   "read": "2026-11-28"
+  }
+ ],
+ "to_find": [
+  "Whether a fork takes over Heretic, and under whom"
+ ],
+ "would_change": [
+  "A named successor or a continued fork with releases."
+ ],
+ "trend": {
+  "hn": 203,
+  "lobsters": null,
+  "x": null
+ },
+ "omarchy": []
+}

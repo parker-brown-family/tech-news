@@ -1,0 +1,126 @@
+{
+ "id": "crypto-break-rumours",
+ "title": "Scott Aaronson says AI labs hold major cryptography results, then says the one he knows of puts no deployed code in danger",
+ "date": "2026-11-28",
+ "summary": "On 25 November Scott Aaronson wrote he is virtually certain the AI labs are sitting on major results in breaking cryptography, but unsure what they are. On 27 November he wrote the result he has specific information about will not endanger any deployed cryptosystem. The Guardian reports experts' warnings; no lab has announced anything.",
+ "topics": [
+  {
+   "id": "daily",
+   "angle": "What is known, and what is rumoured, about AI and the codes that protect the internet."
+  }
+ ],
+ "claims": [
+  {
+   "text": "Scott Aaronson, a computer scientist at the University of Texas at Austin, wrote on 25 November that he is virtually certain, from multiple reliable sources, that the AI labs are sitting on one or more major results in breaking cryptography, but is much less confident about their specific nature until he sees details.",
+   "who": "Scott Aaronson, Shtetl-Optimized; affiliation from Nature",
+   "status": "read",
+   "sources": [
+    "aar25",
+    "nature"
+   ]
+  },
+  {
+   "text": "Public-key cryptography helps to secure everything from banking apps to Internet browsers, and relies on mathematical problems considered practically impossible for computers to solve within a reasonable time.",
+   "who": "Nature (Davide Castelvecchi)",
+   "status": "read",
+   "sources": [
+    "nature"
+   ]
+  },
+  {
+   "text": "The Guardian reports that, depending on what was found, people could more easily decrypt banking transactions, diplomatic cables and private emails.",
+   "who": "The Guardian (Aisha Down)",
+   "status": "read",
+   "sources": [
+    "guardian"
+   ]
+  },
+  {
+   "text": "On 27 November Aaronson wrote that he has specific information the labs will soon release a major breakthrough in theoretical cryptanalysis that will not lead to imminent danger for any currently deployed cryptosystems, and that he has no specific, actionable information about rumoured breaks that would.",
+   "who": "Scott Aaronson, Shtetl-Optimized",
+   "status": "read",
+   "sources": [
+    "aar27"
+   ]
+  },
+  {
+   "text": "Alan Woodward of the University of Surrey told the Guardian it was unlikely any discovery would undo encryption by the end of the week, and that banks and governments need to be agile.",
+   "who": "Alan Woodward, via the Guardian",
+   "status": "read",
+   "sources": [
+    "guardian"
+   ]
+  },
+  {
+   "text": "Andrew Bailey, governor of the Bank of England, said AI companies should be cautious about releasing new models to the public, the Guardian reports.",
+   "who": "The Guardian",
+   "status": "read",
+   "sources": [
+    "guardian"
+   ]
+  },
+  {
+   "text": "Anthropic and OpenAI were approached for comment by the Guardian, and Aaronson says no AI company has made a concrete announcement about encryption.",
+   "who": "The Guardian",
+   "status": "read",
+   "sources": [
+    "guardian"
+   ]
+  },
+  {
+   "text": "What, if anything, the labs have found about encryption is not public.",
+   "who": "our reading",
+   "status": "open",
+   "sources": [
+    "aar25",
+    "guardian"
+   ]
+  }
+ ],
+ "sources": [
+  {
+   "id": "aar25",
+   "url": "https://scottaaronson.blog/?p=10379",
+   "publisher": "Scott Aaronson, Shtetl-Optimized, 25 November",
+   "kind": "primary",
+   "published": "2026-11-25",
+   "read": "2026-11-28"
+  },
+  {
+   "id": "aar27",
+   "url": "https://scottaaronson.blog/?p=10387",
+   "publisher": "Scott Aaronson, Shtetl-Optimized, 27 November",
+   "kind": "primary",
+   "published": "2026-11-27",
+   "read": "2026-11-28"
+  },
+  {
+   "id": "guardian",
+   "url": "https://www.theguardian.com/technology/2026/nov/28/ai-artificial-intelligence-encryption-global-chaos",
+   "publisher": "The Guardian (Aisha Down)",
+   "kind": "report",
+   "published": "2026-11-28",
+   "read": "2026-11-28"
+  },
+  {
+   "id": "nature",
+   "url": "https://www.nature.com/articles/d41586-026-03875-6",
+   "publisher": "Nature (Davide Castelvecchi)",
+   "kind": "report",
+   "published": "2026-11-26",
+   "read": "2026-11-28"
+  }
+ ],
+ "to_find": [
+  "Any statement from Anthropic or OpenAI about cryptography results"
+ ],
+ "would_change": [
+  "A published algorithm, or a lab saying it has none."
+ ],
+ "trend": {
+  "hn": null,
+  "lobsters": null,
+  "x": null
+ },
+ "omarchy": []
+}
