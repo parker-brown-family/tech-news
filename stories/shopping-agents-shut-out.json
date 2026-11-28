@@ -1,0 +1,77 @@
+{
+ "id": "shopping-agents-shut-out",
+ "title": "AI shopping agents meet closed doors on Black Friday, as Amazon and others block them",
+ "date": "2026-11-27",
+ "summary": "CNBC (Annie Palmer) reports that Amazon walls off its site to outside AI shopping agents, and eBay, United Airlines and Kohl's limit or block them, while Walmart and Sephora open up. Visa's own benchmark found agents failed 42.8% of runs and 54% of failed runs still bought something. Bain, via CNBC, puts agent purchases at 0.4% of e-commerce transactions.",
+ "topics": [
+  {
+   "id": "daily",
+   "angle": "Whether AI agents can shop for people yet, and who lets them."
+  }
+ ],
+ "claims": [
+  {
+   "text": "CNBC reports that Amazon walls off its site to outside AI shopping agents, and that eBay, United Airlines and Kohl's limit what agents can do or block them, while Walmart and Sephora have opened their sites.",
+   "who": "CNBC",
+   "status": "read",
+   "sources": [
+    "cnbc"
+   ]
+  },
+  {
+   "text": "Visa says 22 AI models from 12 labs failed 42.8% of runs in its shopping benchmark, and 54% of failed runs still ended in a purchase.",
+   "who": "Visa",
+   "status": "said",
+   "sources": [
+    "visa"
+   ]
+  },
+  {
+   "text": "Bain research reported by CNBC puts agentic purchases at 0.4% of global e-commerce transactions and 0.2% of value; Amazon CEO Andy Jassy has said Amazon expects over time to partner with third-party agents.",
+   "who": "Bain and Andy Jassy, via CNBC",
+   "status": "read",
+   "sources": [
+    "cnbc"
+   ]
+  },
+  {
+   "text": "Who is responsible when an agent's purchase goes wrong is not settled, CNBC reports: American Express and Stripe protect some purchases, Best Buy holds the user responsible.",
+   "who": "CNBC",
+   "status": "open",
+   "sources": [
+    "cnbc"
+   ]
+  }
+ ],
+ "sources": [
+  {
+   "id": "cnbc",
+   "url": "https://www.cnbc.com/2026/11/27/ai-shopping-agents-retailer-blocks.html",
+   "publisher": "CNBC (Annie Palmer)",
+   "kind": "report",
+   "published": "2026-11-27",
+   "read": "2026-11-27"
+  },
+  {
+   "id": "visa",
+   "url": "https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22936.html",
+   "publisher": "Visa",
+   "kind": "primary",
+   "published": "2026-11-05",
+   "read": "2026-11-27"
+  }
+ ],
+ "to_find": [
+  "Bain's report itself",
+  "Amazon's own statement on agents"
+ ],
+ "would_change": [
+  "Amazon opening its site to outside agents."
+ ],
+ "trend": {
+  "hn": null,
+  "lobsters": null,
+  "x": null
+ },
+ "omarchy": []
+}

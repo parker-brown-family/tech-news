@@ -1,0 +1,102 @@
+{
+ "id": "convex-skill-sends-ideas",
+ "title": "A Convex add-on for coding agents sends the user's app idea to Convex and tells the agent how to get past safety checks, a user reports",
+ "date": "2026-11-27",
+ "summary": "A GitHub user, thirtysix, reports that skills in Convex's plugin, listed in Anthropic's official marketplace, post the user's project idea to a Convex host unannounced, pipe a remote script into bash, and tell the agent to split a download and its run because safety classifiers block the joined shape. Convex's chief executive says the upload is a feature and the prompt is discarded within 30 seconds.",
+ "topics": [
+  {
+   "id": "daily",
+   "angle": "What an add-on for a coding agent can do on a user's machine, and who checks it."
+  }
+ ],
+ "claims": [
+  {
+   "text": "thirtysix reports that three skills in Convex's plugin, listed in Anthropic's official marketplace, post the user's one-sentence project idea to a convex.site host without telling the user, and pipe a script from that host into bash.",
+   "who": "thirtysix, GitHub issue",
+   "status": "read",
+   "sources": [
+    "issue"
+   ]
+  },
+  {
+   "text": "One Convex skill tells the agent to run a download and its execution as separate Bash calls because 'a single command that both downloads remote code and executes it is the shape harness safety classifiers block'.",
+   "who": "Convex's skill file, quoted in the issue",
+   "status": "read",
+   "sources": [
+    "issue"
+   ]
+  },
+  {
+   "text": "Anthropic describes Agent Skills as packages of instructions, metadata and optional scripts that Claude loads and uses automatically when relevant.",
+   "who": "Anthropic",
+   "status": "read",
+   "sources": [
+    "skills"
+   ]
+  },
+  {
+   "text": "Jamie, Convex's chief executive, said on Hacker News that the upload powers the quickstart feature, that the prompt is thrown away within 30 seconds, that it is working as intended, and that Convex will review the code.",
+   "who": "Jamie, Convex",
+   "status": "said",
+   "sources": [
+    "ceo"
+   ]
+  },
+  {
+   "text": "thirtysix writes that they read the skills as a team trying to make onboarding reliable, not as anything malicious.",
+   "who": "thirtysix, GitHub issue",
+   "status": "read",
+   "sources": [
+    "issue"
+   ]
+  },
+  {
+   "text": "Whether Convex will remove the instruction about safety classifiers is not said; its chief executive's replies address the idea upload.",
+   "who": "our reading",
+   "status": "open",
+   "sources": [
+    "issue",
+    "ceo"
+   ]
+  }
+ ],
+ "sources": [
+  {
+   "id": "issue",
+   "url": "https://github.com/convex/convex-backend-skill/issues/64",
+   "publisher": "GitHub issue by thirtysix on convex/convex-backend-skill",
+   "kind": "primary",
+   "published": "2026-10-26",
+   "read": "2026-11-27"
+  },
+  {
+   "id": "ceo",
+   "url": "https://news.ycombinator.com/item?id=50671211",
+   "publisher": "Hacker News comment by Convex's chief executive (jamwt)",
+   "kind": "primary",
+   "published": "2026-11-27",
+   "read": "2026-11-27"
+  },
+  {
+   "id": "skills",
+   "url": "https://docs.claude.com/en/docs/agents-and-tools/agent-skills/overview",
+   "publisher": "Anthropic, Agent Skills overview",
+   "kind": "primary",
+   "published": null,
+   "read": "2026-11-27"
+  }
+ ],
+ "to_find": [
+  "Convex's changes to the skills after review",
+  "Anthropic's marketplace rules for plugins that fetch remote code"
+ ],
+ "would_change": [
+  "A Convex commit that removes the classifier instruction or makes the upload opt-in."
+ ],
+ "trend": {
+  "hn": null,
+  "lobsters": null,
+  "x": null
+ },
+ "omarchy": []
+}

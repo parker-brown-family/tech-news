@@ -1,0 +1,102 @@
+{
+ "id": "llama-cpp-fp8-scales",
+ "title": "llama.cpp adds scale support for FP8 and NVFP4, so many models published in those formats convert directly",
+ "date": "2026-11-27",
+ "summary": "Pull request 28898 by 0cc4m, building on ORippler's work and released in b12818, moves quantization scales into ggml so FP8 and NVFP4 safetensors models on Hugging Face convert directly. As proposed, CUDA was adapted and other backends reject scaled operations until support is added; llama-quantize does not make these formats. The author discloses Claude was used.",
+ "topics": [
+  {
+   "id": "daily",
+   "angle": "What people can run at home, in which formats."
+  }
+ ],
+ "claims": [
+  {
+   "text": "The change supports direct conversion of many FP8 and NVFP4 safetensors models on Hugging Face, its author writes, and was released in llama.cpp build b12818 on 27 November.",
+   "who": "0cc4m, pull request",
+   "status": "read",
+   "sources": [
+    "pr",
+    "release"
+   ]
+  },
+  {
+   "text": "Quantization lowers the memory and compute cost of running a model by storing its weights and activations in low-precision data types such as 8-bit integers instead of 32-bit floating point.",
+   "who": "Hugging Face",
+   "status": "read",
+   "sources": [
+    "quant"
+   ]
+  },
+  {
+   "text": "The change adds weight scale tensors and optional activation scale tensors that ggml applies in its matrix multiplications, per tensor, per channel or per expert.",
+   "who": "0cc4m, pull request and release notes",
+   "status": "read",
+   "sources": [
+    "pr",
+    "release"
+   ]
+  },
+  {
+   "text": "As proposed in September, the change adapted the CUDA backend, and other backends reject operations with scales until support is added; llama-quantize errors out on NVFP4 and FP8 targets.",
+   "who": "0cc4m, pull request",
+   "status": "read",
+   "sources": [
+    "pr"
+   ]
+  },
+  {
+   "text": "The author's AI usage disclosure says Claude was used.",
+   "who": "0cc4m, pull request",
+   "status": "read",
+   "sources": [
+    "pr"
+   ]
+  },
+  {
+   "text": "Which backends besides CUDA run the scaled path at merge is not stated in the pull request's description.",
+   "who": "our reading",
+   "status": "open",
+   "sources": [
+    "pr"
+   ]
+  }
+ ],
+ "sources": [
+  {
+   "id": "pr",
+   "url": "https://github.com/ggml-org/llama.cpp/pull/28898",
+   "publisher": "llama.cpp pull request by 0cc4m",
+   "kind": "code",
+   "published": "2026-11-27",
+   "read": "2026-11-27"
+  },
+  {
+   "id": "release",
+   "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12818",
+   "publisher": "llama.cpp release b12818",
+   "kind": "code",
+   "published": "2026-11-27",
+   "read": "2026-11-27"
+  },
+  {
+   "id": "quant",
+   "url": "https://huggingface.co/docs/optimum/en/concept_guides/quantization",
+   "publisher": "Hugging Face Optimum, concept guide",
+   "kind": "primary",
+   "published": null,
+   "read": "2026-11-27"
+  }
+ ],
+ "to_find": [
+  "Speed and quality of FP8 models in llama.cpp against the same model in GGUF quantizations"
+ ],
+ "would_change": [
+  "Measured slowdowns or accuracy loss from the scaled path."
+ ],
+ "trend": {
+  "hn": null,
+  "lobsters": null,
+  "x": null
+ },
+ "omarchy": []
+}

@@ -30,6 +30,8 @@ Twice a day: one drama, one piece of research, one corporate, one thing put to u
 
 **Morning, 27 November 2026:** [A developer says Claude held back his training run](stories/claude-ml-limits-claim.json) · [Coding agents repeat the security holes they fixed](stories/coding-agents-repeat-flaws.json) · [Network operators wait up to 18 months for equipment](stories/network-kit-waits.json) · [An AI agent pays from a bank account, for pizza](stories/agent-pays-by-bank.json). No local AI story: the window held only routine llama.cpp builds.
 
+**Evening, 27 November 2026:** [A Convex add-on sends app ideas home and steers around safety checks, a user reports](stories/convex-skill-sends-ideas.json) · [When an AI agent breaks a database, backups decide the damage](stories/agent-database-damage.json) · [OpenAI countersues Apple](stories/openai-apple-countersuit.json) · [Shopping agents meet closed doors](stories/shopping-agents-shut-out.json) · [llama.cpp reads FP8 and NVFP4 models](stories/llama-cpp-fp8-scales.json)
+
 ## Who Read Your Prompt?
 
 The first film, dated 24 November 2026. Where a prompt goes after you send it, and who can keep it.

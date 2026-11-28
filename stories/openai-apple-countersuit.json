@@ -1,0 +1,96 @@
+{
+ "id": "openai-apple-countersuit",
+ "title": "OpenAI countersues Apple, accusing it of stealing trade secrets and pressing shared suppliers; Apple denies it",
+ "date": "2026-11-27",
+ "summary": "OpenAI filed counterclaims against Apple on Friday in California federal court, CNBC reports, answering Apple's July suit. OpenAI says a returning employee took device plans and that Apple monitors departing staff through personal devices; Apple calls it a distraction and denies it. The FT reported first; the filing was not read.",
+ "topics": [
+  {
+   "id": "daily",
+   "angle": "The fight between OpenAI and Apple over AI devices and the people who build them."
+  }
+ ],
+ "claims": [
+  {
+   "text": "OpenAI filed counterclaims against Apple on Friday in California federal court, accusing it of stealing trade secrets and of discouraging hardware suppliers from working on future OpenAI devices, CNBC reports.",
+   "who": "CNBC",
+   "status": "read",
+   "sources": [
+    "cnbc",
+    "decoder"
+   ]
+  },
+  {
+   "text": "OpenAI says a former employee who returned to Apple after six months took details of a new device and its hardware roadmap, that Apple monitors departing employees through personal devices and accounts, and that 400 employees have left Apple for OpenAI.",
+   "who": "OpenAI's filing, via CNBC",
+   "status": "said",
+   "sources": [
+    "cnbc"
+   ]
+  },
+  {
+   "text": "Apple denied using the rehired employee to access OpenAI's confidential information and denied trying to suppress competition, calling the counterclaims 'a transparent attempt to distract from the substance of Apple's lawsuit'.",
+   "who": "Apple, via CNBC",
+   "status": "said",
+   "sources": [
+    "cnbc"
+   ]
+  },
+  {
+   "text": "Apple sued OpenAI and two former Apple employees in July, alleging they misappropriated trade secrets; OpenAI and the employees deny it.",
+   "who": "CNBC",
+   "status": "read",
+   "sources": [
+    "cnbc",
+    "july"
+   ]
+  },
+  {
+   "text": "The counterclaim filing itself was not read; its contents come through CNBC and The Decoder, which cites the Financial Times.",
+   "who": "our reading",
+   "status": "open",
+   "sources": [
+    "cnbc",
+    "decoder"
+   ]
+  }
+ ],
+ "sources": [
+  {
+   "id": "cnbc",
+   "url": "https://www.cnbc.com/2026/11/27/openai-countersues-apple-for-stealing-trade-secrets-ft-reports.html",
+   "publisher": "CNBC",
+   "kind": "report",
+   "published": "2026-11-27",
+   "read": "2026-11-27"
+  },
+  {
+   "id": "decoder",
+   "url": "https://the-decoder.com/openai-countersues-apple-over-trade-secret-theft-and-alleged-coercion-of-shared-suppliers/",
+   "publisher": "The Decoder (Matthias Bastian), reading the Financial Times",
+   "kind": "report",
+   "published": "2026-11-27",
+   "read": "2026-11-27"
+  },
+  {
+   "id": "july",
+   "url": "https://the-decoder.com/apple-sues-openai-for-allegedly-running-a-coordinated-campaign-to-steal-trade-secrets-through-poached-employees/",
+   "publisher": "The Decoder, on Apple's July suit",
+   "kind": "report",
+   "published": "2026-07-11",
+   "read": "2026-11-27"
+  }
+ ],
+ "to_find": [
+  "The counterclaim filing",
+  "The Financial Times report (paywalled)"
+ ],
+ "would_change": [
+  "A court ruling on either side's claims."
+ ],
+ "trend": {
+  "hn": null,
+  "lobsters": null,
+  "x": null
+ },
+ "omarchy": []
+}

@@ -165,6 +165,39 @@
    "source": {"title": "Open banking (Wikipedia)", "url": "https://en.wikipedia.org/wiki/Open_banking"},
    "see": [],
    "used_in": ["agent-pays-by-bank"]
+  },
+  {
+   "id": "agent-skill",
+   "term": "Agent skill",
+   "aka": ["skill", "plugin skill"],
+   "says": "A file of written instructions, sometimes with scripts, that an AI agent loads and follows when a task calls for it. The agent reads it like a recipe, so whatever it says runs with the agent's access to the machine.",
+   "use_when": "A story turns on what an add-on for an AI agent tells the agent to do.",
+   "not": "Not a program that runs by itself: the agent carries it out. Nobody checks what it says by default, even when it is listed in a marketplace.",
+   "source": {"title": "Agent Skills overview (Anthropic)", "url": "https://docs.claude.com/en/docs/agents-and-tools/agent-skills/overview"},
+   "see": [],
+   "used_in": ["convex-skill-sends-ideas"]
+  },
+  {
+   "id": "least-privilege",
+   "term": "Least privilege",
+   "aka": ["principle of least privilege", "PoLP", "least authority"],
+   "says": "Each account, program or agent gets only the access its job needs, and nothing more, so a mistake or a break-in can reach less.",
+   "use_when": "A story asks how much an AI agent, a program or a person should be allowed to do.",
+   "not": "It does not stop every mistake: an account allowed to delete rows can still delete the wrong ones. Backups are a separate guard.",
+   "source": {"title": "Principle of least privilege (Wikipedia)", "url": "https://en.wikipedia.org/wiki/Principle_of_least_privilege"},
+   "see": [],
+   "used_in": ["agent-database-damage"]
+  },
+  {
+   "id": "quantization",
+   "term": "Quantization",
+   "aka": ["quantized model", "low-precision formats"],
+   "says": "Storing a model's numbers with fewer digits, for example in 8 bits instead of 32, so it needs less memory and computing and runs on smaller machines, usually at some cost in accuracy.",
+   "use_when": "A story is about a model made smaller to run on a home computer, or about the number formats models are shipped in.",
+   "not": "Not compression you can always undo: some detail is lost, and how much depends on the method and the model.",
+   "source": {"title": "Quantization concept guide (Hugging Face Optimum)", "url": "https://huggingface.co/docs/optimum/en/concept_guides/quantization"},
+   "see": [],
+   "used_in": ["llama-cpp-fp8-scales"]
   }
  ]
 }

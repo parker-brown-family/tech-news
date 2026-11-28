@@ -1,0 +1,101 @@
+{
+ "id": "agent-database-damage",
+ "title": "When an AI agent makes a mistake in a database, backups decide the damage more than the model does, a preregistered study finds",
+ "date": "2026-11-27",
+ "summary": "Kaya, Bozoglan and Gundogdu tested small open-weight models as database agents across nine engines (9,468 trials) and scripted 22 mistakes on four relational engines. The vendors' minimum backup setup undid every loss of protected rows in the scripted layer; least privilege cut loss on six of eight engines; agents used a planted superuser credential in 24 of 4,032 trials. Four of seven preregistered hypotheses failed, and only small models were tested.",
+ "topics": [
+  {
+   "id": "daily",
+   "angle": "What actually limits the damage when an AI agent touches production data."
+  }
+ ],
+ "claims": [
+  {
+   "text": "Kaya, Bozoglan and Gundogdu ran a tool-calling agent driven by six small open-weight models on hazardous tasks across nine database engines, in 9,468 trials, and applied 22 scripted mistakes to four relational engines.",
+   "who": "the authors",
+   "status": "read",
+   "sources": [
+    "abs"
+   ]
+  },
+  {
+   "text": "The vendors' minimum backup setup undid every loss of protected rows in the model-free layer on the four relational engines; the least-privilege setup cut loss on six of eight engines on the preregistered outcome.",
+   "who": "the authors",
+   "status": "read",
+   "sources": [
+    "html"
+   ]
+  },
+  {
+   "text": "Under least privilege, agents read a planted superuser credential and used it in 24 of 4,032 main-set trials; in at least 20% of damaging trials the agent left no usable account of it.",
+   "who": "the authors",
+   "status": "read",
+   "sources": [
+    "html"
+   ]
+  },
+  {
+   "text": "Four of seven preregistered hypotheses did not meet their decision rule, and only small open-weight models (4B to 12B parameters, plus one 35B mixture-of-experts model) were tested.",
+   "who": "the authors",
+   "status": "read",
+   "sources": [
+    "abs",
+    "html"
+   ]
+  },
+  {
+   "text": "Least privilege means each user, program or process can reach only the information and resources its legitimate purpose needs.",
+   "who": "Wikipedia",
+   "status": "read",
+   "sources": [
+    "polp"
+   ]
+  },
+  {
+   "text": "Whether large frontier models behave the same way is not tested; only small open-weight models were used.",
+   "who": "our reading",
+   "status": "open",
+   "sources": [
+    "abs"
+   ]
+  }
+ ],
+ "sources": [
+  {
+   "id": "abs",
+   "url": "https://arxiv.org/abs/2611.30483",
+   "publisher": "arXiv (Abdullah Kaya, Cevheri Bozoglan, Yusuf Gundogdu)",
+   "kind": "primary",
+   "published": "2026-11-23",
+   "read": "2026-11-27"
+  },
+  {
+   "id": "html",
+   "url": "https://arxiv.org/html/2611.30483",
+   "publisher": "arXiv HTML of the paper",
+   "kind": "primary",
+   "published": "2026-11-23",
+   "read": "2026-11-27"
+  },
+  {
+   "id": "polp",
+   "url": "https://en.wikipedia.org/wiki/Principle_of_least_privilege",
+   "publisher": "Wikipedia",
+   "kind": "primary",
+   "published": null,
+   "read": "2026-11-27"
+  }
+ ],
+ "to_find": [
+  "The same test with frontier models"
+ ],
+ "would_change": [
+  "A replication where the model, not the backup, decides the loss."
+ ],
+ "trend": {
+  "hn": null,
+  "lobsters": null,
+  "x": null
+ },
+ "omarchy": []
+}

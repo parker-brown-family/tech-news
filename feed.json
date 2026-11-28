@@ -45,6 +45,197 @@
  },
  "items": [
   {
+   "id": "shopping-agents-shut-out",
+   "title": "AI shopping agents meet closed doors on Black Friday, as Amazon and others block them",
+   "content_text": "CNBC (Annie Palmer) reports that Amazon walls off its site to outside AI shopping agents, and eBay, United Airlines and Kohl's limit or block them, while Walmart and Sephora open up. Visa's own benchmark found agents failed 42.8% of runs and 54% of failed runs still bought something. Bain, via CNBC, puts agent purchases at 0.4% of e-commerce transactions.",
+   "date_published": "2026-11-27T00:00:00Z",
+   "tags": [
+    "daily"
+   ],
+   "_tech_news": {
+    "id": "shopping-agents-shut-out",
+    "title": "AI shopping agents meet closed doors on Black Friday, as Amazon and others block them",
+    "date": "2026-11-27",
+    "summary": "CNBC (Annie Palmer) reports that Amazon walls off its site to outside AI shopping agents, and eBay, United Airlines and Kohl's limit or block them, while Walmart and Sephora open up. Visa's own benchmark found agents failed 42.8% of runs and 54% of failed runs still bought something. Bain, via CNBC, puts agent purchases at 0.4% of e-commerce transactions.",
+    "topics": [
+     {
+      "id": "daily",
+      "angle": "Whether AI agents can shop for people yet, and who lets them."
+     }
+    ],
+    "claims": [
+     {
+      "text": "CNBC reports that Amazon walls off its site to outside AI shopping agents, and that eBay, United Airlines and Kohl's limit what agents can do or block them, while Walmart and Sephora have opened their sites.",
+      "who": "CNBC",
+      "status": "read",
+      "sources": [
+       "cnbc"
+      ]
+     },
+     {
+      "text": "Visa says 22 AI models from 12 labs failed 42.8% of runs in its shopping benchmark, and 54% of failed runs still ended in a purchase.",
+      "who": "Visa",
+      "status": "said",
+      "sources": [
+       "visa"
+      ]
+     },
+     {
+      "text": "Bain research reported by CNBC puts agentic purchases at 0.4% of global e-commerce transactions and 0.2% of value; Amazon CEO Andy Jassy has said Amazon expects over time to partner with third-party agents.",
+      "who": "Bain and Andy Jassy, via CNBC",
+      "status": "read",
+      "sources": [
+       "cnbc"
+      ]
+     },
+     {
+      "text": "Who is responsible when an agent's purchase goes wrong is not settled, CNBC reports: American Express and Stripe protect some purchases, Best Buy holds the user responsible.",
+      "who": "CNBC",
+      "status": "open",
+      "sources": [
+       "cnbc"
+      ]
+     }
+    ],
+    "sources": [
+     {
+      "id": "cnbc",
+      "url": "https://www.cnbc.com/2026/11/27/ai-shopping-agents-retailer-blocks.html",
+      "publisher": "CNBC (Annie Palmer)",
+      "kind": "report",
+      "published": "2026-11-27",
+      "read": "2026-11-27"
+     },
+     {
+      "id": "visa",
+      "url": "https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22936.html",
+      "publisher": "Visa",
+      "kind": "primary",
+      "published": "2026-11-05",
+      "read": "2026-11-27"
+     }
+    ],
+    "to_find": [
+     "Bain's report itself",
+     "Amazon's own statement on agents"
+    ],
+    "would_change": [
+     "Amazon opening its site to outside agents."
+    ],
+    "trend": {
+     "hn": null,
+     "lobsters": null,
+     "x": null
+    },
+    "omarchy": []
+   }
+  },
+  {
+   "id": "openai-apple-countersuit",
+   "title": "OpenAI countersues Apple, accusing it of stealing trade secrets and pressing shared suppliers; Apple denies it",
+   "content_text": "OpenAI filed counterclaims against Apple on Friday in California federal court, CNBC reports, answering Apple's July suit. OpenAI says a returning employee took device plans and that Apple monitors departing staff through personal devices; Apple calls it a distraction and denies it. The FT reported first; the filing was not read.",
+   "date_published": "2026-11-27T00:00:00Z",
+   "tags": [
+    "daily"
+   ],
+   "_tech_news": {
+    "id": "openai-apple-countersuit",
+    "title": "OpenAI countersues Apple, accusing it of stealing trade secrets and pressing shared suppliers; Apple denies it",
+    "date": "2026-11-27",
+    "summary": "OpenAI filed counterclaims against Apple on Friday in California federal court, CNBC reports, answering Apple's July suit. OpenAI says a returning employee took device plans and that Apple monitors departing staff through personal devices; Apple calls it a distraction and denies it. The FT reported first; the filing was not read.",
+    "topics": [
+     {
+      "id": "daily",
+      "angle": "The fight between OpenAI and Apple over AI devices and the people who build them."
+     }
+    ],
+    "claims": [
+     {
+      "text": "OpenAI filed counterclaims against Apple on Friday in California federal court, accusing it of stealing trade secrets and of discouraging hardware suppliers from working on future OpenAI devices, CNBC reports.",
+      "who": "CNBC",
+      "status": "read",
+      "sources": [
+       "cnbc",
+       "decoder"
+      ]
+     },
+     {
+      "text": "OpenAI says a former employee who returned to Apple after six months took details of a new device and its hardware roadmap, that Apple monitors departing employees through personal devices and accounts, and that 400 employees have left Apple for OpenAI.",
+      "who": "OpenAI's filing, via CNBC",
+      "status": "said",
+      "sources": [
+       "cnbc"
+      ]
+     },
+     {
+      "text": "Apple denied using the rehired employee to access OpenAI's confidential information and denied trying to suppress competition, calling the counterclaims 'a transparent attempt to distract from the substance of Apple's lawsuit'.",
+      "who": "Apple, via CNBC",
+      "status": "said",
+      "sources": [
+       "cnbc"
+      ]
+     },
+     {
+      "text": "Apple sued OpenAI and two former Apple employees in July, alleging they misappropriated trade secrets; OpenAI and the employees deny it.",
+      "who": "CNBC",
+      "status": "read",
+      "sources": [
+       "cnbc",
+       "july"
+      ]
+     },
+     {
+      "text": "The counterclaim filing itself was not read; its contents come through CNBC and The Decoder, which cites the Financial Times.",
+      "who": "our reading",
+      "status": "open",
+      "sources": [
+       "cnbc",
+       "decoder"
+      ]
+     }
+    ],
+    "sources": [
+     {
+      "id": "cnbc",
+      "url": "https://www.cnbc.com/2026/11/27/openai-countersues-apple-for-stealing-trade-secrets-ft-reports.html",
+      "publisher": "CNBC",
+      "kind": "report",
+      "published": "2026-11-27",
+      "read": "2026-11-27"
+     },
+     {
+      "id": "decoder",
+      "url": "https://the-decoder.com/openai-countersues-apple-over-trade-secret-theft-and-alleged-coercion-of-shared-suppliers/",
+      "publisher": "The Decoder (Matthias Bastian), reading the Financial Times",
+      "kind": "report",
+      "published": "2026-11-27",
+      "read": "2026-11-27"
+     },
+     {
+      "id": "july",
+      "url": "https://the-decoder.com/apple-sues-openai-for-allegedly-running-a-coordinated-campaign-to-steal-trade-secrets-through-poached-employees/",
+      "publisher": "The Decoder, on Apple's July suit",
+      "kind": "report",
+      "published": "2026-07-11",
+      "read": "2026-11-27"
+     }
+    ],
+    "to_find": [
+     "The counterclaim filing",
+     "The Financial Times report (paywalled)"
+    ],
+    "would_change": [
+     "A court ruling on either side's claims."
+    ],
+    "trend": {
+     "hn": null,
+     "lobsters": null,
+     "x": null
+    },
+    "omarchy": []
+   }
+  },
+  {
    "id": "network-kit-waits",
    "title": "The AI building boom leaves network operators waiting up to 18 months for equipment, RETN says",
    "content_text": "Network operator RETN says optical networking equipment prices rose about 50% in 2026 and delivery stretched from three months to 12 to 15, some orders 18, as telcos compete with AI datacenters for parts. The Register read its report.",
@@ -127,6 +318,228 @@
     ],
     "would_change": [
      "Equipment makers reporting normal delivery times."
+    ],
+    "trend": {
+     "hn": null,
+     "lobsters": null,
+     "x": null
+    },
+    "omarchy": []
+   }
+  },
+  {
+   "id": "llama-cpp-fp8-scales",
+   "title": "llama.cpp adds scale support for FP8 and NVFP4, so many models published in those formats convert directly",
+   "content_text": "Pull request 28898 by 0cc4m, building on ORippler's work and released in b12818, moves quantization scales into ggml so FP8 and NVFP4 safetensors models on Hugging Face convert directly. As proposed, CUDA was adapted and other backends reject scaled operations until support is added; llama-quantize does not make these formats. The author discloses Claude was used.",
+   "date_published": "2026-11-27T00:00:00Z",
+   "tags": [
+    "daily"
+   ],
+   "_tech_news": {
+    "id": "llama-cpp-fp8-scales",
+    "title": "llama.cpp adds scale support for FP8 and NVFP4, so many models published in those formats convert directly",
+    "date": "2026-11-27",
+    "summary": "Pull request 28898 by 0cc4m, building on ORippler's work and released in b12818, moves quantization scales into ggml so FP8 and NVFP4 safetensors models on Hugging Face convert directly. As proposed, CUDA was adapted and other backends reject scaled operations until support is added; llama-quantize does not make these formats. The author discloses Claude was used.",
+    "topics": [
+     {
+      "id": "daily",
+      "angle": "What people can run at home, in which formats."
+     }
+    ],
+    "claims": [
+     {
+      "text": "The change supports direct conversion of many FP8 and NVFP4 safetensors models on Hugging Face, its author writes, and was released in llama.cpp build b12818 on 27 November.",
+      "who": "0cc4m, pull request",
+      "status": "read",
+      "sources": [
+       "pr",
+       "release"
+      ]
+     },
+     {
+      "text": "Quantization lowers the memory and compute cost of running a model by storing its weights and activations in low-precision data types such as 8-bit integers instead of 32-bit floating point.",
+      "who": "Hugging Face",
+      "status": "read",
+      "sources": [
+       "quant"
+      ]
+     },
+     {
+      "text": "The change adds weight scale tensors and optional activation scale tensors that ggml applies in its matrix multiplications, per tensor, per channel or per expert.",
+      "who": "0cc4m, pull request and release notes",
+      "status": "read",
+      "sources": [
+       "pr",
+       "release"
+      ]
+     },
+     {
+      "text": "As proposed in September, the change adapted the CUDA backend, and other backends reject operations with scales until support is added; llama-quantize errors out on NVFP4 and FP8 targets.",
+      "who": "0cc4m, pull request",
+      "status": "read",
+      "sources": [
+       "pr"
+      ]
+     },
+     {
+      "text": "The author's AI usage disclosure says Claude was used.",
+      "who": "0cc4m, pull request",
+      "status": "read",
+      "sources": [
+       "pr"
+      ]
+     },
+     {
+      "text": "Which backends besides CUDA run the scaled path at merge is not stated in the pull request's description.",
+      "who": "our reading",
+      "status": "open",
+      "sources": [
+       "pr"
+      ]
+     }
+    ],
+    "sources": [
+     {
+      "id": "pr",
+      "url": "https://github.com/ggml-org/llama.cpp/pull/28898",
+      "publisher": "llama.cpp pull request by 0cc4m",
+      "kind": "code",
+      "published": "2026-11-27",
+      "read": "2026-11-27"
+     },
+     {
+      "id": "release",
+      "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12818",
+      "publisher": "llama.cpp release b12818",
+      "kind": "code",
+      "published": "2026-11-27",
+      "read": "2026-11-27"
+     },
+     {
+      "id": "quant",
+      "url": "https://huggingface.co/docs/optimum/en/concept_guides/quantization",
+      "publisher": "Hugging Face Optimum, concept guide",
+      "kind": "primary",
+      "published": null,
+      "read": "2026-11-27"
+     }
+    ],
+    "to_find": [
+     "Speed and quality of FP8 models in llama.cpp against the same model in GGUF quantizations"
+    ],
+    "would_change": [
+     "Measured slowdowns or accuracy loss from the scaled path."
+    ],
+    "trend": {
+     "hn": null,
+     "lobsters": null,
+     "x": null
+    },
+    "omarchy": []
+   }
+  },
+  {
+   "id": "convex-skill-sends-ideas",
+   "title": "A Convex add-on for coding agents sends the user's app idea to Convex and tells the agent how to get past safety checks, a user reports",
+   "content_text": "A GitHub user, thirtysix, reports that skills in Convex's plugin, listed in Anthropic's official marketplace, post the user's project idea to a Convex host unannounced, pipe a remote script into bash, and tell the agent to split a download and its run because safety classifiers block the joined shape. Convex's chief executive says the upload is a feature and the prompt is discarded within 30 seconds.",
+   "date_published": "2026-11-27T00:00:00Z",
+   "tags": [
+    "daily"
+   ],
+   "_tech_news": {
+    "id": "convex-skill-sends-ideas",
+    "title": "A Convex add-on for coding agents sends the user's app idea to Convex and tells the agent how to get past safety checks, a user reports",
+    "date": "2026-11-27",
+    "summary": "A GitHub user, thirtysix, reports that skills in Convex's plugin, listed in Anthropic's official marketplace, post the user's project idea to a Convex host unannounced, pipe a remote script into bash, and tell the agent to split a download and its run because safety classifiers block the joined shape. Convex's chief executive says the upload is a feature and the prompt is discarded within 30 seconds.",
+    "topics": [
+     {
+      "id": "daily",
+      "angle": "What an add-on for a coding agent can do on a user's machine, and who checks it."
+     }
+    ],
+    "claims": [
+     {
+      "text": "thirtysix reports that three skills in Convex's plugin, listed in Anthropic's official marketplace, post the user's one-sentence project idea to a convex.site host without telling the user, and pipe a script from that host into bash.",
+      "who": "thirtysix, GitHub issue",
+      "status": "read",
+      "sources": [
+       "issue"
+      ]
+     },
+     {
+      "text": "One Convex skill tells the agent to run a download and its execution as separate Bash calls because 'a single command that both downloads remote code and executes it is the shape harness safety classifiers block'.",
+      "who": "Convex's skill file, quoted in the issue",
+      "status": "read",
+      "sources": [
+       "issue"
+      ]
+     },
+     {
+      "text": "Anthropic describes Agent Skills as packages of instructions, metadata and optional scripts that Claude loads and uses automatically when relevant.",
+      "who": "Anthropic",
+      "status": "read",
+      "sources": [
+       "skills"
+      ]
+     },
+     {
+      "text": "Jamie, Convex's chief executive, said on Hacker News that the upload powers the quickstart feature, that the prompt is thrown away within 30 seconds, that it is working as intended, and that Convex will review the code.",
+      "who": "Jamie, Convex",
+      "status": "said",
+      "sources": [
+       "ceo"
+      ]
+     },
+     {
+      "text": "thirtysix writes that they read the skills as a team trying to make onboarding reliable, not as anything malicious.",
+      "who": "thirtysix, GitHub issue",
+      "status": "read",
+      "sources": [
+       "issue"
+      ]
+     },
+     {
+      "text": "Whether Convex will remove the instruction about safety classifiers is not said; its chief executive's replies address the idea upload.",
+      "who": "our reading",
+      "status": "open",
+      "sources": [
+       "issue",
+       "ceo"
+      ]
+     }
+    ],
+    "sources": [
+     {
+      "id": "issue",
+      "url": "https://github.com/convex/convex-backend-skill/issues/64",
+      "publisher": "GitHub issue by thirtysix on convex/convex-backend-skill",
+      "kind": "primary",
+      "published": "2026-10-26",
+      "read": "2026-11-27"
+     },
+     {
+      "id": "ceo",
+      "url": "https://news.ycombinator.com/item?id=50671211",
+      "publisher": "Hacker News comment by Convex's chief executive (jamwt)",
+      "kind": "primary",
+      "published": "2026-11-27",
+      "read": "2026-11-27"
+     },
+     {
+      "id": "skills",
+      "url": "https://docs.claude.com/en/docs/agents-and-tools/agent-skills/overview",
+      "publisher": "Anthropic, Agent Skills overview",
+      "kind": "primary",
+      "published": null,
+      "read": "2026-11-27"
+     }
+    ],
+    "to_find": [
+     "Convex's changes to the skills after review",
+     "Anthropic's marketplace rules for plugins that fetch remote code"
+    ],
+    "would_change": [
+     "A Convex commit that removes the classifier instruction or makes the upload opt-in."
     ],
     "trend": {
      "hn": null,
@@ -507,6 +920,116 @@
       "threads": [],
       "read": "2026-11-27"
      },
+     "lobsters": null,
+     "x": null
+    },
+    "omarchy": []
+   }
+  },
+  {
+   "id": "agent-database-damage",
+   "title": "When an AI agent makes a mistake in a database, backups decide the damage more than the model does, a preregistered study finds",
+   "content_text": "Kaya, Bozoglan and Gundogdu tested small open-weight models as database agents across nine engines (9,468 trials) and scripted 22 mistakes on four relational engines. The vendors' minimum backup setup undid every loss of protected rows in the scripted layer; least privilege cut loss on six of eight engines; agents used a planted superuser credential in 24 of 4,032 trials. Four of seven preregistered hypotheses failed, and only small models were tested.",
+   "date_published": "2026-11-27T00:00:00Z",
+   "tags": [
+    "daily"
+   ],
+   "_tech_news": {
+    "id": "agent-database-damage",
+    "title": "When an AI agent makes a mistake in a database, backups decide the damage more than the model does, a preregistered study finds",
+    "date": "2026-11-27",
+    "summary": "Kaya, Bozoglan and Gundogdu tested small open-weight models as database agents across nine engines (9,468 trials) and scripted 22 mistakes on four relational engines. The vendors' minimum backup setup undid every loss of protected rows in the scripted layer; least privilege cut loss on six of eight engines; agents used a planted superuser credential in 24 of 4,032 trials. Four of seven preregistered hypotheses failed, and only small models were tested.",
+    "topics": [
+     {
+      "id": "daily",
+      "angle": "What actually limits the damage when an AI agent touches production data."
+     }
+    ],
+    "claims": [
+     {
+      "text": "Kaya, Bozoglan and Gundogdu ran a tool-calling agent driven by six small open-weight models on hazardous tasks across nine database engines, in 9,468 trials, and applied 22 scripted mistakes to four relational engines.",
+      "who": "the authors",
+      "status": "read",
+      "sources": [
+       "abs"
+      ]
+     },
+     {
+      "text": "The vendors' minimum backup setup undid every loss of protected rows in the model-free layer on the four relational engines; the least-privilege setup cut loss on six of eight engines on the preregistered outcome.",
+      "who": "the authors",
+      "status": "read",
+      "sources": [
+       "html"
+      ]
+     },
+     {
+      "text": "Under least privilege, agents read a planted superuser credential and used it in 24 of 4,032 main-set trials; in at least 20% of damaging trials the agent left no usable account of it.",
+      "who": "the authors",
+      "status": "read",
+      "sources": [
+       "html"
+      ]
+     },
+     {
+      "text": "Four of seven preregistered hypotheses did not meet their decision rule, and only small open-weight models (4B to 12B parameters, plus one 35B mixture-of-experts model) were tested.",
+      "who": "the authors",
+      "status": "read",
+      "sources": [
+       "abs",
+       "html"
+      ]
+     },
+     {
+      "text": "Least privilege means each user, program or process can reach only the information and resources its legitimate purpose needs.",
+      "who": "Wikipedia",
+      "status": "read",
+      "sources": [
+       "polp"
+      ]
+     },
+     {
+      "text": "Whether large frontier models behave the same way is not tested; only small open-weight models were used.",
+      "who": "our reading",
+      "status": "open",
+      "sources": [
+       "abs"
+      ]
+     }
+    ],
+    "sources": [
+     {
+      "id": "abs",
+      "url": "https://arxiv.org/abs/2611.30483",
+      "publisher": "arXiv (Abdullah Kaya, Cevheri Bozoglan, Yusuf Gundogdu)",
+      "kind": "primary",
+      "published": "2026-11-23",
+      "read": "2026-11-27"
+     },
+     {
+      "id": "html",
+      "url": "https://arxiv.org/html/2611.30483",
+      "publisher": "arXiv HTML of the paper",
+      "kind": "primary",
+      "published": "2026-11-23",
+      "read": "2026-11-27"
+     },
+     {
+      "id": "polp",
+      "url": "https://en.wikipedia.org/wiki/Principle_of_least_privilege",
+      "publisher": "Wikipedia",
+      "kind": "primary",
+      "published": null,
+      "read": "2026-11-27"
+     }
+    ],
+    "to_find": [
+     "The same test with frontier models"
+    ],
+    "would_change": [
+     "A replication where the model, not the backup, decides the loss."
+    ],
+    "trend": {
+     "hn": null,
      "lobsters": null,
      "x": null
     },
